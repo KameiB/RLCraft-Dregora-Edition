@@ -1,4 +1,4 @@
-RLCraft todo:
+RLCraft to do:
 - Copy changelog from curseforge to github
 - Fix cyclops den chest loottable
 - fix /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/epic_no_junk"}

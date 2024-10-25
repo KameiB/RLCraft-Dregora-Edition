@@ -79,21 +79,12 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     if (event.entity instanceof IEntityLivingBase) {
 
         var EntityBase as IEntityLivingBase = event.entity;
-        //overworld
 
         if (event.world.dimension == 0) {
-
-            // Increase Health for mod_lavacow entities
 
             if (isNull(EntityBase)) {return;}
             if (isNull(EntityBase.definition)) {return;}
             if (isNull(EntityBase.definition.id)) {return;}
-
-            if (EntityBase.definition.id has "mod_lavacow") {
-
-                EntityBase.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("DregoraHealth", 0.5, 1));
-                //EntityBase.health = EntityBase.health * 1.5;
-            }
 
             // Lower health of parasites in cities
             if (EntityBase.definition.id has "srparasites") {
@@ -105,7 +96,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
 
                         //HealthMultiply 0.5
                         EntityBase.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("DregoraHealth", -0.5, 1));
-                        //EntityBase.health = EntityBase.health * 0.5;
+                        //EntityBase.health = EntityBase.maxHealth;
 
                     }
                 }
@@ -126,7 +117,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
     if ((event.damageSource.trueSource.definition.id) == "srparasites:succor") {
 
         //DMGmultiply 0.03
-        event.amount = event.amount / 0.03;
+        event.amount = event.amount * 0.03;
 
     }
 
@@ -139,7 +130,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
                 if !(event.damageSource.trueSource.definition.id == "srparasites:succor") && (event.damageSource.trueSource.definition.id has "srparasites") {
 
                     //DMGMultiply 0.25
-                    event.amount = event.amount / 0.25;
+                    event.amount = event.amount * 0.25;
                 }
             }
         }

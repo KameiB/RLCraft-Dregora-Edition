@@ -15,8 +15,8 @@
     {
       "name": "Industrial Chest",
       "rolls": {
-        "min": 1,
-        "max": 13
+        "min": 3,
+        "max": 15
       },
       "bonus_rolls": {
         "min": 0,
@@ -56,6 +56,7 @@
           "name": "minecraft:coal",
           "weight": 5,
           "functions": [
+            {"function": "set_count","count": {"min": 1,"max": 8}},
             {"function": "minecraft:set_data","data": 0},
             {"function": "minecraft:set_data","data": 1,"conditions": [{"condition": "random_chance","chance": 0.3}]}
           ]
@@ -310,7 +311,10 @@
         {
           "type": "item",
           "name": "bountifulbaubles:flare_red",
-          "weight": 15
+          "weight": 15,
+          "functions": [
+            {"function": "set_count","count": {"min": 1,"max": 8}}
+          ]
         },
         {
           "type": "item",
