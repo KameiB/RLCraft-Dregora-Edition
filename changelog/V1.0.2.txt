@@ -6,12 +6,15 @@ RLCraft Done:
 - Added Rabbits to EpicSiege blacklist fixing their AI
 - Added srparasites:pray to incurable effects (scents still disabled though)
 - Fixed dreamcatcher having the description of satchel
-
+- Fixed description "although heavily damaged the dagger appears useable" used for all items from the rusted loottable
+- Changed Mooten Heart 20% Damage Protection to 25% Damage Reduction tooltip & mechanic
+- Fixed EpicSiege lag & re-added entity block break tasks
+- Added Squeedly Spooch Dookie to toilet loottables
 
 Loottables:
-- added simpledifficulty to villager chest fix
+- rare loot needs to be better (remove food)
+- added simple difficulty to villager chest fix
 - increase luck required to get the legendary treasure
-(although heavily damaged the dagger appears useable (on boomerang)
 - Cyclops den does not have cyclops chests
 - Pirate hat in pirate biome
 - give not kotlin stack of money looting 10
@@ -23,21 +26,26 @@ Loottables Tweaked:
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_3"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_4"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_5"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_6"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:recurrent/simple_loot"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:ruins/industrial"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_rare"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_epic"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/loot_bundles/gems/main_gem"}
 
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/tier_1"}
 
-
-add iron to common (rusted)
-rare loot needs to be better (remove food)
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
 
 RLCraft to do:
 
 [NEEDS PRIORITY]
+- Make villager say "I am not a Sussyberian, I promise!"
+- Fonny RLMixins fix fish undead not giving 25% damage reduction INFire (and possibly tooltip? or through zenscript?)
 - COTH spread by players too?
 - make Dutchess Fantasy give no xp for the bucket trade
 - StoneHouseM (ruins) need to always spawn north
@@ -50,11 +58,13 @@ RLCraft to do:
 - (swine armor change famine armor description removes positive effects too)
 - Remove ahnk charm debuff from silver armor and change setbonus description to include
 - Replace Wool for Quilted wool in the OTG tree_dungeon
+- Removed iceandfire:ghost from charm spawners in wilderness crates
 
 [HIGH PRIORITY]
+- if item has red attribute list
 - Add CANYON to Rainforest to prevent dragon spawns and test the spawning
 - make 8 minute arrows much rarer
-- Iceandfire ghost needs to be removed
+- Iceandfire ghost needs to be removed from crypt_multi spawner in ruins
 - "iceandfire:cyclops", "weight":5, needs to be "iceandfire:cyclops", "weight":1,
 - City of origin entity overspawn
 - check troll spawn height for individual biomes (add for all roofed forest)
@@ -64,6 +74,7 @@ RLCraft to do:
 - book and quil instead of book for enchant craft?
 
 [LOW PRIORITY]
+- Yale doesn't spawn correctly
 - make exception list for ground entities lightning strike
 - Golden coins bunker fallout shelter thingy has empty chests
 - add goopacks to loot

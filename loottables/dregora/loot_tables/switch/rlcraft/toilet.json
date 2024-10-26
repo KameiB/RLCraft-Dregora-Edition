@@ -103,6 +103,11 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"Crappy Mud Ball \u203c\u2716\",Lore:[\"Crap! That is no mud ball!!\"]}}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Dookie \u203c\u2716\",Lore:[\"Squeedily Spooch!\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
           ],
           "weight": 5

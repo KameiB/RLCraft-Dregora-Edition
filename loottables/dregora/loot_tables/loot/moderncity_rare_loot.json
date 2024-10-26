@@ -22,13 +22,53 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dregora:loot/loot_moderncity/rare_old_tools",
+          "name": "minecraft:chests/desert_pyramid",
+          "weight": 6
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/simple_dungeon",
+          "weight": 6
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/end_city_treasure",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/stronghold_library",
           "weight": 1
         },
         {
           "type": "loot_table",
+          "name": "dregora:loot/loot_moderncity/rare_old_tools",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
           "name": "dregora:loot/loot_moderncity/rare_old_arrows",
-          "weight": 2
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/diamond_weapons",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/silver_tools",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/loot_bundles/rare_tools",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/loot_bundles/rare_potions",
+          "weight": 10
         }
       ]
     },

@@ -80,11 +80,6 @@
         },
         {
           "type": "loot_table",
-          "name": "dregora:entities/spawn_eggs/ghost",
-          "weight": 100
-        },
-        {
-          "type": "loot_table",
           "name": "dregora:entities/spawn_eggs/ghoul",
           "weight": 100
         },
