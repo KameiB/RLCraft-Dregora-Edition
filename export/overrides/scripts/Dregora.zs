@@ -1236,8 +1236,11 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     if (isNull(event.entity.definition)) { return; }
     if (isNull(event.entity.definition.id)) { return; }
     if ((event.entity.definition.id) != "minecraft:villager") { return; }
+    if (event.entity.customName != "") { return; }
 
-    if((event.entity.customName == "") && (event.entity.nbt.Profession == 1)) {
+    var nbt = event.entity.nbt;
+    if (nbt.Profession == 1 && isNull(nbt.ForgeData.SussyBerianNaming)) {
+        event.entity.setNBT({SussyBerianNaming: 1});
         var RandomNum = event.entity.world.random.nextFloat(0, 10);
 
         if RandomNum <= 10 {
