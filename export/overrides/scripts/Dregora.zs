@@ -398,7 +398,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 
             if (randomInt <= 20) {
 
-                if (randomInt <= 20) {
+                if (randomInt <= 5) {
 
                     entityShooter.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.offhand(), RandomArrowScriptLong);
 

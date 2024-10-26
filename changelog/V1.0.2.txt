@@ -20,15 +20,6 @@ RLCraft Done:
 - Removed iceandfire:ghost from charm spawners in wilderness crates
 - Fix cyclops den chest loottable
 
-Loottables:
-- rare loot needs to be better (remove food)
-- added simple difficulty to villager chest fix
-- increase luck required to get the legendary treasure
-- Cyclops den does not have cyclops chests
-- Pirate hat in pirate biome
-- give not kotlin stack of money looting 10
-- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
-
 Loottables Tweaked:
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_1"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_2"}
@@ -78,6 +69,12 @@ RLCraft to do:
 - book and quil instead of book for enchant craft?
 
 [LOW PRIORITY]
+Loottables:
+- rare loot needs to be better (remove food)
+- increase luck required to get the legendary treasure
+- Pirate hat in pirate biome
+- give not kotlin stack of money looting 10
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
 - Yale doesn't spawn correctly
 - make exception list for ground entities lightning strike
 - Golden coins bunker fallout shelter thingy has empty chests
