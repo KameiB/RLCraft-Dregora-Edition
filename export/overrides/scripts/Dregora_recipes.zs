@@ -25,10 +25,9 @@ recipes.removeByRecipeName("minecraft:bread");
 // Remove Enchantment table & add wither skulls to it:
 recipes.remove(<minecraft:enchanting_table>);
 
-
 // Re-add Enchantment table
 recipes.addShaped("dregora24",<minecraft:enchanting_table>,
- [[null,<minecraft:book>,null],
+ [[null,<minecraft:writable_book>,null],
   [<minecraft:diamond>,<minecraft:skull:1>,<minecraft:diamond>],
   [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
 

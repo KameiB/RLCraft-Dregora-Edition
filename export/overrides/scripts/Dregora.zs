@@ -1230,18 +1230,15 @@ events.onEntityLivingUseItemFinish(function(event as Finish){
       }
 });
 
-events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
+events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
 
     if (event.entity.world.isRemote()) { return; }
-    if (event.entity.world.time % 10 != 0) { return; }
     if (isNull(event.entity.definition)) { return; }
     if (isNull(event.entity.definition.id)) { return; }
     if ((event.entity.definition.id) != "minecraft:villager") { return; }
-    if(!isNull(event.entity.nbt.ForgeData.SussyBerianNaming)) { return; }
 
     if((event.entity.customName == "") && (event.entity.nbt.Profession == 1)) {
-        event.entity.setNBT({SussyBerianNaming: 1});
-        var RandomNum = event.entity.world.random.nextFloat(0, 100);
+        var RandomNum = event.entity.world.random.nextFloat(0, 10);
 
         if RandomNum <= 10 {
 
@@ -1251,10 +1248,6 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
                 event.entity.setCustomName("Mentalberian");
             }
         }
-    } else if((event.entity.customName == "Mentalberian") && (event.entity.nbt.Profession == 1)) {
-        event.entity.setNBT({SussyBerianNaming: 1});
-    } else if((event.entity.customName == "Surryberian") && (event.entity.nbt.Profession == 1)) {
-        event.entity.setNBT({SussyBerianNaming: 1});
     }
 });
 
