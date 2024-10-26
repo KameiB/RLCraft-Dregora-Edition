@@ -13,6 +13,7 @@ RLCraft Done:
 - Fixed P_IslandStructure generating at wrong height
 - Fixed P_SmallShip generating at wrong height
 - Fixed P_Lighthouse generating at wrong height
+- Removed Arthropod Soulstone drop from Grue miniboss (Night Shade) in Shadow Labyrinth dungeon
 
 
 Loottables:
