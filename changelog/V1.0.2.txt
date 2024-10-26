@@ -36,13 +36,10 @@ add iron to common (rusted)
 rare loot needs to be better (remove food)
 
 RLCraft to do:
-- change villager trades in origins
+
+[NEEDS PRIORITY]
 - COTH spread by players too?
-- Iceandfire ghost needs to be removed
-- make 8 minute arrows much rarer
 - make Dutchess Fantasy give no xp for the bucket trade
-- Add CANYON to Rainforest to prevent dragon spawns and test the spawning
-- "iceandfire:cyclops", "weight":5, needs to be "iceandfire:cyclops", "weight":1,
 - StoneHouseM (ruins) need to always spawn north
 - CastleModified needs to always spawn north
 - Lower cyclopses and above ground trolls spawns
@@ -55,6 +52,12 @@ RLCraft to do:
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
+- Add CANYON to Rainforest to prevent dragon spawns and test the spawning
+- make 8 minute arrows much rarer
+- Iceandfire ghost needs to be removed
+- "iceandfire:cyclops", "weight":5, needs to be "iceandfire:cyclops", "weight":1,
+- City of origin entity overspawn
+- check troll spawn height for individual biomes (add for all roofed forest)
 - full copper set gives slight movement debuff (5%)
 - change quest description on underneath
 - dynamictreesbop seeds are missing legendary tooltips
