@@ -273,7 +273,7 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 
 // Completely rename Molten Heart Description
 <mod_lavacow:mootenheart>.clearTooltip(true);
-<mod_lavacow:mootenheart>.addTooltip("§eFire Damage Protection: -20%");
+<mod_lavacow:mootenheart>.addTooltip("§eFire Damage Reduction: 25%");
 
 // Remove fish undead recipes
 recipes.remove(<mod_lavacow:bonesword>);
