@@ -189,11 +189,6 @@
           "item": "lycanitesmobs:soulstone_undead",
           "amountMultiplier": false,
           "bonusAmount": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_arthropod",
-          "amountMultiplier": false,
-          "bonusAmount": false
         }
       ]
     }

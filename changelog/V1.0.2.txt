@@ -11,6 +11,9 @@ RLCraft Done:
 - Fixed EpicSiege lag & re-added entity block break tasks
 - Added Squeedly Spooch Dookie to toilet loottables
 - Fixed P_IslandStructure generating at wrong height
+- Fixed P_SmallShip generating at wrong height
+- Fixed P_Lighthouse generating at wrong height
+- Removed Arthropod Soulstone drop from Grue miniboss (Night Shade) in Shadow Labyrinth dungeon
 - Decreased spawnweight of cyclops in several biomes
 - Removed iceandfire:ghost Entities from several spawners in structures
 - Add CANYON to Rainforest to prevent dragon spawns and test the spawning
