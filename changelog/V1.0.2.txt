@@ -11,6 +11,7 @@ RLCraft Done:
 - Fixed EpicSiege lag & re-added entity block break tasks
 - Added Squeedly Spooch Dookie to toilet loottables
 - Fixed P_IslandStructure generating at wrong height
+- Fixed P_SmallShip generating at wrong height
 
 Loottables:
 - rare loot needs to be better (remove food)
