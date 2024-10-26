@@ -15,7 +15,7 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
   [<biomesoplenty:gem:1>,<biomesoplenty:gem:1>,<biomesoplenty:gem:1>]]);
 
 <variedcommodities:satchel>.displayName = "Coin Purse";
-<mod_lavacow:dreamcatcher>.addTooltip("§6A purse filled with ancient coins!");
+<mod_lavacow:satchel>.addTooltip("§6A purse filled with ancient coins!");
 recipes.addShapeless("dregora51",<variedcommodities:satchel>,[<variedcommodities:coin_gold> * 64]);
 recipes.addShapeless("dregora52",<variedcommodities:coin_gold> * 64,[<variedcommodities:satchel>]);
 

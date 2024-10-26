@@ -1,4 +1,51 @@
+RLCraft Done:
+- Diamond Scythe now requires 16 levels instead of 12
+- Cyclops spawnweight lowered globally
+- Trolls should now spawn below y50 with the exception of trolls from spawners
+- Removed several items from the JEI blacklist (including potion status list and bedrock)
+- Added Rabbits to EpicSiege blacklist fixing their AI
+- Added srparasites:pray to incurable effects (scents still disabled though)
+- Fixed dreamcatcher having the description of satchel
+
+
+Loottables:
+- added simpledifficulty to villager chest fix
+- increase luck required to get the legendary treasure
+(although heavily damaged the dagger appears useable (on boomerang)
+- Cyclops den does not have cyclops chests
+- Pirate hat in pirate biome
+- give not kotlin stack of money looting 10
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
+
+Loottables Tweaked:
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_1"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_2"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_3"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_4"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_5"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:recurrent/simple_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:ruins/industrial"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_rare"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_epic"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/loot_bundles/gems/main_gem"}
+
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/tier_1"}
+
+
+add iron to common (rusted)
+rare loot needs to be better (remove food)
+
 RLCraft to do:
+- change villager trades in origins
+- COTH spread by players too?
+- Iceandfire ghost needs to be removed
+- make 8 minute arrows much rarer
+- make Dutchess Fantasy give no xp for the bucket trade
+- Add CANYON to Rainforest to prevent dragon spawns and test the spawning
+- "iceandfire:cyclops", "weight":5, needs to be "iceandfire:cyclops", "weight":1,
+- StoneHouseM (ruins) need to always spawn north
+- CastleModified needs to always spawn north
+- Lower cyclopses and above ground trolls spawns
 - Copy changelog from curseforge to github
 - Fix cyclops den chest loottable
 - fix /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/epic_no_junk"}

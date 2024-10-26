@@ -20,12 +20,12 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
+              "levels": 20,
               "treasure": false
             },
             {
@@ -33,12 +33,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["offhand"]},
                 {"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]},
@@ -74,7 +68,7 @@
                 {"attribute": "generic.attackSpeed", "name": "attackSpeed", "amount": {"min": -2.4, "max": -2.4}, "operation": "addition", "slot": ["offhand"]},
                 {"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 3, "max": 3}, "operation": "addition", "slot": ["mainhand"]},
                 {"attribute": "generic.attackSpeed", "name": "attackSpeed", "amount": {"min": -2.4, "max": -2.4}, "operation": "addition", "slot": ["mainhand"]},
-                {"attribute": "generic.luck", "name": "movementSpeed", "amount": {"min": 0.5, "max": 0.1}, "operation": "addition", "slot": ["mainhand"]}
+                {"attribute": "generic.luck", "name": "movementSpeed", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}
               ]
             },
             {
@@ -106,12 +100,12 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
+              "levels": 20,
               "treasure": false
             },
             {
@@ -119,12 +113,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": 1.0, "max": 2.0}, "operation": "addition", "slot": ["mainhand"]}
               ]
@@ -155,13 +143,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -180,12 +168,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": 1.0, "max": 2.0}, "operation": "addition", "slot": ["mainhand"]}
               ]
@@ -216,13 +198,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
-              "treasure": false
+              "levels": 10,
+              "treasure": true
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -241,12 +223,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": 1.0, "max": 2.0}, "operation": "addition", "slot": ["mainhand"]}
               ]
@@ -277,13 +253,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -302,12 +278,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {
                   "attribute": "generic.armorToughness",
@@ -427,13 +397,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -452,12 +422,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {
                   "attribute": "generic.armorToughness",
@@ -578,13 +542,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -603,12 +567,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {
                   "attribute": "generic.armorToughness",
@@ -729,13 +687,13 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -754,12 +712,6 @@
             },
             {
               "function": "minecraft:set_attributes",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.3
-                }
-              ],
               "modifiers": [
                 {
                   "attribute": "generic.armorToughness",
@@ -876,13 +828,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -908,13 +860,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -940,13 +892,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -972,13 +924,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1004,13 +956,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1036,13 +988,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1068,13 +1020,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1100,13 +1052,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1132,13 +1084,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -1171,13 +1123,13 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 1,
+              "levels": 10,
               "treasure": false
             },
             {
               "function": "enchant_with_levels",
-              "levels": 5,
-              "treasure": false,
+              "levels": 20,
+              "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",

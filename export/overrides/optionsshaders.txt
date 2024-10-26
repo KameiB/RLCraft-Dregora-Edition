@@ -1,5 +1,5 @@
 #Wed Oct 16 23:18:12 EDT 2024
-shaderPack=(internal)
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Unique armor for in epic chests",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_armor_epic",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_shields_epic",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_weapons_epic",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_tools_epic",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

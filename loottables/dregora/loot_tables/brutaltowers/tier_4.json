@@ -13,6 +13,27 @@
       ]
     },
     {
+      "name": "Main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/rlcraft_infuse_coins_common",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/silver_weapons",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/weapons/brutal_iron_weapons_lvl60",
+          "weight": 5
+        }
+      ]
+    },
+    {
       "name": "main",
       "rolls": {
         "min": 1,
@@ -22,18 +43,18 @@
         {
           "type": "loot_table",
           "name": "dregora:brutaltowers/rare_no_junk",
-          "weight": 6
+          "weight": 3
         },
         {
           "type": "loot_table",
           "name": "dregora:rlcraft/rlcraft_infuse_epic",
-          "weight": 4
+          "weight": 2
         }
       ]
     },
     {
       "name": "Enchants",
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "item",
@@ -46,23 +67,23 @@
             },
             {
               "function": "enchant_with_levels",
-              "levels": 30,
-              "treasure": true,
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.05
-                }
-              ]
-            },
-            {
-              "function": "enchant_with_levels",
               "levels": 40,
               "treasure": true,
               "conditions": [
                 {
                   "condition": "random_chance",
-                  "chance": 0.01
+                  "chance": 0.35
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 60,
+              "treasure": true,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
                 }
               ]
             }
@@ -72,7 +93,7 @@
         {
           "type": "loot_table",
           "name": "dregora:loot/empty_loot",
-          "weight": 3
+          "weight": 1
         }
       ]
     }

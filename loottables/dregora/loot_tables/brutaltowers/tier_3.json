@@ -13,36 +13,58 @@
       ]
     },
     {
+      "name": "Main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/silver_weapons",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/weapons/brutal_iron_weapons_lvl30",
+          "weight": 5
+        }
+      ]
+    },
+    {
       "name": "main",
       "rolls": {
         "min": 2,
         "max": 3
       },
       "entries": [
+
         {
           "type": "loot_table",
           "name": "dregora:rlcraft/rlcraft_infuse_coins_common",
-          "weight": 20
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/desert_pyramid",
+          "weight": 1
         },
         {
           "type": "loot_table",
           "name": "dregora:rlcraft/loot_bundles/rlcraft_potion",
-          "weight": 20
+          "weight": 2
         },
         {
           "type": "loot_table",
           "name": "dregora:rlcraft/rlcraft_infuse_cursed",
-          "weight": 60
+          "weight": 1
         },
         {
           "type": "loot_table",
           "name": "dregora:loot/cursed_loot",
-          "weight": 60
+          "weight": 1
         },
         {
           "type": "loot_table",
           "name": "dregora:rlcraft/rlcraft_infuse_epic",
-          "weight": 20
+          "weight": 2
         }
       ]
     },
@@ -87,7 +109,7 @@
         {
           "type": "loot_table",
           "name": "dregora:loot/empty_loot",
-          "weight": 3
+          "weight": 1
         }
       ]
     }

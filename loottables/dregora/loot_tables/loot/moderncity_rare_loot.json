@@ -23,12 +23,12 @@
         {
           "type": "loot_table",
           "name": "dregora:loot/loot_moderncity/rare_old_tools",
-          "weight": 10
+          "weight": 1
         },
         {
           "type": "loot_table",
           "name": "dregora:loot/loot_moderncity/rare_old_arrows",
-          "weight": 10
+          "weight": 2
         }
       ]
     },
@@ -43,16 +43,16 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 10,
-              "treasure": false
+              "levels": 30,
+              "treasure": true
             }
           ],
-          "weight": 10
+          "weight": 1
         },
         {
-          "type": "item",
-          "name": "minecraft:web",
-          "weight": 50
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 3
         }
       ]
     },
@@ -381,7 +381,7 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 1,
+          "weight": 5,
           "functions": [
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"Slow Cook Recipes with -yyon-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},
             {"function": "minecraft:set_nbt","tag": "{display:{Name:\"The Joy of Cooking with -XzeroAir-\",Lore:[\"Unlike other ancient books this one\",\"mostly remains intact\"]}}","conditions": [{"condition": "random_chance","chance": 0.1}]},

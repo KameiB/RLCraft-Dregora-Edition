@@ -39,6 +39,11 @@
         },
         {
           "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/gems/gem_7",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
           "name": "dregora:rlcraft/loot_bundles/gems/gem_8",
           "weight": 10
         }

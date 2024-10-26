@@ -31,7 +31,7 @@
         },
         {
           "type": "loot_table",
-          "name": "dregora:brutaltowers/weapons/brutal_iron_weapons",
+          "name": "dregora:brutaltowers/weapons/brutal_iron_weapons_lvl20",
           "weight": 5
         },
         {
