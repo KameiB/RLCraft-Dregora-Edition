@@ -10,6 +10,7 @@ RLCraft Done:
 - Changed Mooten Heart 20% Damage Protection to 25% Damage Reduction tooltip & mechanic
 - Fixed EpicSiege lag & re-added entity block break tasks
 - Added Squeedly Spooch Dookie to toilet loottables
+- Fixed P_IslandStructure generating at wrong height
 
 Loottables:
 - rare loot needs to be better (remove food)
