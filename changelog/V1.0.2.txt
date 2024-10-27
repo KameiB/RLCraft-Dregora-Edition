@@ -86,6 +86,7 @@ RLCraft to do:
 - Kotlin said zombies that pick up player items don't drop the items o
 
 [NEEDS PRIORITY]
+- Wine recieved a buff?
 - move onplayertick check for mount to oninteractentity in dregora.zs
 - battletower cheese, respawn totem (mirror right click doesn't always activate)
 - change quest description on underneath
