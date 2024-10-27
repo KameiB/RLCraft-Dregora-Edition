@@ -64,17 +64,9 @@ Loottables Tweaked:
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
 
 
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
-
 RLCraft to do:
 
 [Fonny's Magical List]
-
 - RecreateStructure thing causes some lag because it tries to recreate the structure because the .dat is wiped for stuff like mineshafts
 - CustomStructureCache has that save to file crash if it takes too long
 - CustomStructureCache slows down server startup a lot after pregen because of how much it has to read and load (May be system specific)
