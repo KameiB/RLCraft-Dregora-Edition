@@ -7,6 +7,24 @@ RLCraft Done:
 - Added srparasites:pray to incurable effects (scents still disabled though)
 - Fixed dreamcatcher having the description of satchel
 - Removed Carbon config
+- Fixed description "although heavily damaged the dagger appears useable" used for all items from the rusted loottable
+- Changed Mooten Heart 20% Damage Protection to 25% Damage Reduction tooltip & mechanic
+- Fixed EpicSiege lag & re-added entity block break tasks
+- Added Squeedly Spooch Dookie to toilet loottables
+- Fixed P_IslandStructure generating at wrong height
+- Fixed P_SmallShip generating at wrong height
+- Fixed P_Lighthouse generating at wrong height
+- Removed Arthropod Soulstone drop from Grue miniboss (Night Shade) in Shadow Labyrinth dungeon
+- Decreased spawnweight of cyclops in several biomes
+- Removed iceandfire:ghost Entities from several spawners in structures
+- Add CANYON to Rainforest to prevent dragon spawns and test the spawning
+- Removed iceandfire:ghost from charm spawners in wilderness crates
+- Fix cyclops den chest loottable
+- full copper set gives slight movement debuff (5%)
+- changed the long arrow potion effects to happen 5% of the time instead of 20%
+- dynamictreesbop seeds are missing legendary tooltips
+- book and quil instead of book for enchant craft?
+- City of origin entity overspawn
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -28,17 +46,30 @@ Loottables Tweaked:
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_3"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_4"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_5"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_6"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:recurrent/simple_loot"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:ruins/industrial"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_rare"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_epic"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/loot_bundles/gems/main_gem"}
 
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/tier_1"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_rare/unique_tools_rare"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_rare/unique_tools_rare"}
+
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
 
 
-add iron to common (rusted)
-rare loot needs to be better (remove food)
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
 
 RLCraft to do:
 
@@ -52,9 +83,18 @@ RLCraft to do:
 - lightning weapon spam clicking / Ice and Fire disable chain lightning effect if weapon is on cooldown
 - Killing something without any armor on gives CT NPE because the armor array is not checked if its empty
 - scripts need to be moved to their own mod because CT is slower
-- Kotlin said zombies that pick up player items don't drop the items on death?
+- Kotlin said zombies that pick up player items don't drop the items o
 
 [NEEDS PRIORITY]
+- move onplayertick check for mount to oninteractentity in dregora.zs
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- change quest description on underneath
+- rare loot needs to be better (remove food)
+- increase luck required to get the legendary treasure
+- Pirate hat in pirate biome
+- give not kotlin stack of money looting 10
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
+- Yale doesn't spawn correctly
 - COTH spread by players too?
 - make Dutchess Fantasy give no xp for the bucket trade
 - StoneHouseM (ruins) need to always spawn north
@@ -69,23 +109,21 @@ RLCraft to do:
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
-- Add CANYON to Rainforest to prevent dragon spawns and test the spawning
-- make 8 minute arrows much rarer
-- Iceandfire ghost needs to be removed
-- "iceandfire:cyclops", "weight":5, needs to be "iceandfire:cyclops", "weight":1,
-- City of origin entity overspawn
+- add sting & mithril chestplate to custom dragon chests
+- if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
 - check troll spawn height for individual biomes (add for all roofed forest)
-- full copper set gives slight movement debuff (5%) Copper Armor Weight > Slow 1 / 2
-- change quest description on underneath
-- dynamictreesbop seeds are missing legendary tooltips
-- book and quil instead of book for enchant craft?
-- Thunder Script warning messages disappears too fast
-- Lower the long potion effect chance from potion effect entities (8 min corrosion etc) or make super rare. <Make Milk Great Again!>
-- Alot of dragon spawns without roosts
-- Fetching addPacket for removed entity > ask ray
-- Too many random Mentalberian spawns (also very confusing for players since there are 2 kinds of Sussy and mentalberians > sometimes with invis entity on head sometimes without)
+
 
 [LOW PRIORITY]
+- move onplayertick check for mount to oninteractentity in dregora.zs
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- change quest description on underneath
+- rare loot needs to be better (remove food)
+- increase luck required to get the legendary treasure
+- Pirate hat in pirate biome
+- give not kotlin stack of money looting 10
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
+- Yale doesn't spawn correctly
 - make exception list for ground entities lightning strike
 - Golden coins bunker fallout shelter thingy has empty chests
 - add goopacks to loot
@@ -120,9 +158,7 @@ XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I s
 - mod_lavacow:burntovipositor.display double in Dregora_Recipes.zs
 - Death messages?
 - https://github.com/PG85/OpenTerrainGenerator/blob/1.12-OTG%2B/common/src/main/java/com/pg85/otg/customobjects/structures/CustomStructureCache.java line 257 (needs cancel population instead of runtimeexception?
-- add increased Spriggan chance to bop plants (It feels low.. Might be cool to increase it for flower plants to a higher number if possible compared to just grass and dead plants)
-- increase Geonach spawn for gemstones > because I'm fucking evil MUEHUEHUEHUE! (again only if possible)
-- increase treant spawn chance.. Do I really need to say why? (Also would be cool for trees that have high return values aka redwood)
+- add increased Spriggan chance to bop plants (It feels low.. Might be cool to increase it for flower plants to a higher number if possible compared to just    grass and dead plants)
 - check potion skeleton chance (kinda low chance atm?)
 - Lycanite spawns feel quite low in comparison to vanilla rl (might be just me and this doesn't include the passive ones)
 - Add RNG to BOP Berries > Look at real food poisoning values as potion effects and add some low chance good effects (Berry Roulette)
@@ -132,9 +168,6 @@ XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I s
 - Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo)
 - Lycanite mobs kinda lost their identity. (it feels like they don't spawn in the right spot)
 - Red Maple tree is missing the NBT so leaves stay in the air after harvesting the tree ( Flower Island Biome)
-- Oak/maple in leaves stay (Carniverous Forest & Crimson Peaks Edge)
-- BOP Cherry DynTrees cutdown leaves stay hanging in the air. WHITE CHERRY (Traverse Blood Hills ID991 Example)
-- Deadwood tree issues (Birch Forest Border)
 - Add funny but rare arrow of return trap at the end of a dungeon. (Buh-BYE!)
 - Structure "PirateShip.bo4" has an issue that the latern at the front of the ship generates in the wrong direction (The Stairs bug)
 - Indian Dregora Village (with the totempoles etc) still has a building with the stairs bug being turned in the wrong direction.
@@ -147,26 +180,6 @@ XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I s
 - Banshee AOE explosion make all bodyparts take hits instead of one bodypart and destroy blocks option.
 - gorgon possible blacklist for aggro on mobs
 - jei earth blacklist (bop)
+- Temperature goo pack in loottable, check heat biome
 - lycanite boss in nether still goes through roof, lower with incontrol.
 - Better Survival config regenerated default enchant level configs. Config switched to Title Case setting names.
-- "Tanks.bo4" spawns in "Dry Plains Compat)ID1094 while it should spawn in Parasite biome. (Contains Dead Blood)
-- "PowerLineSmall.bo4" spawns too high sometimes (the supports float in the air)
-- "CellTower.bo4" Fix ladders floating in air
-- Sirens spawn on land in the "Underworld" ID932 biome (there is a sea in the cave system thats why)
-- "ShipsSunk.bo4" Spawns floating in the water instead of sunken to the bottom
-- "SwampHouseBig.bo4" often get cuts in half on mud plains in biome "Mangrove" ID 942
-- "Mangrove" biome needs to have more water pools. It's often just muddy plains (or waterpools just don't spawn)
-- Move back wizard tower to villages or atleast add a loottable to it. (feels out of place and is often incredibly useless except for having a bed)
-- Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo)
-- Lycanite mobs kinda lost their identity. (it feels like they don't spawn in the right spot) > Finetune spawns, could even use special spawn variations (dark aegis etc)
-- Structure "PirateShip.bo4" has an issue that the latern at the front of the ship generates in the wrong direction (The Stairs bug)
-- Indian Dregora Village (with the totempoles etc) still has a building with the stairs bug being turned in the wrong direction.
-- Overgrown Cliffs Edge ID407 biome has the annoying water cutoff issue with Deep Polluted Ocean ID973 and Polluted Ocean ID31
-- Cold Desert ID698 biome has watercutoff issue ^
-- Cold Desert ID698 biome spawns Deathworms > Can't move because of the snow and such and feels out of place
-- Volcanic Beach ID393 has an overspawn of Rock bo4's
-- Ancient Rainforest Isle RM ID548 Trolls spawn outside in daylight under canopy
-- More city structures > cities feel empty and bland
-- Remove a few entities from crates <netherwasp>
-- Death messages? More salt with your tears' ser?
-- Dragon controls and lycanite mount controls the same for consistency

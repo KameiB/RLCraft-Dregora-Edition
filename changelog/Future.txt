@@ -1,3 +1,4 @@
+
 Dregora todo:
 
 
@@ -11,7 +12,7 @@ OTG todo:
 
 Removed from ToDo for various reasons, may be revisited later.
 + Add cliff boulder idea to ocean islands
-+ add silverfish rocks & ores (Yeah, people just wont ever go underground any more if I did this) < So lets only add them above ground HUEHUEHUE
++ add silverfish rocks & ores (Yeah, people just wont ever go underground any more if I did this)
 + Redo underground dragon bones, add gold n such.
 + BOP adds one entity (the wasp, spawns in nether & in steppe biomes in wasp nests attached to skyscrapers)
 + Remove 90% (GARDENS) Ruins and recurrent structures from Trench / Trench border
@@ -35,33 +36,33 @@ Future Todo:
 + Ornamental pillars with loot in center
 + check if possible suggestion: in newer versions of ice and fire, those horse fish things can be tamed with kelp; if you can change that in configs, make bop kelp work
 + make boobytrap cave sections and generate them everywhere
-+ Add Waystone custom structure to Villages / Outposts (Trader_Silo missing)
++ Add Waystone custom structure to Villages / Outposts
 + Custom Dragon nests **FUTURE**
-+ Add Creepers with speed boost to Dregora Mineshafts (Sprinters custom mob)
-+ Add Lycanite Battletowers **Future** (Elemental Tower, Lycanite Towers)
++ Add Creepers with speed boost to Dregora Mineshafts
++ Add Lycanite Battletowers **Future**
 + Add Parasite Battlehive? **Future**
-+ Add Defiled Lands Battle tower **Future** (Tower of Defiled / Defilement/ Defiled Tower)
-+ Add Nether Battletower **Future** (different towers based on 7 deadly sins?)
++ Add Defiled Lands Battle tower **Future**
++ Add Nether Battletower **Future**
 + Add Nether Fortress **Future**
-+ Add End Battletower **Future** (Endless Towers)
++ Add End Battletower **Future**
 + Add Biome Themed Battletowers **Future**
-+ Add Custom vanilla Battletowers **Future** Early game easy towers > (Tower of Struggle)
-+ Add Harder variations of battletowers **Future** (Tower of War, Tower of Carnage, Dungeon of Dispute, Castle of Strive etc)
 + add biome shadow savanna (in a shadow update)
 + add viking village but with savanna blocks & a stingin tribe
 + add biome shadow swamp (in a shadow update)
 + add rotten down viking village with upwards vines, kind of like valheim
 + add biome shadow peaks (in a shadow update)
-+ Dregora Hardcore config
-+ bunkers and fallout shelters with entities in there called deathclaws with a 200 health and oneshotting you with 60dmg like blight darkling (Ray Easter egg)
-+ Take a look at enchantments and the current enchantment meta to switch things up a bit
-+ add a few more quality tiers (people seem to like skill issue so why not) (custom items with very low qt weight? > would make looted weapons kinda cool > also rng so Gambling :D
-+ more custom items and actual documentation for them >(Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc.)
-+ more mobs for custom dungeons... AND actual documentation for them (blighted custom mobs?)
-+ Add funny but rare arrow of return trap at the end of a dungeon. (Buh-BYE!)
-+ Look at foodfunk, if we're not able to get it working no sweat. If we can awesome (Low tier foods would finally be usefull again. Looking at you cooked egg)
-+ XzeroAir: Find Broken Gun parts, Collect them all, Restore them, craft it into a new gun, and when you use it, It just explodes in your face killing you > XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I should have taken lessons"
 
-[ICE AND FIRE > BEG KOTLIN / SUGGESTIONS]
--   Gorgon aggro blacklist > Everything in the gorgon temple is either high or stoned!
--   Is it possible to increase stages past 5?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
