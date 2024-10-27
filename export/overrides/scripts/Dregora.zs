@@ -1233,9 +1233,10 @@ events.onEntityLivingUseItemFinish(function(event as Finish){
 events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
 
     if (event.entity.world.isRemote()) { return; }
-    if (isNull(event.entity.definition)) { return; }
-    if (isNull(event.entity.definition.id)) { return; }
-    if ((event.entity.definition.id) != "minecraft:villager") { return; }
+
+    var definition = event.entity.definition;
+    if (isNull(definition)) { return; }
+    if ((definition.id) != "minecraft:villager") { return; }
     if (event.entity.customName != "") { return; }
 
     var nbt = event.entity.nbt;
