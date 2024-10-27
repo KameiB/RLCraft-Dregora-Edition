@@ -25,6 +25,14 @@ RLCraft Done:
 - dynamictreesbop seeds are missing legendary tooltips
 - book and quil instead of book for enchant craft?
 - City of origin entity overspawn
+- P_VillageInn-removed broken wooden slabs
+- P_WitchDungeon-made witches not despawn when out of render distance
+- RLCraft_AgentStarbuck_VikingHouse-Fixed chimney made of monster blocks
+- RLCraft_End_MegaCity_Middle_Boss-made mobs not despawn when out of render distance
+- Nether cities-made Archville boss not despawn when out of render distance. made it so command blocks get replaced by air block
+- RLCraft_SwampHut-made troll not despawn when out of render distance
+- RLCraft_End_Fisher-made darkling have persistent tag
+
 
 Loottables:
 - added simpledifficulty to villager chest fix
