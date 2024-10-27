@@ -35,6 +35,8 @@ RLCraft Done:
 - added better survival myrmex stinger and lightning weapons to legendary tooltips
 - MUD TUNA now gives mud ball instead of clay
 - fixed flax, tall cattail, eyebulb and sea oats top blocks not having a requirement
+- forgotten items tools can now be repaired with obsidian
+- removed myrmex and neptunium from qualities config
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -143,7 +145,6 @@ RLCraft to do:
 - chests at dragon dens are broken.
 - Wiki link hitbox is too small in menu on dragon scene (possisbly others too).
 - Zombies are in broken epic siege? < Lower damage zombies and laggy ai - 1.5 dmg from 3.5 < EpicSiege
-- Bound tools anvil obsidian repair material
 - Make curse break with caveats more common
 - squids spawn in ooze (Check all liquids from lycanites)
 - v_bunker with dilapitated rooms and ghoullified sections
