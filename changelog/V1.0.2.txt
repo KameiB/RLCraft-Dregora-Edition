@@ -123,6 +123,7 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
+- Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe
 - add sting & mithril chestplate to custom dragon chests
 - if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
 - check troll spawn height for individual biomes (add for all roofed forest)
