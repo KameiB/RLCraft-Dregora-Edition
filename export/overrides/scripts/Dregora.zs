@@ -1242,7 +1242,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     var nbt = event.entity.nbt;
     if (nbt.Profession == 1 && isNull(nbt.ForgeData.SussyBerianNaming)) {
         event.entity.setNBT({SussyBerianNaming: 1});
-        var RandomNum = event.entity.world.random.nextFloat(0, 10);
+        var RandomNum = event.entity.world.random.nextFloat(0, 100);
 
         if RandomNum <= 10 {
 
