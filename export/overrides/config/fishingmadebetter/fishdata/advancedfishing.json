@@ -1653,7 +1653,7 @@
     ],
     "timeOutsideOfWater": 15,
     "allowScaling": true,
-    "scalingItem": "minecraft:clay_ball",
+    "scalingItem": "biomesoplenty:mudball",
     "scalingItemMetadata": 0,
     "scalingUseWeight": true,
     "allowFillet": true,
