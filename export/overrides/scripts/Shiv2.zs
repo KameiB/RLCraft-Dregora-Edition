@@ -56,6 +56,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 <spartanweaponry:mace_steel:*>.addTooltip(format.gold("+2 damage against Nether mobs and Fire elementals"));
 <spartanweaponry:glaive_steel:*>.addTooltip(format.gold("+2 damage against Nether mobs and Fire elementals"));
 <spartanweaponry:staff_steel:*>.addTooltip(format.gold("+2 damage against Nether mobs and Fire elementals"));
+<spartanweaponry:scythe_steel:*>.addTooltip(format.gold("+2 damage against Nether mobs and Fire elementals"));
 
 //Potion Of Curse Break
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:thick"}), <rlmixins:cleansing_talisman>, <minecraft:potion>.withTag({Potion: "rlmixins:curse_break"}));

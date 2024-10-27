@@ -39,6 +39,7 @@ RLCraft Done:
 - removed myrmex and neptunium from qualities config
 - added boats, scarecrow heads, enlightened bushs, tnt and falling blocks to carry on blacklist
 - fixed rustic painted wood in race rings climbing list
+- added tooltip to steel scythe
 
 
 Loottables:
