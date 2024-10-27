@@ -34,7 +34,7 @@ RLCraft Done:
 - RLCraft_End_Fisher-made darkling have persistent tag
 - added better survival myrmex stinger and lightning weapons to legendary tooltips
 - MUD TUNA now gives mud ball instead of clay
-
+- fixed flax, tall cattail, eyebulb and sea oats top blocks not having a requirement
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -139,7 +139,6 @@ RLCraft to do:
 - Question for experts here. When I make a world in Dregora and and die (HC world) I try to create new world and I am getting Error Not enough biome id's available to add all dimensions
 - all entities are nerfed?
 - lower regions have quark blocks, see to disaqble or lower y level
-- check plant reskillable stuff for double plants
 - Parkour dungeon double plants turn to half block sunflowers when trying to destroy the block.
 - chests at dragon dens are broken.
 - Wiki link hitbox is too small in menu on dragon scene (possisbly others too).
