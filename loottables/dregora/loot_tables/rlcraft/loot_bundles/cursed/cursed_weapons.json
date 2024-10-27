@@ -448,7 +448,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Rebuked Halberd\",Lore:[\"A Beautifull Halberd, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Rebuked Halberd\",Lore:[\"A beautiful Halberd, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -599,7 +599,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Umbrium Spear\",Lore:[\"A Beautifull Spear, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Umbrium Spear\",Lore:[\"A beautiful Spear, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -750,7 +750,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Umbrium Saber\",Lore:[\"A Beautifull Saber, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Umbrium Saber\",Lore:[\"A beautiful Saber, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -901,7 +901,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Diamond Halberd\",Lore:[\"A Beautifull Halberd, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Diamond Halberd\",Lore:[\"A beautiful Halberd, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1052,7 +1052,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Diamond Glaive\",Lore:[\"A Beautifull Glaive, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Diamond Glaive\",Lore:[\"A beautiful Glaive, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1203,7 +1203,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Desert Stinger Rapier\",Lore:[\"A Beautifull Rapier, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Desert Stinger Rapier\",Lore:[\"A beautiful Rapier, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1354,7 +1354,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Jungle Stinger Greatsword\",Lore:[\"A Beautifull Greatsword, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Jungle Stinger Greatsword\",Lore:[\"A beautiful Greatsword, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1505,7 +1505,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Stinger Sword\",Lore:[\"A Beautifull Sword, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Stinger Sword\",Lore:[\"A beautiful Sword, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1656,7 +1656,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Quarterstaff\",Lore:[\"A Beautifull Quarterstaff, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Quarterstaff\",Lore:[\"A beautiful Quarterstaff, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1807,7 +1807,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Rapier\",Lore:[\"A Beautifull Rapier, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Rapier\",Lore:[\"A beautiful Rapier, engraved with a offsetting name.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

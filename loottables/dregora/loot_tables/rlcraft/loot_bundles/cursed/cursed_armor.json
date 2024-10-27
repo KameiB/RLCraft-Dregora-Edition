@@ -23,7 +23,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Steel Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Steel Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -174,7 +174,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Steel Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Steel Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -325,7 +325,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Steel Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on legs:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Steel Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on legs:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -476,7 +476,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Steel Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Steel Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -627,7 +627,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -778,7 +778,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -929,7 +929,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1080,7 +1080,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Umbrium Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Umbrium Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1231,7 +1231,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1382,7 +1382,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1533,7 +1533,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1684,7 +1684,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Troll Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1835,7 +1835,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1986,7 +1986,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2137,7 +2137,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2288,7 +2288,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chitin Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chitin Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2439,7 +2439,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2590,7 +2590,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2741,7 +2741,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -2892,7 +2892,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Scale Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Scale Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3043,7 +3043,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3194,7 +3194,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3345,7 +3345,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3496,7 +3496,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Diamond Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Diamond Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3647,7 +3647,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3798,7 +3798,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -3949,7 +3949,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4100,7 +4100,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Iron Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Iron Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4251,7 +4251,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4402,7 +4402,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4553,7 +4553,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4704,7 +4704,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Chain Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Chain Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -4855,7 +4855,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Beret of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Beret of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on head:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5006,7 +5006,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Torso of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Torso of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on body:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5157,7 +5157,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Trousers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Trousers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+2 Luck\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -5308,7 +5308,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Slippers of Inverse Reverse Traps\",Lore:[\"This must be too Beautifull to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Golden Slippers of Inverse Reverse Traps\",Lore:[\"This must be too beautiful to be true!\",\"\",\"§4When on feet:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

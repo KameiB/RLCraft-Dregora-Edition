@@ -19,6 +19,12 @@ RLCraft Done:
 - Add CANYON to Rainforest to prevent dragon spawns and test the spawning
 - Removed iceandfire:ghost from charm spawners in wilderness crates
 - Fix cyclops den chest loottable
+- full copper set gives slight movement debuff (5%)
+- changed the long arrow potion effects to happen 5% of the time instead of 20%
+- dynamictreesbop seeds are missing legendary tooltips
+- book and quil instead of book for enchant craft?
+- City of origin entity overspawn
+
 
 Loottables Tweaked:
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_1"}
@@ -59,17 +65,15 @@ RLCraft to do:
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
-- if item has red attribute list
-- make 8 minute arrows much rarer
-- City of origin entity overspawn
+- add sting & mithril chestplate to custom dragon chests
+- if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
 - check troll spawn height for individual biomes (add for all roofed forest)
-- full copper set gives slight movement debuff (5%)
-- change quest description on underneath
-- dynamictreesbop seeds are missing legendary tooltips
-- book and quil instead of book for enchant craft?
+
 
 [LOW PRIORITY]
-Loottables:
+- move onplayertick check for mount to oninteractentity in dregora.zs
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- change quest description on underneath
 - rare loot needs to be better (remove food)
 - increase luck required to get the legendary treasure
 - Pirate hat in pirate biome

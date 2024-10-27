@@ -258,12 +258,9 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent){
                 }
             }
         } else if ((event.item.definition.id == "bountifulbaubles:magicmirror") || (event.item.definition.id == "bountifulbaubles:wormholemirror")) {
-            if (event.player.y <= 70) {
-
-                event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the mirror from your hands", true);
-                event.player.dropItem(true);
-                event.cancel();
-            }
+            event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the mirror from your hands", true);
+            event.player.dropItem(true);
+            event.cancel();
         }
     }
 
