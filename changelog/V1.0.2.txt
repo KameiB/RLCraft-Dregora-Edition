@@ -37,6 +37,7 @@ RLCraft Done:
 - fixed flax, tall cattail, eyebulb and sea oats top blocks not having a requirement
 - forgotten items tools can now be repaired with obsidian
 - removed myrmex and neptunium from qualities config
+- blacklisted boats and scarecrow heads from carry on
 
 Loottables:
 - added simpledifficulty to villager chest fix
