@@ -32,6 +32,7 @@ RLCraft Done:
 - Nether cities-made Archville boss not despawn when out of render distance. made it so command blocks get replaced by air block
 - RLCraft_SwampHut-made troll not despawn when out of render distance
 - RLCraft_End_Fisher-made darkling have persistent tag
+- added better survival myrmex stinger and lightning weapons to legendary tooltips
 
 
 Loottables:
