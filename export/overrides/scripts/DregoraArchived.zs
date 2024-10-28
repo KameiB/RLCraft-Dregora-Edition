@@ -10,6 +10,8 @@
 
 /*
 
+
+//silver has issue: - Dregora.zs Only checks bauble slots while setbonus mod will include mainhand and offhand
     if(isNull(event.player.nbt.ForgeData.SkippedSilverDebuffs)){
 
         event.player.setNBT({SkippedSilverDebuffs: 0});

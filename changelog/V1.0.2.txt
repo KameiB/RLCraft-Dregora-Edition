@@ -99,7 +99,6 @@ paralysis overlaps with ice effect?
 iceandfire.cfg B:"Chain Lightning Paralysis"=true >:| (Copper and Lightning has it disabled)
 Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to more categories)?
 - add new armors in a bit more frequent
-- Dregora.zs Only checks bauble slots while setbonus mod will include mainhand and offhand
 - Wine recieved a buff?
 - move onplayertick check for mount to oninteractentity in dregora.zs
 - battletower cheese, respawn totem (mirror right click doesn't always activate)
