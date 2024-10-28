@@ -40,6 +40,7 @@ RLCraft Done:
 - added boats, scarecrow heads, enlightened bushs, tnt and falling blocks to carry on blacklist
 - fixed rustic painted wood in race rings climbing list
 - added tooltip to steel scythe
+- blacklisted some biomes for P_IslandCity and P_TownMeridor 
 
 
 Loottables:
