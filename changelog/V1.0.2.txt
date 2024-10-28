@@ -40,7 +40,7 @@ RLCraft Done:
 - added boats, scarecrow heads, enlightened bushs, tnt and falling blocks to carry on blacklist
 - fixed rustic painted wood in race rings climbing list
 - added tooltip to steel scythe
-
+- Fixed
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -94,6 +94,8 @@ RLCraft to do:
 - Kotlin said zombies that pick up player items don't drop the items o
 
 [NEEDS PRIORITY]
+- Convert port & meridor city to OTG structure
+- Disallow Meridor & Port city from spawning in biometag FromImage & Add biometag FromImage to all Fromimage Biomes
 - notkotlin has 16 hp only? Its gonna need more!
 paralysis overlaps with ice effect?
 iceandfire.cfg B:"Chain Lightning Paralysis"=true >:| (Copper and Lightning has it disabled)
@@ -123,6 +125,7 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
+- Make Fantasy bucket trade not give XP
 - increase temperate biomes (and ominous forest) and decrease desert biome rarity
 - like when the dragon grabs you and you used recalls/mirron and then logged he would dissapear it happened on a server
 - Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe

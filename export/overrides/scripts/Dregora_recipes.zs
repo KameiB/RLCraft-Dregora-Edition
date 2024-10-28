@@ -16,8 +16,19 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
 
 <variedcommodities:satchel>.displayName = "Coin Purse";
 <mod_lavacow:satchel>.addTooltip("§6A purse filled with ancient coins!");
-recipes.addShapeless("dregora51",<variedcommodities:satchel>,[<variedcommodities:coin_gold> * 64]);
-recipes.addShapeless("dregora52",<variedcommodities:coin_gold> * 64,[<variedcommodities:satchel>]);
+
+recipes.addShaped("dregora54",<variedcommodities:satchel>,
+ [[<minecraft:leather>,<contenttweaker:coin_pile>,<minecraft:leather>],
+  [<contenttweaker:coin_pile>,<contenttweaker:coin_pile>,<contenttweaker:coin_pile>],
+  [<contenttweaker:coin_pile>,<contenttweaker:coin_pile>,<contenttweaker:coin_pile>]]);
+
+recipes.addShaped("dregora51",<contenttweaker:coin_pile>,
+ [[<variedcommodities:coin_gold>,<variedcommodities:coin_gold>,<variedcommodities:coin_gold>],
+  [<variedcommodities:coin_gold>,<variedcommodities:coin_gold>,<variedcommodities:coin_gold>],
+  [<variedcommodities:coin_gold>,<variedcommodities:coin_gold>,<variedcommodities:coin_gold>]]);
+
+recipes.addShapeless("dregora52",<variedcommodities:satchel>,[<variedcommodities:coin_gold> * 63]);
+recipes.addShapeless("dregora55",<contenttweaker:coin_pile>,[<variedcommodities:coin_gold> * 9]);
 
 // Remove Bread recipe
 recipes.removeByRecipeName("minecraft:bread");

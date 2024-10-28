@@ -54,5 +54,8 @@ GlacierCREM.register();
 var LeBloodTear = VanillaFactory.createItem("blood_tear");
 LeBloodTear.register();
 
+var CoinPile = VanillaFactory.createItem("coin_pile");
+CoinPile.register();
+
 var TRACERCORE = VanillaFactory.createItem("sentient_core");
 TRACERCORE.register();
