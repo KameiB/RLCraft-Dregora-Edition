@@ -94,6 +94,7 @@ RLCraft to do:
 - Kotlin said zombies that pick up player items don't drop the items o
 
 [NEEDS PRIORITY]
+- notkotlin has 16 hp only? Its gonna need more!
 paralysis overlaps with ice effect?
 iceandfire.cfg B:"Chain Lightning Paralysis"=true >:| (Copper and Lightning has it disabled)
 Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to more categories)?
@@ -123,6 +124,7 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
+- increase temperate biomes (and ominous forest) and decrease desert biome rarity
 - like when the dragon grabs you and you used recalls/mirron and then logged he would dissapear it happened on a server
 - Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe
 - add sting & mithril chestplate to custom dragon chests
