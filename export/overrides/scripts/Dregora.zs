@@ -389,7 +389,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         var entityShooter as IEntityLivingBase = event.damageSource.getTrueSource();
         var randomInt = entityShooter.world.random.nextFloat(0, 100);
         var randomArrow = entityShooter.world.random.nextFloat(0, 65);
-        var randomArrowLong = entityShooter.world.random.nextFloat(0, 20);
+        var randomArrowLong = entityShooter.world.random.nextFloat(0, 15);
         var RandomArrowScript = ArrowArray[randomArrow];
         var RandomArrowScriptLong = ArrowArrayLong[randomArrowLong];
 
@@ -1646,6 +1646,24 @@ events.onPlayerTick(function(event as PlayerTickEvent){
 
 });
 
+events.onEntityMount(function(event as EntityMountEvent){
+
+    if !(event.isMounting) {return;}
+    if event.mountingEntity.world.isRemote() {return;}
+    if (!(event.mountingEntity instanceof IPlayer)) {return;}
+
+    var MountingPlayer as IPlayer = event.mountingEntity;
+
+    if (MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name == "Abyssal Rift") {
+
+        MountingPlayer.sendStatusMessage("It seems something has your mount spooked, and will not cooporate.", true);
+        event.cancel();
+
+    }
+
+});
+
+
 //Listener for player on mount in Abyssal Rift
 //Listener for player in SRP deadblood / BOP Hot Spring Water / Bauble listener / Teleportation on hit by skeleton with Teleport arrow
 events.onPlayerTick(function(event as PlayerTickEvent){
@@ -1683,14 +1701,18 @@ events.onPlayerTick(function(event as PlayerTickEvent){
                 event.player.addPotionEffect(<potion:potioncore:lightning>.makePotionEffect(1, 0));
 
             }
+
+        } else {
+
+            event.player.setNBT({lightning_cooldown_abyssal: 0});
+
         }
-		else {
-			event.player.setNBT({lightning_cooldown_abyssal: 0});
-		}
-    }
-	else {
-		event.player.setNBT({lightning_cooldown_abyssal: 0});
-	}
+
+    } else {
+
+        event.player.setNBT({lightning_cooldown_abyssal: 0});
+
+	  }
 
     if (event.phase == "START") {
 

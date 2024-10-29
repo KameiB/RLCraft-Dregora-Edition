@@ -1237,7 +1237,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Jungle Stinger Greatsword\",Lore:[\"A beautiful Greatsword, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs Buff §0Self\",\"§9+10% Looting\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Jungle Stinger Greatsword\",Lore:[\"A beautiful Greatsword, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs Buff\",\"§9+10% Looting\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

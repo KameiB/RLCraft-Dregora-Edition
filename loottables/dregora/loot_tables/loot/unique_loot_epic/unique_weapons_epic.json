@@ -20,7 +20,7 @@
           "name": "iceandfire:troll_weapon.hammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Get Banned!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -88,7 +88,7 @@
           "name": "variedcommodities:chicken_sword",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:50,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:curseofdecay"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -104,7 +104,7 @@
           "name": "mujmajnkraftsbettersurvival:itemlumiumhammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:smite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lessersmite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedsmite"]},
@@ -120,7 +120,7 @@
           "name": "variedcommodities:bronze_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:smelter"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:meltdown"]},
             {"function": "enchant_randomly", "enchantments": ["spartanweaponry:incendiary"]},
@@ -189,7 +189,7 @@
           "name": "variedcommodities:cleaver",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your everyday butchering!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:innerberserk"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -209,7 +209,7 @@
           "name": "variedcommodities:frost_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Usefull in case of abductions!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:penetration"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:reviledblade"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:penetratingedge"]},
