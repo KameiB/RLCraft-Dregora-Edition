@@ -141,6 +141,8 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 // Berries nerf
 events.onEntityLivingUseItemFinish(function(event as Finish){
 
+    if event.player.world.isRemote() {return;}
+
     if (event.item.definition.id == "biomesoplenty:berries") {
 
         var randomDuration = event.player.world.random.nextFloat(60, 200);
@@ -543,6 +545,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
     var HeldArmor = event.damageSource.getTrueSource().armorInventory;
 
     if (isNull(HeldArmor)) {return;}
+    if (HeldArmor.length == 0) {return;}
 
     var armorpieces = 0;
 
@@ -551,13 +554,13 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
     if (!isNull(HeldArmor[2])) {if (HeldArmor[2].name == "item.srparasites.armor_chest") {armorpieces += 1;}}
     if (!isNull(HeldArmor[3])) {if (HeldArmor[3].name == "item.srparasites.armor_helm") {armorpieces += 1;}}
 
-    if (isNull(event.damageSource.getTrueSource().heldEquipment)) {
-        if (isNull(event.damageSource.getTrueSource().heldEquipment[0])) {
+    if (!isNull(event.damageSource.getTrueSource().heldEquipment)) {
+        if (!isNull(event.damageSource.getTrueSource().heldEquipment[0])) {
             if (event.damageSource.getTrueSource().heldEquipment[0].name has "srparasites") {
                 armorpieces += 1;
             }
         }
-        if (isNull(event.damageSource.getTrueSource().heldEquipment[1])) {
+        if (!isNull(event.damageSource.getTrueSource().heldEquipment[1])) {
             if (event.damageSource.getTrueSource().heldEquipment[1].name has "srparasites") {
                 armorpieces += 1;
             }

@@ -37,6 +37,11 @@
           "type": "loot_table",
           "name": "minecraft:chests/stronghold_library",
           "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_main_epic",
+          "weight": 2
         }
       ]
     },

@@ -69,8 +69,12 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:7,lvl:1},{id:4,lvl:4},{id:10,lvl:1},{id:34,lvl:3}],RepairCost:100,Unbreakable:1,HideFlags:1}"
+              "tag": "{RepairCost:100,Unbreakable:1,HideFlags:1}"
             },
+            {"function": "enchant_randomly", "enchantments": ["minecraft:thorns"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:projectile_protection"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:binding_curse"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
@@ -113,8 +117,15 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:16,lvl:5},{id:17,lvl:5},{id:19,lvl:2},{id:20,lvl:1},{id:21,lvl:3},{id:22,lvl:5},{id:71,lvl:1}],RepairCost:999,HideFlags:3}"
+              "tag": "{RepairCost:999,HideFlags:3}"
             },
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:fire_aspect", "levels": 1},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:smite", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sharpness", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:knockback", "levels": 2},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:looting", "levels": 3},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sweeping", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:vanishing_curse", "levels": 1},
             {
               "function": "set_damage",
               "damage": 0.1

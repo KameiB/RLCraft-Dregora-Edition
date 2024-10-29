@@ -43,6 +43,11 @@
         },
         {
           "type": "loot_table",
+          "name": "dregora:loot/unique_loot_rare/unique_main_rare",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
           "name": "dregora:rlcraft/loot_bundles/diamond_weapons",
           "weight": 5
         },

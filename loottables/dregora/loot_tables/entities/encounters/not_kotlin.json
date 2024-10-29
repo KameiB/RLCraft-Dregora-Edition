@@ -47,7 +47,14 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"Lots of Money!\",Lore:[\"Not Kotlin's stack of gains!\"]}}"
             },
-            {"function": "enchant_with_levels","levels": 10}
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]}
           ]
         },
         {

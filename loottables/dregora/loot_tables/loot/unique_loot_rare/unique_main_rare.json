@@ -7,22 +7,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dregora:loot/unique_loot_rare/unique_armor_rare",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "name": "dregora:loot/unique_loot_rare/unique_shields_rare",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
           "name": "dregora:loot/unique_loot_rare/unique_weapons_rare",
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "name": "dregora:loot/unique_loot_rare/unique_tools_rare",
           "weight": 1
         }
       ]

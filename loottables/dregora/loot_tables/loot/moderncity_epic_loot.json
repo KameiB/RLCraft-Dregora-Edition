@@ -36,6 +36,11 @@
           "type": "loot_table",
           "name": "minecraft:chests/stronghold_library",
           "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_main_epic",
+          "weight": 2
         }
       ]
     },
@@ -131,8 +136,17 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:web",
-          "weight": 100
+          "name": "variedcommodities:mana",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
         },
         {
           "type": "item",

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "type": "item",
+      "name": "variedcommodities:mana",
+      "weight": 100,
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "min": 32,
+            "max": 64
+          }
+        }
+      ]
+    }
+  ]
+}
+

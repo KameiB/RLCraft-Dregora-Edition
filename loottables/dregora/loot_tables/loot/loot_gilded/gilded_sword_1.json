@@ -14,10 +14,9 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:\"Ancient Sword\",Lore:[\"A sword imbued with magic making it feel lighter and sharper.\"]}}"
             },
-            {
-              "function": "set_nbt",
-              "tag": "{ench:[{id:71,lvl:1},{id:20,lvl:2},{id:17,lvl:2}]}"
-            },
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:vanishing_curse", "levels": 1},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:fire_aspect", "levels": 2},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:smite", "levels": 2},
             {
               "function": "set_damage",
               "damage": {

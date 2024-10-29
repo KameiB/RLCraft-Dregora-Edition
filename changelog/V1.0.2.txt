@@ -41,7 +41,37 @@ RLCraft Done:
 - fixed rustic painted wood in race rings climbing list
 - added tooltip to steel scythe
 - blacklisted some biomes for P_IslandCity and P_TownMeridor
-
+- Fixed Fantasy bucket trade unlimited XP
+- give not kotlin stack of money looting 10
+- notkotlin has 16 hp only? Its gonna need more!
+- Loottables Tweaked:
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_1"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_2"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_3"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_4"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_5"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_6"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:recurrent/simple_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:ruins/industrial"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_rare"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_epic"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/loot_bundles/gems/main_gem"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_rare/unique_weapons_rare"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
+    /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
+- replaced all charm_crate lootboxes for charm_villager_crate (this makes them not spawn a ton of dangerous mobs)
+- Wine nerfed again
+- Limited Dutchess Bucket to one trade only
+- StoneHouseM (ruins) need to always spawn north
+- CastleModified needs to always spawn north
+- Lower cyclopses and above ground trolls spawns
+- check troll spawn height for individual biomes (add for all roofed forest)
+- Fixed cyclops den chest loottable
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -49,37 +79,11 @@ Loottables:
 (although heavily damaged the dagger appears useable (on boomerang)
 - Cyclops den does not have cyclops chests
 - Pirate hat in pirate biome
-- give not kotlin stack of money looting 10
 - pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
 - flesh out loottables for harder biomes (Dregora loottables are really poopy right now)
 - Nerf amount of recal potions, buff amount of wormhole potions.
 - Nerf the amount of cursebreak potions a bit > which in return encourages alchemy (Get out of jail potions are everywhere) Get Cursed Nerd!
 - Temperature goo pack in loottable, check heat biome
-
-
-Loottables Tweaked:
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_1"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_2"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_3"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_4"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_5"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/tier_6"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:recurrent/simple_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:ruins/industrial"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_rare"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/rlcraft_infuse_epic"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:rlcraft/loot_bundles/gems/main_gem"}
-
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_rare/unique_tools_rare"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_rare/unique_tools_rare"}
-
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/common_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/epic_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_common_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_rare_loot"}
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/moderncity_epic_loot"}
-
 
 RLCraft to do:
 
@@ -95,32 +99,21 @@ RLCraft to do:
 - Kotlin said zombies that pick up player items don't drop the items o
 
 [NEEDS PRIORITY]
-- notkotlin has 16 hp only? Its gonna need more!
 paralysis overlaps with ice effect?
 iceandfire.cfg B:"Chain Lightning Paralysis"=true >:| (Copper and Lightning has it disabled)
 Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to more categories)?
-- add new armors in a bit more frequent
-- Wine recieved a buff?
 - move onplayertick check for mount to oninteractentity in dregora.zs
 - battletower cheese, respawn totem (mirror right click doesn't always activate)
 - change quest description on underneath
 - rare loot needs to be better (remove food)
 - increase luck required to get the legendary treasure
 - Pirate hat in pirate biome
-- give not kotlin stack of money looting 10
 - pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
-- Yale doesn't spawn correctly
 - COTH spread by players too?
-- make Dutchess Fantasy give no xp for the bucket trade
-- StoneHouseM (ruins) need to always spawn north
-- CastleModified needs to always spawn north
-- Lower cyclopses and above ground trolls spawns
 - Copy changelog from curseforge to github
-- Fix cyclops den chest loottable
 - fix /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:brutaltowers/epic_no_junk"}
 - buff silver armor (remove silver sickness 25% health remove)
 - (swine armor change famine armor description removes positive effects too)
-- Remove ahnk charm debuff from silver armor and change setbonus description to include
 - Replace Wool for Quilted wool in the OTG tree_dungeon
 
 [HIGH PRIORITY]
@@ -129,7 +122,6 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 - Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe
 - add sting & mithril chestplate to custom dragon chests
 - if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
-- check troll spawn height for individual biomes (add for all roofed forest)
 
 
 [LOW PRIORITY]
@@ -144,9 +136,7 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 - Yale doesn't spawn correctly
 - make exception list for ground entities lightning strike
 - Golden coins bunker fallout shelter thingy has empty chests
-- add goopacks to loot
-- herbalist still has dangerous entities
-- percentage of disarm instead of flat mirror damage
+- add goopacks to loot if hot/cold
 - Fix shader for amd issue.
 - Nether Shader > Too high contrast or brightness?
 - add defiled plants to shader movement stuff
