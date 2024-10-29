@@ -388,7 +388,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 
         var entityShooter as IEntityLivingBase = event.damageSource.getTrueSource();
         var randomInt = entityShooter.world.random.nextFloat(0, 100);
-        var randomArrow = entityShooter.world.random.nextFloat(0, 66);
+        var randomArrow = entityShooter.world.random.nextFloat(0, 65);
         var randomArrowLong = entityShooter.world.random.nextFloat(0, 22);
         var RandomArrowScript = ArrowArray[randomArrow];
         var RandomArrowScriptLong = ArrowArrayLong[randomArrowLong];
@@ -397,7 +397,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 
             if (randomInt <= 20) {
 
-                if (randomInt <= 5) {
+                if (randomInt <= 1) {
 
                     entityShooter.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.offhand(), RandomArrowScriptLong);
 

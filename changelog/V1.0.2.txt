@@ -125,6 +125,7 @@ Also was fixing 4x LightningBolt bonus vs parasites noted (needs to be added to 
 
 
 [LOW PRIORITY]
+- Add shiv script that makes it possible for shivaxi to get zapped by lightning after message "Divine Karma!" and cooldown of x seconds
 - move onplayertick check for mount to oninteractentity in dregora.zs
 - battletower cheese, respawn totem (mirror right click doesn't always activate)
 - change quest description on underneath

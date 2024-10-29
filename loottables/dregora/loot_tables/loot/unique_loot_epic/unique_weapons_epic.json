@@ -1,23 +1,9 @@
-//variedcommodities:mana
-//variedcommodities:macuahuitl
-//variedcommodities:bronze_scythe
-//variedcommodities:demonic_halberd
-//variedcommodities:demonic_trident
-//variedcommodities:emerald_battleaxe
-//variedcommodities:emerald_spear
-//variedcommodities:demonic_broadsword
-//variedcommodities:frost_broadsword
-//variedcommodities:rapier
-//iceandfire:troll_weapon.hammer
-//iceandfire:troll_weapon.axe
-//iceandfire:troll_weapon.column
-
 {
   "type": "minecraft:chest",
   "pools": [
     {
       "name": "Unique Epic Weapons",
-      "rolls": 10,
+      "rolls": 1,
       "entries": [
         {
           "type": "loot_table",
@@ -28,6 +14,19 @@
           "type": "loot_table",
           "name": "dregora:loot/unique_loot_epic/loot_bundle/gandalf_staff",
           "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:troll_weapon.hammer",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Get Banned!\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:advancedknockback", "levels": 3},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 1, "max": 2}, "operation": "addition", "slot": ["mainhand"]}]}
+          ]
         },
         {
           "type": "item",

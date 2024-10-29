@@ -128,7 +128,6 @@ global ArrowArray as IItemStack[] = [
 	<minecraft:tipped_arrow>.withTag({Potion: "srparasites:corro"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "srparasites:vira"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "srparasites:rage"}),
-	<minecraft:tipped_arrow>.withTag({Potion: "srparasites:debar"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:magic_inhibition"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:weight"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:lightning"}),
