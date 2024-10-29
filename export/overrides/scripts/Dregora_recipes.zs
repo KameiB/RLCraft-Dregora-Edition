@@ -27,8 +27,8 @@ recipes.addShaped("dregora51",<contenttweaker:coin_pile>,
   [<variedcommodities:coin_gold>,<variedcommodities:coin_gold>,<variedcommodities:coin_gold>],
   [<variedcommodities:coin_gold>,<variedcommodities:coin_gold>,<variedcommodities:coin_gold>]]);
 
-recipes.addShapeless("dregora52",<variedcommodities:satchel>,[<variedcommodities:coin_gold> * 63]);
-recipes.addShapeless("dregora55",<contenttweaker:coin_pile>,[<variedcommodities:coin_gold> * 9]);
+recipes.addShapeless("dregora52",<variedcommodities:coin_gold> * 63,[<variedcommodities:satchel>]);
+recipes.addShapeless("dregora55",<variedcommodities:coin_gold> * 9,[<contenttweaker:coin_pile>]);
 
 // Remove Bread recipe
 recipes.removeByRecipeName("minecraft:bread");
