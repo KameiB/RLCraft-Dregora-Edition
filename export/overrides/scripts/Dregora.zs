@@ -389,7 +389,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         var entityShooter as IEntityLivingBase = event.damageSource.getTrueSource();
         var randomInt = entityShooter.world.random.nextFloat(0, 100);
         var randomArrow = entityShooter.world.random.nextFloat(0, 65);
-        var randomArrowLong = entityShooter.world.random.nextFloat(0, 22);
+        var randomArrowLong = entityShooter.world.random.nextFloat(0, 20);
         var RandomArrowScript = ArrowArray[randomArrow];
         var RandomArrowScriptLong = ArrowArrayLong[randomArrowLong];
 

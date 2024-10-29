@@ -86,7 +86,6 @@ global ArrowArrayLong as IItemStack[] = [
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_spin"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "quark:long_mining_fatigue"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_magic_inhibition"}),
-	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_drown"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_vulnerable"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_rust"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_perplexity"}),
@@ -100,7 +99,6 @@ global ArrowArrayLong as IItemStack[] = [
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_hunger"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_wither"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "elenaidodge:long_sluggish"}),
-	<minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_poison"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "minecraft:long_weakness"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "elenaidodge:long_feeble"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:long_broken_magic_shield"})
