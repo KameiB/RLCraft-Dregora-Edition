@@ -15,7 +15,7 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
   [<biomesoplenty:gem:1>,<biomesoplenty:gem:1>,<biomesoplenty:gem:1>]]);
 
 <variedcommodities:satchel>.displayName = "Coin Purse";
-<mod_lavacow:satchel>.addTooltip("§6A purse filled with ancient coins!");
+<variedcommodities:satchel>.addTooltip("§6A purse filled with ancient coins!");
 
 recipes.addShaped("dregora54",<variedcommodities:satchel>,
  [[<minecraft:leather>,<contenttweaker:coin_pile>,<minecraft:leather>],
