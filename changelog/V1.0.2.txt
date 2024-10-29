@@ -72,6 +72,8 @@ RLCraft Done:
 - Lower cyclopses and above ground trolls spawns
 - check troll spawn height for individual biomes (add for all roofed forest)
 - Fixed cyclops den chest loottable
+- Threetowers lowerd natural spawn, added loot, fixed roof, made masking a bit better
+- P_TempleOfErolith - fixed wither skeleton spawners trying to spawn abyssalcraft mobs
 
 Loottables:
 - added simpledifficulty to villager chest fix
