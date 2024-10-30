@@ -37,6 +37,9 @@ RLCraft to do:
 - (swine armor change famine armor description removes positive effects too)
 
 [HIGH PRIORITY]
+- Check out Raid Backport
+- Level Requirements Reskillable all need :*
+- Make it so Compass display True North
 - Make sussyberian explode on death or spawn a creeper
 - Make mentalberian spawn an illusioner and/or give potion effect on death
 - Make it so flying entities keep flying
