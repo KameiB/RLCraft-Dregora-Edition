@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Pirate Outpost\",Lore:[\"Area Around x:-175 z:15950\"]}}"
+              "tag": "{display:{Name:\"Pirate Outpost\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-175 z:15950\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

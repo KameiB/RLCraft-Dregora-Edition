@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Medieval City, ORIGIN\",Lore:[\"Area Around x:-16972 z:5231\"]}}"
+              "tag": "{display:{Name:\"Medieval City, ORIGIN\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-16972 z:5231\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

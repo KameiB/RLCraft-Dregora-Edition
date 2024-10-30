@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Kingdom of Daeroc\",Lore:[\"Area Around x:-14900 z:-3800\"]}}"
+              "tag": "{display:{Name:\"Kingdom of Daeroc\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-14900 z:-3800\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

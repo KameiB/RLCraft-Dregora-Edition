@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Haunted Lands\",Lore:[\"x:-13477 z:-7683\"]}}"
+              "tag": "{display:{Name:\"Haunted Lands\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-13477 z:-7683\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

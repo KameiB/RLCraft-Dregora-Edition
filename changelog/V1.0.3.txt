@@ -1,5 +1,7 @@
 RLCraft Done:
 - fixed requirements for better nether tools
+- Level Requirements Reskillable all need :*
+
 
 Loottables:
 - added simpledifficulty to villager chest fix
@@ -37,9 +39,9 @@ RLCraft to do:
 - (swine armor change famine armor description removes positive effects too)
 
 [HIGH PRIORITY]
+- Mirror does not properly work and keeps teleporting player on server to random position.
 - Check out Raid Backport
-- Level Requirements Reskillable all need :*
-- Make it so Compass display True North
+- Make it so Compass display True biome names
 - Make sussyberian explode on death or spawn a creeper
 - Make mentalberian spawn an illusioner and/or give potion effect on death
 - Make it so flying entities keep flying

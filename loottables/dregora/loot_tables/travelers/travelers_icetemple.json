@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Temple of Winter\",Lore:[\"Area Around x:14273 z:7038\"]}}"
+              "tag": "{display:{Name:\"Temple of Winter\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:14273 z:7038\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

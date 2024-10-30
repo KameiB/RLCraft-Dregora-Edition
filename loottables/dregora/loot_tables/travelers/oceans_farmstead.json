@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Farmstead\",Lore:[\"x:-15384 z:-3207\"]}}"
+              "tag": "{display:{Name:\"Farmstead\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-15384 z:-3207\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

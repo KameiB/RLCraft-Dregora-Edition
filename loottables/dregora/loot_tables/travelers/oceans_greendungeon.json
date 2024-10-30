@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Dungeons of the Beasts\",Lore:[\"x:-723 z:17155\"]}}"
+              "tag": "{display:{Name:\"Dungeons of the Beasts\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-723 z:17155\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

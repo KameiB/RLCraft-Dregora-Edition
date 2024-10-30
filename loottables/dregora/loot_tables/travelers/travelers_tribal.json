@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribal Village\",Lore:[\"x:-2813 z:16534\"]}}"
+              "tag": "{display:{Name:\"Tribal Village\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-2813 z:16534\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

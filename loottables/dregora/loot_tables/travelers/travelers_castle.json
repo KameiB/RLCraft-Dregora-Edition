@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Castle Ruins\",Lore:[\"x:-14202 z:-6004\"]}}"
+              "tag": "{display:{Name:\"Castle Ruins\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14202 z:-6004\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

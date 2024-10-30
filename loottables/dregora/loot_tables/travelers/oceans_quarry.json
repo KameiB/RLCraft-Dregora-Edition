@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Quarry\",Lore:[\"x:-16254 z:-4887\"]}}"
+              "tag": "{display:{Name:\"Quarry\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-16254 z:-4887\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Resourceful Mountains\",Lore:[\"x:-14881 z:-7754\"]}}"
+              "tag": "{display:{Name:\"Resourceful Mountains\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14881 z:-7754\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

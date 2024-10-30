@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Haunted Church\",Lore:[\"x:-17011 z:2659\"]}}"
+              "tag": "{display:{Name:\"Haunted Church\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-17011 z:2659\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
