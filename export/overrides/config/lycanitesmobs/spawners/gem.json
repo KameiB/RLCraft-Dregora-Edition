@@ -5,7 +5,7 @@
   "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
-  "ignoreBiomes": false,
+  "ignoreBiomes": true,
   "ignoreCollision": true,
   "ignoreLightLevel": true,
   "ignoreGroupLimit": true,
