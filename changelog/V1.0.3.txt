@@ -37,6 +37,9 @@ RLCraft to do:
 - (swine armor change famine armor description removes positive effects too)
 
 [HIGH PRIORITY]
+- Make sussyberian explode on death or spawn a creeper
+- Make mentalberian spawn an illusioner and/or give potion effect on death
+- Make it so flying entities keep flying
 - increase temperate biomes (and ominous forest) and decrease desert biome rarity
 - like when the dragon grabs you and you used recalls/mirron and then logged he would dissapear it happened on a server
 - Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe
