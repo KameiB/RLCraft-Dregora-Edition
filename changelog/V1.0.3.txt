@@ -39,6 +39,8 @@ RLCraft to do:
 - (swine armor change famine armor description removes positive effects too)
 
 [HIGH PRIORITY]
+- Lower temperature in desert biomes by additional 0.2-0.1
+- Fix Dungeon Redstone pistons
 - Mirror does not properly work and keeps teleporting player on server to random position.
 - Check out Raid Backport
 - Make it so Compass display True biome names
