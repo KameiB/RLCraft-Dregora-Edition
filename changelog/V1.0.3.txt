@@ -1,5 +1,5 @@
 RLCraft Done:
-
+- fixed requirements for better nether tools
 
 Loottables:
 - added simpledifficulty to villager chest fix
