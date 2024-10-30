@@ -300,6 +300,8 @@ recipes.remove(<mujmajnkraftsbettersurvival:itembronzedagger>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemdragonbonedagger>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemjunglechitindagger>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemdesertchitindagger>);
+recipes.remove(<mujmajnkraftsbettersurvival:itemjunglestingernunchaku>);
+recipes.remove(<mujmajnkraftsbettersurvival:itemdesertstingernunchaku>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemdragonbonenunchaku>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemfiredragonbonespear>);
 recipes.remove(<mujmajnkraftsbettersurvival:itemicedragonbonespear>);
@@ -1436,9 +1438,17 @@ recipes.addShaped("lolarecipe67",<mujmajnkraftsbettersurvival:itemjunglechitinnu
  [[null,<quark:chain>,null],
   [<iceandfire:myrmex_jungle_chitin>,null,<iceandfire:myrmex_jungle_chitin>]]);
 
+recipes.addShaped("lolarecipe67s",<mujmajnkraftsbettersurvival:itemjunglestingernunchaku>,
+ [[null,<quark:chain>,null],
+  [<iceandfire:myrmex_jungle_chitin>,null,<iceandfire:myrmex_stinger>]]);
+
 recipes.addShaped("lolarecipe68",<mujmajnkraftsbettersurvival:itemdesertchitinnunchaku>,
  [[null,<quark:chain>,null],
   [<iceandfire:myrmex_desert_chitin>,null,<iceandfire:myrmex_desert_chitin>]]);
+
+recipes.addShaped("lolarecipe68s",<mujmajnkraftsbettersurvival:itemdesertstingernunchaku>,
+ [[null,<quark:chain>,null],
+  [<iceandfire:myrmex_desert_chitin>,null,<iceandfire:myrmex_stinger>]]);
 
 recipes.addShaped("lolarecipe69",<iceandfire:earplugs>,
  [[<minecraft:wooden_button>|<quark:spruce_button>|<quark:birch_button>|<quark:jungle_button>|<quark:acacia_button>|<quark:dark_oak_button>,<minecraft:wooden_button>|<quark:spruce_button>|<quark:birch_button>|<quark:jungle_button>|<quark:acacia_button>|<quark:dark_oak_button>]]);
