@@ -114,7 +114,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
     if (isNull(event.damageSource.trueSource.definition.id)) {return;}
 
     // nerf succors
-    if ((event.damageSource.trueSource.definition.id) == "srparasites:bogle") {
+    if (((event.damageSource.trueSource.definition.id) == "srparasites:bogle") || ((event.damageSource.trueSource.definition.id) == "srparasites:succor")) {
 
         //DMGmultiply 0.05
         event.amount = event.amount * 0.05;
