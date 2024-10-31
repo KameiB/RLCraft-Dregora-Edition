@@ -15,6 +15,7 @@ RLCraft to do:
 - change Leacher to Leecher
 
 [NEEDS PRIORITY]
+- levelup needs sand/dirt added to treasure hunter from bop
 - Add Remote check to scripts where possible & test these.
 - battletower cheese, respawn totem (mirror right click doesn't always activate)
 - change quest description on underneath
