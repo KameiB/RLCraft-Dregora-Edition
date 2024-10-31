@@ -12,7 +12,7 @@ Loottables:
 
 RLCraft to do:
 - scripts need to be moved to their own mod because CT is slower
-
+- change Leacher to Leecher
 
 [NEEDS PRIORITY]
 - Add Remote check to scripts where possible & test these.
