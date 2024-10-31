@@ -111,11 +111,9 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {"attribute": "generic.maxHealth", "name": "armorToughness", "amount": -0.85, "operation": "multiply_base", "slot": ["offhand"]},
-                {"attribute": "generic.attackSpeed", "name": "attackSpeed", "amount": 0.05, "operation": "addition", "slot": ["offhand"]},
                 {"attribute": "generic.movementSpeed", "name": "attackDamage", "amount": 0.05, "operation": "multiply_base", "slot": ["offhand"]},
                 {"attribute": "generic.attackDamage", "name": "attackDamage", "amount": 5, "operation": "addition", "slot": ["offhand"]},
                 {"attribute": "generic.maxHealth", "name": "armorToughness", "amount": -0.85, "operation": "multiply_base", "slot": ["mainhand"]},
-                {"attribute": "generic.attackSpeed", "name": "attackSpeed", "amount": 0.05, "operation": "addition", "slot": ["mainhand"]},
                 {"attribute": "generic.movementSpeed", "name": "attackDamage", "amount": 0.05, "operation": "multiply_base", "slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage", "name": "attackDamage", "amount": 5, "operation": "addition", "slot": ["mainhand"]}
               ]
@@ -157,17 +155,8 @@
                   ]
                 },
                 {
-                  "attribute": "generic.attackSpeed",
-                  "name": "attackSpeed",
-                  "amount": -3.9,
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
-                },
-                {
                   "attribute": "generic.movementSpeed",
-                  "name": "attackSpeed",
+                  "name": "movementSpeed",
                   "amount": {
                     "min": -0.01,
                     "max": -0.05
@@ -237,17 +226,8 @@
                   ]
                 },
                 {
-                  "attribute": "generic.attackSpeed",
-                  "name": "attackSpeed",
-                  "amount": 1,
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
-                },
-                {
                   "attribute": "generic.movementSpeed",
-                  "name": "attackSpeed",
+                  "name": "movementSpeed",
                   "amount": {
                     "min": 0.01,
                     "max": 0.02
@@ -286,7 +266,7 @@
               "modifiers": [
                 {
                   "attribute": "generic.knockbackResistance",
-                  "name": "attackSpeed",
+                  "name": "movementSpeed",
                   "amount": 1,
                   "operation": "addition",
                   "slot": [

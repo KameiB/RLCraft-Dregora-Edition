@@ -38,18 +38,6 @@
                   "slot": [
                     "mainhand"
                   ]
-                },
-                {
-                  "attribute": "generic.attackSpeed",
-                  "name": "attackSpeed",
-                  "amount": {
-                    "min": 0.1,
-                    "max": 0.5
-                  },
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
                 }
               ]
             }
@@ -79,18 +67,6 @@
                   "amount": {
                     "min": 0.01,
                     "max": 0.1
-                  },
-                  "operation": "multiply_base",
-                  "slot": [
-                    "offhand"
-                  ]
-                },
-                {
-                  "attribute": "generic.attackSpeed",
-                  "name": "luck",
-                  "amount": {
-                    "min": 0.01,
-                    "max": 0.05
                   },
                   "operation": "multiply_base",
                   "slot": [

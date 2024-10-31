@@ -20,7 +20,6 @@
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:supremebaneofarthropods"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:parry"]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.5}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.08}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.5}], "modifiers": [{"attribute": "generic.attackSpeed", "name": "attackSpeed", "amount": {"min": 0.1, "max": 0.08}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]}
           ]
         }

@@ -195,7 +195,6 @@
               "modifiers": [
                 {"attribute": "generic.attackDamage", "name": "More Knockback", "amount": {"min": 0.4, "max": 1.0}, "operation": "addition", "slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth", "name": "Less Health", "amount": {"min": -4.0, "max": -10.0}, "operation": "addition", "slot": ["mainhand"]},
-                {"attribute": "generic.attackSpeed", "name": "More Attack Speed", "amount": {"min": 0.01, "max": 0.06}, "operation": "addition", "slot": ["mainhand"]},
                 {"attribute": "generic.movementSpeed", "name": "More Movement Speed", "amount": {"min": 0.02, "max": 0.06}, "operation": "addition", "slot": ["mainhand"]}
               ]
             }

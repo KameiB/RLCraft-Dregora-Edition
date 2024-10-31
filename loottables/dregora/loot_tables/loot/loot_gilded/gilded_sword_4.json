@@ -42,7 +42,7 @@
                 },
                 {
                   "attribute": "generic.armor",
-                  "name": "attackSpeed",
+                  "name": "movementSpeed",
                   "amount": {
                     "min": -0.01,
                     "max": -0.1

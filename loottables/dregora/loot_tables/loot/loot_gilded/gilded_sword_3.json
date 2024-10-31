@@ -39,18 +39,6 @@
                   "slot": [
                     "mainhand"
                   ]
-                },
-                {
-                  "attribute": "generic.attackSpeed",
-                  "name": "attackSpeed",
-                  "amount": {
-                    "min": 0.1,
-                    "max": 0.5
-                  },
-                  "operation": "addition",
-                  "slot": [
-                    "mainhand"
-                  ]
                 }
               ]
             }
