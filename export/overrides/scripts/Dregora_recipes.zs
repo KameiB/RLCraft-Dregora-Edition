@@ -14,6 +14,9 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
   [<biomesoplenty:gem:1>,<biomesoplenty:gem:1>,<biomesoplenty:gem:1>],
   [<biomesoplenty:gem:1>,<biomesoplenty:gem:1>,<biomesoplenty:gem:1>]]);
 
+recipes.addShaped("saw_bookshelf",<minecraft:book>*3,
+[[<ore:toolSaw>,<ore:bookshelf>]]);
+
 <variedcommodities:satchel>.displayName = "Coin Purse";
 <variedcommodities:satchel>.addTooltip("§6A purse filled with ancient coins!");
 
