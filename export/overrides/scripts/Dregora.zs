@@ -156,7 +156,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 // Berries nerf
 events.onEntityLivingUseItemFinish(function(event as Finish){
 
-    if event.player.world.isRemote() {return;}
+    if event.entity.world.isRemote() {return;}
 
     if (event.item.definition.id == "biomesoplenty:berries") {
 

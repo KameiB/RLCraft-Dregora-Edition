@@ -3,11 +3,11 @@ Fixed:
 - remove mana from jei blacklist and give it a clear description
 - remove toolbelts from crates in brutal tower
 - Flagship structure masked and fixed log spam
+- Arachno needs Arachna as name in brutal tower
 
 RLCraft to do:
-- Arachno needs Arachna as name in brutal tower
 - scripts need to be moved to their own mod because CT is slower
-- Add brutal biomes to inner circles
+- Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions
 
 
 RLCraft to do:
