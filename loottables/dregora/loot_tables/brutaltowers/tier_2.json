@@ -86,17 +86,17 @@
         {
           "type": "item",
           "name": "waystones:return_scroll",
-          "weight": 5
+          "weight": 1
         },
         {
           "type": "item",
           "name": "waystones:bound_scroll",
-          "weight": 5
+          "weight": 1
         },
         {
           "type": "item",
           "name": "waystones:warp_scroll",
-          "weight": 5
+          "weight": 1
         },
         {
           "type": "item",
@@ -122,6 +122,26 @@
           "type": "item",
           "name": "scalinghealth:healingitem",
           "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "firstaid:morphine",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "roughtweaks:bandage",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "firstaid:bandage",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "firstaid:plaster",
+          "weight": 3
         },
         {
           "type": "item",
