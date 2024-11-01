@@ -136,6 +136,21 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         }
     }
 
+    if event.damageSource.trueSource.world.dimension == 3 {
+
+        // Lower DMG of parasites in underneath dimension
+        var BiomeName = event.damageSource.trueSource.world.getBiome(event.entity.getPosition3f()).name;
+        for Biome in ParasiteBuffBiomes {
+            if (BiomeName == Biome) {
+                if !(event.damageSource.trueSource.definition.id == "srparasites:succor") && (event.damageSource.trueSource.definition.id has "srparasites") {
+
+                    //DMGMultiply 0.8
+                    event.amount = event.amount * 0.8;
+                }
+            }
+        }
+    }
+
 });
 
 // Berries nerf

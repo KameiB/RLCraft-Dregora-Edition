@@ -1,0 +1,103 @@
+
+RLCraft to do:
+- scripts need to be moved to their own mod because CT is slower
+- remove mana from jei blacklist and give it a clear description
+- remove toolbelts from crates in brutal tower
+- Add brutal biomes to inner circles
+- cooldown effect on all hotbar slots is a bit op in underneath
+- lower amount of gravity mobs in brutal tower
+
+[NEEDS PRIORITY]
+- increase luck required to get the legendary treasure
+- Temperature goo pack in loottable, check heat biome
+- add specialized loot in unique structures (pirate hat in pirate outpost, pumpkins for cult, etc)
+- Particle lags from parasite hosts
+- lycanites spawner spawns unburied or dread in cold biomes when digging dirt 0.05 chance
+- levelup needs sand/dirt added to treasure hunter from bop
+- Add Remote check to scripts where possible & test these.
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- change quest description on underneath
+- increase luck required to get the legendary treasure
+- Pirate hat in pirate biome
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
+- COTH spread by players too?
+- (swine armor change famine armor description removes positive effects too)
+
+[HIGH PRIORITY]
+- Lower temperature in desert biomes by additional 0.2-0.1
+- Fix Dungeon Redstone pistons
+- Check out Raid Backport
+- Make it so Compass display True biome names
+- Make sussyberian explode on death or spawn a creeper
+- Make mentalberian spawn an illusioner and/or give potion effect on death
+- Make it so flying entities keep flying
+- increase temperate biomes (and ominous forest) and decrease desert biome rarity
+- like when the dragon grabs you and you used recalls/mirron and then logged he would dissapear it happened on a server
+- Fix coin purse unpack only consuming 1 coin and leaving 63 coins making it a big dupe
+- if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
+
+
+[LOW PRIORITY]
+- Add shiv script that makes it possible for shivaxi to get zapped by lightning after message "Divine Karma!" and cooldown of x seconds
+- move onplayertick check for mount to oninteractentity in dregora.zs
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- change quest description on underneath
+- rare loot needs to be better (remove food)
+- increase luck required to get the legendary treasure
+- Pirate hat in pirate biome
+- pumpkin cult has special pumpkin hat (add absurd amount of pumpkin)
+- Yale doesn't spawn correctly
+- make exception list for ground entities lightning strike
+- Golden coins bunker fallout shelter thingy has empty chests
+- add goopacks to loot if hot/cold
+- Fix shader for amd issue.
+- Nether Shader > Too high contrast or brightness?
+- add defiled plants to shader movement stuff
+- skeleton weird ai on soulsand
+- Question for experts here. When I make a world in Dregora and and die (HC world) I try to create new world and I am getting Error Not enough biome id's available to add all dimensions
+- all entities are nerfed?
+- lower regions have quark blocks, see to disaqble or lower y level
+- Parkour dungeon double plants turn to half block sunflowers when trying to destroy the block.
+- chests at dragon dens are broken.
+- Wiki link hitbox is too small in menu on dragon scene (possisbly others too).
+- Zombies are in broken epic siege? < Lower damage zombies and laggy ai - 1.5 dmg from 3.5 < EpicSiege
+- Make curse break with caveats more common
+- squids spawn in ooze (Check all liquids from lycanites)
+- v_bunker with dilapitated rooms and ghoullified sections
+- bunkers and fallout shelters with entities in there called deathclaws with a 200 health and oneshotting you with 60dmg like blight darkling
+- add more waystones to Dregora villages and the fallout shelter outpost > specifically Trader_Silo (They sometimes refuse to spawn in vanilla villages as well)
+- keybinds shift/c
+- creepers blow up waystones?
+- XzeroAir: Find Broken Gun parts, Collect them all, Restore them, craft it into a new gun, and when you use it, It just explodes in your face killing you
+XzeroAir: When the Gun Explodes and kills you, it should give you an Quest, "I should have taken lessons"
+- supress dimstack: the chunk generator com.pg85.otg.forge.generator.OTGCHunkGenerator did not trigger net.minecraftforge.event
+- saplings have the stone texture
+- CSetBonus3 (chad solid core in setbonuses)
+- mod_lavacow:burntovipositor.display double in Dregora_Recipes.zs
+- Death messages?
+- https://github.com/PG85/OpenTerrainGenerator/blob/1.12-OTG%2B/common/src/main/java/com/pg85/otg/customobjects/structures/CustomStructureCache.java line 257 (needs cancel population instead of runtimeexception?
+- add increased Spriggan chance to bop plants (It feels low.. Might be cool to increase it for flower plants to a higher number if possible compared to just    grass and dead plants)
+- check potion skeleton chance (kinda low chance atm?)
+- Lycanite spawns feel quite low in comparison to vanilla rl (might be just me and this doesn't include the passive ones)
+- Add RNG to BOP Berries > Look at real food poisoning values as potion effects and add some low chance good effects (Berry Roulette)
+- Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc. Sneezing Sword is an example
+- Leaves on atleast the shaders have an xray issue.
+- Move back wizard tower to villages or atleast add a loottable to it. (feels out of place and is often incredibly useless except for having a bed)
+- Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo)
+- Lycanite mobs kinda lost their identity. (it feels like they don't spawn in the right spot)
+- Red Maple tree is missing the NBT so leaves stay in the air after harvesting the tree ( Flower Island Biome)
+- Add funny but rare arrow of return trap at the end of a dungeon. (Buh-BYE!)
+- Structure "PirateShip.bo4" has an issue that the latern at the front of the ship generates in the wrong direction (The Stairs bug)
+- Indian Dregora Village (with the totempoles etc) still has a building with the stairs bug being turned in the wrong direction.
+- Overgrown Cliffs Edge ID407 biome has the annoying water cutoff issue with Deep Polluted Ocean ID973 and Polluted Ocean ID31
+- Cold Desert ID698 biome has watercutoff issue ^
+- Cold Desert ID698 biome spawns Deathworms > Can't move because of the snow and such and feels out of place
+- Volcanic Beach ID393 has an overspawn of Rock bo4's
+- Ancient Rainforest Isle RM ID548 Trolls spawn outside in daylight under canopy
+- add Baublui (JB Redwards) to modpack to fix bauble dissapearing on death.
+- Banshee AOE explosion make all bodyparts take hits instead of one bodypart and destroy blocks option.
+- gorgon possible blacklist for aggro on mobs
+- jei earth blacklist (bop)
+- Temperature goo pack in loottable, check heat biome
+- lycanite boss in nether still goes through roof, lower with incontrol.
+- Better Survival config regenerated default enchant level configs. Config switched to Title Case setting names.
