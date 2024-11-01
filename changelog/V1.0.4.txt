@@ -11,6 +11,7 @@ RLCraft to do:
 
 
 RLCraft to do:
+- unnerf battletowers
 - scripts need to be moved to their own mod because CT is slower
 - remove mana from jei blacklist and give it a clear description
 - remove toolbelts from crates in brutal tower

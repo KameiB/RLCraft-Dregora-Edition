@@ -544,7 +544,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Umbrium Spear\",Lore:[\"This Saber comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+100% Regret\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Umbrium Spear\",Lore:[\"This Spear comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+100% Regret\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
