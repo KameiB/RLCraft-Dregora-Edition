@@ -1641,7 +1641,7 @@ events.onPlayerTick(function(event as PlayerTickEvent){
                 }
             }
 
-            else if (event.player.world.time) > (event.player.nbt.ForgeData.lightning_warning)  {
+            else if ((event.player.world.time) > (event.player.nbt.ForgeData.lightning_warning) && silvercount > 0)  {
 
                 // warning time cooldown is over, strike with lightning
                 event.player.addPotionEffect(<potion:potioncore:lightning>.makePotionEffect(1, 0));
