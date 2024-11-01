@@ -1,3 +1,5 @@
+-Flagship structure masked and fixed log spam
+
 
 RLCraft to do:
 - scripts need to be moved to their own mod because CT is slower
