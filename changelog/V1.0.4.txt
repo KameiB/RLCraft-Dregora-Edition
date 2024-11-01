@@ -2,11 +2,20 @@ Fixed:
 - cooldown effect on all hotbar slots is a bit op in underneath
 - remove mana from jei blacklist and give it a clear description
 - remove toolbelts from crates in brutal tower
+- Flagship structure masked and fixed log spam
 
 RLCraft to do:
 - Arachno needs Arachna as name in brutal tower
 - scripts need to be moved to their own mod because CT is slower
 - Add brutal biomes to inner circles
+
+
+RLCraft to do:
+- scripts need to be moved to their own mod because CT is slower
+- remove mana from jei blacklist and give it a clear description
+- remove toolbelts from crates in brutal tower
+- Add brutal biomes to inner circles
+- cooldown effect on all hotbar slots is a bit op in underneath
 - lower amount of gravity mobs in brutal tower
 
 [NEEDS PRIORITY]
