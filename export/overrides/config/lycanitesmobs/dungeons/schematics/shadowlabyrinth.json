@@ -12,14 +12,6 @@
         0
       ],
       "dimensionListType": "whitelist",
-      "biomeIds": [
-        "openterraingenerator:overworld_abyssal_rift",
-        "openterraingenerator:abyssal_rift",
-        "Abyssal Rift",
-        "srparasites:biome_parasite",
-        "Parasite Biome"
-      ],
-      "biomeIdListType": "blacklist",
       "biomeTags": [
         "spooky",
         "mountain",
@@ -29,6 +21,20 @@
         "-void",
         "-abyssal"
       ],
+      "biomes": [
+        "-canyon",
+        "-parasite",
+        "-abyssal"
+      ],
+      "biomeIds": [
+        "openterraingenerator:overworld_abyssal_rift",
+        "openterraingenerator:overworld_grey_abyss",
+        "openterraingenerator:overworld_grey_abyss_border",
+        "openterraingenerator:overworld_grey_abyss_pit",
+        "openterraingenerator:overworld_grey_abyss_pit_border",
+        "srparasites:biome_parasite"
+      ],
+      "biomeIdListType": "blacklist",
       "biomeTagListType": "whitelist"
     }
   ],
