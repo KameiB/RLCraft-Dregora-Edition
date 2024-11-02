@@ -4,6 +4,7 @@ Fixed:
 - remove toolbelts from crates in brutal tower
 - Flagship structure masked and fixed log spam
 - Arachno needs Arachna as name in brutal tower
+- P_LargeShip generating 1 block below water level
 
 RLCraft to do:
 - mount is instance of living entity check in abyssal rift on mount (otherwise triggers at stairs too!)
