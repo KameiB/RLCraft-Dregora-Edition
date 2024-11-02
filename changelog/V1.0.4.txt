@@ -5,6 +5,7 @@ Fixed:
 - Flagship structure masked and fixed log spam
 - Arachno needs Arachna as name in brutal tower
 - P_LargeShip generating 1 block below water level
+- fixed dragon saddle recipe not using all of lightning dragon scales
 
 RLCraft to do:
 - mount is instance of living entity check in abyssal rift on mount (otherwise triggers at stairs too!)
