@@ -166,6 +166,8 @@ Removed from ToDo for various reasons, may be revisited later.
 + Defiled Lands Biome remove pixie villages replace with Vex Villages
 
 Future Todo:
++ Boss xEmtek
++ Add SussyWyrm (explosive bookwyrn)
 + Add lightning to spawn with charged emerald? (Can do with 0,0 structure revamp)
 + re-doing the 0,0 structure to be a dungeon with a portal at the end leading to a new dungeon with a portal at the end (and so on) with branching teleport areas connecting different areas together
 + Creeper spawner trap fast spawning

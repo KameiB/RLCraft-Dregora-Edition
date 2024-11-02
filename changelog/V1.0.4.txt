@@ -6,6 +6,8 @@ Fixed:
 - Arachno needs Arachna as name in brutal tower
 
 RLCraft to do:
+- mount is instance of living entity check in abyssal rift on mount (otherwise triggers at stairs too!)
+- lightning (conductivity) script is not fully ready, needs more testing (ran out of time)
 - scripts need to be moved to their own mod because CT is slower
 - Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions
 
