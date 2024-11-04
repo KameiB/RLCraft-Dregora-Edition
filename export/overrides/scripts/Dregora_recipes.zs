@@ -6,8 +6,13 @@ print("Dregora Recipe Script starting!");
 //Normal recipe adjustments
 //=================================
 
-recipes.remove(<biomesoplenty:gem_block:1>);
+//Potion Of Lightning Resistance
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <iceandfire:lightning_lily>, <minecraft:potion>.withTag({Potion: "xat:lightning_resistance"}));
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "xat:lightning_resistance"}), <minecraft:gunpowder>, <minecraft:splash_potion>.withTag({Potion: "xat:lightning_resistance"}));
+brewing.addBrew(<minecraft:splash_potion>.withTag({Potion: "xat:lightning_resistance"}), <minecraft:dragon_breath>, <minecraft:lingering_potion>.withTag({Potion: "xat:lightning_resistance"}));
 
+
+recipes.remove(<biomesoplenty:gem_block:1>);
 // Re-add Diomesoplenty ruby
 recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
  [[<biomesoplenty:gem:1>,<biomesoplenty:gem:1>,<biomesoplenty:gem:1>],
