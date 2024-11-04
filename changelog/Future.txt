@@ -166,6 +166,8 @@ Removed from ToDo for various reasons, may be revisited later.
 + Defiled Lands Biome remove pixie villages replace with Vex Villages
 
 Future Todo:
++ Observers (beholders?)
++ Colin lore change & expansion
 + Boss xEmtek
 + Add SussyWyrm (explosive bookwyrn)
 + Add lightning to spawn with charged emerald? (Can do with 0,0 structure revamp)
