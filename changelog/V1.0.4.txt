@@ -12,7 +12,12 @@ RLCraft to do:
 - lightning (conductivity) script is not fully ready, needs more testing (ran out of time)
 - scripts need to be moved to their own mod because CT is slower
 - Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions
-
+- Dregora doomtower and broken battle towers do not ignore light
+- add rabbit spawns to all hyppogryph spawns
+- fix floating rivers
+- curse_break or mending removing the sussyberian tag with a 30% success rate
+- Dragons still spawn in dearoc village (also blacklist lycanite dungeons in daeroc biomes + origin biomes)
+- New enchanting table recipe doesnt work for some people, perhaps because the wither skeleton head needs to have :*
 
 RLCraft to do:
 - unnerf battletowers

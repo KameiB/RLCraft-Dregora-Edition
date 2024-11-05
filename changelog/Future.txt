@@ -166,7 +166,8 @@ Removed from ToDo for various reasons, may be revisited later.
 + Defiled Lands Biome remove pixie villages replace with Vex Villages
 
 Future Todo:
-+ Observers (beholders?)
++ Possibly
++ Observers (beholders?) wont spawn in Dregora?
 + Colin lore change & expansion
 + Boss xEmtek
 + Add SussyWyrm (explosive bookwyrn)
