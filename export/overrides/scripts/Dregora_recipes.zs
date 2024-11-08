@@ -435,21 +435,34 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 //Add New trading system items description & lore
 <variedcommodities:coin_stone>.displayName = "Brutal Fragment";
 <variedcommodities:coin_stone>.addTooltip(format.gold("Fragments of a brutal coins found in brutal towers, can be repaired "));
+
 <biomesoplenty:terrestrial_artifact>.addTooltip(format.gold("Brimming with the essence of life & purity, can be traded with most Herbalist to craft biome purifiers."));
+
 <variedcommodities:coin_gold>.displayName = "Ancient Coins";
 <variedcommodities:coin_gold>.addTooltip(format.gold("Treasure among Topographers in Outposts & the odd villager, usually found in ancient structures such as maintenance shafts and cities."));
+
 <variedcommodities:ancient_coin>.displayName = "Brutal Coins";
 <variedcommodities:ancient_coin>.addTooltip(format.gold("The rarest of treasures, found in brutal towers surrounded by gray fog and traded for exceptional items with Topographers in outposts & most Herbalist rarely found in cabins situated in plains and flower fields."));
+
 <variedcommodities:lead_pipe>.displayName = "Ancient Artifact";
 <variedcommodities:lead_pipe>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
+<variedcommodities:lead_pipe>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+
 <variedcommodities:crowbar>.displayName = "Ancient Artifact";
 <variedcommodities:crowbar>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
+<variedcommodities:crowbar>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+
 <variedcommodities:hammer>.displayName = "Ancient Artifact";
 <variedcommodities:hammer>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
+<variedcommodities:hammer>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+
 <variedcommodities:wrench>.displayName = "Ancient Artifact";
 <variedcommodities:wrench>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
+<variedcommodities:wrench>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+
 <variedcommodities:pipe_wrench>.displayName = "Ancient Artifact";
 <variedcommodities:pipe_wrench>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
+<variedcommodities:pipe_wrench>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
 
 //Add the Tool Used Description for Barrier Blocks:
 <dimstack:bedrock:7>.addTooltip(format.gold("Can be destroyed with an §4‡ §6§lBrutal Artifact - Theta§r §4‡§r equipped in offhand."));

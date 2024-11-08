@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "name": "MainLoot",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+            {
+              pages:
+              [
+                \"[{\\\"text\\\":\\\"\n  \u00A7l\u00A74 Protocol Transfer \n\u00A7r\n\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n\u00A74 ████\u00A7r████\u00A74████\n \u00A74████\u00A7r████\u00A74████\u00A7r\n\u00A74 ████\u00A7r████\u00A74████\\\"}]\",
+              \"[{\\\"text\\\":\\\"\u00A7kWe have valid reasons to suscpect traveler one initiated protocol transfer. Secure Point Brutal and Labs. \\\"}]\",
+              \"[{\\\"text\\\":\\\"\u00A7kHigh probability of subjects adaptability in corrupted environment due to protocol retainer\\\"}]\"
+            ],
+              title:\"Handbook\",
+              author:\"Red Clan\",
+              display:{Lore:[\"Protocol Transfer\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+              pages:
+              [
+              \"[{\\\"text\\\":\\\"\n  \u00A7l\u00A74 Protocol Retainer \n\u00A7r\n\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n\u00A74 ████\u00A7r████\u00A74████\n \u00A74████\u00A7r████\u00A74████\u00A7r\n\u00A74 ████\u00A7r████\u00A74████\\\"}]\",
+              \"[{\\\"text\\\":\\\"\u00A7kUpon liquidation transfer protocol is believed to initiate implanting subject with memories of preceding subject.\\\"}]\",
+              \"[{\\\"text\\\":\\\"\u00A7kIntel on protocol retainer is your second highest priority after safekeeping this information from the subject.\\\"}]\",
+              \"[{\\\"text\\\":\\\"\u00A7kSubject can be any entity but mainly appears as humanoid.\\\"}]\"
+              ],
+              title:\"Handbook\",
+              author:\"Red Clan\",
+              display:{Lore:[\"Protocol Transfer\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

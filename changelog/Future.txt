@@ -166,7 +166,13 @@ Removed from ToDo for various reasons, may be revisited later.
 + Defiled Lands Biome remove pixie villages replace with Vex Villages
 
 Future Todo:
-+ Possibly
+https://www.curseforge.com/minecraft/mc-mods/deeper-depths
+https://www.curseforge.com/minecraft/mc-mods/end-expansion-the-lamented-islands (end expansion)
+https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus (instead of familair fauna?)
++ Add Weather mod to the LC dimension
++ make days longer using a mod that adds ticks to days (not freeze time)
++ Make brutal tower special armors generate more often, add their repair materials to nuclear zones, make it so masterful negates radiation fully
++ make new radiated zones contain the big bunkers & areas where you can get the repair materials
 + Observers (beholders?) wont spawn in Dregora?
 + Colin lore change & expansion
 + Boss xEmtek

@@ -1781,7 +1781,7 @@
           "name": "variedcommodities:wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"This may be of interest to the Topographers in villager outposts.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1810,7 +1810,7 @@
           "name": "variedcommodities:crowbar",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"This may be of interest to the Topographers in villager outposts.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1839,7 +1839,7 @@
           "name": "variedcommodities:pipe_wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"This may be of interest to the Topographers in villager outposts.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2294,7 +2294,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",Lore:[\"These may be of interest to the Topographers in villager outposts\"]},HideFlags:2}"
+              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"
             },
             {"function": "set_count","count": {"min": 1,"max": 3}},
             {

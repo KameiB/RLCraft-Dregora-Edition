@@ -136,7 +136,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         }
     }
 
-    if event.damageSource.trueSource.world.dimension == 3 {
+        if event.damageSource.trueSource.world.dimension == 3 {
 
         // Lower DMG of parasites in underneath dimension
         var BiomeName = event.damageSource.trueSource.world.getBiome(event.entity.getPosition3f()).name;
@@ -224,7 +224,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 
                 }
             }
-			
+
 			if (isNull(event.damageSource.trueSource)) {return;}
 			if (!(event.damageSource.trueSource instanceof IEntityLivingBase)) {return;}
 			var player as IEntityLivingBase = event.damageSource.trueSource;
@@ -246,7 +246,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 					player.attackEntityFrom(MAGIC, player.health * 0.9 );
 					event.cancel();
 
-				} 
+				}
 				else {
 					player.attackEntityFrom(MAGIC, event.amount);
 					event.cancel();
@@ -509,7 +509,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
     }
 
     if ((event.target.customName == "Mentalberian") && (event.target.definition.id == "minecraft:villager")) {
-		
+
 		if !event.entity.world.isRemote() {
 			var randomPotion = event.target.world.random.nextFloat(0, 13);
 			var RandomMentalPotion = MentalPotions[randomPotion];
@@ -1261,6 +1261,8 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
 
         if RandomNum <= 10 {
 
+            event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
+
             if RandomNum <= 7 {
                 event.entity.setCustomName("Sussyberian");
             } else {
@@ -1540,10 +1542,10 @@ events.onPlayerTick(function(event as PlayerTickEvent){
 
     // Only Thunder
     if ((event.player.world.isRaining()) && ((event.player.world.getBrightness(event.player.position)) == 15)) {
-		
+
 		var doShock = false;
 		var isThunder = false;
-		
+
 		if (event.player.world.getWorldInfo().isThundering()) {
 			doShock = true;
 			isThunder = true;
@@ -1554,12 +1556,12 @@ events.onPlayerTick(function(event as PlayerTickEvent){
 				doShock = true;
 			}
 		}
-		
+
 		if (!doShock) {
 			event.player.setNBT({lightning_warning: 0});
 			return;
 		}
-		
+
         // Assign conductivity rating for player
         var EquipmentList = event.player.equipmentAndArmor as IItemStack[];
         var silvercount as int = 0;
@@ -1588,7 +1590,7 @@ events.onPlayerTick(function(event as PlayerTickEvent){
                 }
             }
         }
-		
+
 		if (!isThunder) {
 			silvercount = silvercount / 2.0;
 		}
@@ -1597,9 +1599,9 @@ events.onPlayerTick(function(event as PlayerTickEvent){
         var RandomLightningMessage = RandomLightningMessageArray[RandomLightningInt];
 
         var warning = event.player.world.time + 60;
-		
+
 		var cooldown = event.player.world.time;
-		
+
 		if (!isThunder) {
 			cooldown += 1200;
 		}
@@ -1673,6 +1675,7 @@ events.onEntityMount(function(event as EntityMountEvent){
     if !(event.isMounting) {return;}
     if event.mountingEntity.world.isRemote() {return;}
     if (!(event.mountingEntity instanceof IPlayer)) {return;}
+    if (!(event.mountedEntity instanceof IEntityLivingBase)) {return;}
 
     var MountingPlayer as IPlayer = event.mountingEntity;
 
@@ -1696,6 +1699,8 @@ events.onPlayerTick(function(event as PlayerTickEvent){
     if (event.player.world.getBiome(event.player.getPosition3f()).name == "Abyssal Rift") {
 
         if (!isNull(event.player.getRidingEntity())) {
+
+            if (!(event.player.getRidingEntity() instanceof IEntityLivingBase)) {return;}
 
             var newtime = event.player.world.time + 100;
 
