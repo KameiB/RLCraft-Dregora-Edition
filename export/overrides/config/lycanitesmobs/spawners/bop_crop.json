@@ -14,10 +14,11 @@
   "triggers": [
     {
       "type": "block",
+      "playerOnly" : true,
       "blocks": [
         "biomesoplenty:plant_1",
         "biomesoplenty:plant_0",
-        "biomesoplenty:double_plant:1"
+        "biomesoplenty:double_plant"
       ],
       "chance": 0.001
     }

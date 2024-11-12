@@ -1,5 +1,5 @@
 {
-  "name": "skyhigh",
+  "name": "skypatrol",
   "nbt": "lycanitesmobs:dungeons/structures/fountain.nbt",
   "type": "spawner",
   "enabled": true,

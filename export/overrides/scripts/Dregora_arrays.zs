@@ -63,9 +63,7 @@ import crafttweaker.event.LivingExperienceDropEvent;
 
 
 global ParasiteBuffBiomes as string[] = [
-  "Lair of the Thing",
-  "Nuclear Ruins",
-  "Ruins of Blight"
+  "Abyssal Rift"
 ];
 
 global RandomLightningMessageArray as string[] = [

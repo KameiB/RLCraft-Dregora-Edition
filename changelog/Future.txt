@@ -166,6 +166,7 @@ Removed from ToDo for various reasons, may be revisited later.
 + Defiled Lands Biome remove pixie villages replace with Vex Villages
 
 Future Todo:
++ swap underneath modern buildings for industrial infrastructure 
 https://www.curseforge.com/minecraft/mc-mods/deeper-depths
 https://www.curseforge.com/minecraft/mc-mods/end-expansion-the-lamented-islands (end expansion)
 https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus (instead of familair fauna?)

@@ -18,13 +18,30 @@ Fixed:
 - added lore to mental/sussyberians as a rare drop
 - mount is instance of living entity check in abyssal rift on mount (otherwise triggers at stairs too!)
 - Fixed structure spawning issue for doom house, tower and ruined battletowers.
+- added parasite squid to the oceans
+- changed srparasites biome nerf whitelist in a blacklist instead & altered parasite health to -0.75 instead of -0.5
+- Fixed Djinn (wind elements) not spawning
+- fixed crop spawners spawning entities it should not and also when it should not.
+- fixed darkness.json and enabled loading of custom mushroom.json lycanite spawners
+- fixed invalid book tags in topographer and fixed shivaxi - bliss trade
 
 RLCraft to do:
-- add parasite squid to the oceans + do custom spawning for Deep Polluted Ocean
+- Remove tier 1 dragons
+- Endermen break blocks to walk to players?
+- herblorist needs dark lore in basement book
+- make dungeon01/02/03 have less silverfish
+- more caves in underneath?
+- remove creepers and guardians from sussy/mentalberians
+- make parasite squids only spawn in ocean biomes
+- Find OTG issue with smoothing: https://mclo.gs/HJ4ZX7v
+- add bop mushrooms to mushroom.json in lycanites
+- Dragons should at least tier 2 in grey mountains
+- Add RLDMixins disarm:1 tag on weapon vanish weapon on mob drop
+- fix villagers from Recurrent Complex structures having a 10% chance to become of the sussy/mentalberian variants on chunk reload. (make RLDMixins)
 - Enable evolution phases, add trades for lures to villagers and add lures randomly in cities protected by parasites
 - Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions
 - crashing game whilst fishing with fishing made better?
-- curse_break or mending removing the sussyberian tag with a 30% success rate
+- curse_break or mending removing the sussyberian tag with a 10% success rate
 - Dragons still spawn in dearoc village (also blacklist lycanite dungeons in daeroc biomes + origin biomes)
 - New enchanting table recipe doesnt work for some people, perhaps because the wither skeleton head needs to have :*
 - add custom qualities to swords

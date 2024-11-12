@@ -92,7 +92,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
                 var BiomeName = event.world.getBiome(EntityBase.getPosition3f()).name;
                 for Biome in ParasiteBuffBiomes {
 
-                    if (BiomeName == Biome) {
+                    if (BiomeName != Biome) {
 
                         //HealthMultiply 0.5
                         EntityBase.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("DregoraHealth", -0.5, 1));
@@ -126,7 +126,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         // Lower health of parasites in cities
         var BiomeName = event.damageSource.trueSource.world.getBiome(event.entity.getPosition3f()).name;
         for Biome in ParasiteBuffBiomes {
-            if (BiomeName == Biome) {
+            if (BiomeName != Biome) {
                 if !(event.damageSource.trueSource.definition.id == "srparasites:succor") && (event.damageSource.trueSource.definition.id has "srparasites") {
 
                     //DMGMultiply 0.25
@@ -1251,6 +1251,23 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
 
     var definition = event.entity.definition;
     if (isNull(definition)) { return; }
+
+    var EntityBiome = (event.entity.world.getBiome(event.entity.getPosition3f()).name);
+    // Deep Ocean & Ocean
+
+    //SRP squids spawning
+    if ((definition.id) == "minecraft:squid") {
+
+        var RandomNum = event.entity.world.random.nextFloat(0, 100);
+        if RandomNum <= 10 {
+
+            val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
+            parasite_squid.setPosition(event.entity.position);
+            event.world.spawnEntity(parasite_squid);
+            event.cancel();
+        }
+    }
+
     if ((definition.id) != "minecraft:villager") { return; }
     if (event.entity.customName != "") { return; }
 
@@ -1279,7 +1296,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
 
     if (!isNull(event.entity.definition)) {
         if (!isNull(event.entity.definition.name)) {
-            if ((event.entity.definition.name) has "srparasites") {
+            if (((event.entity.definition.name) has "srparasites") && ((event.entity.definition.name) != "srparasites.sim_squid")) {
 
                 if ((event.entity.world.getDimension()) == 0) || ((event.entity.world.getDimension()) == 3) {
 
@@ -1343,6 +1360,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
         }
     }
 });
+
 
 // SRParasites in overworld Cancel Spawns if not in Whitelisted Biome and From spawner
 events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent){
