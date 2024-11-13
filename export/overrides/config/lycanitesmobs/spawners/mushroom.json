@@ -47,7 +47,12 @@
         "rustic:mooncap_mushroom",
         "rustic:deathstalk_mushroom",
         "quark:glowshroom",
-        "defiledlands:scuronotte"
+        "defiledlands:scuronotte",
+        "biomesoplenty:mushroom",
+        "mod_lavacow:glowshroom",
+        "mod_lavacow:bloodtooth_shroom",
+        "mod_lavacow:cordy_shroom",
+        "mod_lavacow:veil_shroom"
       ],
       "blockCost": 4,
       "listType": "whitelist"

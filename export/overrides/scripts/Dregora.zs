@@ -1256,15 +1256,17 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     // Deep Ocean & Ocean
 
     //SRP squids spawning
-    if ((definition.id) == "minecraft:squid") {
+    if ((EntityBiome has "ocean") || (EntityBiome has "sea")) {
+        if ((definition.id) == "minecraft:squid") {
 
-        var RandomNum = event.entity.world.random.nextFloat(0, 100);
-        if RandomNum <= 10 {
+            var RandomNum = event.entity.world.random.nextFloat(0, 100);
+            if RandomNum <= 10 {
 
-            val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
-            parasite_squid.setPosition(event.entity.position);
-            event.world.spawnEntity(parasite_squid);
-            event.cancel();
+                val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
+                parasite_squid.setPosition(event.entity.position);
+                event.world.spawnEntity(parasite_squid);
+                event.cancel();
+            }
         }
     }
 
