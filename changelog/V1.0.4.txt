@@ -28,8 +28,19 @@ Fixed:
 - added negative durability and high repair cost to sentient weapons equipped by entities
 - added mana candy to loottables
 - removed ring of free action from loottables
+- reduced the potency of viral by 70%
+- removed poison from immortality potion
+- gave sleeper sword a substantial buff.
 
 RLCraft to do:
+- lowered amount of biomes where cockatrices can spawn
+- give tower golems levitation when hit by teleport arrow
+- consumes 2x recall?
+- ruins battletower top chest empty sometimes
+- lava island should be warm
+- chests spawn on top of buildings (lightcheck)
+- improve loot medusa temple
+- medusa temple contains remaining corrupted chest
 - make ominous feeling work for grey abyss too
 - Dragons should be at least tier 2 in grey mountains
 - Add RLDMixins disarm:1 tag on weapon vanish weapon on mob drop
@@ -72,7 +83,6 @@ RLCraft to do:
 [HIGH PRIORITY]
 - Lower temperature in desert biomes by additional 0.2-0.1
 - Fix Dungeon Redstone pistons
-- Check out Raid Backport
 - Make it so Compass display True biome names
 - Make sussyberian explode on death or spawn a creeper
 - Make mentalberian spawn an illusioner and/or give potion effect on death

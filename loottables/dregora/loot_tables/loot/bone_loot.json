@@ -128,7 +128,7 @@
             {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:vanishing_curse", "levels": 1},
             {
               "function": "set_damage",
-              "damage": 0.1
+              "damage": 0.01
             },
             {
               "function": "minecraft:set_attributes",
@@ -137,8 +137,8 @@
                   "attribute": "generic.attackDamage",
                   "name": "More Knockback",
                   "amount": {
-                    "min": 2,
-                    "max": 3
+                    "min": 3,
+                    "max": 6
                   },
                   "operation": "addition",
                   "slot": [
