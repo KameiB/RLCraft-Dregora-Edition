@@ -31,8 +31,29 @@ Fixed:
 - reduced the potency of viral by 70%
 - removed poison from immortality potion
 - gave sleeper sword a substantial buff.
+- made skull of luck generate 0.5%% of time regardless of luck level
 
 RLCraft to do:
+- Could make the baubles more rare in chests and give them to the golem instead + possibly make the golem have 2/3 the health it currently has
+- decrease amount of dragon spawns
+- make dungeon01/02/03 have less silverfish
+- fix iron plate to reinforced iron plate by making it both consume as give 1 plate block.
+- Dungeon03C1R1 got chest that should be empty filled with loot there should not be making it so the door lock does not work.
+- biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm.
+- nerf lycanite bosses The chupacabra boss in the sungeon | 
+- go over all unique items and see where it could get buffed.
+- make food chests 30% rarer and have less food items
+- nerf lightning weapons to balance them versus fire/ice
+- nerf nunchaku's (cooldown?)
+- buff fire dmg effect
+- GoopyDoob script
+- Buff Wither
+- Glacier lags?
+- fix smoothing issue for OTG, search discord secret channel for  blockY = (short)(smoothingBeginAndEndPoints.originPointY + relativeY);
+- Teleberians (Teleport you to the underneath or a cool spot in dregora after trading for random teleportation)
+- Goopyberian gives 10/90 fame/shame on trade (with a 10% chance) on 5% spawn
+- villager hits back player if player hits villager
+- Add Teleberian (teleports you to the other side of world)
 - lowered amount of biomes where cockatrices can spawn
 - give tower golems levitation when hit by teleport arrow
 - consumes 2x recall?
@@ -48,7 +69,6 @@ RLCraft to do:
 - remove creepers and guardians from sussy/mentalberians
 - herblorist needs dark lore in basement book
 - Endermen break blocks to walk to players?
-- make dungeon01/02/03 have less silverfish
 - more caves in underneath?
 - Find OTG issue with smoothing: https://mclo.gs/HJ4ZX7v
 - Enable evolution phases, add trades for lures to villagers and add lures randomly in cities protected by parasites
