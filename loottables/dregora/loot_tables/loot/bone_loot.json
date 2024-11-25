@@ -15,7 +15,7 @@
     {
       "name": "common_loot",
       "rolls": 0,
-      "bonus_rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
@@ -44,6 +44,11 @@
             }
           ],
           "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 200
         }
       ]
     },
