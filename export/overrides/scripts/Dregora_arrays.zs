@@ -559,5 +559,37 @@ global conductivity_5 as IItemStack[] = [
 global conductivity_10 as IItemStack[] = [
     <charm:charged_emerald>,
     <aquaculture:fish:21>,
-    <advanced-fishing:fish:18>
+    <advanced-fishing:fish:18>,
+    <spartanfire:katana_lightning_dragonbone:*>,
+    <spartanfire:scythe_lightning_dragonbone:*>,
+    <spartanfire:greatsword_lightning_dragonbone:*>,
+    <spartanfire:saber_lightning_dragonbone:*>,
+    <spartanfire:rapier_lightning_dragonbone:*>,
+    <spartanfire:dagger_lightning_dragonbone:*>,
+    <spartanfire:spear_lightning_dragonbone:*>,
+    <spartanfire:pike_lightning_dragonbone:*>,
+    <spartanfire:lance_lightning_dragonbone:*>,
+    <spartanfire:halberd_lightning_dragonbone:*>,
+    <spartanfire:warhammer_lightning_dragonbone:*>,
+    <spartanfire:hammer_lightning_dragonbone:*>,
+    <spartanfire:throwing_axe_lightning_dragonbone:*>,
+    <spartanfire:throwing_knife_lightning_dragonbone:*>,
+    <spartanfire:longbow_lightning_dragonbone:*>,
+    <spartanfire:crossbow_lightning_dragonbone:*>,
+    <spartanfire:javelin_lightning_dragonbone:*>,
+    <spartanfire:battleaxe_lightning_dragonbone:*>,
+    <spartanfire:boomerang_lightning_dragonbone:*>,
+    <spartanfire:mace_lightning_dragonbone:*>,
+    <spartanfire:staff_lightning_dragonbone:*>,
+    <spartanfire:glaive_lightning_dragonbone:*>,
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonehammer:*>,
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonespear:*>,
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonedagger:*>,
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonebattleaxe:*>,
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>
+
+];
+
+global conductivity_100 as IItemStack[] = [
+    <mujmajnkraftsbettersurvival:itemlumiumhammer:*>
 ];
