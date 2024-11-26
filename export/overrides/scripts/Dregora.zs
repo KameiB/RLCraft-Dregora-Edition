@@ -1561,6 +1561,7 @@ events.onPlayerTick(function(event as PlayerTickEvent){
     if (event.player.world.time % 100 != 0) {return;}
 
     // Only Thunder
+    //todo: make this a skylight function so that it doesn't trigger when under glass.
     if ((event.player.world.isRaining()) && ((event.player.world.getBrightness(event.player.position)) == 15)) {
 
 		var doShock = false;

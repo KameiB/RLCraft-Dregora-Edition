@@ -34,12 +34,25 @@ Fixed:
 - made skull of luck generate 0.5%% of time regardless of luck level
 
 RLCraft to do:
+- eagle eye (lists all curses or make them visible somehow on items?)
+- give some weapons added description "Could possibly... maybe... have Pandora!" or "aordnaP evah dluoC"
+- 'Toxic' stuff should be added to hot blocks.... Whatever that means ;)
+- convert skylight function for conductivity making it so people do not get struck by lightning under glass (when making RLDMixins)
+- make new mod enchant slots
+- ulfar's compass has enchantment.level.0 on protection
+- make mjolnir have a conductivity of 100 + lightning resist
+- make lightning weapons all have 10+ conductivity
+- umbrella bauble (negate lightning from striking + slow fall)
+- take a look at tektopia mod for 2.0.0
+- make bane of Arthropods work down a list of entities
+- Make port city have one of the labs required to progress gameplay + (But eh you never know.. maybe the villagers found the mending one so important (because people flocked to port city to trade with him...) that they made a secret society of mending villagers)
+- Do the port city thing with 15-20 book requirements
 - Could make the baubles more rare in chests and give them to the golem instead + possibly make the golem have 2/3 the health it currently has
 - decrease amount of dragon spawns
 - make dungeon01/02/03 have less silverfish
 - fix iron plate to reinforced iron plate by making it both consume as give 1 plate block.
 - Dungeon03C1R1 got chest that should be empty filled with loot there should not be making it so the door lock does not work.
-- biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm.
+- biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm (also smite people who try to do this!)
 - nerf lycanite bosses The chupacabra boss in the sungeon | 
 - go over all unique items and see where it could get buffed.
 - make food chests 30% rarer and have less food items
