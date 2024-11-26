@@ -1552,6 +1552,7 @@ for item in conductivity_3 {item.addTooltip("§e§oConductivity +3");}
 for item in conductivity_4 {item.addTooltip("§e§oConductivity +4");}
 for item in conductivity_5 {item.addTooltip("§e§oConductivity +5");}
 for item in conductivity_10 {item.addTooltip("§e§oConductivity +10");}
+for item in conductivity_100 {item.addTooltip("§e§oConductivity +100");}
 
 
 

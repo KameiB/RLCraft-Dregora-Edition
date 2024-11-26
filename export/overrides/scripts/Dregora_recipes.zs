@@ -43,7 +43,7 @@ recipes.remove(<minecraft:enchanting_table>);
 
 // Re-add Enchantment table
 recipes.addShaped("dregora24",<minecraft:enchanting_table>,
- [[null,<minecraft:writable_book>,null],
+ [[null,<minecraft:writable_book:*>,null],
   [<minecraft:diamond>,<minecraft:skull:1>,<minecraft:diamond>],
   [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
 
@@ -94,9 +94,9 @@ BasaltHard.hardness = 50;
 //=================================
 
 // Add a recipe for the reinforced iron plates
-recipes.addShaped("dregora48",<contenttweaker:iron_plate_reinforced> * 8,
+recipes.addShaped("dregora48",<contenttweaker:iron_plate_reinforced>,
  [[<minecraft:iron_bars>,<minecraft:iron_bars>,<minecraft:iron_bars>],
-  [<minecraft:iron_bars>,<quark:iron_plate>*8,<minecraft:iron_bars>],
+  [<minecraft:iron_bars>,<quark:iron_plate>,<minecraft:iron_bars>],
   [<minecraft:iron_bars>,<minecraft:iron_bars>,<minecraft:iron_bars>]]);
 
 // Add a recipe for the reinforced rusty iron plates

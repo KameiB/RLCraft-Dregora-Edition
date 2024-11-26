@@ -139,6 +139,7 @@ Maybe add sword names:
         Base'd,
 
 OTG todo:
++ fix smoothing issue for OTG, search discord secret channel for  blockY = (short)(smoothingBeginAndEndPoints.originPointY + relativeY); (Kotlin fixed this!)
 + Make dimension teleportation to any dimension work.
 + Bonus Chests do not spawn with radius spawn
 + Test all presets enmasse with the biomebits update (and possibly find a way to make biomegroupsbit smaller whilst adding a bit to biomebits
