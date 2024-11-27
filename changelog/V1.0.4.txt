@@ -41,6 +41,11 @@ Fixed:
 - New enchanting table recipe doesn't work for some people, added :* to the writeable book
 - fixed ulfar's compass enchantment.level.0 on protection
 - fixed iron plate to reinforced iron plate by making it both consume as give 1 plate block.
+- P_CathedralOfMadness - masked, no longer floats, fixed broken spawners
+- P_SanctuaryOfAdmys - villagers are now randomozed; maked strcuture
+- P_LargeShip - actually addd the fix this time ahahah
+- P_Aeriveth - fixed generation and masked
+- P_ForestGuardian-added masking, reduced size
 
 RLCraft to do now:
 - Could make the baubles more rare in chests and give them to the golem instead + possibly make the golem have 2/3 the health it currently has
