@@ -1075,6 +1075,8 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
 
             if ((Phase02 >= event.entityLivingBase.health) && (Phase03 <= event.entityLivingBase.health)){
 
+                event.amount = event.amount * 0.75;
+
                 var buglin = <entity:srparasites:buglin>.createEntity(event.entityLivingBase.world);
                 var adventurerhead = <entity:srparasites:sim_adventurerhead>.createEntity(event.entityLivingBase.world);
                 var rupter = <entity:srparasites:rupter>.createEntity(event.entityLivingBase.world);
@@ -1129,6 +1131,8 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
             }
 
             if (Phase03 >= event.entityLivingBase.health){
+
+                event.amount = event.amount * 0.25;
 
                 var villager = <entity:srparasites:sim_villager>.createEntity(event.entityLivingBase.world);
                 var human = <entity:srparasites:sim_human>.createEntity(event.entityLivingBase.world);
