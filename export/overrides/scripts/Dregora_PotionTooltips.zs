@@ -253,55 +253,55 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "
 "rldregora.effect.xat.dragon.lore.10",
 " ","§8id: xat:dragon"]}}));
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Dwarf",Lore:[
-"§f ☕§b Transforms you into the Dwarven race with the following stats:",
-"§f ☕§b 75% of original size.",
-"§f ☕§b Exp drops from certain blocks mined.",
-"§f ☕§b Constant mining speed for all blocks.",
-"§f ☕§b -25% Attack Speed.",
-"§f ☕§b +10% Attack Damage.",
-"§f ☕§b -25% Health.",
-"§f ☕§b +25% Armor Toughness.",
-"§f ☕§b +0.25 Knockback Resistance.",
-"§f ☕§b -10% Movement Speed.",
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.dwarf.name",LocLore:[
+"rldregora.effect.xat.dwarf.lore.0",
+"rldregora.effect.xat.dwarf.lore.1",
+"rldregora.effect.xat.dwarf.lore.2",
+"rldregora.effect.xat.dwarf.lore.3",
+"rldregora.effect.xat.dwarf.lore.4",
+"rldregora.effect.xat.dwarf.lore.5",
+"rldregora.effect.xat.dwarf.lore.6",
+"rldregora.effect.xat.dwarf.lore.7",
+"rldregora.effect.xat.dwarf.lore.8",
+"rldregora.effect.xat.dwarf.lore.9",
 " ","§8id: xat:dwarf"]}}));
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Fairy",Lore:[
-"§f ☕§b Transforms you into the Fairy race with the following stats:",
-"§f ☕§b 25% of Original Size.",
-"§f ☕§b Granted Creative Flight.",
-"§f ☕§b -75% Attack Damage.",
-"§f ☕§b -75% Health.",
-"§f ☕§b -50% Armor.",
-"§f ☕§b -25% Armor Toughness.",
-"§f ☕§b -25% Movement Speed.",
-"§f ☕§b +2 Luck.",
-"§f ☕§b -25% Swim Speed.",
-"§f ☕§b -25% Jump Height.",
-"§f ☕§b -0.35 Step Height.",
-"§f ☕§b -40% Reach.",
-"§f ☕§b Can Climb Walls.",
-"§f ☕§b Fall Damage Immunity.",
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.fairy.name",LocLore:[
+"rldregora.effect.xat.fairy.lore.0",
+"rldregora.effect.xat.fairy.lore.1",
+"rldregora.effect.xat.fairy.lore.2",
+"rldregora.effect.xat.fairy.lore.3",
+"rldregora.effect.xat.fairy.lore.4",
+"rldregora.effect.xat.fairy.lore.5",
+"rldregora.effect.xat.fairy.lore.6",
+"rldregora.effect.xat.fairy.lore.7",
+"rldregora.effect.xat.fairy.lore.8",
+"rldregora.effect.xat.fairy.lore.9",
+"rldregora.effect.xat.fairy.lore.10",
+"rldregora.effect.xat.fairy.lore.11",
+"rldregora.effect.xat.fairy.lore.12",
+"rldregora.effect.xat.fairy.lore.13",
+"rldregora.effect.xat.fairy.lore.14",
 " ","§8id: xat:fairy"]}}));
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Titan",Lore:[
-"§f ☕§b Transforms you into the Titan race with the following stats:",
-"§f ☕§b 300% of original size.",
-"§f ☕§b 3x3x3 Mining Range.",
-"§f ☕§b Sinks in Water.",
-"§f ☕§b Tramples Crops.",
-"§f ☕§b -50% Attack Speed.",
-"§f ☕§b +100% Attack Damage.",
-"§f ☕§b +100% Health.",
-"§f ☕§b +75% Knockback Resista",
-"§f ☕§b +25% Movement Speed.",
-"§f ☕§b +75% Jump Height.",
-"§f ☕§b +1.4 Step Height.",
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.titan.name",LocLore:[
+"rldregora.effect.xat.titan.lore.0",
+"rldregora.effect.xat.titan.lore.1",
+"rldregora.effect.xat.titan.lore.2",
+"rldregora.effect.xat.titan.lore.3",
+"rldregora.effect.xat.titan.lore.4",
+"rldregora.effect.xat.titan.lore.5",
+"rldregora.effect.xat.titan.lore.6",
+"rldregora.effect.xat.titan.lore.7",
+"rldregora.effect.xat.titan.lore.8",
+"rldregora.effect.xat.titan.lore.9",
+"rldregora.effect.xat.titan.lore.10",
+"rldregora.effect.xat.titan.lore.11",
 " ","§8id: xat:titan"]}}));
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Human",Lore:["§f ☕§b Transforms you back to human state.","§8id: xat:human"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Ice Resistance",Lore:["§f ☕§b Resistance against Dragon Ice Attacks"," ","§8id: xat:ice_resistance"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Lightning Resistance",Lore:["§f ☕§b Resistance against Dragon Lightning Attacks"," ","§8id: xat:lightning_resistance"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.human.name",Lore:["rldregora.effect.xat.human.lore","§8id: xat:human"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.ice_resistance.name",LocLore:["rldregora.effect.xat.ice_resistance.lore"," ","§8id: xat:ice_resistance"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.xat.lightning_resistance.name",LocLore:["rldregora.effect.xat.lightning_resistance.lore"," ","§8id: xat:lightning_resistance"]}}));
 
 // Not in-game: mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Glowing",Lore:["§f ☕§b XXXXXXXXXXXX"," ","§8id: xat:glowing"]}})); //Missing Icon
 // Not in-game: mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Sparkling",Lore:["§f ☕§b XXXXXXXXXXXX"," ","§8id: xat:sparkling"]}})); //Missing Icon
@@ -312,73 +312,73 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 // Elenaidodge Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Forceful",Lore:["§f ☕§b Increases the distance the player will dodge."," ","§8id: elenaidodge:forceful"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Climber",Lore:["§f ☕§b Grants you the ability to grab a ledge."," ","§8id: elenaidodge:climber"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Skystride",Lore:["§f ☕§b Grants you the ability to Dodge in mid-air"," ","§8id: elenaidodge:skystride"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Sluggish",Lore:["§f ☕§b Stops you from dodging all together. "," ","§8id: elenaidodge:sluggish"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Nimble",Lore:["§f ☕§b Grants the ability to Wall-Jump if pressed against the wall with your back."," ","§8id: elenaidodge:nimble"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Elenai's Blessing",Lore:["§f ☕§b Grants the ability to dodge."," ","§8id: elenaidodge:can_dodge"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Feeble",Lore:["§f ☕§b Decreases the distance the player will dodge."," ","§8id: elenaidodge:feeble"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.forceful.name",LocLore:["rldregora.effect.elenaidodge.forceful.lore"," ","§8id: elenaidodge:forceful"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.climber.name",LocLore:["rldregora.effect.elenaidodge.climber.lore"," ","§8id: elenaidodge:climber"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.skystride.name",LocLore:["rldregora.effect.elenaidodge.skystride.lore"," ","§8id: elenaidodge:skystride"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.sluggish.name",LocLore:["rldregora.effect.elenaidodge.sluggish.lore"," ","§8id: elenaidodge:sluggish"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.nimble.name",LocLore:["rldregora.effect.elenaidodge.nimble.lore"," ","§8id: elenaidodge:nimble"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.can_dodge.name",LocLore:["rldregora.effect.elenaidodge.can_dodge.lore"," ","§8id: elenaidodge:can_dodge"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.elenaidodge.feeble.name",LocLore:["rldregora.effect.elenaidodge.feeble.lore"," ","§8id: elenaidodge:feeble"]}}));
 
 //=================================
 // BetterSurvival Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Anti-Warp",Lore:["§f ☕§b Prevents a player or entity with the effect from teleporting or using ender pearls except for Ender Warp"," ","§8id: mujmajnkraftsbettersurvival:antiwarp"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Milk",Lore:["§f ☕§b Removes all potion and status effects that the player has. "," ","§8id: mujmajnkraftsbettersurvival:milk"]}})); //Missing Icon
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Cure",Lore:["§f ☕§b Removes all negative effects."," ","§8id: mujmajnkraftsbettersurvival:cure"]}})); //Missing Icon
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Stun",Lore:["§f ☕§b Locks you in place, cancelling all movement."," ","§8id: mujmajnkraftsbettersurvival:stun"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Ender Warp",Lore:["§f ☕§b Random teleport."," ","§8id: mujmajnkraftsbettersurvival:warp"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Dispel",Lore:["§f ☕§b Removes all positive effects."," ","§8id: mujmajnkraftsbettersurvival:dispel"]}})); //Missing Icon
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.antiwarp.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.antiwarp.lore"," ","§8id: mujmajnkraftsbettersurvival:antiwarp"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.milk.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.milk.lore"," ","§8id: mujmajnkraftsbettersurvival:milk"]}})); //Missing Icon
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.cure.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.cure.lore"," ","§8id: mujmajnkraftsbettersurvival:cure"]}})); //Missing Icon
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.stun.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.stun.lore"," ","§8id: mujmajnkraftsbettersurvival:stun"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.warp.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.warp.lore"," ","§8id: mujmajnkraftsbettersurvival:warp"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.mujmajnkraftsbettersurvival.dispel.name",LocLore:["rldregora.effect.mujmajnkraftsbettersurvival.dispel.lore"," ","§8id: mujmajnkraftsbettersurvival:dispel"]}})); //Missing Icon
 
 //=================================
 // RLMixins Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Flame Hardened",Lore:["§f ☕§b 50% Fire resistance and can't be set on fire."," ","§8id: rlmixins:lesser_fire_resistance"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Delayed Launch",Lore:["§f ☕§b Launches you up in the air after a delay."," ","§8id: rlmixins:delayed_launch"]}})); //Could use better title
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Encumbered",Lore:["§f ☕§b Decreases movement speed 5%, mining speed by 10%, attack speed by 15%, and increases your hunger."," ","§8id: rlmixins:encumbered"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Moo",Lore:["§f ☕§b Yeah... That's a cow."," ","§8id: rlmixins:cow"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Curse Break",Lore:["§f ☕§b Removes the curses from your equipment."," ","§8id: rlmixins:curse_break"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.rlmixins.lesser_fire_resistance.name",LocLore:["rldregora.effect.rlmixins.lesser_fire_resistance.lore"," ","§8id: rlmixins:lesser_fire_resistance"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.rlmixins.delayed_launch.name",LocLore:["rldregora.effect.rlmixins.delayed_launch.lore"," ","§8id: rlmixins:delayed_launch"]}})); //Could use better title
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.rlmixins.encumbered.name",LocLore:["rldregora.effect.rlmixins.encumbered.lore"," ","§8id: rlmixins:encumbered"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.rlmixins.cow.name",LocLore:["rldregora.effect.rlmixins.cow.lore"," ","§8id: rlmixins:cow"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.rlmixins.curse_break.name",LocLore:["rldregora.effect.rlmixins.curse_break.lore"," ","§8id: rlmixins:curse_break"]}}));
 
 //=================================
 // Champions Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Injured",Lore:["§f ☕§b Decreases healing and increases damage taken."," ","§8id: champions:injured"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Plague",Lore:["§f ☕§b Inflicts Plague on entities within a range of 3 blocks which gives Poison I for 10 seconds."," ","§8id: champions:plague"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Jailed",Lore:["§f ☕§b 20% chance per attack to 'jail' targets, making them unable to move for 5 seconds."," ","§8id: champions:jailed"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.champions.injured.name",LocLore:["rldregora.effect.champions.injured.lore"," ","§8id: champions:injured"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.champions.plague.name",LocLore:["rldregora.effect.champions.plague.lore"," ","§8id: champions:plague"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.champions.jailed.name",LocLore:["rldregora.effect.champions.jailed.lore"," ","§8id: champions:jailed"]}}));
 
 //=================================
 // Switchbow Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c In love",Lore:["§f ☕§b It makes animals (ready to) mate and affects enemies with the In Love effect, making them forget to attack."," ","§8id: switchbow:love"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Freeze",Lore:["§f ☕§b Gives the enemy a 'Freeze' effect when hit. The opponent cannot move."," ","§8id: switchbow:freeze"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.switchbow.love.name",LocLore:["rldregora.effect.switchbow.love.lore"," ","§8id: switchbow:love"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.switchbow.freeze.name",LocLore:["rldregora.effect.switchbow.freeze.lore"," ","§8id: switchbow:freeze"]}}));
 
 //=================================
 // Iceandfire Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Acid",Lore:["§f ☕§b Deals damage over time, can be washed off in water."," ","§8id: iceandfire:acid"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.iceandfire.acid.name",LocLore:["rldregora.effect.iceandfire.acid.lore"," ","§8id: iceandfire:acid"]}}));
 
 //=================================
 // Biomesoplenty Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Curse",Lore:["§f ☕§b Randomly teleports the afflicted in a small radius."," ","§8id: biomesoplenty:curse"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.biomesoplenty.curse.name",LocLore:["rldregora.effect.biomesoplenty.curse.lore"," ","§8id: biomesoplenty:curse"]}}));
 
 //=================================
 // Firstaid Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Morphine",Lore:["§f ☕§b Allowing you to run with broken legs, and punch with broken arms."," ","§8id: firstaid:morphine"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.firstaid.morphine.name",LocLore:["rldregora.effect.firstaid.morphine.lore"," ","§8id: firstaid:morphine"]}}));
 
 //=================================
 // Bountifullbaubles Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Sinful",Lore:["§f ☕§b Gives an armor and damage buff."," ","§8id: bountifulbaubles:sinful"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.bountifulbaubles.sinful.name",LocLore:["rldregora.effect.bountifulbaubles.sinful.lore"," ","§8id: bountifulbaubles:sinful"]}}));
 
 
 
