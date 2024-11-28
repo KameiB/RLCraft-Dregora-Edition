@@ -44,6 +44,11 @@ Fixed:
 - made dungeon01/02/03 & various ruin structures have 30% chance for blocks to be infested instead of 100%
 - made shivaxi (corrupted) phase 2 (below 25% health) take 50% less damage and below 75% health 25% less damage
 - Added unique weapons Gungnir & Keraunos
+- P_CathedralOfMadness - masked, no longer floats, fixed broken spawners
+- P_SanctuaryOfAdmys - villagers are now randomozed; maked strcuture
+- P_LargeShip - actually addd the fix this time ahahah
+- P_Aeriveth - fixed generation and masked
+- P_ForestGuardian-added masking, reduced size
 
 RLCraft to do now:
 - fix tunneling through blocks "Tunneling Blacklist Enabled"=false
