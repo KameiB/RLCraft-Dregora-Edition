@@ -121,6 +121,44 @@
         },
         {
           "type": "item",
+          "name": "spartanfire:spear_dragonbone",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"srparasites:viral\",remainingPotionHits:6969,display:{Name:\"Gungnir\",Lore:[\"Odin's Spear\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:mending"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:penetratingedge"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:rune_piercingcapabilities"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:rune_armorpiercing"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:supremesharpness"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:truestrike"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lightweight"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:disarm"]},
+            {"function": "enchant_randomly", "enchantments": ["charm:homing"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:agility"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:penetration"]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 1, "max": 2}, "operation": "addition", "slot": ["mainhand"]}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mujmajnkraftsbettersurvival:itemlightningdragonbonespear",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Keraunos\",Lore:[\"For Olympus!!\",\"Returns on use!\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:supremesmite"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedsmite"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lessersmite"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:mending"]},
+            {"function": "enchant_randomly", "enchantments": ["spartanweaponry:return"]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 2, "max": 3}, "operation": "addition", "slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 0, "max": 1}, "operation": "addition", "slot": ["mainhand"]}]}
+          ]
+        },
+        {
+          "type": "item",
           "name": "mujmajnkraftsbettersurvival:itemlumiumhammer",
           "weight": 1,
           "functions": [
@@ -131,6 +169,7 @@
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedknockback"]},
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.08}, "operation": "multiply_base", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 0, "max": 1}, "operation": "addition", "slot": ["mainhand"]}]}
           ]

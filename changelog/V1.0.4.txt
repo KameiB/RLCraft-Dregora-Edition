@@ -41,10 +41,19 @@ Fixed:
 - New enchanting table recipe doesn't work for some people, added :* to the writeable book
 - fixed ulfar's compass enchantment.level.0 on protection
 - fixed iron plate to reinforced iron plate by making it both consume as give 1 plate block.
+- made dungeon01/02/03 & various ruin structures have 30% chance for blocks to be infested instead of 100%
+- made shivaxi (corrupted) phase 2 (below 25% health) take 50% less damage and below 75% health 25% less damage
+- Added unique weapons Gungnir & Keraunos
 
 RLCraft to do now:
+- fix tunneling through blocks "Tunneling Blacklist Enabled"=false
+- Take a look at lattices, see why they cause lag issues
+- use new block for cities that do not fall like concrete powder
+- Make set bonus if equipped like Thor
+- add a city wall (containing parasites)
+- make atlas show cities in overworld
+- make rupter spawners in boss room slower but also have a 50% chance to spawn primitive yelloweye
 - Could make the baubles more rare in chests and give them to the golem instead + possibly make the golem have 2/3 the health it currently has
-- make dungeon01/02/03 have less silverfish
 - Dungeon03C1R1 got chest that should be empty filled with loot there should not be making it so the door lock does not work.
 - biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm (also smite people who try to do this!)
 - nerf lycanite bosses The chupacabra boss in the sungeon (nerf speed)
