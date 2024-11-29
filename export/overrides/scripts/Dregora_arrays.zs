@@ -588,7 +588,7 @@ global conductivity_10 as IItemStack[] = [
     <mujmajnkraftsbettersurvival:itemlightningdragonbonedagger:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonebattleaxe:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>,
-	<iceandfire:dragonbobe_sword_lightning:*>
+	<iceandfire:dragonbone_sword_lightning:*>
 
 ];
 
