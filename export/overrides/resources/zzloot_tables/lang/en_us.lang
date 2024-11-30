@@ -253,7 +253,6 @@ rldregora.cursed_armor.iron_boots3.name=Abominable Iron Pumps
 rldregora.cursed_armor.iron_boots4.name=Cursed Iron Sandals of Isolophobia
 rldregora.cursed_armor.iron_boots5.name=Atrocious Iron Hightops
 rldregora.cursed_armor.iron_boots6.name=Despicable Iron Cleats of Non Seclusion
-#,LocName:"rldregora.cursed_armor.iron_boots1.name"
 
 ##################################################################
 # loot/loot_bundles/cursed_potion_1.json
@@ -262,5 +261,159 @@ rldregora.cursed_potion_1.apple_juice.lore=Definitely apple juice!
 rldregora.cursed_potion_1.apple_juice_ling.name=Lingering Apple Juice
 rldregora.cursed_potion_1.apple_juice_splash.name=Splash Apple Juice
 rldregora.cursed_potion_1.apple_juice.name=Apple Juice
-#,LocName:\"rldregora.cursed_potion_1.apple_juice.name\"
-#,LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2639\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_2.json
+##################################################################
+rldregora.cursed_potion_2.potion_healing1.lore=§r§9Instant Health III          §0☠
+rldregora.cursed_potion_2.potion_healing2.lore=§r§9Instant Health III          §0☹
+rldregora.cursed_potion_2.potion_healing_ling.name=Lingering Potion of Healing
+rldregora.cursed_potion_2.potion_healing_splash.name=Splash Potion of Healing
+rldregora.cursed_potion_2.potion_healing.name=Potion of Healing
+#,LocName:\"rldregora.cursed_potion_2.potion_healing.name\"
+#,LocLore:[\"rldregora.cursed_potion_2.potion_healing2.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_3.json
+##################################################################
+rldregora.cursed_potion_3.potion_luck.lore.0=§r§9Luck II (0:30)
+rldregora.cursed_potion_3.potion_luck.lore.1=§5When Applied:
+rldregora.cursed_potion_3.potion_luck.lore.2=§9+2 Luck
+rldregora.cursed_potion_3.potion_luck_ling1.name=Lingering Potion of Luck     §0☠
+rldregora.cursed_potion_3.potion_luck_ling2.name=Lingering Potion of Luck     §0☹
+rldregora.cursed_potion_3.potion_luck_splash1.name=Splash Potion of Luck     §0☠
+rldregora.cursed_potion_3.potion_luck_splash2.name=Splash Potion of Luck     §0☹
+rldregora.cursed_potion_3.potion_luck1.name=Potion of Luck     §0☠
+rldregora.cursed_potion_3.potion_luck2.name=Potion of Luck     §0☹
+#,LocName:\"rldregora.cursed_potion_3.potion_luck2.name\"
+#,LocLore:[\"rldregora.cursed_potion_3.potion_luck.lore.0\",\" \",\"rldregora.cursed_potion_3.potion_luck.lore.1\",\"rldregora.cursed_potion_3.potion_luck.lore.2\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_4.json
+##################################################################
+rldregora.cursed_potion_4.potion_breath1.lore=§r§9Water Breathing V (3:00)          §0☠
+rldregora.cursed_potion_4.potion_breath2.lore=§r§9Water Breathing V (3:00)          §0☹
+rldregora.cursed_potion_4.potion_breath_ling.name=Lingering Potion of Water Breathing
+rldregora.cursed_potion_4.potion_breath_splash.name=Splash Potion of Water Breathing
+rldregora.cursed_potion_4.potion_breath.name=Potion of Water Breathing
+#,LocName:\"rldregora.cursed_potion_4.potion_breath.name\"
+#,LocLore:[\"rldregora.cursed_potion_4.potion_breath1.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_5.json
+##################################################################
+rldregora.cursed_potion_5.potion_shiftness.lore.0=§r§9Speed IV (0:30)
+rldregora.cursed_potion_5.potion_shiftness.lore.1_1=§0☠
+rldregora.cursed_potion_5.potion_shiftness.lore.1_2=§0☹
+rldregora.cursed_potion_5.potion_shiftness.lore.2=§5When Applied:
+rldregora.cursed_potion_5.potion_shiftness.lore.3=§9+80%% Speed
+rldregora.cursed_potion_5.potion_shiftness_ling.name=Lingering Potion of Shiftness
+rldregora.cursed_potion_5.potion_shiftness_splash.name=Splash Potion of Shiftness
+rldregora.cursed_potion_5.potion_shiftness.name=Potion of Shiftness
+#,LocName:\"rldregora.cursed_potion_5.potion_shiftness.name\"
+#,LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_6.json
+##################################################################
+rldregora.cursed_potion_6.potion_regeneration.lore=§r§9Regeneration III (0:15)
+rldregora.cursed_potion_6.potion_regeneration_ling1.name=Lingering Potion of Regeneration §0☠
+rldregora.cursed_potion_6.potion_regeneration_ling2.name=Lingering Potion of Regeneration §0☹
+rldregora.cursed_potion_6.potion_regeneration_splash1.name=Splash Potion of Regeneration §0☠
+rldregora.cursed_potion_6.potion_regeneration_splash2.name=Splash Potion of Regeneration §0☹
+rldregora.cursed_potion_6.potion_regeneration1.name=Potion of Regeneration §0☠
+rldregora.cursed_potion_6.potion_regeneration2.name=Potion of Regeneration §0☹
+#,LocName:\"rldregora.cursed_potion_6.potion_regeneration2.name\"
+#,LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_7.json
+##################################################################
+rldregora.cursed_potion_7.potion_blindrage.lore.0=§r§9Strength V (0:30)
+rldregora.cursed_potion_7.potion_blindrage.lore.1_1=§0☠
+rldregora.cursed_potion_7.potion_blindrage.lore.1_2=§0☹
+rldregora.cursed_potion_7.potion_blindrage.lore.2=§5When Applied:
+rldregora.cursed_potion_7.potion_blindrage.lore.3=§9+15 Attack Damage
+rldregora.cursed_potion_7.potion_blindrage_ling.name=Lingering Potion of Blind Rage
+rldregora.cursed_potion_7.potion_blindrage_splash.name=Splash Potion of Blind Rage
+rldregora.cursed_potion_7.potion_blindrage.name=Potion of Blind Rage
+#,LocName:\"rldregora.cursed_potion_7.potion_blindrage.name\"
+#,LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_8.json
+##################################################################
+rldregora.cursed_potion_8.potion_swiftness.lore.0=§r§9Speed VIII (0:30)
+rldregora.cursed_potion_8.potion_swiftness.lore.1=§5When Applied:
+rldregora.cursed_potion_8.potion_swiftness.lore.2=§9+80%% Speed
+rldregora.cursed_potion_8.potion_swiftness_ling1.name=Lingering Potion of Swiftness     §0☠
+rldregora.cursed_potion_8.potion_swiftness_ling2.name=Lingering Potion of Swiftness     §0☹
+rldregora.cursed_potion_8.potion_swiftness_splash1.name=Splash Potion of Swiftness     §0☠
+rldregora.cursed_potion_8.potion_swiftness_splash2.name=Splash Potion of Swiftness     §0☹
+rldregora.cursed_potion_8.potion_swiftness1.name=Potion of Swiftness     §0☠
+rldregora.cursed_potion_8.potion_swiftness2.name=Potion of Swiftness     §0☹
+#,LocName:\"rldregora.cursed_potion_8.potion_swiftness2.name\"
+#,LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_9.json
+##################################################################
+rldregora.cursed_potion_9.potion_leaping.lore.0=§r§9Jump Boost X (0:10)
+rldregora.cursed_potion_9.potion_leaping.lore.1_1=§0☠
+rldregora.cursed_potion_9.potion_leaping.lore.1_2=§0☹
+rldregora.cursed_potion_9.potion_leaping.lore.2=§5When Applied:
+rldregora.cursed_potion_9.potion_leaping.lore.3=§9+7.5 Jump Height
+rldregora.cursed_potion_9.potion_leaping_ling.name=Lingering Potion of Leaping
+rldregora.cursed_potion_9.potion_leaping_splash.name=Splash Potion of Leaping
+rldregora.cursed_potion_9.potion_leaping.name=Potion of Leaping
+#,LocName:\"rldregora.cursed_potion_9.potion_leaping.name\"
+#,LocLore:[\"rldregora.cursed_potion_9.potion_leaping.lore.0\",\"rldregora.cursed_potion_9.potion_leaping.lore.1_2\",\"rldregora.cursed_potion_9.potion_leaping.lore.2\",\"rldregora.cursed_potion_9.potion_leaping.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_10.json
+##################################################################
+rldregora.cursed_potion_10.potion_healing1.lore=§r§9Instant Health III          §0☠
+rldregora.cursed_potion_10.potion_healing2.lore=§r§9Instant Health III          §0☹
+rldregora.cursed_potion_10.potion_healing_ling.name=Lingering Potion of Healing
+rldregora.cursed_potion_10.potion_healing_splash.name=Splash Potion of Healing
+rldregora.cursed_potion_10.potion_healing.name=Potion of Healing
+#,LocName:\"rldregora.cursed_potion_10.potion_healing.name\"
+#,LocLore:[\"rldregora.cursed_potion_10.potion_healing2.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_11.json
+##################################################################
+rldregora.cursed_potion_11.potion_regeneration.lore=§r§9Regeneration IV (0:15)
+rldregora.cursed_potion_11.potion_regeneration_ling1.name=Lingering Potion of Regeneration §0☠
+rldregora.cursed_potion_11.potion_regeneration_ling2.name=Lingering Potion of Regeneration §0☹
+rldregora.cursed_potion_11.potion_regeneration_splash1.name=Splash Potion of Regeneration §0☠
+rldregora.cursed_potion_11.potion_regeneration_splash2.name=Splash Potion of Regeneration §0☹
+rldregora.cursed_potion_11.potion_regeneration1.name=Potion of Regeneration §0☠
+rldregora.cursed_potion_11.potion_regeneration2.name=Potion of Regeneration §0☹
+#,LocName:\"rldregora.cursed_potion_11.potion_regeneration2.name\"
+#,LocLore:[\"rldregora.cursed_potion_11.potion_regeneration.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_12.json
+##################################################################
+rldregora.cursed_potion_12.potion_haste.lore.0=§r§9Haste V (1:30)
+rldregora.cursed_potion_12.potion_haste.lore.1_1=§0☠
+rldregora.cursed_potion_12.potion_haste.lore.1_2=§0☹
+rldregora.cursed_potion_12.potion_haste.lore.2=§5When Applied:
+rldregora.cursed_potion_12.potion_haste.lore.3=§9+100%% Dig Speed
+rldregora.cursed_potion_12.potion_haste.lore.4=§9+50%% Attack Speed
+rldregora.cursed_potion_12.potion_haste.name=Potion of Haste
+#,LocName:\"rldregora.cursed_potion_12.potion_haste.name\"
+#,LocLore:[\"rldregora.cursed_potion_12.potion_haste.lore.0\",\"rldregora.cursed_potion_12.potion_haste.lore.1_2\",\"rldregora.cursed_potion_12.potion_haste.lore.2\",\"rldregora.cursed_potion_12.potion_haste.lore.3\",\"rldregora.cursed_potion_12.potion_haste.lore.4\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_13.json
+##################################################################
+rldregora.cursed_potion_13.potion_fireres1.lore=§r§9Fire Resistance V (0:45)          §0☠
+rldregora.cursed_potion_13.potion_fireres2.lore=§r§9Fire Resistance V (0:45)          §0☹
+rldregora.cursed_potion_13.potion_fireres_ling.name=Lingering Potion of Fire Resistance
+rldregora.cursed_potion_13.potion_fireres_splash.name=Splash Potion of Fire Resistance
+rldregora.cursed_potion_13.potion_fireres.name=Potion of Fire Resistance
+#,LocName:\"rldregora.cursed_potion_13.potion_fireres.name\"
+#,LocLore:[\"rldregora.cursed_potion_13.potion_fireres2.lore\"]
+

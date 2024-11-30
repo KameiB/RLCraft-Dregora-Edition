@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Lingering Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness_ling1.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Lingering Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness_ling2.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Splash Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness_splash1.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Splash Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness_splash2.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Potion of Swiftness    \u00A70\u2620\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness1.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Potion of Swiftness    \u00A70\u2639\u2b06\",Lore:[\"\u00A7r\u00A79Speed VIII (0:30)\",\"\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_8.potion_swiftness2.name\",LocLore:[\"rldregora.cursed_potion_8.potion_swiftness.lore.0\",\" \",\"rldregora.cursed_potion_8.potion_swiftness.lore.1\",\"rldregora.cursed_potion_8.potion_swiftness.lore.2\"]},
                 CustomPotionEffects:[{Id:1,Duration:700,Amplifier:1},{Id:27,Duration:700,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:700,Amplifier:120,ShowParticles:0b,ShowIcon:0b},{Id:25,Duration:250,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:700,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:700,Amplifier:5,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
