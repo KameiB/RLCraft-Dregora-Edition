@@ -20,7 +20,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Amulet of Protection\",Lore:[\"Holding the nugget in your off-hand makes you feel sturdy.\"]}}"
+              "tag": "{display:{Name:\"Amulet of Protection\",Lore:[\"Holding the nugget in your off-hand makes you feel sturdy.\"],LocName:\"rldregora.epic_3.emerald.name\",LocLore:[\"rldregora.epic_3.emerald.lore\"]}}"
             },
             {
               "function": "set_nbt",

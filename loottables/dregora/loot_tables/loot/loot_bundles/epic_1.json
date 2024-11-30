@@ -34,7 +34,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Lucky Nugget\",Lore:[\"Holding the nugget in your off-hand makes you feel lucky.\"]}}"
+              "tag": "{display:{Name:\"Lucky Nugget\",Lore:[\"Holding the nugget in your off-hand makes you feel lucky.\"],LocName:\"rldregora.epic_1.gold_nugget.name\",LocLore:[\"rldregora.epic_1.gold_nugget.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

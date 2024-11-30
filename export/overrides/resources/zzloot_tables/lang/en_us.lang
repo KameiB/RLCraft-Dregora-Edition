@@ -417,3 +417,414 @@ rldregora.cursed_potion_13.potion_fireres.name=Potion of Fire Resistance
 #,LocName:\"rldregora.cursed_potion_13.potion_fireres.name\"
 #,LocLore:[\"rldregora.cursed_potion_13.potion_fireres2.lore\"]
 
+##################################################################
+# loot/loot_bundles/cursed_potion_14.json
+##################################################################
+rldregora.cursed_potion_14.potion_invis1.lore=§r§9Invisibility (9:00)          §0☠
+rldregora.cursed_potion_14.potion_invis2.lore=§r§9Invisibility (9:00)          §0☹
+rldregora.cursed_potion_14.potion_invis.name=Potion of Invisibility
+#,LocName:\"rldregora.cursed_potion_14.potion_invis.name\"
+#,LocLore:[\"rldregora.cursed_potion_14.potion_invis2.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_15.json
+##################################################################
+# Not sure if Eagle forgot to add ☠/☹ to differentiate the 2 potion types...
+# Won't edit cursed_potion_15.json until I talk to him.
+rldregora.cursed_potion_15.potion_luck.lore.0=§r§9Good Luck IV (9:00)
+rldregora.cursed_potion_15.potion_luck.lore.1_1=§0☠
+rldregora.cursed_potion_15.potion_luck.lore.1_2=§0☹
+rldregora.cursed_potion_15.potion_luck.lore.2=§5When Applied:
+rldregora.cursed_potion_15.potion_luck.lore.3=§9500%% Good Luck
+rldregora.cursed_potion_15.potion_luck_ling.name=Lingering Potion of Luck
+rldregora.cursed_potion_15.potion_luck_splash.name=Splash Potion of Luck
+rldregora.cursed_potion_15.potion_luck.name=Potion of Luck
+#,LocName:\"rldregora.cursed_potion_15.potion_luck.name\"
+#,LocLore:[\"rldregora.cursed_potion_15.potion_luck.lore.0\",\"rldregora.cursed_potion_15.potion_luck.lore.1_1\",\"rldregora.cursed_potion_15.potion_luck.lore.2\",\"rldregora.cursed_potion_15.potion_luck.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/cursed_potion_16.json
+##################################################################
+rldregora.cursed_potion_16.potion_immortality.lore.0=§r§9Immortality (~)     §0⌚
+rldregora.cursed_potion_16.potion_immortality.lore.1=§5When Applied:
+rldregora.cursed_potion_16.potion_immortality.lore.2=§9Immortality
+rldregora.cursed_potion_16.potion_immortality_ling.name=Lingering Potion of Immortality
+rldregora.cursed_potion_16.potion_immortality_splash.name=Splash Potion of Immortality
+rldregora.cursed_potion_16.potion_immortality.name=Potion of Immortality
+#,LocName:\"rldregora.cursed_potion_16.potion_immortality.name\"
+#,LocLore:[\"rldregora.cursed_potion_16.potion_immortality.lore.0\",\" \",\"rldregora.cursed_potion_16.potion_immortality.lore.1\",\"rldregora.cursed_potion_16.potion_immortality.lore.2\"]
+
+##################################################################
+# loot/loot_bundles/cursed_regular.json
+##################################################################
+rldregora.cursed_regular.totem_weakness.name=Totem of Weakness
+rldregora.cursed_regular.totem_weakness.lore=A weakness overcomes you as you wield the item.
+#,LocName:\"rldregora.cursed_regular.totem_weakness.name\"
+#,LocLore:[\"rldregora.cursed_regular.totem_weakness.lore\"]
+
+##################################################################
+# loot/loot_bundles/cursed_tools.json
+##################################################################
+rldregora.cursed_tools.stone_shovel1.name=Haunted Stone Shovel
+rldregora.cursed_tools.stone_shovel2.name=Wretched Stone Shovel
+rldregora.cursed_tools.stone_shovel3.name=Abominable Stone Shovel
+rldregora.cursed_tools.stone_shovel4.name=Cursed Stone Shovel
+rldregora.cursed_tools.stone_shovel5.name=Atrocious Stone Shovel
+rldregora.cursed_tools.stone_shovel6.name=Despicable Stone Shovel
+#,LocName:\"rldregora.cursed_tools.stone_shovel1.name\"
+
+rldregora.cursed_tools.stone_axe1.name=Haunted Stone Axe
+rldregora.cursed_tools.stone_axe2.name=Wretched Stone Axe
+rldregora.cursed_tools.stone_axe3.name=Abominable Stone Axe
+rldregora.cursed_tools.stone_axe4.name=Cursed Stone Axe
+rldregora.cursed_tools.stone_axe5.name=Atrocious Stone Axe
+rldregora.cursed_tools.stone_axe6.name=Despicable Stone Axe
+#,LocName:\"rldregora.cursed_tools.stone_axe1.name\"
+
+rldregora.cursed_tools.stone_pickaxe1.name=Haunted Stone Pickaxe
+rldregora.cursed_tools.stone_pickaxe2.name=Wretched Stone Pickaxe
+rldregora.cursed_tools.stone_pickaxe3.name=Abominable Stone Pickaxe
+rldregora.cursed_tools.stone_pickaxe4.name=Cursed Stone Pickaxe
+rldregora.cursed_tools.stone_pickaxe5.name=Atrocious Stone Pickaxe
+rldregora.cursed_tools.stone_pickaxe6.name=Despicable Stone Pickaxe
+#,LocName:\"rldregora.cursed_tools.stone_pickaxe1.name\"
+
+rldregora.cursed_tools.stone_hoe1.name=Haunted Stone Hoe
+rldregora.cursed_tools.stone_hoe2.name=Wretched Stone Hoe
+rldregora.cursed_tools.stone_hoe3.name=Abominable Stone Hoe
+rldregora.cursed_tools.stone_hoe4.name=Cursed Stone Hoe
+rldregora.cursed_tools.stone_hoe5.name=Atrocious Stone Hoe
+rldregora.cursed_tools.stone_hoe6.name=Despicable Stone Hoe
+#,LocName:\"rldregora.cursed_tools.stone_hoe1.name\"
+
+rldregora.cursed_tools.diamond_shovel1.name=Haunted Diamond Shovel
+rldregora.cursed_tools.diamond_shovel2.name=Wretched Diamond Shovel
+rldregora.cursed_tools.diamond_shovel3.name=Abominable Diamond Shovel
+rldregora.cursed_tools.diamond_shovel4.name=Cursed Diamond Shovel
+rldregora.cursed_tools.diamond_shovel5.name=Atrocious Diamond Shovel
+rldregora.cursed_tools.diamond_shovel6.name=Despicable Diamond Shovel
+#,LocName:\"rldregora.cursed_tools.diamond_shovel1.name\"
+
+rldregora.cursed_tools.diamond_axe1.name=Haunted Diamond Axe
+rldregora.cursed_tools.diamond_axe2.name=Wretched Diamond Axe
+rldregora.cursed_tools.diamond_axe3.name=Abominable Diamond Axe
+rldregora.cursed_tools.diamond_axe4.name=Cursed Diamond Axe
+rldregora.cursed_tools.diamond_axe5.name=Atrocious Diamond Axe
+rldregora.cursed_tools.diamond_axe6.name=Despicable Diamond Axe
+#,LocName:\"rldregora.cursed_tools.diamond_axe1.name\"
+
+rldregora.cursed_tools.diamond_pickaxe1.name=Haunted Diamond Pickaxe
+rldregora.cursed_tools.diamond_pickaxe2.name=Wretched Diamond Pickaxe
+rldregora.cursed_tools.diamond_pickaxe3.name=Abominable Diamond Pickaxe
+rldregora.cursed_tools.diamond_pickaxe4.name=Cursed Diamond Pickaxe
+rldregora.cursed_tools.diamond_pickaxe5.name=Atrocious Diamond Pickaxe
+rldregora.cursed_tools.diamond_pickaxe6.name=Despicable Diamond Pickaxe
+#,LocName:\"rldregora.cursed_tools.diamond_pickaxe1.name\"
+
+rldregora.cursed_tools.diamond_hoe1.name=Haunted Diamond Hoe
+rldregora.cursed_tools.diamond_hoe2.name=Wretched Diamond Hoe
+rldregora.cursed_tools.diamond_hoe3.name=Abominable Diamond Hoe
+rldregora.cursed_tools.diamond_hoe4.name=Cursed Diamond Hoe
+rldregora.cursed_tools.diamond_hoe5.name=Atrocious Diamond Hoe
+rldregora.cursed_tools.diamond_hoe6.name=Despicable Diamond Hoe
+#,LocName:\"rldregora.cursed_tools.diamond_hoe1.name\"
+
+rldregora.cursed_tools.iron_shovel1.name=Haunted Iron Shovel
+rldregora.cursed_tools.iron_shovel2.name=Wretched Iron Shovel
+rldregora.cursed_tools.iron_shovel3.name=Abominable Iron Shovel
+rldregora.cursed_tools.iron_shovel4.name=Cursed Iron Shovel
+rldregora.cursed_tools.iron_shovel5.name=Atrocious Iron Shovel
+rldregora.cursed_tools.iron_shovel6.name=Despicable Iron Shovel
+#,LocName:\"rldregora.cursed_tools.iron_shovel1.name\"
+
+rldregora.cursed_tools.iron_axe1.name=Haunted Iron Axe
+rldregora.cursed_tools.iron_axe2.name=Wretched Iron Axe
+rldregora.cursed_tools.iron_axe3.name=Abominable Iron Axe
+rldregora.cursed_tools.iron_axe4.name=Cursed Iron Axe
+rldregora.cursed_tools.iron_axe5.name=Atrocious Iron Axe
+rldregora.cursed_tools.iron_axe6.name=Despicable Iron Axe
+#,LocName:\"rldregora.cursed_tools.iron_axe1.name\"
+
+rldregora.cursed_tools.iron_pickaxe1.name=Haunted Iron Pickaxe
+rldregora.cursed_tools.iron_pickaxe2.name=Wretched Iron Pickaxe
+rldregora.cursed_tools.iron_pickaxe3.name=Abominable Iron Pickaxe
+rldregora.cursed_tools.iron_pickaxe4.name=Cursed Iron Pickaxe
+rldregora.cursed_tools.iron_pickaxe5.name=Atrocious Iron Pickaxe
+rldregora.cursed_tools.iron_pickaxe6.name=Despicable Iron Pickaxe
+#,LocName:\"rldregora.cursed_tools.iron_pickaxe1.name\"
+
+rldregora.cursed_tools.iron_hoe1.name=Haunted Iron Hoe
+rldregora.cursed_tools.iron_hoe2.name=Wretched Iron Hoe
+rldregora.cursed_tools.iron_hoe3.name=Abominable Iron Hoe
+rldregora.cursed_tools.iron_hoe4.name=Cursed Iron Hoe
+rldregora.cursed_tools.iron_hoe5.name=Atrocious Iron Hoe
+rldregora.cursed_tools.iron_hoe6.name=Despicable Iron Hoe
+#,LocName:\"rldregora.cursed_tools.iron_hoe1.name\"
+
+##################################################################
+# loot/loot_bundles/cursed_weapons.json
+##################################################################
+rldregora.cursed_weapons.stone_sword1.name=Jinxed Stone Sword
+rldregora.cursed_weapons.stone_sword2.name=Accursed Stone Sword
+rldregora.cursed_weapons.stone_sword3.name=Damned Stone Sword
+#,LocName:\"rldregora.cursed_weapons.stone_sword1.name\"
+
+rldregora.cursed_weapons.iron_sword1.name=Jinxed Iron Sword
+rldregora.cursed_weapons.iron_sword2.name=Accursed Iron Sword
+rldregora.cursed_weapons.iron_sword3.name=Damned Iron Sword
+#,LocName:\"rldregora.cursed_weapons.iron_sword1.name\"
+
+rldregora.cursed_weapons.diamond_sword1.name=Jinxed Diamond Sword
+rldregora.cursed_weapons.diamond_sword2.name=Accursed Diamond Sword
+rldregora.cursed_weapons.diamond_sword3.name=Damned Diamond Sword
+#,LocName:\"rldregora.cursed_weapons.diamond_sword1.name\"
+
+rldregora.cursed_weapons.bow1.name=Doomed Bow
+rldregora.cursed_weapons.bow2.name=Twisted Bow
+rldregora.cursed_weapons.bow3.name=Cursed Bow
+#,LocName:\"rldregora.cursed_weapons.bow1.name\"
+
+##################################################################
+# loot/loot_bundles/epic_1.json
+##################################################################
+rldregora.epic_1.gold_nugget.name=Lucky Nugget
+rldregora.epic_1.gold_nugget.lore=Holding the nugget in your off-hand makes you feel lucky.
+#,LocName:\"rldregora.epic_1.gold_nugget.name\"
+#,LocLore:[\"rldregora.epic_1.gold_nugget.lore\"]
+
+##################################################################
+# loot/loot_bundles/epic_3.json
+##################################################################
+rldregora.epic_3.emerald.name=Amulet of Protection
+rldregora.epic_3.emerald.lore=Holding the nugget in your off-hand makes you feel sturdy.
+#,LocName:\"rldregora.epic_3.emerald.name\"
+#,LocLore:[\"rldregora.epic_3.emerald.lore\"]
+
+##################################################################
+# loot/loot_bundles/epic_4.json
+##################################################################
+rldregora.epic_4.gold_nugget.name=Troll Nugget
+rldregora.epic_4.gold_nugget.lore=This nugget is truly, truly cursed...
+#,LocName:\"rldregora.epic_4.gold_nugget.name\"
+#,LocLore:[\"rldregora.epic_4.gold_nugget.lore\"]
+
+rldregora.epic_4.totem_of_undying.name=Totem of Dying
+rldregora.epic_4.totem_of_undying.lore=Living on the edge gives you a adrenaline boost!
+#,LocName:\"rldregora.epic_4.totem_of_undying.name\"
+#,LocLore:[\"rldregora.epic_4.totem_of_undying.lore\"]
+
+rldregora.epic_4.iron_hoe.name=Heavy Hoe
+rldregora.epic_4.iron_hoe.lore=It's a heavy one!
+#,LocName:\"rldregora.epic_4.iron_hoe.name\"
+#,LocLore:[\"rldregora.epic_4.iron_hoe.lore\"]
+
+rldregora.epic_4.chainmail_boots.name=It's a heavy one!
+rldregora.epic_4.chainmail_boots.lore=These boots makes you more dexterous but at a price.
+#,LocName:\"rldregora.epic_4.chainmail_boots.name\"
+#,LocLore:[\"rldregora.epic_4.chainmail_boots.lore\"]
+
+rldregora.epic_4.shield.name=Corrupted Dragonfire Shield
+rldregora.epic_4.shield.lore=Grants some protection against fire, knockback and explosions.
+#,LocName:\"rldregora.epic_4.shield.name\"
+#,LocLore:[\"rldregora.epic_4.shield.lore\"]
+
+##################################################################
+# loot/loot_bundles/epic_tools.json
+##################################################################
+rldregora.epic_tools.reinforced_gold.lore=Made of reinforced gold, a technique lost to ancient times.
+rldregora.epic_tools.golden_sword.name=Damascus Gold Sword
+rldregora.epic_tools.golden_shovel.name=Damascus Gold Shovel
+rldregora.epic_tools.golden_pickaxe.name=Damascus Gold Pickaxe
+rldregora.epic_tools.golden_axe.name=Damascus Gold Axe
+rldregora.epic_tools.golden_helmet.name=Damascus Gold Helmet
+rldregora.epic_tools.golden_chestplate.name=Damascus Gold Chestplate
+rldregora.epic_tools.golden_leggings.name=Damascus Gold Leggings
+rldregora.epic_tools.golden_boots.name=Damascus Gold Boots
+#,LocName:\"rldregora.epic_tools.golden_sword.name\"
+#,LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]
+
+##################################################################
+# loot/loot_bundles/rare_2.json
+##################################################################
+rldregora.rare_2.horse_armor.lore=Beautifully crafted and enchanted horse armor
+rldregora.rare_2.diamond_horse_armor.name=Decorated Horse Armor
+rldregora.rare_2.golden_horse_armor.name=Magical Horse Armor
+rldregora.rare_2.iron_horse_armor.name=Sturdy Horse Armor
+#,LocName:\"rldregora.rare_2.diamond_horse_armor.name\"
+#,LocLore:[\"rldregora.rare_2.horse_armor.lore\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_1.json
+##################################################################
+rldregora.special_potion_1.potion_scout.name=Scout Potion
+rldregora.special_potion_1.potion_scout.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_1.potion_scout.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_1.potion_scout.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_1.potion_scout.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_1.potion_scout.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_1.potion_scout.lore.0\",\"rldregora.special_potion_1.potion_scout.lore.1\",\"rldregora.special_potion_1.potion_scout.lore.2\",\"rldregora.special_potion_1.potion_scout.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_2.json
+##################################################################
+rldregora.special_potion_2.potion_defence.name=Potion of Defence
+rldregora.special_potion_2.potion_defence.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_2.potion_defence.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_2.potion_defence.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_2.potion_defence.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_2.potion_defence.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_2.potion_defence.lore.0\",\"rldregora.special_potion_2.potion_defence.lore.1\",\"rldregora.special_potion_2.potion_defence.lore.2\",\"rldregora.special_potion_2.potion_defence.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_3.json
+##################################################################
+rldregora.special_potion_3.potion_trade.name=Potion of Equal Trade
+rldregora.special_potion_3.potion_trade.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_3.potion_trade.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_3.potion_trade.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_3.potion_trade.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_3.potion_trade.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_3.potion_trade.lore.0\",\"rldregora.special_potion_3.potion_trade.lore.1\",\"rldregora.special_potion_3.potion_trade.lore.2\",\"rldregora.special_potion_3.potion_trade.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_4.json
+##################################################################
+rldregora.special_potion_4.miner_ale.name=Miner's Ale
+rldregora.special_potion_4.miner_ale.lore.0=§lSigned:§r Tristan, the Ecologist
+rldregora.special_potion_4.miner_ale.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_4.miner_ale.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_4.miner_ale.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_4.miner_ale.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_4.miner_ale.lore.0\",\"rldregora.special_potion_4.miner_ale.lore.1\",\"rldregora.special_potion_4.miner_ale.lore.2\",\"rldregora.special_potion_4.miner_ale.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_5.json
+##################################################################
+rldregora.special_potion_5.potion_beserk.name=Berserk Potion
+rldregora.special_potion_5.potion_beserk.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_5.potion_beserk.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_5.potion_beserk.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_5.potion_beserk.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_5.potion_beserk.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_5.potion_beserk.lore.0\",\"rldregora.special_potion_5.potion_beserk.lore.1\",\"rldregora.special_potion_5.potion_beserk.lore.2\",\"rldregora.special_potion_5.potion_beserk.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_6.json
+##################################################################
+rldregora.special_potion_6.potion_thieves.name=Potion of Thieves
+rldregora.special_potion_6.potion_thieves.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_6.potion_thieves.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_6.potion_thieves.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_6.potion_thieves.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_6.potion_thieves.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_6.potion_thieves.lore.0\",\"rldregora.special_potion_6.potion_thieves.lore.1\",\"rldregora.special_potion_6.potion_thieves.lore.2\",\"rldregora.special_potion_6.potion_thieves.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_7.json
+##################################################################
+rldregora.special_potion_7.potion_levitation.name=Potion of Harmless Levitation
+rldregora.special_potion_7.potion_levitation.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_7.potion_levitation.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_7.potion_levitation.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_7.potion_levitation.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_7.potion_levitation.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_7.potion_levitation.lore.0\",\"rldregora.special_potion_7.potion_levitation.lore.1\",\"rldregora.special_potion_7.potion_levitation.lore.2\",\"rldregora.special_potion_7.potion_levitation.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_8.json
+##################################################################
+rldregora.special_potion_8.potion_escape.name=Potion of Trackable Escape
+rldregora.special_potion_8.potion_escape.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_8.potion_escape.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_8.potion_escape.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_8.potion_escape.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_8.potion_escape.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_8.potion_escape.lore.0\",\"rldregora.special_potion_8.potion_escape.lore.1\",\"rldregora.special_potion_8.potion_escape.lore.2\",\"rldregora.special_potion_8.potion_escape.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_9.json
+##################################################################
+rldregora.special_potion_9.dragon_ale.name=Dragon's Ale
+rldregora.special_potion_9.dragon_ale.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_9.dragon_ale.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_9.dragon_ale.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_9.dragon_ale.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_9.dragon_ale.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_9.dragon_ale.lore.0\",\"rldregora.special_potion_9.dragon_ale.lore.1\",\"rldregora.special_potion_9.dragon_ale.lore.2\",\"rldregora.special_potion_9.dragon_ale.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_10.json
+##################################################################
+rldregora.special_potion_10.potion_pois_with_spd.name=Poisonous Potion of Withering Speed
+rldregora.special_potion_10.potion_pois_with_spd.lore.0=§lSigned:§r Haldor, the Herblorist
+rldregora.special_potion_10.potion_pois_with_spd.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_10.potion_pois_with_spd.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_10.potion_pois_with_spd.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.special_potion_10.potion_pois_with_spd.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_10.potion_pois_with_spd.lore.0\",\"rldregora.special_potion_10.potion_pois_with_spd.lore.1\",\"rldregora.special_potion_10.potion_pois_with_spd.lore.2\",\"rldregora.special_potion_10.potion_pois_with_spd.lore.3\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_11.json
+##################################################################
+rldregora.special_potion_11.potion_eagle_eyes.name=Potion of Eagle Eyes
+rldregora.special_potion_11.potion_eagle_eyes.lore.0=§lSigned:§r Eagle, the Dregorian
+rldregora.special_potion_11.potion_eagle_eyes.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_11.potion_eagle_eyes.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_11.potion_eagle_eyes.lore.3=§lSerial Number:§r -unreadable-
+rldregora.special_potion_11.potion_eagle_eyes.lore.4=Few words inscribed on the bottom say:
+rldregora.special_potion_11.potion_eagle_eyes.lore.5=-Below the surface, many treasures hide-
+#,LocName:\"rldregora.special_potion_11.potion_eagle_eyes.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_11.potion_eagle_eyes.lore.0\",\"rldregora.special_potion_11.potion_eagle_eyes.lore.1\",\"rldregora.special_potion_11.potion_eagle_eyes.lore.2\",\"rldregora.special_potion_11.potion_eagle_eyes.lore.3\",\" \",\"rldregora.special_potion_11.potion_eagle_eyes.lore.4\",\"rldregora.special_potion_11.potion_eagle_eyes.lore.5\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_12.json
+##################################################################
+rldregora.special_potion_12.heavens_black.name=Heavens Black
+rldregora.special_potion_12.heavens_black.lore.0=§lSigned:§r Heaven, the Mighty
+rldregora.special_potion_12.heavens_black.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_12.heavens_black.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_12.heavens_black.lore.3=§lSerial Number:§r -unreadable-
+rldregora.special_potion_12.heavens_black.lore.4=Few words inscribed on the bottom say:
+rldregora.special_potion_12.heavens_black.lore.5=-In the skies, many dangers lurk-
+#,LocName:\"rldregora.special_potion_12.heavens_black.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_12.heavens_black.lore.0\",\"rldregora.special_potion_12.heavens_black.lore.1\",\"rldregora.special_potion_12.heavens_black.lore.2\",\"rldregora.special_potion_12.heavens_black.lore.3\",\" \",\"rldregora.special_potion_12.heavens_black.lore.4\",\"rldregora.special_potion_12.heavens_black.lore.5\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_13.json
+##################################################################
+rldregora.special_potion_13.type_FM2.name=Type FM2
+rldregora.special_potion_13.type_FM2.lore.0=§lSigned:§r FonnyMunkey, the Fixer
+rldregora.special_potion_13.type_FM2.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_13.type_FM2.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_13.type_FM2.lore.3=§lSerial Number:§r -unreadable-
+rldregora.special_potion_13.type_FM2.lore.4=Few words inscribed on the bottom say:
+rldregora.special_potion_13.type_FM2.lore.5=-For every problem there's a FM2-
+#,LocName:\"rldregora.special_potion_13.type_FM2.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_13.type_FM2.lore.0\",\"rldregora.special_potion_13.type_FM2.lore.1\",\"rldregora.special_potion_13.type_FM2.lore.2\",\"rldregora.special_potion_13.type_FM2.lore.3\",\" \",\"rldregora.special_potion_13.type_FM2.lore.4\",\"rldregora.special_potion_13.type_FM2.lore.5\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_14.json
+##################################################################
+rldregora.special_potion_14.shivvy_ale.name=Shivvy's Ale
+rldregora.special_potion_14.shivvy_ale.lore.0=§lSigned:§r Shivaxi, the creator
+rldregora.special_potion_14.shivvy_ale.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_14.shivvy_ale.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_14.shivvy_ale.lore.3=§lSerial Number:§r -unreadable-
+rldregora.special_potion_14.shivvy_ale.lore.4=Few words inscribed on the bottom say:
+rldregora.special_potion_14.shivvy_ale.lore.5=-Bottled RL-
+#,LocName:\"rldregora.special_potion_14.shivvy_ale.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_14.shivvy_ale.lore.0\",\"rldregora.special_potion_14.shivvy_ale.lore.1\",\"rldregora.special_potion_14.shivvy_ale.lore.2\",\"rldregora.special_potion_14.shivvy_ale.lore.3\",\" \",\"rldregora.special_potion_14.shivvy_ale.lore.4\",\"rldregora.special_potion_14.shivvy_ale.lore.5\"]
+
+##################################################################
+# loot/loot_bundles/special_potion_15.json
+##################################################################
+rldregora.special_potion_15.dregorian_ale.name=Dregorian's Ale
+rldregora.special_potion_15.dregorian_ale.lore.0=§lSigned:§r The Community
+rldregora.special_potion_15.dregorian_ale.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.special_potion_15.dregorian_ale.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.special_potion_15.dregorian_ale.lore.3=§lSerial Number:§r -unreadable-
+rldregora.special_potion_15.dregorian_ale.lore.4=Few words inscribed on the bottom say:
+rldregora.special_potion_15.dregorian_ale.lore.5=-For those who wander the worlds-
+#,LocName:\"rldregora.special_potion_15.dregorian_ale.name\"
+#,LocLore:[\" \",\"rldregora.special_potion_15.dregorian_ale.lore.0\",\"rldregora.special_potion_15.dregorian_ale.lore.1\",\"rldregora.special_potion_15.dregorian_ale.lore.2\",\"rldregora.special_potion_15.dregorian_ale.lore.3\",\" \",\"rldregora.special_potion_15.dregorian_ale.lore.4\",\"rldregora.special_potion_15.dregorian_ale.lore.5\"]
+

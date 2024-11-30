@@ -14,7 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Troll Nugget\",Lore:[\"This nugget is truly, truly cursed...\"]}}"
+              "tag": "{display:{Name:\"Troll Nugget\",Lore:[\"This nugget is truly, truly cursed...\"],LocName:\"rldregora.epic_4.gold_nugget.name\",LocLore:[\"rldregora.epic_4.gold_nugget.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -71,7 +71,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of Dying\",Lore:[\"Living on the edge gives you a adrenaline boost!\"]}}"
+              "tag": "{display:{Name:\"Totem of Dying\",Lore:[\"Living on the edge gives you a adrenaline boost!\"],LocName:\"rldregora.epic_4.totem_of_undying.name\",LocLore:[\"rldregora.epic_4.totem_of_undying.lore\"]}}"
             },
             {
               "function": "enchant_randomly",
@@ -127,7 +127,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Heavy Hoe\",Lore:[\"It\u0027s a heavy one!\"]}}"
+              "tag": "{display:{Name:\"Heavy Hoe\",Lore:[\"It\u0027s a heavy one!\"],LocName:\"rldregora.epic_4.iron_hoe.name\",LocLore:[\"rldregora.epic_4.iron_hoe.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -177,7 +177,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Boots of Dexterity\",Lore:[\"These boots makes you more dexterous but at a price.\"]}}"
+              "tag": "{display:{Name:\"Boots of Dexterity\",Lore:[\"These boots makes you more dexterous but at a price.\"],LocName:\"rldregora.epic_4.chainmail_boots.name\",LocLore:[\"rldregora.epic_4.chainmail_boots.lore\"]}}"
             },
             {
               "function": "enchant_randomly",
@@ -248,7 +248,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Corrupted Dragonfire Shield\",Lore:[\"Grants some protection against fire, knockback and explosions.\"]}}"
+              "tag": "{display:{Name:\"Corrupted Dragonfire Shield\",Lore:[\"Grants some protection against fire, knockback and explosions.\"],LocName:\"rldregora.epic_4.shield.name\",LocLore:[\"rldregora.epic_4.shield.lore\"]}}"
             },
             {
               "function": "set_nbt",

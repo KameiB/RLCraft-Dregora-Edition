@@ -14,7 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of Weakness\",Lore:[\"A weakness overcomes you as you wield the item.\"]},HideFlags:2}"
+              "tag": "{display:{Name:\"Totem of Weakness\",Lore:[\"A weakness overcomes you as you wield the item.\"],LocName:\"rldregora.cursed_regular.totem_weakness.name\",LocLore:[\"rldregora.cursed_regular.totem_weakness.lore\"]},HideFlags:2}"
             },
             {
               "function": "minecraft:set_attributes",
