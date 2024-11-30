@@ -52,13 +52,15 @@
             {
               pages:
               [
-                \"[{\\\"text\\\":\\\"\n  \u00A7l\u00A74 Protocol Transfer \n\u00A7r\n\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n\u00A74 ████\u00A7r████\u00A74████\n \u00A74████\u00A7r████\u00A74████\u00A7r\n\u00A74 ████\u00A7r████\u00A74████\\\"}]\",
-              \"[{\\\"text\\\":\\\"\u00A7kWe have valid reasons to suscpect traveler one initiated protocol transfer. Secure Point Brutal and Labs. \\\"}]\",
-              \"[{\\\"text\\\":\\\"\u00A7kHigh probability of subjects adaptability in corrupted environment due to protocol retainer\\\"}]\"
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.1\\\"}]\",
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.2\\\"}]\",
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.3\\\"}]\"
             ],
               title:\"Handbook\",
+              locTitle:\"rldregora.berian.handbook1.title\",
               author:\"Red Clan\",
-              display:{Lore:[\"Protocol Transfer\"]}
+              locAuthor:\"rldregora.berian.handbook1.author\",
+              display:{Lore:[\"Protocol Transfer\"],LocLore:[\"rldregora.berian.handbook1.lore\"]}
               }"
             },
             {
@@ -67,14 +69,16 @@
               {
               pages:
               [
-              \"[{\\\"text\\\":\\\"\n  \u00A7l\u00A74 Protocol Retainer \n\u00A7r\n\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n ████\u00A74████\u00A7r████\n\u00A74 ████\u00A7r████\u00A74████\n \u00A74████\u00A7r████\u00A74████\u00A7r\n\u00A74 ████\u00A7r████\u00A74████\\\"}]\",
-              \"[{\\\"text\\\":\\\"\u00A7kUpon liquidation transfer protocol is believed to initiate implanting subject with memories of preceding subject.\\\"}]\",
-              \"[{\\\"text\\\":\\\"\u00A7kIntel on protocol retainer is your second highest priority after safekeeping this information from the subject.\\\"}]\",
-              \"[{\\\"text\\\":\\\"\u00A7kSubject can be any entity but mainly appears as humanoid.\\\"}]\"
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.1\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.2\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.3\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.4\\\"}]\"
               ],
               title:\"Handbook\",
+              locTitle:\"rldregora.berian.handbook2.title\",
               author:\"Red Clan\",
-              display:{Lore:[\"Protocol Transfer\"]}
+              locAuthor:\"rldregora.berian.handbook2.author\",
+              display:{Lore:[\"Protocol Transfer\"],LocLore:[\"rldregora.berian.handbook2.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }

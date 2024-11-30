@@ -14,11 +14,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"RLDev Server Password\",Lore:[\"You payed good money for this!\"]}}"
+              "tag": "{display:{Name:\"RLDev Server Password\",LocName:\"rldregora.not_kotlin.rldevserver_password.name\",Lore:[\"You payed good money for this!\"],LocLore:[\"rldregora.not_kotlin.rldevserver_password.lore\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"1000 Dollar Clue\",Lore:[\"Wow! A 1000$ hunt clue!\"]}}",
+              "tag": "{display:{Name:\"1000 Dollar Clue\",LocName:\"rldregora.not_kotlin.1000usd_clue.name\",Lore:[\"Wow! A 1000$ hunt clue!\"],LocLore:[\"rldregora.not_kotlin.1000usd_clue.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -28,7 +28,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"I&F Upcoming Kotlin Port\",Lore:[\"Lots and lots of Kotlin code, Fonny may know how to decipher this!\"]}}",
+              "tag": "{display:{Name:\"I&F Upcoming Kotlin Port\",LocName:\"rldregora.not_kotlin.if_kotlin_port.name\",Lore:[\"Lots and lots of Kotlin code, Fonny may know how to decipher this!\"],LocLore:[\"rldregora.not_kotlin.if_kotlin_port.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -45,7 +45,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Lots of Money!\",Lore:[\"Not Kotlin's stack of gains!\"]}}"
+              "tag": "{display:{Name:\"Lots of Money!\",LocName:\"rldregora.not_kotlin.money.name\",Lore:[\"Not Kotlin's stack of gains!\"],LocLore:[\"rldregora.not_kotlin.money.lore\"]}}"
             },
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},

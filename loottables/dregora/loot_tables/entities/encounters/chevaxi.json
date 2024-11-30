@@ -14,7 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Cheese-it Wrap\",Lore:[\"Totally Delicious Cheese-it Wrap!\"]}}"
+              "tag": "{display:{Name:\"Cheese-it Wrap\",LocName:\"rldregora.chevaxi.burrito.name\",Lore:[\"Totally Delicious Cheese-it Wrap!\"],LocLore:[\"rldregora.chevaxi.burrito.lore\"]}}"
             },
             {"function": "enchant_with_levels","levels": 10}
           ]
@@ -35,7 +35,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shiv's Golden Disco Boots\",Lore:[\"Aww... The battery is depleted ☹\"]}}"
+              "tag": "{display:{Name:\"Shiv's Golden Disco Boots\",LocName:\"rldregora.chevaxi.boots.name\",Lore:[\"Aww... The battery is depleted ☹\"],LocLore:[\"rldregora.chevaxi.boots.lore\"]}}"
             },
             {"function": "set_damage","damage": {"min": 0.60,"max": 0.95}},
             {"function": "enchant_with_levels","levels": 10}

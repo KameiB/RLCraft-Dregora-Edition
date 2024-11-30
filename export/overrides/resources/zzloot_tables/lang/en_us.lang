@@ -1,0 +1,266 @@
+##################################################################
+# dregorarl/loot/piratejunk_loot.json
+##################################################################
+rldregora.piratejunk.dirtbucket.name=Jar of Dirt
+rldregora.piratejunk.dirtbucket.lore=You have a jar of dirt!
+rldregora.piratejunk.itemcookedbatwing.name=Cooked Bat Wing
+rldregora.piratejunk.itemcookedbatwing.lore=Let's not start a pandemic should we?
+
+##################################################################
+# brutaltowers/tier2.json
+##################################################################
+rldregora.brutaltowers.curse_break.name=Potion of Untainted Curse Break
+
+##################################################################
+# entities/encounters/berian.json
+##################################################################
+rldregora.berian.handbook1.title=Handbook
+rldregora.berian.handbook1.author=Red Clan
+rldregora.berian.handbook1.lore=Protocol Transfer
+rldregora.berian.handbook1.page.1=\n  §l§4 Protocol Transfer \n§r\n\n ████§4████§r████\n ████§4████§r████\n ████§4████§r████\n§4 ████§r████§4████\n §4████§r████§4████§r\n§4 ████§r████§4████
+rldregora.berian.handbook1.page.2=§kWe have valid reasons to suspect traveler one initiated protocol transfer. Secure Point Brutal and Labs.
+rldregora.berian.handbook1.page.3=§kHigh probability of subjects adaptability in corrupted environment due to protocol retainer
+
+rldregora.berian.handbook2.title=Handbook
+rldregora.berian.handbook2.author=Red Clan
+rldregora.berian.handbook2.lore=Protocol Retainer
+rldregora.berian.handbook2.page.1=\n  §l§4 Protocol Retainer \n§r\n\n ████§4████§r████\n ████§4████§r████\n ████§4████§r████\n§4 ████§r████§4████\n §4████§r████§4████§r\n§4 ████§r████§4████
+rldregora.berian.handbook2.page.2=§kUpon liquidation transfer protocol is believed to initiate implanting subject with memories of preceding subject.
+rldregora.berian.handbook2.page.3=§kIntel on protocol retainer is your second highest priority after safekeeping this information from the subject.
+rldregora.berian.handbook2.page.4=§kSubject can be any entity but mainly appears as humanoid.
+
+##################################################################
+# entities/encounters/chevaxi.json
+##################################################################
+rldregora.chevaxi.burrito.name=Cheese-it Wrap
+rldregora.chevaxi.burrito.lore=Totally Delicious Cheese-it Wrap!
+rldregora.chevaxi.boots.name=Shiv's Golden Disco Boots
+rldregora.chevaxi.boots.lore=Aww... The battery is depleted ☹
+
+##################################################################
+# entities/encounters/dragon_steel.json
+##################################################################
+rldregora.dragon_steel.iron_helmet.name=Degraded Dragon Iron Helmet
+rldregora.dragon_steel.iron_helmet.lore=Dragon Iron with added Armor! §mToughness
+rldregora.dragon_steel.iron_chestplate.name=Degraded Dragon Iron Helmet
+rldregora.dragon_steel.iron_chestplate.lore=Dragon Iron with added Armor! §mToughness
+rldregora.dragon_steel.iron_leggings.name=Degraded Dragon Iron Helmet
+rldregora.dragon_steel.iron_leggings.lore=Dragon Iron with added Armor! §mToughness
+rldregora.dragon_steel.iron_boots.name=Degraded Dragon Iron Boots
+rldregora.dragon_steel.iron_boots.lore=Dragon Iron with added Armor! §mToughness
+rldregora.dragon_steel.steel_helmet.name=Dregora Steel Helmet
+rldregora.dragon_steel.steel_helmet.lore=Fancy Epic Dregora Steel with added Armor! §mToughness
+rldregora.dragon_steel.steel_chestplate.name=Dregora Steel Chestplate
+rldregora.dragon_steel.steel_chestplate.lore=Fancy Epic Dregora Steel with high Armor! §mToughness
+rldregora.dragon_steel.steel_leggings.name=Dregora Steel Leggings
+rldregora.dragon_steel.steel_leggings.lore=Fancy Epic Dregora Steel with high Armor! §mToughness
+rldregora.dragon_steel.steel_boots.name=Dregora Steel Boots
+rldregora.dragon_steel.steel_boots.lore=Fancy Epic Dregora Steel with high Armor! §mToughness
+
+##################################################################
+# entities/encounters/feedback_kotlin.json
+##################################################################
+rldregora.feedback_kotlin.player.name=Player Feedback
+rldregora.feedback_kotlin.player.lore=Very Important, must add!
+rldregora.feedback_kotlin.shiv.name=Shiv's Feedback
+rldregora.feedback_kotlin.shiv.lore=BURN IT!
+
+##################################################################
+# entities/encounters/not_kotlin.json
+##################################################################
+rldregora.not_kotlin.rldevserver_password.name=RLDev Server Password
+rldregora.not_kotlin.rldevserver_password.lore=You payed good money for this!
+rldregora.not_kotlin.1000usd_clue.name=1000 Dollar Clue
+rldregora.not_kotlin.1000usd_clue.lore=Wow! A 1000$ hunt clue!
+rldregora.not_kotlin.if_kotlin_port.name=I&F Upcoming Kotlin Port
+rldregora.not_kotlin.if_kotlin_port.lore=Lots and lots of Kotlin code, Fonny may know how to decipher this!
+rldregora.not_kotlin.money.name=Lots of Money!
+rldregora.not_kotlin.money.lore=Not Kotlin's stack of gains!
+
+##################################################################
+# entities/encounters/old_man.json
+##################################################################
+rldregora.old_man.morphine.name=Ibuprofen
+rldregora.old_man.morphine.lore=Helps against back pain!
+rldregora.old_man.potion_healing.name=Joint Lube!
+rldregora.old_man.potion_healing.lore=Helps against joint pain!
+rldregora.old_man.salve.name=Anti Aging Creme
+rldregora.old_man.salve.lore=Not just a cosmetic!
+rldregora.old_man.record_13.name=C418 - 13 Vinyl!!!!!
+rldregora.old_man.record_13.lore=When night falls and you are in the city biome...
+rldregora.old_man.record_cat.name=C418 - cat Vinyl!!!!!
+rldregora.old_man.record_cat.lore=With the Sun worshippers in the mines!
+rldregora.old_man.record_blocks.name=C418 - blocks Vinyl!!!!!
+rldregora.old_man.record_blocks.lore=An uninterrupted mining adventure!
+rldregora.old_man.record_chirp.name=C418 - chirp Vinyl!!!!!
+rldregora.old_man.record_chirp.lore=Rave in the City of Origins!
+rldregora.old_man.record_far.name=C418 - far Vinyl!!!!!
+rldregora.old_man.record_far.lore=When you finally find the stronghold!
+rldregora.old_man.record_mall.name=C418 - mall Vinyl!!!!!
+rldregora.old_man.record_mall.lore=After you've completed RLCraft - Dregora.
+rldregora.old_man.record_mellohi.name=C418 - mellohi Vinyl!!!!!
+rldregora.old_man.record_mellohi.lore=Some random Dregora encounter creeping up on you.
+rldregora.old_man.record_stal.name=C418 - stal Vinyl!!!!!
+rldregora.old_man.record_stal.lore=After you've gotten killed by a villager... Yeah you know which one.
+rldregora.old_man.record_strad.name=C418 - Strad Vinyl!!!!!
+rldregora.old_man.record_strad.lore=When things finally go well and you found a gem trader!
+rldregora.old_man.record_ward.name=C418 - Ward Vinyl!!!!!
+rldregora.old_man.record_ward.lore=A new chance after getting defeated by the Corruption!
+rldregora.old_man.record_11.name=C418 - 11 Vinyl!!!!!
+rldregora.old_man.record_11.lore=In the Brutal Tower...
+rldregora.old_man.record_wait.name=C418 - Wait Vinyl!!!!!
+rldregora.old_man.record_wait.lore=Stumbling upon the cool structure at the center of the world!
+rldregora.old_man.record_wanderer.name=Tim Rurkowski - Wanderer Vinyl!!!!!
+rldregora.old_man.record_wanderer.lore=Finding the Spring dunes below the desert.
+rldregora.old_man.record_calm1.name=C418 - Minecraft Vinyl!!!!!
+rldregora.old_man.record_calm1.lore=The start of it all.
+rldregora.old_man.record_calm2.name=C418 - Clark Vinyl!!!!!
+rldregora.old_man.record_calm2.lore=Morning comes as you wander through the plains barely alive from last night's encounters.
+rldregora.old_man.record_calm3.name=C418 - Sweden Vinyl!!!!!
+rldregora.old_man.record_calm3.lore=After having traveled a thousand and by the power of 5 blocks.
+rldregora.old_man.record_hal1.name=C418 - Subwoofer Lullaby Vinyl!!!!!
+rldregora.old_man.record_hal1.lore=As the sun sets and you are within your base.
+rldregora.old_man.record_hal2.name=C418 - Living Mice Vinyl!!!!!
+rldregora.old_man.record_hal2.lore=Sunrise after you have beaten the new medusa temple early stage.
+rldregora.old_man.record_hal3.name=C418 - Haggstrom Vinyl!!!!!
+rldregora.old_man.record_hal3.lore=Warm at the fire while dragons roam about.
+rldregora.old_man.record_hal4.name=C418 - Danny Vinyl!!!!!
+rldregora.old_man.record_hal4.lore=As you discover the new lands beyond 10.000 blocks.
+rldregora.old_man.record_nuance1.name=C418 - Key Vinyl!!!!!
+rldregora.old_man.record_nuance1.lore=For the Legendary loot you need a luck poison.
+rldregora.old_man.record_nuance2.name=C418 - Oxygéne Vinyl!!!!!
+rldregora.old_man.record_nuance2.lore=Lands of Tranquility.
+rldregora.old_man.record_piano1.name=C418 - Dry Hands Vinyl!!!!!
+rldregora.old_man.record_piano1.lore=Nostalgia RL-2020 and Dregora-2014
+rldregora.old_man.record_piano2.name=C418 - Wet Hands Vinyl!!!!!
+rldregora.old_man.record_piano2.lore=That moment where you decide your 20th playthrough for this version is enough.
+rldregora.old_man.record_piano3.name=C418 - Mice on Venus Vinyl!!!!!
+rldregora.old_man.record_piano3.lore=There's a mice on venus and Shiv decides to throw him a Cheese-it <3
+rldregora.old_man.record_creative1.name=C418 - Biome Fest Vinyl!!!!!
+rldregora.old_man.record_creative1.lore=Eight-Hundred-and-Twenty-Six and counting biomes!
+rldregora.old_man.record_creative2.name=C418 - Blind Spots Vinyl!!!!!
+rldregora.old_man.record_creative2.lore=As you venture below the ground and realize what you've missed.
+rldregora.old_man.record_creative3.name=C418 - Haunt Muskie Vinyl!!!!!
+rldregora.old_man.record_creative3.lore=Above the clouds on your Dragon Mount.
+rldregora.old_man.record_creative4.name=C418 - Aria math Vinyl!!!!!
+rldregora.old_man.record_creative4.lore=Discovering the new post-apocalyptic ruins.
+rldregora.old_man.record_creative5.name=C418 - Dreiton Vinyl!!!!!
+rldregora.old_man.record_creative5.lore=Below the Underworld and the Quarries
+rldregora.old_man.record_creative6.name=C418 - Taswell Vinyl!!!!!
+rldregora.old_man.record_creative6.lore=Below the Flower Plains...
+rldregora.old_man.record_nether1.name=C418 - Concrete Halls Vinyl!!!!!
+rldregora.old_man.record_nether1.lore=Another Dimension...
+rldregora.old_man.record_nether2.name=C418 - Dead Voxel Vinyl!!!!!
+rldregora.old_man.record_nether2.lore=At the edge of the Abyssal Rift
+rldregora.old_man.record_nether3.name=C418 - Warmth Vinyl!!!!!
+rldregora.old_man.record_nether3.lore=The moment in which you realize you need more hearts and have to mine for them...
+rldregora.old_man.record_nether4.name=C418 - Ballad of the Cats Vinyl!!!!!
+rldregora.old_man.record_nether4.lore=Underneath
+rldregora.old_man.record_menu1.name=C418 - Mutation Vinyl!!!!!
+rldregora.old_man.record_menu1.lore=As you embark on your adventure!
+rldregora.old_man.record_menu2.name=C418 - Moog City 2 Vinyl!!!!!
+rldregora.old_man.record_menu2.lore=When you realize the cities with streets contain wealth beyond your dreams!
+rldregora.old_man.record_menu3.name=C418 - Beginning 2 Vinyl!!!!!
+rldregora.old_man.record_menu3.lore=As you piece together Dregora's lore from the books you find...
+rldregora.old_man.record_menu4.name=C418 - FLoating Trees Vinyl!!!!!
+rldregora.old_man.record_menu4.lore=When you finally start noting book coordinates and find the kingdom of Daeroc!
+rldregora.old_man.pigstep.name=Lena Raine - Pigstep Vinyl!!!!!
+rldregora.old_man.pigstep.lore=Yeah, this one is VERY rare, you lucker!
+
+##################################################################
+# loot/loot_bundles/cursed_armor.json
+##################################################################
+rldregora.cursed_armor.chainmail_helmet1.name=Haunted Chain Helmet
+rldregora.cursed_armor.chainmail_helmet2.name=Wretched Chain Helmet of Binding
+rldregora.cursed_armor.chainmail_helmet3.name=Abominable Chain Helmet
+rldregora.cursed_armor.chainmail_helmet4.name=Cursed Chain Helmet of Binding
+rldregora.cursed_armor.chainmail_helmet5.name=Atrocious Chain Helmet
+rldregora.cursed_armor.chainmail_helmet6.name=Despicable Chain Helmet of Attachment
+
+rldregora.cursed_armor.chainmail_chestplate1.name=Despicable Chain Helmet of Attachment
+rldregora.cursed_armor.chainmail_chestplate2.name=Wretched Chain Torso of Binding
+rldregora.cursed_armor.chainmail_chestplate3.name=Abominable Chain Gear
+rldregora.cursed_armor.chainmail_chestplate4.name=Cursed Chain Garb of Binding
+rldregora.cursed_armor.chainmail_chestplate5.name=Atrocious Chain Costume
+rldregora.cursed_armor.chainmail_chestplate6.name=Despicable Chain Guard of Attachment
+
+rldregora.cursed_armor.chainmail_leggings1.name=Haunted Chain Chaps
+rldregora.cursed_armor.chainmail_leggings2.name=Wretched Chain Gaiters of Binding
+rldregora.cursed_armor.chainmail_leggings3.name=Abominable Chain Putts
+rldregora.cursed_armor.chainmail_leggings4.name=Cursed Chain Stockings of Isolophobia
+rldregora.cursed_armor.chainmail_leggings5.name=Atrocious Chain Buskins
+rldregora.cursed_armor.chainmail_leggings6.name=Despicable Chain Trousers of Non Seclusion
+
+rldregora.cursed_armor.chainmail_boots1.name=Haunted Chain Clogs
+rldregora.cursed_armor.chainmail_boots2.name=Wretched Chain Slippers of Binding
+rldregora.cursed_armor.chainmail_boots3.name=Abominable Chain Pumps
+rldregora.cursed_armor.chainmail_boots4.name=Cursed Chain Sandals of Isolophobia
+rldregora.cursed_armor.chainmail_boots5.name=Atrocious Chain Hightops
+rldregora.cursed_armor.chainmail_boots6.name=Despicable Chain Cleats of Non Seclusion
+
+rldregora.cursed_armor.diamond_helmet1.name=Haunted Diamond Helmet
+rldregora.cursed_armor.diamond_helmet2.name=Wretched Diamond Helmet of Binding
+rldregora.cursed_armor.diamond_helmet3.name=Abominable Diamond Helmet
+rldregora.cursed_armor.diamond_helmet4.name=Cursed Diamond Helmet of Binding
+rldregora.cursed_armor.diamond_helmet5.name=Atrocious Diamond Helmet
+rldregora.cursed_armor.diamond_helmet6.name=Despicable Diamond Helmet of Attachment
+
+rldregora.cursed_armor.diamond_chestplate1.name=Haunted Diamond Suit
+rldregora.cursed_armor.diamond_chestplate2.name=Wretched Diamond Torso of Binding
+rldregora.cursed_armor.diamond_chestplate3.name=Abominable Diamond Gear
+rldregora.cursed_armor.diamond_chestplate4.name=Cursed Diamond Garb of Binding
+rldregora.cursed_armor.diamond_chestplate5.name=Atrocious Diamond Costume
+rldregora.cursed_armor.diamond_chestplate6.name=Despicable Diamond Guard of Attachment
+
+rldregora.cursed_armor.diamond_leggings1.name=Haunted Diamond Chaps
+rldregora.cursed_armor.diamond_leggings2.name=Wretched Diamond Gaiters of Binding
+rldregora.cursed_armor.diamond_leggings3.name=Abominable Diamond Putts
+rldregora.cursed_armor.diamond_leggings4.name=Cursed Diamond Stockings of Isolophobia
+rldregora.cursed_armor.diamond_leggings5.name=Atrocious Diamond Buskins
+rldregora.cursed_armor.diamond_leggings6.name=Despicable Diamond Trousers of Non Seclusion
+
+rldregora.cursed_armor.diamond_boots1.name=Haunted Diamond Clogs
+rldregora.cursed_armor.diamond_boots2.name=Wretched Diamond Slippers of Binding
+rldregora.cursed_armor.diamond_boots3.name=Abominable Diamond Pumps
+rldregora.cursed_armor.diamond_boots4.name=Cursed Diamond Sandals of Isolophobia
+rldregora.cursed_armor.diamond_boots5.name=Atrocious Diamond Hightops
+rldregora.cursed_armor.diamond_boots6.name=Despicable Diamond Cleats of Non Seclusion
+
+rldregora.cursed_armor.iron_helmet1.name=Haunted Iron Helmet
+rldregora.cursed_armor.iron_helmet2.name=Wretched Iron Helmet of Binding
+rldregora.cursed_armor.iron_helmet3.name=Abominable Iron Helmet
+rldregora.cursed_armor.iron_helmet4.name=Cursed Iron Helmet of Binding
+rldregora.cursed_armor.iron_helmet5.name=Atrocious Iron Helmet
+rldregora.cursed_armor.iron_helmet6.name=Despicable Iron Helmet of Attachment
+
+rldregora.cursed_armor.iron_chestplate1.name=Haunted Iron Suit
+rldregora.cursed_armor.iron_chestplate2.name=Wretched Iron Torso of Binding
+rldregora.cursed_armor.iron_chestplate3.name=Abominable Iron Gear
+rldregora.cursed_armor.iron_chestplate4.name=Cursed Iron Garb of Binding
+rldregora.cursed_armor.iron_chestplate5.name=Atrocious Iron Costume
+rldregora.cursed_armor.iron_chestplate6.name=Despicable Iron Guard of Attachment
+
+rldregora.cursed_armor.iron_leggings1.name=Haunted Iron Chaps
+rldregora.cursed_armor.iron_leggings2.name=Wretched Iron Gaiters of Binding
+rldregora.cursed_armor.iron_leggings3.name=Abominable Iron Putts
+rldregora.cursed_armor.iron_leggings4.name=Cursed Iron Stockings of Isolophobia
+rldregora.cursed_armor.iron_leggings5.name=Atrocious Iron Buskins
+rldregora.cursed_armor.iron_leggings6.name=Despicable Iron Trousers of Non Seclusion
+
+rldregora.cursed_armor.iron_boots1.name=Haunted Iron Clogs
+rldregora.cursed_armor.iron_boots2.name=Wretched Iron Slippers of Binding
+rldregora.cursed_armor.iron_boots3.name=Abominable Iron Pumps
+rldregora.cursed_armor.iron_boots4.name=Cursed Iron Sandals of Isolophobia
+rldregora.cursed_armor.iron_boots5.name=Atrocious Iron Hightops
+rldregora.cursed_armor.iron_boots6.name=Despicable Iron Cleats of Non Seclusion
+#,LocName:"rldregora.cursed_armor.iron_boots1.name"
+
+##################################################################
+# loot/loot_bundles/cursed_potion_1.json
+##################################################################
+rldregora.cursed_potion_1.apple_juice.lore=Definitely apple juice!
+rldregora.cursed_potion_1.apple_juice_ling.name=Lingering Apple Juice
+rldregora.cursed_potion_1.apple_juice_splash.name=Splash Apple Juice
+rldregora.cursed_potion_1.apple_juice.name=Apple Juice
+#,LocName:\"rldregora.cursed_potion_1.apple_juice.name\"
+#,LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2639\"]

@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"]},
+                display:{Name:\"Lingering Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice_ling.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2620\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"]},
+                display:{Name:\"Lingering Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice_ling.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2639\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"]},
+                display:{Name:\"Splash Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice_splash.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2620\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"]},
+                display:{Name:\"Splash Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice_splash.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2639\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"]},
+                display:{Name:\"Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2620\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2620\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Apple Juice\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"]},
+                display:{Name:\"Apple Juice\",LocName:\"rldregora.cursed_potion_1.apple_juice.name\",Lore:[\"Definitely apple juice!\",\"\u00A70\u2639\"],LocLore:[\"rldregora.cursed_potion_1.apple_juice.lore\",\"\u00A70\u2639\"]},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:20,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:7838766,
                 HideFlags:32
