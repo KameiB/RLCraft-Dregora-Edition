@@ -828,3 +828,214 @@ rldregora.special_potion_15.dregorian_ale.lore.5=-For those who wander the world
 #,LocName:\"rldregora.special_potion_15.dregorian_ale.name\"
 #,LocLore:[\" \",\"rldregora.special_potion_15.dregorian_ale.lore.0\",\"rldregora.special_potion_15.dregorian_ale.lore.1\",\"rldregora.special_potion_15.dregorian_ale.lore.2\",\"rldregora.special_potion_15.dregorian_ale.lore.3\",\" \",\"rldregora.special_potion_15.dregorian_ale.lore.4\",\"rldregora.special_potion_15.dregorian_ale.lore.5\"]
 
+##################################################################
+# loot/loot_bundles/city_potion_1.json
+##################################################################
+rldregora.city_potion_1.apple_juice.name=Bottled Apple Juice
+
+##################################################################
+# loot/loot_bundles/city_potion_2.json
+##################################################################
+rldregora.city_potion_2.fantol.name=Bottled Fantol
+
+##################################################################
+# loot/loot_bundles/city_potion_3.json
+##################################################################
+rldregora.city_potion_3.spritu.name=Bottled Spritu
+
+##################################################################
+# loot/loot_bundles/city_potion_4.json
+##################################################################
+rldregora.city_potion_4.hertog_jan.name=Bottled Hertog Jan
+
+##################################################################
+# loot/loot_bundles/city_potion_5.json
+##################################################################
+rldregora.city_potion_5.shivvy.name=Bottled Shivvy
+
+##################################################################
+# loot/loot_bundles/city_potion_6.json
+##################################################################
+rldregora.city_potion_6.pear_juice.name=Bottled Pear Juice
+
+##################################################################
+# loot/loot_bundles/city_potion_7.json
+##################################################################
+rldregora.city_potion_7.ice_tea.name=Bottled Ice Tea
+
+##################################################################
+# loot/loot_bundles/city_potion_8.json
+##################################################################
+rldregora.city_potion_8.chocomel.name=Bottled Chocomel
+
+##################################################################
+# loot/loot_bundles/city_potion_9.json
+##################################################################
+rldregora.city_potion_9.dr_booster.name=Bottled Dr Booster
+
+##################################################################
+# loot/loot_bundles/city_potion_10.json
+##################################################################
+rldregora.city_potion_10.bubble_tea.name=Bottled Bubble Tea
+
+##################################################################
+# loot/loot_gilded/gilded_sword1.json
+##################################################################
+rldregora.gilded_sword1.ancient_sword.name=Ancient Sword
+rldregora.gilded_sword1.ancient_sword.lore=A sword imbued with magic making it feel lighter and sharper.
+rldregora.gilded_sword1.natsus_grave.name=Natsu's Grave
+
+##################################################################
+# loot/loot_gilded/gilded_sword2.json
+##################################################################
+rldregora.gilded_sword2.granite_sword.name=Granite Sword
+rldregora.gilded_sword2.granite_sword.lore=Holding this sword you feel heavy and slow but strong as well.
+rldregora.gilded_sword2.raikus_grave.name=Raiku's Grave
+
+##################################################################
+# loot/loot_gilded/gilded_sword3.json
+##################################################################
+rldregora.gilded_sword3.sneezing_sword.name=Sneezing Sword
+rldregora.gilded_sword3.sneezing_sword.lore=Unpredictable but Versatile.
+rldregora.gilded_sword3.sasukes_grave.name=Sasuke's Grave
+
+##################################################################
+# loot/loot_gilded/gilded_sword4.json
+##################################################################
+rldregora.gilded_sword4.gilded_sword.name=Gilded Sword
+rldregora.gilded_sword4.gilded_sword.lore=The sword feels warm to the touch
+rldregora.gilded_sword4.yugis_grave.name=Yugi's Grave
+
+##################################################################
+# loot/loot_gilded/gilded_sword5.json
+##################################################################
+rldregora.gilded_sword5.black_sword.name=Black Sword
+rldregora.gilded_sword5.black_sword.lore=This sword is just and swift.
+rldregora.gilded_sword5.kiritos_grave.name=Kirito's Grave
+
+##################################################################
+# loot/loot_moderncity/epic_old_tools.json
+##################################################################
+rldregora.epic_old_tools.damascus_gold.lore=Made of reinforced gold, a technique lost to ancient times.
+rldregora.epic_old_tools.golden_sword.name=Damascus Gold Sword
+rldregora.epic_old_tools.golden_shovel.name=Damascus Gold Shovel
+rldregora.epic_old_tools.golden_pickaxe.name=Damascus Gold Pickaxe
+rldregora.epic_old_tools.golden_axe.name=Damascus Gold Axe
+rldregora.epic_old_tools.golden_helmet.name=Damascus Gold Helmet
+rldregora.epic_old_tools.golden_chestplate.name=Damascus Gold Chestplate
+rldregora.epic_old_tools.golden_leggings.name=Damascus Gold Leggings
+rldregora.epic_old_tools.golden_boots.name=Damascus Gold Boots
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_1.json
+##################################################################
+rldregora.ocean_potion_1.potion_haste_breathe.name=Potion of Hastefull Water Breathing
+rldregora.ocean_potion_1.potion_haste_breathe.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_1.potion_haste_breathe.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_1.potion_haste_breathe.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_1.potion_haste_breathe.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_1.potion_haste_breathe.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_1.potion_haste_breathe.lore.0\",\"rldregora.ocean_potion_1.potion_haste_breathe.lore.1\",\"rldregora.ocean_potion_1.potion_haste_breathe.lore.2\",\"rldregora.ocean_potion_1.potion_haste_breathe.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_2.json
+##################################################################
+rldregora.ocean_potion_2.potion_ext_breathe.name=Moldy Potion of Extended Water Breathing
+rldregora.ocean_potion_2.potion_ext_breathe.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_2.potion_ext_breathe.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_2.potion_ext_breathe.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_2.potion_ext_breathe.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_2.potion_ext_breathe.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_2.potion_ext_breathe.lore.0\",\"rldregora.ocean_potion_2.potion_ext_breathe.lore.1\",\"rldregora.ocean_potion_2.potion_ext_breathe.lore.2\",\"rldregora.ocean_potion_2.potion_ext_breathe.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_3.json
+##################################################################
+rldregora.ocean_potion_3.potion_abs_breathe.name=Potion of Slow Absorbent Water Breathing
+rldregora.ocean_potion_3.potion_abs_breathe.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_3.potion_abs_breathe.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_3.potion_abs_breathe.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_3.potion_abs_breathe.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_3.potion_abs_breathe.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_3.potion_abs_breathe.lore.0\",\"rldregora.ocean_potion_3.potion_abs_breathe.lore.1\",\"rldregora.ocean_potion_3.potion_abs_breathe.lore.2\",\"rldregora.ocean_potion_3.potion_abs_breathe.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_4.json
+##################################################################
+rldregora.ocean_potion_4.potion_abs_dec_sickness.name=Potion of Absorbent§4 Decompression Sickness
+rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_4.potion_abs_dec_sickness.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.0\",\"rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.1\",\"rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.2\",\"rldregora.ocean_potion_4.potion_abs_dec_sickness.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_5.json
+##################################################################
+rldregora.ocean_potion_5.potion_undw_moonwalk.name=Potion of Underwater Moonwalking
+rldregora.ocean_potion_5.potion_undw_moonwalk.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_5.potion_undw_moonwalk.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_5.potion_undw_moonwalk.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_5.potion_undw_moonwalk.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_5.potion_undw_moonwalk.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_5.potion_undw_moonwalk.lore.0\",\"rldregora.ocean_potion_5.potion_undw_moonwalk.lore.1\",\"rldregora.ocean_potion_5.potion_undw_moonwalk.lore.2\",\"rldregora.ocean_potion_5.potion_undw_moonwalk.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_6.json
+##################################################################
+rldregora.ocean_potion_6.potion_night_dive.name=Potion of Night Diving
+rldregora.ocean_potion_6.potion_night_dive.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_6.potion_night_dive.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_6.potion_night_dive.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_6.potion_night_dive.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_6.potion_night_dive.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_6.potion_night_dive.lore.0\",\"rldregora.ocean_potion_6.potion_night_dive.lore.1\",\"rldregora.ocean_potion_6.potion_night_dive.lore.2\",\"rldregora.ocean_potion_6.potion_night_dive.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_7.json
+##################################################################
+rldregora.ocean_potion_7.potion_dead_cave_dive.name=Potion of Deadly Cave Diving
+rldregora.ocean_potion_7.potion_dead_cave_dive.lore.0=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_7.potion_dead_cave_dive.lore.1=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_7.potion_dead_cave_dive.lore.2=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_7.potion_dead_cave_dive.lore.3=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_7.potion_dead_cave_dive.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_7.potion_dead_cave_dive.lore.0\",\"rldregora.ocean_potion_7.potion_dead_cave_dive.lore.1\",\"rldregora.ocean_potion_7.potion_dead_cave_dive.lore.2\",\"rldregora.ocean_potion_7.potion_dead_cave_dive.lore.3\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_8.json
+##################################################################
+rldregora.ocean_potion_8.medical_eczema.name=Bottled Medical Anal Eczema
+rldregora.ocean_potion_8.medical_eczema.lore.0=(Mediastinal Emphysema with a healthy dose of Panic & Adrenaline!)
+rldregora.ocean_potion_8.medical_eczema.lore.1=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_8.medical_eczema.lore.2=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_8.medical_eczema.lore.3=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_8.medical_eczema.lore.4=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_8.medical_eczema.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_8.medical_eczema.lore.0\",\"rldregora.ocean_potion_8.medical_eczema.lore.1\",\"rldregora.ocean_potion_8.medical_eczema.lore.2\",\"rldregora.ocean_potion_8.medical_eczema.lore.3\",\"rldregora.ocean_potion_8.medical_eczema.lore.4\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_9.json
+##################################################################
+rldregora.ocean_potion_9.subhuman_eczema.name=Bottled Sub Human Eczema
+rldregora.ocean_potion_9.subhuman_eczema.lore.0=(Subcutaneous emphysema with a healthy dose of Panic & Adrenaline!)
+rldregora.ocean_potion_9.subhuman_eczema.lore.1=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_9.subhuman_eczema.lore.2=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_9.subhuman_eczema.lore.3=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_9.subhuman_eczema.lore.4=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_9.subhuman_eczema.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_9.subhuman_eczema.lore.0\",\"rldregora.ocean_potion_9.subhuman_eczema.lore.1\",\"rldregora.ocean_potion_9.subhuman_eczema.lore.2\",\"rldregora.ocean_potion_9.subhuman_eczema.lore.3\",\"rldregora.ocean_potion_9.subhuman_eczema.lore.4\"]
+
+##################################################################
+# loot/loot_ocean_potion/ocean_potion_10.json
+##################################################################
+rldregora.ocean_potion_10.pneumatic_lung.name=Potion of Pneumatic Lung
+rldregora.ocean_potion_10.pneumatic_lung.lore.0=Pneumothorax with a healthy dose of Panic & Adrenaline!
+rldregora.ocean_potion_10.pneumatic_lung.lore.1=§lSigned:§r Max, the Marine Biologist
+rldregora.ocean_potion_10.pneumatic_lung.lore.2=§lType:§r Standard Supply Dregorian Vial
+rldregora.ocean_potion_10.pneumatic_lung.lore.3=§lBatch Number:§r Y-2078 A-F
+rldregora.ocean_potion_10.pneumatic_lung.lore.4=§lSerial Number:§r -unreadable-
+#,LocName:\"rldregora.ocean_potion_10.pneumatic_lung.name\"
+#,LocLore:[\" \",\"rldregora.ocean_potion_10.pneumatic_lung.lore.0\",\"rldregora.ocean_potion_10.pneumatic_lung.lore.1\",\"rldregora.ocean_potion_10.pneumatic_lung.lore.2\",\"rldregora.ocean_potion_10.pneumatic_lung.lore.3\",\"rldregora.ocean_potion_10.pneumatic_lung.lore.4\"]
+

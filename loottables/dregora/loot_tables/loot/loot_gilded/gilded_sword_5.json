@@ -12,7 +12,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Black Sword\",Lore:[\"This sword is just and swift.\"]}}"
+              "tag": "{display:{Name:\"Black Sword\",Lore:[\"This sword is just and swift.\"],LocName:\"rldregora.gilded_sword5.black_sword.name\",LocLore:[\"rldregora.gilded_sword5.black_sword.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -40,7 +40,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Kirito\u0027s Grave\"}}"
+              "tag": "{display:{Name:\"Kirito\u0027s Grave\",LocName:\"rldregora.gilded_sword5.kiritos_grave.name\"}}"
             },
             {
               "function": "minecraft:set_attributes",
