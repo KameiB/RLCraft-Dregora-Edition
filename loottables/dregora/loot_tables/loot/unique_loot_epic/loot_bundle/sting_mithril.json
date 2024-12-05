@@ -10,7 +10,7 @@
           "name": "variedcommodities:mithril_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting\",Lore:[\"This dagger seems to always give off a bright glow...\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting\",Lore:[\"This dagger seems to always give off a bright glow...\"],LocName:\"rldregora.sting_mithril.sting.name\",LocLore:[\"rldregora.sting_mithril.sting.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:moonlight"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lightweight"]},
@@ -34,7 +34,7 @@
           "name": "variedcommodities:mithril_chest",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Mithril Shirt\",Lore:[\"As light as a feather, and as hard as dragon scales.\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Mithril Shirt\",Lore:[\"As light as a feather, and as hard as dragon scales.\"],LocName:\"rldregora.sting_mithril.mithril_shirt.name\",LocLore:[\"rldregora.sting_mithril.mithril_shirt.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedfireprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedprojectileprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedprotection"]},

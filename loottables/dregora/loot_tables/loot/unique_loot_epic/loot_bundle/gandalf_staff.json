@@ -10,7 +10,7 @@
           "name": "variedcommodities:wooden_staff",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Gandalf's Staff\",Lore:[\"You shall not pass!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Gandalf's Staff\",Lore:[\"You shall not pass!\"],LocName:\"rldregora.gandalf_staff.gandalf_staff.name\",LocLore:[\"rldregora.gandalf_staff.gandalf_staff.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:education"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},

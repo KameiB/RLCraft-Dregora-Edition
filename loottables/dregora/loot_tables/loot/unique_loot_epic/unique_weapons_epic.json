@@ -25,7 +25,7 @@
           "name": "spartanfire:katana_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"\"],LocName:\"rldregora.unique_weapons_epic.katana_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_epic.katana_dragonbone.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -41,7 +41,7 @@
           "name": "iceandfire:troll_weapon.hammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\"],LocName:\"rldregora.unique_weapons_epic.troll_weapon.hammer.name\",LocLore:[\"rldregora.unique_weapons_epic.troll_weapon.hammer.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -54,7 +54,7 @@
           "name": "iceandfire:troll_weapon.column",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Obelisk\",Lore:[\"Obelisk's Obelisk\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Obelisk\",Lore:[\"Obelisk's Obelisk\"],LocName:\"rldregora.unique_weapons_epic.troll_weapon.column.name\",LocLore:[\"rldregora.unique_weapons_epic.troll_weapon.column.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -67,7 +67,7 @@
           "name": "iceandfire:dread_sword",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Nullpointer\",Lore:[\"Divide them by zero!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Nullpointer\",Lore:[\"Divide them by zero!\"],LocName:\"rldregora.unique_weapons_epic.dread_sword.name\",LocLore:[\"rldregora.unique_weapons_epic.dread_sword.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
@@ -90,7 +90,7 @@
           "name": "variedcommodities:bo_staff",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Stick of Bonk\",Lore:[\"Does Bonk!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Stick of Bonk\",Lore:[\"Does Bonk!\"],LocName:\"rldregora.unique_weapons_epic.bo_staff.name\",LocLore:[\"rldregora.unique_weapons_epic.bo_staff.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
@@ -108,7 +108,7 @@
           "name": "variedcommodities:chicken_sword",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\"],LocName:\"rldregora.unique_weapons_epic.chicken_sword.name\",LocLore:[\"rldregora.unique_weapons_epic.chicken_sword.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:curseofdecay"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -124,7 +124,7 @@
           "name": "mujmajnkraftsbettersurvival:itemlumiumhammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\"],LocName:\"rldregora.unique_weapons_epic.itemlumiumhammer.name\",LocLore:[\"rldregora.unique_weapons_epic.itemlumiumhammer.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:smite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lessersmite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedsmite"]},
@@ -140,7 +140,7 @@
           "name": "variedcommodities:bronze_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\"],LocName:\"rldregora.unique_weapons_epic.bronze_dagger.name\",LocLore:[\"rldregora.unique_weapons_epic.bronze_dagger.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:smelter"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:meltdown"]},
             {"function": "enchant_randomly", "enchantments": ["spartanweaponry:incendiary"]},
@@ -159,7 +159,7 @@
           "name": "variedcommodities:katana",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Honjo Masamune\",Lore:[\"The legendary vanishing katana of old origins.\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Honjo Masamune\",Lore:[\"The legendary vanishing katana of old origins.\"],LocName:\"rldregora.unique_weapons_epic.katana.name\",LocLore:[\"rldregora.unique_weapons_epic.katana.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unsheathing"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:vanishing_curse"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:parry"]},
@@ -178,7 +178,7 @@
           "name": "variedcommodities:broken_bottle",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Kotlin\",Lore:[\"Fonny's bane\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Kotlin\",Lore:[\"Fonny's bane\"],LocName:\"rldregora.unique_weapons_epic.broken_bottle.name\",LocLore:[\"rldregora.unique_weapons_epic.broken_bottle.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedpunch"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disorientation"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
@@ -207,7 +207,7 @@
           "name": "variedcommodities:cleaver",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\"],LocName:\"rldregora.unique_weapons_epic.cleaver.name\",LocLore:[\"rldregora.unique_weapons_epic.cleaver.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:innerberserk"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -227,7 +227,7 @@
           "name": "variedcommodities:frost_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\"],LocName:\"rldregora.unique_weapons_epic.frost_dagger.name\",LocLore:[\"rldregora.unique_weapons_epic.frost_dagger.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:penetration"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:reviledblade"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:penetratingedge"]},
@@ -239,7 +239,7 @@
           "name": "variedcommodities:excalibur",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Excalibur\",Lore:[\"For Camelot!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Excalibur\",Lore:[\"For Camelot!\"],LocName:\"rldregora.unique_weapons_epic.excalibur.name\",LocLore:[\"rldregora.unique_weapons_epic.excalibur.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:sweeping"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:fieryedge"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:strengthenedvitality"]},
@@ -256,7 +256,7 @@
           "name": "variedcommodities:emerald_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Shiv\",Lore:[\"Get Shivved!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Shiv\",Lore:[\"Get Shivved!\"],LocName:\"rldregora.unique_weapons_epic.emerald_dagger.name\",LocLore:[\"rldregora.unique_weapons_epic.emerald_dagger.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:sunshine"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:rusted"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disorientation"]},
@@ -275,7 +275,7 @@
           "name": "variedcommodities:sai",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Eagle's Claw\",Lore:[\"Get Eagle'd!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Eagle's Claw\",Lore:[\"Get Eagle'd!\"],LocName:\"rldregora.unique_weapons_epic.sai.name\",LocLore:[\"rldregora.unique_weapons_epic.sai.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:assassinate"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:criticalstrike"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disarmament"]},
