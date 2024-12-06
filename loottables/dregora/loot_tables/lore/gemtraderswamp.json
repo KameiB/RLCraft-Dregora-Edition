@@ -29,12 +29,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Quinn, It's safe.\n\nI stashed it nearby the only thing you need to do is get it before it rusts or gets damaged.\n\nIt's in the regular spot. This will be our last job.\n\nDo not try to contact me again,\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Be aware there is something prowling down there.\n\nIt reeks of rot.\n\nI hope you red the whole letter instead of letting your greed take over again.\n\nDamian.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.gemtraderswamp.letter.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.gemtraderswamp.letter.page.2\\\"}]\"
                 ],
                 title:\"Letter\",
+                locTitle:\"rldregora.gemtraderswamp.letter.title\",
                 author:\"Damian\",
-                display:{Lore:[\"This seems to be a smuggler\u0027s note.\"]}
+                locAuthor:\"rldregora.gemtraderswamp.letter.author\",
+                display:{Lore:[\"This seems to be a smuggler\u0027s note.\"],LocLore:[\"rldregora.gemtraderswamp.letter.lore\"]}
               }"
             }
           ],

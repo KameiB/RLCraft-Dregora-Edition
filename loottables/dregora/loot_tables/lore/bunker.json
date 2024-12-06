@@ -29,14 +29,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"The tasks of the Wastelanders is as dangerous as it is vital for the survival of the shelter given to us by those who prospered before.\n\nBeyond the doors lay many dangers but our future as well and those brave enough\\\"}]\",
-                  \"[{\\\"text\\\":\\\"will be selected to travel from here to villages, outposts and shelters spread throughout the wastelands in search of knowledge, news, food and valuables which may raise our standards of living.\n\nThe most important rules for traveling to\\\"}]\",
-                  \"[{\\\"text\\\":\\\"and from these settlements are to\n\n1. Security - always remain alert of your surroundings.\n\n2. Avoid - Avoid any life-beings. Esspecially other traveling villagers! They may be imposters.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"3. Fast - be as fast as you can be unless it becomes dark.\n\n4. Encamp - never travel at night! Always make a secure encampment.\n\nThese 4 points make up the initialism S.A.F.E.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.wastelanders_guide.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.wastelanders_guide.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.wastelanders_guide.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.wastelanders_guide.page.4\\\"}]\"
                 ],
                 title:\"The Wastelanders Guide\",
+                locTitle:\"rldregora.bunker.wastelanders_guide.title\",
                 author:\"Wastelanders Council\",
-                display:{Lore:[\"This book describes the task of the Wastelander within this settlement.\"]}
+                locAuthor:\"rldregora.bunker.wastelanders_guide.author\",
+                display:{Lore:[\"This book describes the task of the Wastelander within this settlement.\",LocLore:[\"rldregora.bunker.wastelanders_guide.lore\"]]}
               }"
             },
             {
@@ -45,13 +47,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"--- EVACUATION ---\n\nFollow the supplied GPS coordinates to your closest shelter though the UW-APP where you will need to abandon your vehicle and follow the directions of military personel.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Upon arrival you will go down a set of stairs until you arrive at the tunnel at which you'll need to walk a few kilometers dependent on your designated shelter included in your UW-APP.\n\nProceeding calmly and listening to the local military personel is\\\"}]\",
-                  \"[{\\\"text\\\":\\\"of great importance.\n\nAt your designated shelter you will go through the blast doors which will close at the following time:\n\nWeekday: Monday\nDate: 26/04/2116\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.evacuation_plan.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.evacuation_plan.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.evacuation_plan.page.3\\\"}]\"
                 ],
                 title:\"Evacuation Plan\",
+                locTitle:\"rldregora.bunker.evacuation_plan.title\",
                 author:\"United World\",
-                display:{Lore:[\"These are copies of copies and preserve a ancient directive.\"]}
+                locAuthor:\"rldregora.bunker.evacuation_plan.author\",
+                display:{Lore:[\"These are copies of copies and preserve a ancient directive.\"],LocLore:[\"rldregora.bunker.evacuation_plan.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -61,13 +65,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Beyond the edge of the wastelands lay the realms of no return in which few brave, some desperate but all foolish go in search of unclaimed treasure or glory.\n\nThose lands shrouded in heavy fog and silent whispers should not\\\"}]\",
-                  \"[{\\\"text\\\":\\\"be taken at face value as though dread may fill your mind upon staring into the void if one enters a worse fate awaits.\n\nIt is rumored that even till this day those who venture close can hear the screams of their predecessors.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.the_abyss.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.the_abyss.page.2\\\"}]\"
                 ],
                 title:\"The Abyss\",
+                locTitle:\"rldregora.bunker.the_abyss.title\",
                 author:\"Unknown\",
+                locAuthor:\"rldregora.bunker.the_abyss.author\",
                 generation: 1,
-                display:{Lore:[\"This book warns for a place one should avoid at all cost.\"]}
+                display:{Lore:[\"This book warns for a place one should avoid at all cost.\"],LocLore:[\"rldregora.bunker.the_abyss.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -77,13 +83,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"The tutors of this settlement fill the role of passing on gained knowledge through books or the words of the wastelanders.\n\nImportant for these tutors is to teach about the dangers of spreading knowledge\n\n\\\"}]\",
-                  \"[{\\\"text\\\":\\\"gained to outside trusted circles for then raiders may come and unspeakable things ensue.\n\nThe knowledge in particular often centers around artifacts and ancient documents which we should learn about but\\\"}]\",
-                  \"[{\\\"text\\\":\\\"never write down or hold in our posession for too long.\n\nThe only exception to these rules is made for the artifacts traded by the outposts for reasons debatable.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.tutors_guide.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.tutors_guide.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.tutors_guide.page.3\\\"}]\"
                 ],
                 title:\"The Tutors Guide\",
+                locTitle:\"rldregora.bunker.tutors_guide.title\",
                 author:\"Wastelanders Council\",
-                display:{Lore:[\"This book describes the task of the tutor within this settlement.\"]}
+                locAuthor:\"rldregora.bunker.tutors_guide.author\",
+                display:{Lore:[\"This book describes the task of the tutor within this settlement.\"],LocLore:[\"rldregora.bunker.tutors_guide.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -93,12 +101,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Reclaimation day speach.\n\nToday marks our Reclaimation day for we have cleaned the corruption out of our newfound home and shall sleep sound for the doors are strong.\n\nNow we shall fix what is broken and farm what lands we have in peace.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"We\u0027ve traveled under many days and survived many a nights full of terror and doom.\n\nNow it is our time to be happy if not for our sakes then for those who we lost on our way to this utopia amids the waste.\n\n19/11/6236 Saturday\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.reclaimation_day.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.bunker.reclaimation_day.page.2\\\"}]\"
                 ],
                 title:\"Reclaimation Day\",
+                locTitle:\"rldregora.bunker.reclaimation_day.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A copy of a copy of a old book, most pages fell out but a small note remained.\"]}
+                locAuthor:\"\",
+                display:{Lore:[\"A copy of a copy of a old book, most pages fell out but a small note remained.\"],LocLore:[\"rldregora.bunker.reclaimation_day.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -117,7 +127,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

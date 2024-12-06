@@ -29,13 +29,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Not only have i seen true horrors of day past, not only have I seen humankind fall long before I sailed these waters where few venture to join the armies of what would make me. A dreaded soul with many an era\u0027s burned within my dark eyes. Here i patrol these waters\\\"}]\",
-                  \"[{\\\"text\\\":\\\"stopping them from joining the armies until the one arrives. \n\nMay you find my book, may you end my nightmare you shall surely be powerful enough to venture further, until the horizon where dead man roam the eternal wasteland.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Walk and you shall find what happened to this Earth, you shall find the truth of these lands of Dregora in which true horrors were born.\n\nVenture forth, venture deep and beyond for thou shall find the truth.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.undead_curse.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.undead_curse.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.undead_curse.page.3\\\"}]\"
                 ],
                 title:\"My Undead Curse\",
+                locTitle:\"rldregora.eaglelore.undead_curse.title\",
                 author:\"- Heaven, The Wise -\",
-                display:{Lore:[\"Book of Heaven\"]}
+                locAuthor:\"rldregora.eaglelore.undead_curse.author\",
+                display:{Lore:[\"Book of Heaven\"],LocLore:[\"rldregora.eaglelore.undead_curse.lore\"]}
               }"
             },
             {
@@ -44,26 +46,28 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"The wet streets reflected the mighty skyscrapers as the rain made sure to not leave a inch of dry concrete. Everyone hated it when the skies turned dark and secretly wished for an environmental control center like they had in the world cities. Being a true rebel I remember\\\"}]\",
-                  \"[{\\\"text\\\":\\\"loving the touch and feel of the rain as grumpy townsfolk mostly just complained either silently or with their expressions. Lost in thoughts i walked the streets and passed a club where young ones danced to futuristic tunes. A couple such persons ran out to the streets and\\\"}]\",
-                  \"[{\\\"text\\\":\\\"enthusiastically started dancing in the rain. And here I thought I was the madman for having the biggest smile during such weather. It was within those moments where magic became reality. And thus as I stood still to witness wonders happen I too started dancing, from\\\"}]\",
-                  \"[{\\\"text\\\":\\\"deep within only to be seen by those who would look me into the eyes as they tell true stories. And as we all danced in one moment it vanished in the next. The world snapped, swallowing the mighty skyscrapers plundering down to earth crushing those who danced on the strees and within.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"It was the end of times where those born a minute earlier already passed into what became after. A gruesome day for which was no time to cry as we fled this last city on earth for all others had already fallen to the Blight. A true monster of catastrophes\\\"}]\",
-                  \"[{\\\"text\\\":\\\"illuminating the skies with a mesmerizing dancing red light. It\u0027s ironic how this light filled the skies as humankind came to the brink of extinction. Almost as if there was a reason to celebrate.\n\nSafety was found behind the doors of our most indestructible\\\"}]\",
-                  \"[{\\\"text\\\":\\\"structures designed to keep us safe from ourselves. Hidden away in the mountains where thousands managed to flee as the corruption started to leak to Earth, the world we called ours as if it was ours to give. Ha, what a Joke is what I thought long after we closed all doors leading to that\\\"}]\",
-                  \"[{\\\"text\\\":\\\"world roamed by the corrupted, feasting on each other.\n\nAnd while they feasted on the ones we loved we remained there, starving as our crops didn\u0027t grow, neither did any water flow. Months passed as we slowly dropped until it was enough and as we\\\"}]\",
-                  \"[{\\\"text\\\":\\\"opened the doors our end was met. The big feast begun where I lost my love and became hatred itself. With a few we survived, corned but alive and thought up a plan to defeat the corrupted for once and for all. Days without end we did research in the hopes finding\\\"}]\",
-                  \"[{\\\"text\\\":\\\"a weapon, how human like. For weeks we thought only about destroying until slowly but surely we learned to embrace as with the curse of the corruption came immortality in it\u0027s darkest form.\n\nThat was the last thing we as humans would ever learn and thus we\\\"}]\",
-                  \"[{\\\"text\\\":\\\"decided nobody should learn ever after as the corruption was ours to begin with. The corruption of the human mind causing the end of this green world. A world upon which the blight has been released by our most talented scientist looking for a way to take even more\\\"}]\",
-                  \"[{\\\"text\\\":\\\"while we had been given so much already. From that day and forth we would call ourselves the RedClan which vowed to destroy all technology to give the world a chance to regain it\u0027s former glory. Entire centuries passed as we created a small utopia on earth where no\\\"}]\",
-                  \"[{\\\"text\\\":\\\"humans lived until the skies cracked under the deafening noise of turbine engines. The Dregorian Voyager had seated itself in the middle of the utopia and the first thing they did was claiming it once again as if it was theirs.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"And so we watched and intervened as they crossed borders ultimately leading to another possible blight. And thus as technology was lacking the farmers and castle\u0027s of old ages returned. Ships started venturing out and cities where created using pure workforce.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"A peaceful yet hard era in which humankind prospered once more until a betrayal happened where many a man fell to the wrath of a corruption originating from within our own ranks. Ships where sunk and cities fell once again. Sick of a repeating the past the tree of us left\\\"}]\",
-                  \"[{\\\"text\\\":\\\"and had forsaken the vows we made as we traveled the seas in search for the one that would conquer us. Only then they may venture forth and find the truth about what happened that day.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.11\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.12\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.13\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.14\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.15\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.world_days_past.page.16\\\"}]\"
                 ],
                 title:\"The world of days past\",
+                locTitle:\"rldregora.eaglelore.world_days_past.title\",
                 author:\"- Eagle, The Founder -\",
-                display:{Lore:[\"Book of Eagle\"]}
+                locAuthor:\"rldregora.eaglelore.world_days_past.author\",
+                display:{Lore:[\"Book of Eagle\"],LocLore:[\"rldregora.eaglelore.world_days_past.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -73,12 +77,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"As others wrote their book for those who came after, some telling the story of now, others telling the story of past days I will look to the horizon and witness the future in which neither old or current day will return.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Neither will hatred, corruption or love as all that has a begin will have it\u0027s end.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.ends_bring_salvation.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.eaglelore.ends_bring_salvation.page.2\\\"}]\"
                 ],
                 title:\"As ends bring salvation\",
+                locTitle:\"rldregora.eaglelore.ends_bring_salvation.title\",
                 author:\"- Sam, - The Knowledgeable -\",
-                display:{Lore:[\"Book of Sam\"]}
+                locAuthor:\"rldregora.eaglelore.ends_bring_salvation.author\",
+                display:{Lore:[\"Book of Sam\"],LocLore:[\"rldregora.eaglelore.ends_bring_salvation.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -97,7 +103,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

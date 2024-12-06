@@ -29,14 +29,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Beneath the ocean waves many secrets await discovery: ancient ships rumored to travel to the stars and beyond, ancient temples with treasures and perhaps the true history of Dregora. I have visited some of these places, found some of\\\"}]\",
-                  \"[{\\\"text\\\":\\\"these ancient sunken ruins and gained great wealth by discovering hidden treasures while learning the secret knowledge of the old ways. The old ways which, by the way, were forbidden long ago by the Redcloaks which till this day still exist and\\\"}]\",
-                  \"[{\\\"text\\\":\\\"possibly control this world from behind the scenes. I will continue to learn and crack the formula to live 10 lifetimes, like the Redcloaks have done for centuries. Because, unless I am wrong, we are about to enter a time that may change everything.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"This is the day I will leave this note, and this trusted village in which I grew up, to find more clues and direct the future towards the best possible outcome.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.4\\\"}]\"
                 ],
                 title:\"Secrets of the Ocean\",
+                locTitle:\"rldregora.harbor.secrets_ocean.title\",
                 author:\"A Traveler\",
-                display:{Lore:[\"Signed by The Traveler\"]}
+                locAuthor:\"rldregora.harbor.secrets_ocean.author\",
+                display:{Lore:[\"Signed by The Traveler\"],LocLore:[\"rldregora.harbor.secrets_ocean.lore\"]}
               }"
             },
             {
@@ -45,13 +47,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"In the dark night of the eleventh night we hear waves hitting the shore, we hear the docks crumbling under the pressure brought by many evil beings, something not as bad as the corrupted, yet something that nobody should experience. As\\\"}]\",
-                  \"[{\\\"text\\\":\\\"cannons fire and houses collapse we try to run to safety. Purposely leaving anything of value behind, as this is what they\u0027re after. Yet I carry this ancient sword to protect my family. My children and lovely wife, who they will take away from\\\"}]\",
-                  \"[{\\\"text\\\":\\\"me for their own enjoyment. As we run we see the exit is blocked, so we hide in the hope they won\u0027t find us while the sound of their footsteps grow louder and louder...\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.3\\\"}]\"
                 ],
                 title:\"Pirates!\",
+                locTitle:\"rldregora.harbor.pirates.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"At night they came\"]}
+                locAuthor:\"rldregora.harbor.pirates.author\",
+                display:{Lore:[\"At night they came\"],LocLore:[\"rldregora.harbor.pirates.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -61,12 +65,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"As we carry box by box we\u0027re in a happy mood. Not because the pay is good or because we long to feel the ocean waves carrying the ship to our destination. It\u0027s because we carry a greater purpose to the ships. It may just be rocks and wood\\\"}]\",
-                  \"[{\\\"text\\\":\\\"but from these supplies we will build mighty cities in the middle of the oceans from which we will set sail to conquer this world once again. So we sing happily as we go and build our future.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.let_sail.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.let_sail.page.2\\\"}]\"
                 ],
                 title:\"Let us set sail\",
+                locTitle:\"rldregora.harbor.let_sail.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Reclaiming the world.\"]}
+                locAuthor:\"rldregora.harbor.let_sail.author\",
+                display:{Lore:[\"Reclaiming the world.\"],LocLore:[\"rldregora.harbor.let_sail.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -76,13 +82,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"We\u0027re hiding while they slowly progress door to door. They\u0027re from a mighty ship without flags. We sit in the corner of my attic while they drag the residents of this harbor out of their houses. Accompanied by tall creatures wearing red and black\\\"}]\",
-                  \"[{\\\"text\\\":\\\"cloaks. I couldn\u0027t move a limb as my neighbors screamed and their children were dragged away from them by savage monsters. By the stinking and rotting corrupted. What in Dregora\u0027s name is going on? I wonder what they did to deserve this.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I see the ship take sail, never to be heard of again.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.3\\\"}]\"
                 ],
                 title:\"Corrupted Charter\",
+                locTitle:\"rldregora.harbor.corrupted_chapter.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Taken by the Red Cloaks.\"]}
+                locAuthor:\"rldregora.harbor.corrupted_chapter.author\",
+                display:{Lore:[\"Taken by the Red Cloaks.\"],LocLore:[\"rldregora.harbor.corrupted_chapter.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -92,15 +100,17 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"One day, just like any other, I went fishing. Not like the big shots do it with their fancy nets and fleet of fancy ships. No, simply with a fishing rod, some bait and a lot of patience. It wasn\u0027t till early afternoon once I finally sat within my simple boat\\\"}]\",
-                  \"[{\\\"text\\\":\\\"with a bucket of bait. Staring at the ocean, which was surprisingly calm, waiting till I would hook something on my line, I saw a reflection under water so I took a closer look. Deep underwater, impossible to see if it wasn\u0027t for the calmness of the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"ocean today, it looked like a piece of metal with guards. A beam? No, that must be a sword. Knowing how much swords can cost I undressed myself and jumped from my boat. Reaching the bottom, I tried to move the sword. Is it me?\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Am I growing old? I couldn\u0027t lift the thing an inch so I went back up to grab a rope. After about half an hour I sat on my boat again with the sword next to me, not as heavy as it seemed before. I could just barely lift the bloody thing.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I wonder what it will be worth, as it\u0027s so heavy I don\u0027t think it would be very useful in combat, but we\u0027ll see.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.5\\\"}]\"
                 ],
                 title:\"Sword of the Deep\",
+                locTitle:\"rldregora.harbor.corrupted_chapter.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"What lies under the waves.\"]}
+                locAuthor:\"rldregora.harbor.corrupted_chapter.author\",
+                display:{Lore:[\"What lies under the waves.\"],LocLore:[\"rldregora.harbor.corrupted_chapter.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -119,7 +129,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -164,7 +174,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Sword of the Deep\",Lore:[\"a heavy, magical sword that packs a punch\"]}}"
+              "tag": "{display:{Name:\"Sword of the Deep\",Lore:[\"a heavy, magical sword that packs a punch\"],LocName:\"rldregora.harbor.sword_of_deep.name\",LocLore:[\"rldregora.harbor.sword_of_deep.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
