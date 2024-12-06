@@ -3888,4 +3888,114 @@ rldregora.unique_weapons_rare.exalted.staff_diamond.name=Exalted Staff
 
 #,LocName:\"rldregora.unique_weapons_rare.ancient.rapier_gold.name\"
 
+##################################################################
+# loot/bone_loot.json
+##################################################################
+rldregora.bone_loot.skull.name=Skull of Luck
+rldregora.bone_loot.skull.lore=Holding this in your off-hand gives you a boost of luck.
+rldregora.bone_loot.iron_helmet.name=Helm of Resentment
+rldregora.bone_loot.iron_helmet.lore=This headpiece comes with a surprise
+rldregora.bone_loot.wooden_sword.name=Sleeper Sword
+rldregora.bone_loot.wooden_sword.lore.0=This training sword packs more of
+rldregora.bone_loot.wooden_sword.lore.1=a punch it should be able to
+rldregora.bone_loot.wooden_sword.lore.2=handle
 
+#,LocName:"rldregora.bone_loot.wooden_sword.name",LocLore:["rldregora.bone_loot.wooden_sword.lore.0","rldregora.bone_loot.wooden_sword.lore.1","rldregora.bone_loot.wooden_sword.lore.2"]
+
+##################################################################
+# loot/gilded_bone_loot.json
+##################################################################
+rldregora.gilded_bone_loot.cursed_book.name=Cursed Book
+
+##################################################################
+# loot/moderncity_common_loot.json
+##################################################################
+rldregora.moderncity_common_loot.ancient_earthen.name=Ancient Earthen Paper
+rldregora.moderncity_common_loot.ancient_earthen.lore=By some miracle the paper doesn't fall apart
+
+rldregora.moderncity_common_loot.ancient_book.lore.0=Unlike other ancient books this one
+rldregora.moderncity_common_loot.ancient_book.lore.1=mostly remains intact
+rldregora.moderncity_common_loot.yyon.slow_cook.name=Slow Cook Recipes with %s
+rldregora.moderncity_common_loot.xzeroair.joy_cooking.name=The Joy of Cooking with %s
+rldregora.moderncity_common_loot.meldexun.tasting_history.name=Tasting History with %s
+rldregora.moderncity_common_loot.snowee.cookbook.name=%s's Cookbook
+rldregora.moderncity_common_loot.lycanite.competent_cuisine.name=Competent Cuisine with %s
+rldregora.moderncity_common_loot.artsy.tasty_table.name=Tasty Table %s
+rldregora.moderncity_common_loot.rayquaza.how_cook_without.name=How to Cook Without %s
+rldregora.moderncity_common_loot.fonny_munkeys.cooking_with.name=Cooking with %s
+rldregora.moderncity_common_loot.paulevs.cookbook.name=%s Cookbook
+rldregora.moderncity_common_loot.hoonts.against_all.name=Against All %s
+rldregora.moderncity_common_loot.landon.easy_peasy.name=Easy Peasy %s Squeezy
+rldregora.moderncity_common_loot.max.capped.name=The Capped %s
+rldregora.moderncity_common_loot.heaven.street_spice.name=Street Spice from %s
+rldregora.moderncity_common_loot.shivaxi.king_kook.name=King Kook %s
+rldregora.moderncity_common_loot.bas.cooking.name=Cooking with %s
+rldregora.moderncity_common_loot.shivaxi.cooking.name=Cooking with %s
+rldregora.moderncity_common_loot.fm2.cooking.name=Cooking with %s
+rldregora.moderncity_common_loot.landon.cooking.name=Cooking with %s
+rldregora.moderncity_common_loot.ichttt.medical_treatments.name=Medical Treatments with %s
+rldregora.moderncity_common_loot.ivesiris.roasted_silverfish.name=Roasted Silverfish with %s
+rldregora.moderncity_common_loot.fm2.beefy_buckaroe.name=Beefy Buckaroe by %s
+rldregora.moderncity_common_loot.melonslise.cabinetmaking.name=Illustrated Cabinetmaking with %s
+rldregora.moderncity_common_loot.bl4ckscor3.carpentry.name=Carpentry with %s
+rldregora.moderncity_common_loot.neonderg.carpenters_handbook.name=Carpenters Handbook by %s
+rldregora.moderncity_common_loot.goldenalpharex.genius.name=The Genius of %s
+rldregora.moderncity_common_loot.kanederg.first_aid.name=First aid by %s
+rldregora.moderncity_common_loot.theawesomegem.fishing.name=Fishing with %s
+rldregora.moderncity_common_loot.heaven.survival_skills.name=Survival Skills by %s
+rldregora.moderncity_common_loot.jared.trapping.name=Trapping with %s
+rldregora.moderncity_common_loot.dhanatry_cephelo.apocalypse_cooking.name=Apocalypse Cooking with %s
+rldregora.moderncity_common_loot.elenai.yoga_lessons.name=Yoga lessons by %s
+rldregora.moderncity_common_loot.authvin.howto_code.name=How to code by %s
+rldregora.moderncity_common_loot.pg85.coding_101.name=Coding 101 by %s
+rldregora.moderncity_common_loot.fm2.coding_easy.name=Coding made easy by %s
+rldregora.moderncity_common_loot.eagle.care_pet_rats.name=How to take care of pet rats by %s
+rldregora.moderncity_common_loot.fantasy.fancy_rats_enclosures.name=Fancy rats and their enclosures by %s
+rldregora.moderncity_common_loot.skippy.howto_skip.name=How to skip by %s
+rldregora.moderncity_common_loot.king_flashes.flash_techniques.name=Flash techniques by the %s
+rldregora.moderncity_common_loot.heaven.why_sacrifice.name=Why should I sacrifice, by %s
+rldregora.moderncity_common_loot.retard.guide_laughing.name=Dummy guide to laughing by %s
+rldregora.moderncity_common_loot.heaven_eagle.intro_scuba.name=Introduction to Scuba by %s
+rldregora.moderncity_common_loot.blueyeen.metal_lathe.name=The Metal Lathe by %s
+rldregora.moderncity_common_loot.bleeder91.ancient_civil.name=Ancient Civilizations by %s
+rldregora.moderncity_common_loot.jiiamma.agriculture_101.name=Agriculture 101 by %s
+rldregora.moderncity_common_loot.machteld.hoarder.name=The Hoarder by %s
+rldregora.moderncity_common_loot.machteld.properties_glass.name=The properties of glass by %s
+rldregora.moderncity_common_loot.frauk_felice.psychology.name=Psychology by %s
+rldregora.moderncity_common_loot.vincent.paintings.name=Paintings by %s
+rldregora.moderncity_common_loot.mrblack.heaven_fell_down.name=When Heaven Fell down by %s
+rldregora.moderncity_common_loot.eagle.when_eagles_fly.name=When Eagles Fly by %s
+rldregora.moderncity_common_loot.scalper.secondary_aid.name=Secondary Aid by the %s
+rldregora.moderncity_common_loot.phantom_fantasia.quests_lore.name=Quests and Lore by %s
+rldregora.moderncity_common_loot.creativemd.combustion_engines.name=Combustion Engines by %s
+rldregora.moderncity_common_loot.tschipp.cartographers_skills.name=Cartrographers Skills by %s
+rldregora.moderncity_common_loot.obliviousspartan.metalworking_shops.name=Metalworking Shops by %s
+rldregora.moderncity_common_loot.cursed1nferno.bountiful_living.name=Bountifull Living by %s
+rldregora.moderncity_common_loot.enderlanky.tailoring.name=Tailoring by %s
+rldregora.moderncity_common_loot.emerald.fishing_well.name=Fishing done well by %s
+rldregora.moderncity_common_loot.blockvader.foraging.name=Foraging by %s
+rldregora.moderncity_common_loot.titan.efficient.carpenter.name=Efficient Carpenter by %s
+rldregora.moderncity_common_loot.titan.whitedraco.basic_archery.name=Basic Archery by %s
+rldregora.moderncity_common_loot.titan.xcube.starviewing.name=Starviewing by %s
+rldregora.moderncity_common_loot.titan.charles445.cabinet_5min.name=Cabinet in 5 minutes by %s
+rldregora.moderncity_common_loot.titan.ejektaflex.1day_house.name=Your one day house by %s
+rldregora.moderncity_common_loot.titan.harleyoc1.woodworking.name=WoodWorking with %s
+rldregora.moderncity_common_loot.titan.fnar.archeology.name=Archeology with %s
+rldregora.moderncity_common_loot.titan.shelterrin.lore_magic.name=Lore & Magic with %s
+rldregora.moderncity_common_loot.titan.twilightstar.farming.name=Farming with %s
+rldregora.moderncity_common_loot.titan.macaw.bridging.name=Bridging with %s
+rldregora.moderncity_common_loot.titan.noppes.commodities.name=Carpeting Commodities with %s
+rldregora.moderncity_common_loot.titan.yung.spelunking.name=Spelunking with %s
+rldregora.moderncity_common_loot.titan.icebelly.exploring.name=Exploring with %s
+
+#,LocName:"rldregora.moderncity_common_loot.lycanite.competent_cuisine.name",LocNameArgs[\"-Lycanite-\"],LocLore:["rldregora.moderncity_common_loot.ancient_book.lore.0","rldregora.moderncity_common_loot.ancient_book.lore.1"]
+
+##################################################################
+# loot/moderncity_epic_loot.json
+##################################################################
+rldregora.moderncity_epic_loot.torn_carpet.name=Torn Carpet
+rldregora.moderncity_epic_loot.torn_carpet.lore=Ancient Carpet, masterfully crafted yet very damaged.
+rldregora.moderncity_epic_loot.golden_disk.name=Small Golden Disk
+rldregora.moderncity_epic_loot.golden_disk.lore=There's a number written on the small disk, it says %s
+
+#,LocName:"rldregora.moderncity_epic_loot.golden_disk.name",LocLore:["rldregora.moderncity_epic_loot.golden_disk.lore"],LocLoreArg:[\"10\"]

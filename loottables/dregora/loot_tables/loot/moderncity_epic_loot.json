@@ -164,7 +164,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Torn Carpet\",Lore:[\"Ancient Carpet, masterfully crafted yet very damaged.\"]}}"
+              "tag": "{display:{Name:\"Torn Carpet\",Lore:[\"Ancient Carpet, masterfully crafted yet very damaged.\"],LocName:\"rldregora.moderncity_epic_loot.torn_carpet.name\",LocLore:[\"rldregora.moderncity_epic_loot.torn_carpet.lore\"]}}"
             },
             {
               "function": "minecraft:set_data",
@@ -194,11 +194,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 10\"]}}"
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 10\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"10\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 20\"]}}",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 20\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"20\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -208,7 +208,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 50\"]}}",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 50\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"50\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -218,7 +218,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 100\"]}}",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 100\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"100\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",

@@ -81,7 +81,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Cursed Book\"}}"
+              "tag": "{display:{Name:\"Cursed Book\",LocName:\"rldregora.gilded_bone_loot.cursed_book.name\"}}"
             },
             {
               "function": "enchant_randomly",
