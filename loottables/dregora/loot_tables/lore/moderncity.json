@@ -29,12 +29,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"It has been several days up top since I left the safe confines of the underground colony and despite the horrors that roam around I couldn\u0027t resist the urge to climb these massive towers which once seemed to be mighty\\\"}]\",
-                  \"[{\\\"text\\\":\\\"settlements as these structures contain remanants of beds, cabinets... living spaces I think.. Some even contain chests with valuables inside such as old grimoires containing spells and the likes.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.pillars_heaven.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.pillars_heaven.page.2\\\"}]\"
                 ],
                 title:\"Pillars of Heaven\",
+                locTitle:\"rldregora.moderncity.pillars_heaven.title\",
                 author:\"Scavenger\",
-                display:{Lore:[\"The journey of a scavenger and some of their findings.\"]}
+                locAuthor:\"rldregora.moderncity.pillars_heaven.author\",
+                display:{Lore:[\"The journey of a scavenger and some of their findings.\"],LocLore:[\"rldregora.moderncity.pillars_heaven.lore\"]}
               }"
             },
             {
@@ -43,12 +45,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Weeks had passed in the sandy waste... Not sure where I find myself in, these towers that climb higher then anything I had seen before provide for some shelter and safety... Down below are these things that.. I just can\u0027t explain.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I have tried finding my way out but I don\u0027t know where to go... When I venture out this complex of towers I find myself in the waste again without end... These unspeakable monsters... I just want to go home.. Yes just home.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.wasted_earth_bones_death.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.wasted_earth_bones_death.page.2\\\"}]\"
                 ],
                 title:\"Wasted Earth, Bones and Death\",
+                locTitle:\"rldregora.moderncity.wasted_earth_bones_death.title\",
                 author:\"Explorer\",
-                display:{Lore:[\"The story of a explorer gotten lost.\"]}
+                locAuthor:\"rldregora.moderncity.wasted_earth_bones_death.author\",
+                display:{Lore:[\"The story of a explorer gotten lost.\"],LocLore:[\"rldregora.moderncity.wasted_earth_bones_death.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -58,12 +62,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Locked away in the building that will become my grave... I realize this now as I am being surrounded by evil digging their way to my safe haven as the time ticks away.\n\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"These are my last moments on this earth and I have made my peace with it...\n\nMay it be a quick end...\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.end_mydays.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.end_mydays.page.2\\\"}]\"
                 ],
                 title:\"The end of my days\",
+                locTtitle:\"rldregora.moderncity.end_mydays.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The final scribbles of someone unable to escape.\"]}
+                locAuthor:\"rldregora.moderncity.end_mydays.author\",
+                display:{Lore:[\"The final scribbles of someone unable to escape.\"],LocLore:[\"rldregora.moderncity.end_mydays.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -73,14 +79,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Tunnels, I had to run.. they are infested with those foul beasts but there are tunnels everywhere underneath connecting everything. What was this place? It seems like it was a huge settlement of sorts but without any defences..\\\"}]\",
-                  \"[{\\\"text\\\":\\\"just open space.. Does this mean there was a past without the monsters? The old viking tales also tell about such a story... Is it true then that there once was a ship that could fly and came from above? I can\u0027t imagine such things..\\\"}]\",
-                  \"[{\\\"text\\\":\\\"There is just too much, too much possibilities.. I had heard about the people clad in red and black and even had one one them following me once. Does it hold any relation to the mark in the viking\u0027s book of law?\\\"}]\",
-                  \"[{\\\"text\\\":\\\"What stories lay hidden below everything that seems? This world has more to tell then the eye meets. I wonder what.\n\nThere must hav... The writing suddently stops.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.skeletons_past.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.skeletons_past.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.skeletons_past.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.skeletons_past.page.4\\\"}]\"
                 ],
                 title:\"Skeletons of the past\",
+                locTitle:\"rldregora.moderncity.skeletons_past.title\",
                 author:\"Archaeologist\",
-                display:{Lore:[\"A stained notebook by a archaeologist\"]}
+                locAuthor:\"rldregora.moderncity.skeletons_past.author\",
+                display:{Lore:[\"A stained notebook by a archaeologist\"],LocLore:[\"rldregora.moderncity.skeletons_past.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -90,12 +98,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"In this chest you will find a book imbued by magic... I went through high and low to get my hands on it, chased by countless horrors up the stairs until no stairs were left and down again. The holdings of this chest\\\"}]\",
-                  \"[{\\\"text\\\":\\\"slowed me down, down so much that I can\u0027t escape the horde no more and thus I leave this for you, may you be wise and take the best of treasures or have the strength to carry it all but be quick as eyes are watching you all.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.demise_looter.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.moderncity.demise_looter.page.2\\\"}]\"
                 ],
                 title:\"The Demise of a looter\",
+                locTitle:\"rldregora.moderncity.demise_looter.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The last will of a foolish person.\"]}
+                locAuthor:\"rldregora.moderncity.demise_looter.author\",
+                display:{Lore:[\"The last will of a foolish person.\"],LocLore:[\"rldregora.moderncity.demise_looter.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -114,7 +124,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

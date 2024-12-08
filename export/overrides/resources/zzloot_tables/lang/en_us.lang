@@ -4633,5 +4633,819 @@ rldregora.junglecave.adventurer_diary.page.4=§lHot Moist Climate§r\n----------
 rldregora.junglecave.adventurer_diary.page.5=§lDry Hot Climate§r\n-------------------\nA most harsh zone with huge strangely shaped rocks that are hollow and strangely stable for their size and shape. This climate is rich when it comes to the Dregorian history but lacks everything else.
 rldregora.junglecave.adventurer_diary.page.6=§lCold Dry Climate§r\n-------------------\nCold, Barren... I didn't had much of a chance to explore any further as hordes of corrupted wandered the ice. Perhaps it is best to venture forth and forget about this place.\n\n 
 rldregora.junglecave.adventurer_diary.page.7=§lOceanic Climates§r\n-------------------\nI never even dreamt about writing a oceanic climate entry. However to my surprise the oceans have a huge micro climate zone underneath the fast body of water. A whole cave system at that!
+
+##################################################################
+# lore/junglelore.json
+##################################################################
+rldregora.junglelore.tai_bwo_bwarg.title=Tai Bwo Bwarg - A Simple Village
+rldregora.junglelore.tai_bwo_bwarg.author=Emor, the Explorer
+rldregora.junglelore.tai_bwo_bwarg.lore=An Explorer's Note
+rldregora.junglelore.tai_bwo_bwarg.page.1=It's been several months since I passed the gates of this village and have been accepted by its residents. As an explorer from distant places I wouldn't have thought to find civilizations beyond the great sea, yet here I am in a lush forest with all kind 
+rldregora.junglelore.tai_bwo_bwarg.page.2=of exotic trees and animals the people back home wouldn't believe. At first when we arrived at the shores of this new land I wouldn't have imagined such a village would exist in these forests as simply being here would require all sort of materials 
+rldregora.junglelore.tai_bwo_bwarg.page.3=to survive. These people, however, have very simple solutions to the problems caused by the environment. They also seem to live in harmony with their surroundings, using it to their advantage rather than fighting it. It's truly admirable, 
+rldregora.junglelore.tai_bwo_bwarg.page.4=making me think we have much to learn should we ever create a grand settlement here. 
+
+rldregora.junglelore.under_trees.title=Under the Mighty Trees
+rldregora.junglelore.under_trees.author=Unknown
+rldregora.junglelore.under_trees.lore=A note of exploration.
+rldregora.junglelore.under_trees.page.1=Under these mighty trees there's a whole other world to discover. Big chasms with possibly huge treasures. I and a group of explorers have made friendly contact with the tribesman of this village and set out to explore this new world until we found floating 
+rldregora.junglelore.under_trees.page.2=islands with a rather interesting combination of resources underneath. While digging we found out there's a huge world buried underneath. Today marks the day we will set out and explore these massive caverns. I wonder what secrets they hide...
+
+rldregora.junglelore.eyes_kun_drak.title=Eyes at the Kun Drak
+rldregora.junglelore.eyes_kun_drak.author=Jukoi
+rldregora.junglelore.eyes_kun_drak.lore=A hunter's story about an encounter at the dungeons.
+rldregora.junglelore.eyes_kun_drak.page.1=The explorers came to our town many, many suns ago when I still was a child. They learned and explained us the power of writing. Once we understood and learned these feats they gave out books for us to write in. Telling us these books are 
+rldregora.junglelore.eyes_kun_drak.page.2=hard to get by we should only write about the important things and so I start this book telling about my encounter during my first real hunt.\n\nAs the sun was setting I saw a wild pig running away from me. 
+rldregora.junglelore.eyes_kun_drak.page.3=At first I thought it had smelled me while being riddled as to how since I made sure to stay out of the wind and definitely didn't made a sound. Running after it I slowly but surely came into the close proximity of the Kun Drak, where the dead live. 
+rldregora.junglelore.eyes_kun_drak.page.4=Too busy with the pig and riddled over how it got scared I forgot to think about the Kun Drak. A mistake no tribe member should ever make. 
+rldregora.junglelore.eyes_kun_drak.page.5=So, as I approached the clearing in the jungle, the name the explorers gave the forests, I suddenly realized my mistake. The sun was setting and I could see the demons climbing out of their grave to seek for flesh during the night. Eyes were staring at me...
+rldregora.junglelore.eyes_kun_drak.page.6=Not from the grave but from behind. So it was not me who scared the pig? It was that thing... I turned around, switched my arrows for the poison one and shot a couple in the direction of the demon, all within one breath. 
+rldregora.junglelore.eyes_kun_drak.page.7=It screamed and fell down as I ran past and away from it back to the village. As I approached the gates I warned the guards I may have been followed as I didn't have time to mask my scent. While being very lucky to live I do feel regret and swore to never make this mistake again. 
+
+rldregora.junglelore.demons_shadows.title=Demons in the Shadows
+rldregora.junglelore.demons_shadows.author=Urm
+rldregora.junglelore.demons_shadows.lore=The Written Trials of Urm, The Chieftain's Son.
+rldregora.junglelore.demons_shadows.page.1=While paper and a pen is to be considered rare, and time to write or being able to write even more so, I find myself being the exception as the son of the village chief. That said, I have my obligations to the residents of this tribe. 
+rldregora.junglelore.demons_shadows.page.2=Like reporting notable experiences during my trials. One such is my experiences during the great hunt where we leave for 2 months and explore distant regions for mapping purposes and making contact with undiscovered tribes. 
+rldregora.junglelore.demons_shadows.page.3=During my trial we had not found such tribes which may be explained by the demons we encountered at night. While they can show up from time to time and we are quite capable of neutralizing the threat, that time around it was different. 
+rldregora.junglelore.demons_shadows.page.4=It was the 18th day of the yearly great hunt, and at the same time was my trial which every future chief should undertake. We had just hunted down a wild pig and sat at the campfire while night was setting in. As usual we would save some of the 
+rldregora.junglelore.demons_shadows.page.5=glowing charcoal for later use and bury the existing fire pot under a pile of dirt making sure we leave no traces behind. However, as we did this we heard the call of a bird, but smothered midway through. This call was from one of the scouts we sent
+rldregora.junglelore.demons_shadows.page.6=out to secure the perimeter before we would go to sleep. It meant perimeter secured... Or at least it should've meant that. Knowing how capable the scouts were, always on high alert, knowing, seeing, and even feeling their surroundings. 
+rldregora.junglelore.demons_shadows.page.7=They were selected for their keen eyes, great hearing and the speed they use to travel throughout the jungle without making a single noise. 
+rldregora.junglelore.demons_shadows.page.8=As the group sent another scout to investigate what had happened, I snuck away, trying to follow the scout as my curiosity got the better of me. I was discovered soon after though, by the scout herself. She told me to follow closely behind 
+rldregora.junglelore.demons_shadows.page.9=and to not make a sound. I could tell she was angry but knew there was no time to scold me for my mistake. As I tried to make as little sound as possible she would slowly walk forward knowing that I couldn't match her speed. Later she told
+rldregora.junglelore.demons_shadows.page.10=me if I wasn't around at that time she would've probably died at that moment. Mere moments later she turned around, signaling me to be very wary of my surroundings and be as silent as possible. A few seconds had passed until I heard the
+rldregora.junglelore.demons_shadows.page.11=bushes moving up ahead. Nothing but the shadow of trees... Until I saw one of those shadows moving towards us, closer and closer until it had passed us.\n\n 
+rldregora.junglelore.demons_shadows.page.12=We waited until it went out of sight, then waited more and more until the scout asked me: Have you ever heard of such a thing? Like in the old chief's trial books or from stories? I answered her telling there were some ancient myths speaking
+rldregora.junglelore.demons_shadows.page.13=about an Elite group of demons. She nodded, stood up and snuck back from where we came into the same direction the demon went. A while later we found the camp except there was nobody around as we watched from a distance.
+rldregora.junglelore.demons_shadows.page.14=We've waited till the signing of birds announced the coming of a new day. This was the moment we saw it in the distance. The Demon stood there, waiting... Looking around for something... For us? The scout told me it was hunting for us
+rldregora.junglelore.demons_shadows.page.15=and that we were lucky it hasn't noticed us yet.\n\n 
+rldregora.junglelore.demons_shadows.page.16=We slowly snuck further and further away from the demon while constantly keeping it in our sights until it wasn't there anymore... A blink of the eye and it was gone. For a second we stayed there until the scout said:
+rldregora.junglelore.demons_shadows.page.17=Run, it's on the hunt and it knows we are here. So I stood up and I ran and ran until I found a river and jumped in. For hours I clamped myself onto a piece of driftwood making sure it couldn't follow me through tracking my scent.
+rldregora.junglelore.demons_shadows.page.18=At the shore of the river I applied mud on my skin to leave nothing to chance and walked for hours once again.
+rldregora.junglelore.demons_shadows.page.19=Days had passed, starved to death as I refrained from making a fire. Insects are all I had eaten during my 6 day trip back towards the village following the stars at night and sun by day. But finally... I recognize these trees, the rivers...
+rldregora.junglelore.demons_shadows.page.20=Everything. I'm close to my village again and I will make it. I will definitely make it.
+
+rldregora.junglelore.travelers_mission.title=The Traveler's Mission
+rldregora.junglelore.travelers_mission.author=Kun Dosa
+rldregora.junglelore.travelers_mission.lore=An encounter with the Traveler.
+rldregora.junglelore.travelers_mission.page.1=How I am capable of writing these words still riddles me. Just a day ago I could not possibly grasp the knowledge I find in my possession today. I am nothing but a simple native from the jungle. Hunting for food and taking care of my cattle. 
+rldregora.junglelore.travelers_mission.page.2=Remembering my own life is as looking over the shoulders of a fellow native. Yesterday while hunting I came across a clearing in the jungle and saw a man sitting there. As I approached him I fainted and woke up like this.
+rldregora.junglelore.travelers_mission.page.3=There's a voice within my mind though. To go to the ancient dungeon and kill every corrupted which reside within. It's a very important task as I will be able to find out more. I wonder if I am up to the task though,
+rldregora.junglelore.travelers_mission.page.4=some natives have lost their lives to the foul beasts they call the corrupted.\n\n 
+rldregora.junglelore.travelers_mission.page.5=After I complete this task I also feel like going to the Highlands, the northern regions from my location and seek within the mountains for clues regarding some survivors of a disaster which is called the Blight.\n\n 
+rldregora.junglelore.travelers_mission.page.6=Apparently some may have survived in their mighty bunkers deep below the mountains.\n\n 
 #,LocLore:[\"\"]
 #,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/lorespooky.json
+##################################################################
+rldregora.lorespooky.moonlit_trap.title=The Moonlit Trap.
+rldregora.lorespooky.moonlit_trap.author=Krandir the Hunter
+rldregora.lorespooky.moonlit_trap.lore=A Hunter's encounter with the Legend of the Trap.
+rldregora.lorespooky.moonlit_trap.page.1=\n§l  A Hunter's Story§r\n\n'Hello', I suppose I should write. A long time passed since I sharpened my charcoal and opened up a blank page, but today seems fitting facing yet another trial. 
+rldregora.lorespooky.moonlit_trap.page.2=It all started a long time ago after I did terrible things and rightfully so lost my standing in my community. As a result I got exiled and traveled the lands towards the East. 
+rldregora.lorespooky.moonlit_trap.page.3=The first season was unforgiving but with the skills of a Hunter I knew where to go and how to build myself a shelter. Countless seasons and many, many moons passed as I lived from what the forest had to offer.\n\n 
+rldregora.lorespooky.moonlit_trap.page.4=I guess i could've counted myself lucky.. Given the terrible things I did.\n\nI had a roof, a fire and a good meal on my plate by sun set.\n 
+rldregora.lorespooky.moonlit_trap.page.5=To top it off I even had the music of the forest to wake me up and soothe me into sleep every single night.\n\nAt least until it suddently stopped.
+rldregora.lorespooky.moonlit_trap.page.6=It started with unfamilair noises which slowly grew louder and closer with every passing night until finally the scratching started. I feared of what was outside but was not about to give up on my home. Or so I thought...
+rldregora.lorespooky.moonlit_trap.page.7=Another season passed and by spring only silence remained. Not the monsters, not the wildlife... Nothing remained. This eventually force me to pack up my gear in an attempt to head North. Nothing however would have prepared me for the encounter I had.. have?
+rldregora.lorespooky.moonlit_trap.page.8=It was a dark night void of stars that marked my third in these lifeless woods. A blanket of thick grey fog rolled in over the moonlit forest. In the distance flickering lights acompanied by foul shadows moving in between the tall trees.
+rldregora.lorespooky.moonlit_trap.page.9=Silently with my back against the trunk of a tree I sat in my ditch hoping it would not become my grave. Leaves and branches covered the top in a attempt to hide myself from whatever roamed these woods.
+rldregora.lorespooky.moonlit_trap.page.10=It was late in the night when I heard a noise that even I with all my experience couldn't place yet it sounded familiar. Moments passed until i saw a glimpse of it through the web of branches and leaves.
+rldregora.lorespooky.moonlit_trap.page.11=Its big hollowed out eyesockets stared right back at me as it stomped it's feet on the ground and made a neighing sound. It was clear to me it knew I was there and as foul as it looked without skin or flesh it did not make a move.
+rldregora.lorespooky.moonlit_trap.page.12=That was when I noticed the undead it carried on its back shifting it's look right and left while it made this terrible sound.\n\nNight after night it appeared again since that first encounter.
+rldregora.lorespooky.moonlit_trap.page.13=Sometimes far away, sometimes up close and sometimes even during day.
+
+rldregora.lorespooky.lone_church.title=The Lone Church
+rldregora.lorespooky.lone_church.author=The First Priest
+rldregora.lorespooky.lone_church.lore=The trial of the Wither Priest.
+rldregora.lorespooky.lone_church.page.1=\n\nUnder the grey sky across the Forest lays a lake with a tear-shaped island. An island of haunted beasts and a gothic church of undead cult.
+rldregora.lorespooky.lone_church.page.2=Beneath it lies the catacombs to which only its wither priest holds the button. Beware of screaming horses and daylight zombies for they will eat your flesh long before you enter the halls.
+rldregora.lorespooky.lone_church.page.3=Can you withstand the corruption of the pumpkin cult or will you become the next wither priest that guards its doors?
+
+rldregora.lorespooky.cages_greywoods.title=The Hanging Cages of Greywoods
+rldregora.lorespooky.cages_greywoods.author=The Beast that Lurks
+rldregora.lorespooky.cages_greywoods.lore=Christmas Trees, Red floods and Steel Cages.
+rldregora.lorespooky.cages_greywoods.page.1=Tall the trees of christmas eve,\n\nRed as is the flood on santa's path,\n\nHanging cages of steel upon which sight you may very well flee.
+rldregora.lorespooky.cages_greywoods.page.2=\nWelcome to my forest of grey in which treasures lay but be warned for those who trespass will pay.
+
+rldregora.lorespooky.greywood_crimson_bellows.title=GreyWood Crimson Bellows
+rldregora.lorespooky.greywood_crimson_bellows.author=The Devourer
+rldregora.lorespooky.greywood_crimson_bellows.lore=A book written with teeth and blood.
+rldregora.lorespooky.greywood_crimson_bellows.page.1=§4Trapped under§lneath it's§0 su§8rface§0 of grey tall tre§r§0es lay the catacombs of fl§l§4esh and blood.\n\nMonsters reside within and a §0monster §cit is on its §r§4own with i§8ts fle§l§8shy teeth§4 and§c bloody mouth it de§r§cvour§rs all §cthat dare enter its ja§l§4ws.
+
+rldregora.lorespooky.whispers_treasure.title=Whispers of treasure and blood
+rldregora.lorespooky.whispers_treasure.author=Captain Kjetill
+rldregora.lorespooky.whispers_treasure.lore=A blood stained journal. One entry remains readable..
+rldregora.lorespooky.whispers_treasure.page.1=Day 23, Th§4e end d§l§4raws ne§r§4ar.§r\n\nTrapped d§ceep w§l§cithin the §r§cbelly §l§cof the mon§r§cster§r we fear the worst. Some of the §cmen that§r tried a taste of§4 wh§l§4at §r§4mak§res up the innard§cs of§r this monster started §l§4wan§r§4de§rring off.
+rldregora.lorespooky.whispers_treasure.page.2=Never had§c I §rexpected to end up§r§4 in§r§l§4 such a dreadful place w§r§4he§rn we ventured into the Greywoods searching fo§r§4r tre§r§l§4asu§r§4re.§r 23 days have passed since we entered th§r§ce§r§l§c woo§r§cds§r and the hunger is starting to §r§4set in. §r§l§4I wish I kept hold o§r§4f at §rleast one bag of provisions
+rldregora.lorespooky.whispers_treasure.page.3=whilst running for the horro§r§l§crs tha§rt chased us down deeper. This place d§r§4oes §rsome weird things. A couple o§r§l§4f days my §rmost trusted officer B§r§castf§rer went missing but I swear I could see him standing ac§r§l§4ross the  blood-red lake just this afternoon§r.
+rldregora.lorespooky.whispers_treasure.page.4=I called out for him but no re§r§l§4ply was given... He just stared§r back at me... Did he became one of them§r§l§c? Is that the faith that aw§r§4aits me too?
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/maintenance.json
+##################################################################
+rldregora.maintenance.no_escape.title=No Escape
+rldregora.maintenance.no_escape.author=Unknown
+rldregora.maintenance.no_escape.lore=This book barely holds together, it must be very old.
+rldregora.maintenance.no_escape.page.1=Why I took this pencil and paper evades me in these last moments I have. The exit has been cut off and these beings kept streaming in, it's only a matter of time before they'll find me so I guess writing helps me calm down..\n\nPerhaps some unlucky soul manages to.
+rldregora.maintenance.no_escape.page.2=distract these... Former humans. That'll be my only shot at escaping these tunnels.
+
+rldregora.maintenance.evacuation.title=Evacuation
+rldregora.maintenance.evacuation.author=Unknown
+rldregora.maintenance.evacuation.lore=This book barely holds together, it must be very old.
+rldregora.maintenance.evacuation.page.1=Blasted tunnels, one would expect more then a singular entry and exit point but no they had to subsidize again. Why am I even writing this down...? Perhaps in a brighter future then mine they'll learn to not subsidize!
+rldregora.maintenance.evacuation.page.2=And while I am at it, if only that slowpoke of a Luigi would've been faster we wouldn't have had to hide here and could've gone to the shelters instead!
+
+rldregora.maintenance.shelter.title=Shelter
+rldregora.maintenance.shelter.author=Unknown
+rldregora.maintenance.shelter.lore=This book barely holds together, it must be very old.
+rldregora.maintenance.shelter.page.1=Breathing my last breaths, mistaking these maintenance shafts for the shelters will be my end... I think i lost them for now bu\n\n- the writing abruptly stops.
+
+rldregora.maintenance.explorers_note.title=Explorer's Note
+rldregora.maintenance.explorers_note.author=Unknown
+rldregora.maintenance.explorers_note.lore=Some scribbles, not too old from the looks of it.
+rldregora.maintenance.explorers_note.page.1=147 moons passed since my departure from the remnants into the wastelands and today I stumbled upon a odd structure, unlike the smooth stone decaying towers these seem to go deep below.
+rldregora.maintenance.explorers_note.page.2=I've only taken a peek and it seems safe except for the climb down during which I have to be very careful. With some luck I'll be able to find some of those artifacts mentioned by those folks at the outpost.
+
+rldregora.maintenance.barricade.title=Barricade
+rldregora.maintenance.barricade.author=Unknown
+rldregora.maintenance.barricade.lore=This book barely holds together, it must be very old.
+rldregora.maintenance.barricade.page.1=I've barricated myself in with only few supplies, my companions failed to make it. They fell victim to those beasts on the other side, they hadn't noticed me yet but it's probably only a matter of time.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/mayanlore.json
+##################################################################
+rldregora.mayanlore.symbols1.title=▆⬤  ▲◆▁⬟◀⬟
+rldregora.mayanlore.symbols1.author=⬚▚▦⬖⬖
+rldregora.mayanlore.symbols1.lore=An extremely old book containing symbols.\nA small portion has been translated.
+rldregora.mayanlore.symbols1.page.1=    ▦▲█◀▣▞➡▃▒▶▚◆▦\n\n  ◨█◀◧➡◧▃⬘⬚⬅▂∎▃▤\n     ▆◀◪⬛▣⬤⬚⬚➡∎▃\n◩◩▚▲∎▁█◧⬗▶▒⬘▃⬛\n  ▣⬗⬖⬆➡▞⬟◩▦\n    ∎▣⬇⬗⬙☐➡▶◩▆➡⬜⬇▁\n   ⬟▤▆◪➡⬆➡▶▶◀\n    ◨█◆∎⬚▚▦⬖⬖\n  ◨▃▤∎◆◆⬖▤▚▃⬆▤⬤⬚\n⬇⬤▚⬟▤▁▣⬆◪⬗█⬟⬇◀\n       ▂⬅⬖∎█➡⬖◧
+rldregora.mayanlore.symbols1.page.2=       ▆⬤\n ▲◆▁\nSummarizing the End of Times have been set at \n     ▲◆▁⬟◀⬟◪☐⬤⬗⬤\n     ⬚⬖▆⬤⬇▁    ∎⬙☐\n∎◧▶     █⬗     ⬗\n   ➡∎⬙☐\n old calendar, yet a recent discovery\n⬇⬘▆☐▚▁⬗∎◧▶▁▦▶▦
+rldregora.mayanlore.symbols1.page.3=       ▆⬤\n\n   ▲◆▁⬟◀⬟◪☐⬤⬗⬤\n⬚⬖▆⬤⬇▁\n   another year\n         █⬗\n      ➡∎⬙☐\n∎⬙➡⬅⬖⬚◧⬛◪▶▃☐⬅◪▶\n   corrupted    ▶▞▣◧▲▚⬟∎▶▶➡∎◧▚⬇\n     ▚◀▤⬗\n    ▃▚◧◀⬖⬚▞☐▞⬆\n 
+
+rldregora.mayanlore.the_prediction.title=Ʈɦƹ ρřƹȡɨȼƮɨǿɲ
+rldregora.mayanlore.the_prediction.author=Ʈɦƹ ąɲȼɨƹɲƮȿ
+rldregora.mayanlore.the_prediction.lore=A prediction by the Ancients, despite being hard to read it's still somehow possible to\nmake out what the words mean.
+rldregora.mayanlore.the_prediction.page.1=Ŧ๏гєรєєภ ๒א ค l๏ภﻮ tเ๓є, ฬє tђє гє๓ภคภtร ๏Ŧ tђє คภςเєภt ςยltยгє קгє๔เςt tђє ς๏๓เภﻮ ๏Ŧ ร๏๓єtђเภﻮ tђคt เร ฬ๏гรє tђєภ tђє єภ๔. ฬє คгє คקקг๏คςђเภﻮ คภ єгค เภ ฬђเςђ ђย๓คภเtא ฬเll ๒є ๒г๏ยﻮђt t๏ เt'ร кภєєร ๒א tђє ς๏ггยקtє๔ ๒єเภﻮร ฬђเςђ ฬเll гยlє ๏ภςє ฬ๏гl๔'ร ς๏llเ๔є. รเץ tђ๏ยรคภ๔ אєคгร คŦtєг tђเร єשєภt ђคร
+rldregora.mayanlore.the_prediction.page.2=ђคקקєภє๔ tђєгє ฬเll ๒є ค ๓คภ ﻮเשєภ tђє ק๏ฬєг t๏ รt๏ק เt คll, א๏ย ฬเll кภ๏ฬ ђเ๓ คร tђє tгคשєlєг t๏ tгคשєl ค๓๏ภﻮ ๒๏tђ ๒єครtร คร ฬђคt คгє tђє гє๓ภคภtร ๏Ŧ ђย๓คภร. ฬє Ŧ๏гєรєє tђเร Ŧยtยгє เภ ฬђเςђ ђย๓คภเtא ฬเll ๒є tєรtє๔ ๏ภςє คﻮคเภ คภ๔ ๓คא เt รยгשเשє เt ฬเll รtгเשє Ŧ๏г ๒єttєг ๔คאร เภ ฬђเςђ ค Ŧєฬ ฬเll รยςςєє๔.
+
+rldregora.mayanlore.red_sun.title=тнe day oғ тнe red ѕυn
+rldregora.mayanlore.red_sun.author=Ʈɦƹ ąɲȼɨƹɲƮȿ
+rldregora.mayanlore.red_sun.lore=This book describes the Blight as viewed from a witness.
+rldregora.mayanlore.red_sun.page.1=тнє ∂αу σf тнє яє∂ ѕυи нαѕ αяяινє∂. тσ∂αу мαякѕ тнє єи∂ ιи ωнι¢н ωσяℓ∂'ѕ ωιℓℓ вє яιρρє∂ ωнιℓє нυмαиιту fℓє∂ тσ ιт'ѕ ѕнєℓтєя ι αм ѕιттιиg нєяє ωяιтιиg ωнαт нαρρєиѕ ιи ѕтσиє ѕσ ιт мαу ѕυяνινє тнє єяσѕισи σf тιмє. αѕ єαятнqυαкєѕ ѕнαкє
+rldregora.mayanlore.red_sun.page.2=тнє єαятн αи∂ тнє gяσυи∂ gєтѕ яιρρє∂ αραят ι ѕιт нєяє σи тσρ σf тнιѕ αи¢ιєит ѕтяυ¢тυяє ωαт¢нιиg тнє яσ¢кѕ fαℓℓιиg υρ αи∂ тяєєѕ ѕιикιиg ιи тнє gяσυи∂. ι'м αfℓσαт яιgнт иσω, αѕ ιf тнє ραятι¢ℓєѕ σf тнє ωσяℓ∂ gσт ιиνєятє∂.
+rldregora.mayanlore.red_sun.page.3=ѕσмєнσω ι'м ѕтιℓℓ αℓινє, вυт тнαт ωσит тαкє мυ¢н ℓσиgєя αѕ тнє єαятн ιѕ ѕριииιиg αи∂ ωσяℓ∂ѕ αяє ¢σℓℓι∂ιиg. ¢σяяυρтє∂ ℓєαρ тняσυgн тнє яιρѕ σf тιмє ιиνєѕтιиg тнσѕє ωнσ fℓєє αи∂ тяємвℓє ιи fєαя. тнє вℓιgнт ιѕ ραѕѕιиg αѕ ιт ∂єνσυяѕ єνєяутнιиg ιи ιт'ѕ ραтн.
+rldregora.mayanlore.red_sun.page.4=тнιѕ ιѕ тнє єи∂ σf συя єяα ωєℓ¢σмιиg тнє ¢σяяυρтє∂ тσ fєαѕт σи ιт'ѕ вσиєѕ.
+
+rldregora.mayanlore.symbols2.title=χɶραψɷτωɸɸ
+rldregora.mayanlore.symbols2.author=ɹχζφ
+rldregora.mayanlore.symbols2.lore=An extremely old book you can't make sense of...
+rldregora.mayanlore.symbols2.page.1=§7 τζɯɤμɮξψφɤγκμδɭηπεɠενɥιɳε\nɶɻɦɨζɶι§0  █§4██§0█   §7ɲηɸɹν\nɳιɶκɨιικ§r  §4█§0██§4█§r   §7ωρρɸ\n βμοɻλɨɱονɦɠλɹιωɻɽɮχηɯδɻλ\nɭɸψɠɭɨσηγσɹβψɯξɶɮɭɹεɤɶγ\n ɮψɹɲɫμυɹψφνγɹɨαψζ ɤɭɨβɨ\n ɣγɭɱɩζɤξλοɮɤβδξɠɭ δɫɦɣκ\n ηɸιɹφɷɩτɹψɭɩɽɲητɮλɶμɱτɨ\n ζ ɭɶɳɦβɤ ɭɽɱɱσɩɠηɮɠɥζɻɮ\n ɤιθχɳζɲɠιɱɣɹφακ ωπɫεαɶɹ\n  τυξονɦɩɸνɫρξννεɠωɩθɠλɽπ\n ξλβνψɫδɶοτσθψρατιɠηπγδα\n 
+rldregora.mayanlore.symbols2.page.2=§7φɯɭκαδζψɤιωψψɲɸɹτεθμγκτβο\nɭɨɶɷφπɭɯτɠɻɮɸɣ οɭɽοωɫη γζ\nɦɶητɹɹτɥφ λɷɦζωεοɱθɠ υɽɱω\nφɫε ɠαɠβρɸββ ɤɣɷηɣξɭ ωɣɮθ\nɽɲψɥε κɷɦɯωɤɷɥɹψɸɱωσθνερβ\nɭɷωɥφɭθθρβɱπεφμɹɨκβηξɻψɱɨ\nιρɫɫɠθɭɯɽɣɠɲηɱατɽσɯɷδμγɣɱ\nμερψɣορψηɶɦɽκοχωɫβαɩɨɳζɳσ\nξɽβζψκγλχκ χɠσπβɮɮɨɸοθɤισ\nɥɦɤθοɣ ξɨχβυψɭμοɻɸπτμχστα\nɯκɤɮɻεωɶɦφɣνμνκχɱɹυɫɠεξɶδ\nɸɱɸɯɷɱιηζɽεοɷɹβɹεωɦρɮɹηζα\n 
+rldregora.mayanlore.symbols2.page.3=§7θɫνγσɲɻɹμɩπɷυɸλπρτφɦχρρɳξ\nωλεαɹɻβɤσυɻρɸλνɩɤɳνξɤαγωɲ\nɦγσιɯɶοξɹχζφφɫɲεμɶɠɭξξɻɽο\nɲθɫɱδψɻɣβσɫɮυμɭψενɳεθɸɦλλ\nβγɹɸɤνɣɨωυɱɲɹɳɽɯηοɦβδπɸɣη\nπɷμψιοɠκɻυλɸ βɦɷɤɱτεχεσνɫ\nφɳɷɣδɩɠξɹιταɱɻɠɷɳθɩɸ εθυɱ\nεɣɳɫοɱɶɮλɣαχɶραψɷτωɸɸ σδ\nγɯɶισɣɻɣνɷξπιθɫκɹθνχευɫɠɷ\nɳɣɯɠɻζɱαɻιαɽιυɻαɲɲɨτɲψɤσθ\nυθγɽρδɶχδɸɶε ɸυυορɣɦυɦκηβ\nɻɻξɯχγαɦχχυθαɯχωψνσμɯɭγμɶ\n\n 
+
+rldregora.mayanlore.book_knowledge.title=ΩӁԬѼ
+rldregora.mayanlore.book_knowledge.author=ΣΖΛΤ
+rldregora.mayanlore.book_knowledge.lore.0=The title written in an understandable
+rldregora.mayanlore.book_knowledge.lore.1=language reveals the potential knowledge
+rldregora.mayanlore.book_knowledge.lore.2=hidden within this book...
+rldregora.mayanlore.book_knowledge.page.1=╔════════════╗\n ⬛                 ⬛\n§4 §l§4 Book of Knowledge§r\n ⬛                 ⬛\n╠════════════╣\n     ⬛  ⬛ ⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n    ⬛  ⬛⬛⬛⬛  ⬛\n\n╚════════════╝
+rldregora.mayanlore.book_knowledge.page.2=ΞΕΑΕΥΛΓΠΤΥΣΡΜΣΩΖΘΞΞΞ\nΤΨΓΨΖΙΜΥΝΔΒΨΩΥΒΜΦΕΝΨ\nΜΕΟΒΚΚΨΚΩΒΚΧΚΜΞΖΩΓΖΡ\nΧΦΘΝΨΚΗΥΑΜΗΥΗΨΟΝΝΛΛΔ\nΛΕΔΔΟΗΥΝΡΩΨΧΚΞΙΟΨΗΜΠ\nΚΣΒΧΦΝΞΥΛΓΑΧΧΡΦΨΞΗΔΗ\nΩΥΧΗΤΟΚΕΜΘΤΛΥΧΝΖΣΖΤΝ\nΟΣΕΟΦΟΡΕΝΔΣΝΥΑΩΙΣΩΥΘ\nΞΑΝΗΚΕΛΡΤΙΨΠΚΤΨΕΩΛΧΗ\nΦΔΜΙΠΡΨΠΟΖΤΒΘΦΡΞΞΜΓΝ\nΙΣΑΠΚΜΩΑΔΚΛΠΘΨΦΔΩΒΕΕ
+rldregora.mayanlore.book_knowledge.page.3=ΙΓΓΗΜΨΚΑΧΩΙΗΟΨΙΕΧΝΤΞ\nΨΑΒΩΔΖΤΘΖΗΟΨΥΣΜΟΚΓΡΙ\nΠΦΧΗΨΔΧΒΩΚΗΡΒΘΞΧΞΟΘΡ\nΛΛΛΛΗΙΔΞΘΞΙΘΔΛΒΕΒΙΩΡ\nΤΥΒΤΕΣΡΑΩΩΒΖΨΨΘΞΩΒΗΨ\nΜΜΨΟΒΨΤΡΖΨΥΧΙΕΙΤΑΝΓΡ\nΩΣΧΦΨΩΤΕΘΘΠΞΝΜΑΟΨΒΓΩ\nΡΖΧΗΣΨΓΕΣΡΗΦΑΜΒΞΚΟΞΧ\nΚΝΨΥΣΝΨΩΒΕΤΚΜΚΗΤΧΥΝΙ\nΟΝΓΟΝΥΒΔΔΘΙΝΚΟΩΟΟΑΝΔ\nΨΡΩΒΚΞΟΜΠΘΖΡΧΛΙΓΤΧΙΧ
+rldregora.mayanlore.book_knowledge.page.4=ΨΥΙΚΖΒΕΘΔΒΞΛΠΑΘΓΣΗΨΥ\nΛΕΨΓΑΡΘΛΑΖΠΨΜΛΩΦΖΜΓΞ\nΤΛΚΖΟΥΣΚΠΜΥΗΦΞΒΞΑΠΘΠ\nΠΒΒΠΞΡΔΓΦΓΝΒΔΚΘΤΚΧΙΛ\nΔΨΨΧΧΠΣΟΞΜΝΝΗΑΔΓΔΤΞΨ\nΚΗΣΥΕΞΩΡΔΞΙΘΦΨΘΔΘΩΛΖ\nΠΞΨΦΓΖΤΟΜΘΒΙΧΒΚΣΧΝΥΨ\nΦΖΨΡΔΦΤΑΨΘΣΛΕΩΣΟΝΕΑΠ\nΟΗΚΒΟΦΤΡΨΤΧΘΣΚΜΠΖΠΣΚ\nΚΔΓΞΓΛΚΖΚΣΦΡΥΣΦΔΗΤΤΚ\nΤΥΕΦΑΠΣΥΣΟΠΡΞΛΟΝΨΓΟΚ
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+rldregora.mayanlore.gold_arrow.name=Gold Tipped Arrow
+rldregora.mayanlore.gold_arrow.lore.0=These arrows seem to be extremely old yet sturdy
+rldregora.mayanlore.gold_arrow.lore.1= and flexible where required.
+
+##################################################################
+# lore/medievalcity.json
+##################################################################
+rldregora.medievalcity.lurking_trees.title=Lurking below the trees.
+rldregora.medievalcity.lurking_trees.author=The Whisperer
+rldregora.medievalcity.lurking_trees.lore=A book meant to scare children from venturing too far.
+rldregora.medievalcity.lurking_trees.page.1=Once upon a time there was a fisherman and the fisherman had a son. Every early morning the boy would wake up, sometimes even before his dad. Why you may ask? Well, the boy looked up to his dad the fisherman who even procured a claw of the beasts from beyond.
+rldregora.medievalcity.lurking_trees.page.2=He would often say that he would become the strongest fisherman of them all and to achieve such a goal he would carry his dad's fishing road as his father took the much much lighter fishing nets.\n\n 
+rldregora.medievalcity.lurking_trees.page.3=Until one day, proud as he was he told all his friends that his dad would fish along the shorelines where monsters lurked from below the tall, gray trees and could catch him at any moment. But his dad was not afraid! He has beaten one of them before and holds the claw as proof!
+rldregora.medievalcity.lurking_trees.page.4=His friends however were not impressed, they even stated the fisherman lied about the monsters and the claw was from a bird. Bring in a head is what his friends said. And so the kid smart as he was said that that was something he could not ask nor get. However...
+rldregora.medievalcity.lurking_trees.page.5=He could show them as his dad took him on his boat sometimes and he learned to sail.\n\nMoments later they stood at the docks and climbed into the boat, Monster Hunting Time! is what the kid silently announced.
+rldregora.medievalcity.lurking_trees.page.6=As they raised the sails Whispers came and the current took over. A last look behind them revealed dense fog rolling in over the harbor and the whispers becoming louder...
+rldregora.medievalcity.lurking_trees.page.7=As the villagers returned to their houses the fisherman searched the streets. Alan? Alan! is what he yelled. He started running towards the docks fearful of what he would or rather would not find.
+rldregora.medievalcity.lurking_trees.page.8=Coughing and out of breath he stood there with his eyes wide open staring to his boat with Alan in it. He just sat there staring to the ocean. All by himself. Angry the dad asked Alan what he was thinking but the boy still just sat there.
+rldregora.medievalcity.lurking_trees.page.9=Hey!? his dad yelled at him. No response, but as the fisherman waited for a response he could hear one thing.\n\n\nWhispers calling for him...
+
+rldregora.medievalcity.the_frontier.title=The Frontier
+rldregora.medievalcity.the_frontier.author=Unknown Dregorian Origin
+rldregora.medievalcity.the_frontier.lore=A very old book.
+rldregora.medievalcity.the_frontier.page.1=It's been just a month since we finished the foundation of this city, one of many to function as a bridge between the inner and middle layer of this safe haven we call Dregora. The morale is amazing as we have not lost a single soul to the
+rldregora.medievalcity.the_frontier.page.2=invaders of our newly invented world. Brick by brick we'll rebuild what was destroyed but better while giving this new world a chance the former world never had. A way to build and create without the need of nuclear reactors. Without the risk of
+rldregora.medievalcity.the_frontier.page.3=an energy war ever happening again and thus we build like our very old ancestors did. With wood, stone, tears and blood. Slowly laying the foundation of a new civilization, of new strongholds and huge kingdoms, now nothing more than plans
+rldregora.medievalcity.the_frontier.page.4=written on paper, but soon to be realized.
+
+rldregora.medievalcity.forbidden_laws.title=Forbidden Book of Laws
+rldregora.medievalcity.forbidden_laws.author=Ancient Lawmakers
+rldregora.medievalcity.forbidden_laws.lore=Banned Book of Laws, with a very interesting scope.
+rldregora.medievalcity.forbidden_laws.page.1=This book contains information on the ancient laws of Dregora in which it states several rules like we live by these days, except for a couple of differences. One, for example, would be to live in harmony and prosper, which seems awfully idealistic
+rldregora.medievalcity.forbidden_laws.page.2=for these times. However despite being a book of laws it has some interesting entries basically preventing anyone to experiment with the forces of nature, explicitly lightning.\n 
+
+rldregora.medievalcity.ancient_church.title=Ancient Book of the Church
+rldregora.medievalcity.ancient_church.author=The Dregoran
+rldregora.medievalcity.ancient_church.lore=This Ancient book is mostly unreadable, however some can just nearly be read...
+rldregora.medievalcity.ancient_church.page.1=Entry 1-9:\nIn the beginning Dregorians came upon our lands. The land was scorched and lifeless and darkness was over the face of the deep. And a Dregorian said, let there be light, and light there was. And a Dregorian said let there be good and the corrupted left.
+rldregora.medievalcity.ancient_church.page.2=Entry 1-17\nAs for the one who is weak in faith, welcome him, but not to quarrel over opinions.\n 
+rldregora.medievalcity.ancient_church.page.3=Entry 3-19\nBut of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.
+rldregora.medievalcity.ancient_church.page.4=Entry 11-4\nAnd God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.
+
+rldregora.medievalcity.founders_note.title=Founder's Note
+rldregora.medievalcity.founders_note.author=Sapphiran Origin, The Sailor
+rldregora.medievalcity.founders_note.lore=A page from the Founders Book
+rldregora.medievalcity.founders_note.page.1=It has been months since the initial creation of this stronghold started. It's nothing like the old cities whose remnants still remain in the wastelands, yet it's a start. It surprises me how fast it all goes. Ships already started setting sail towards the
+rldregora.medievalcity.founders_note.page.2=great unknown to go and explore what remains of this world. Rumors already return telling grand tales about ice forming on the outer edges of Dregora.\n 
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/mineshafts.json
+##################################################################
+rldregora.mineshafts.stronghold.title=The Stronghold
+rldregora.mineshafts.stronghold.author=Unknown
+rldregora.mineshafts.stronghold.lore=Ancient structures, deep underground.
+rldregora.mineshafts.stronghold.page.1=My hands feel rough, there's dirt under my nails and my cheeks are black. This is what it is to work in the mines, day after day. It surely does pay good but as I go day by day my muscles grow stronger yet I grow weaker and today might be my
+rldregora.mineshafts.stronghold.page.2=last day as the entrance collapsed. At the same time the shifting rocks also opened up an ancient cave, a cave with weird straight beams made from a material I have never seen before. I heard the stories about ancient structures in the 
+rldregora.mineshafts.stronghold.page.3=wastelands yet this is here, in the middle of the mountains. A big cave with beams and lights, doors... Maybe these will grant us a way out of this maze of mines.\n\n 
+
+rldregora.mineshafts.mineral_deposits.title=Mineral Deposits
+rldregora.mineshafts.mineral_deposits.author=Unknown
+rldregora.mineshafts.mineral_deposits.lore=Useful information regarding mineral deposits.
+rldregora.mineshafts.mineral_deposits.page.1=As the operational officer of the Z1-3, Z2-3 and Z1-15 mines, I discovered there is a variation in mineral deposits depending on the location. Usually rivers and such should accumulate a larger then average gold deposit, however the ancient
+rldregora.mineshafts.mineral_deposits.page.2=records seem to be failing at this point as we have not found any trace of gold in the rivers just yet. Instead they are mainly buried deep under the ground. In particular, the mountains contain a large quantity of valuables.
+
+rldregora.mineshafts.bones_beasts.title=Bones & Beasts
+rldregora.mineshafts.bones_beasts.author=Unknown
+rldregora.mineshafts.bones_beasts.lore=A not so ancient discovery in the mines
+rldregora.mineshafts.bones_beasts.page.1=Buried deep underground in chasms we found bones, mainly underneath the plains. I can still hear the historians talk about this with great admiration. Something I can't fathom as there are stories of these beasts walking, running or even flying
+rldregora.mineshafts.bones_beasts.page.2=around. Stories go that there are even those who dig tunnels, gigantic worms in the wastelands... It truly gives me the creeps while chopping away rock after rock in search of gold, emerald, diamonds and more.\n 
+
+rldregora.mineshafts.encounters_mines.title=Encounters in the Mines
+rldregora.mineshafts.encounters_mines.author=Unknown
+rldregora.mineshafts.encounters_mines.lore=Rumors, or truth?
+rldregora.mineshafts.encounters_mines.page.1=I hear rumors about the beasts and their dungeons, both underground. It's scary but well paid. They say the deeper you go the more dangerous it becomes, and the more frequent these encounters will be. So I mine and mine, now equipped
+rldregora.mineshafts.encounters_mines.page.2=with a sword and armor for safety. Yet they roam in these tunnels waiting for a moment in which I let down my guard. They won't get me, though.  No, definitely not.\n 
+
+rldregora.mineshafts.trapped.title=Trapped
+rldregora.mineshafts.trapped.author=Unknown
+rldregora.mineshafts.trapped.lore=The Demise of a John Doe.
+rldregora.mineshafts.trapped.page.1=I am but a John Doe trapped underneath dirt and rock. Water is slowly rising as they have broken through the ceiling and the lake came falling down. We, our crew are all here experiencing our final moments. These mines are dangerous, not to
+rldregora.mineshafts.trapped.page.2=be underestimated. Corrupted roaming around, surrounded by ancient relics striking those who witness with everlasting fear for something they may or may not ever encounter. Stories about ancient structures, paths leading to the surface. The
+rldregora.mineshafts.trapped.page.3=last as a sliver of hope. Not here though... Here is darkness, here is the place where life decays slowly while the water is rising and rising while we close our eyes and imagine. We are not here, we are bathing in a bathhouse, washing the dirt
+rldregora.mineshafts.trapped.page.4=off while enjoying the moment with a glass of beer...\n\nAs we keep talking about our past experiences I turn around and see the door, an exit. I stand up, slowly walk over only to find myself falling into the void.
+rldregora.mineshafts.trapped.page.5=\n\nThis is it, farewell cruel world.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/miningtown.json
+##################################################################
+rldregora.miningtown.last_resident.title=The last resident
+rldregora.miningtown.last_resident.author=Chief Mullard
+rldregora.miningtown.last_resident.lore=A dusty, superficially damaged book.
+rldregora.miningtown.last_resident.page.1=We thought ourselves blessed when the neighboring mining locations went dark and we could ask a premium for what we dug up. This however was short lasted as we came to face the harsh truth of the rumors that had spread around.
+rldregora.miningtown.last_resident.page.2=First we thought they were just strong stories, then we thought it was superstitious belief. We happily kept mining and weeks passed by until a particular cold night hit us by surprise after which everything changed.
+rldregora.miningtown.last_resident.page.3=The sightings of shadows is what it started with, then the disappearances and eventually the screaming from deep within the mines. It was then when we decided to band up and look for the cause in force... With 14 we went in and only 3 returned.
+rldregora.miningtown.last_resident.page.4=I am the only one remaining at the camp as everyone else fled. I just couldn't bear to leave my friends behind and decided to wait a couple more days. This marks the end of day 2 and I fear the worst but I will remain a little while longer for hope still lingers.
+
+rldregora.miningtown.red_emeralds.title=Red Tainted Emeralds
+rldregora.miningtown.red_emeralds.author=Unknown
+rldregora.miningtown.red_emeralds.lore=A very expensive looking book.
+rldregora.miningtown.red_emeralds.page.1=§6§l-------------------§r\n§4Red Tainted Emeralds§r\n§l§6----------------§r\n\n§lA§rs told by leaves carried by the wind, a desolate town of emeralds and gold once seemingly brimming of life and opportunities but corrupted at its core.
+rldregora.miningtown.red_emeralds.page.2=This is a small story written by those who came first but never left.\n\nMany a decade ago when the mountains were still pure and untainted by human hands there was a traveler who found a glistening stone of nature.
+rldregora.miningtown.red_emeralds.page.3=One event that would lead to the other and soon there stood a house of coin accompanied by tunnels leading to deep within the mountains. Filled with the stench of sweat and greed, overflowing and seeping through the rocks.
+rldregora.miningtown.red_emeralds.page.4=Deeper and deeper until it found and filled a chasm of wrath. The door of corruption was unlocked and in came the horrors from worlds beyond.\n\nOne night passed and empty was the house of coin. Empty were the barracks.
+rldregora.miningtown.red_emeralds.page.5=\nEmpty was the air once filled with laughter and drunk men tales. Empty was all but the chasm deep, deep below now filled with the gold, the green and gore of humans.\n\n\n 
+
+rldregora.miningtown.perfect_rocks.title=Perfect Rocks
+rldregora.miningtown.perfect_rocks.author=Dwargon the lone Miner
+rldregora.miningtown.perfect_rocks.lore=Encounter in the mountains.
+rldregora.miningtown.perfect_rocks.page.1=\nBeing but a lonely miner in search of gold I considered myself lucky to stumble upon a rock of a type I had never seen before. It was a soft kind of rock that crumbled away with just a few hits of my pickaxe.
+rldregora.miningtown.perfect_rocks.page.2=I continued mining through this rock curious to its contents but found something I would have never anticipated. The hollow sound of rocks falling down on the other side of this strange rock echoed through the tunnels as the dust settled.
+rldregora.miningtown.perfect_rocks.page.3=A sound of metal touching metal in the distance accompanied by a high-pitched sound of some kind. The rumbling of rocks made it hard to know what was going on but as soon as the dust settled I found myself staring at the smoothest wall I had ever seen.
+rldregora.miningtown.perfect_rocks.page.4=It wasn't just a wall though but part of a hallway  I apparently broke into.
+rldregora.miningtown.perfect_rocks.page.5=As i peaked around the corner my thoughts filled themselves with riches and fame like within the stories told by travelers about treasure filled temples and magical swords.
+rldregora.miningtown.perfect_rocks.page.6=I also thought about the monsters they had to conquer to get these items and so my curiosity made me move forward into the tunnel but ever so quiet. I walked what felt like a fair distance when I arrived at a set of stairs when I heard a sound from my right.
+rldregora.miningtown.perfect_rocks.page.7=A cold shivering moved through my back into my neck but I was able to shake off the trembling that would have followed soon after. As I retraced my steps slowly while I stared at the direction the sound came from.
+rldregora.miningtown.perfect_rocks.page.8=A loud clang followed and my hearth sunk to my feet. Loud screeching followed and I started running like a madman. Through the tunnels and through the mines. With every step the sound grew more silent but this did not stop me from running.
+rldregora.miningtown.perfect_rocks.page.9=Many moons later after I gathered the courage of a lifetime I packed my gear and a box of explosives. After what seemed hours of sitting in the dark and listening to the noises from up ahead, usually far away and sometimes closer, I was ready.
+rldregora.miningtown.perfect_rocks.page.10=As i took out my flint and steel I heard that same noise again... Did it notice me? My hands trembled and I failed the first 2 strikes. The 3rd one successfully lit up the fuse followed by yet again, that same noise but now much, much closer.
+rldregora.miningtown.perfect_rocks.page.11=I jumped up and ran. I did not stopped to pick up my gear. I did not stopped to check the treeline for possible dangers. I did not stop to hide my trail as everything that kept me sane went overboard with that screech.
+rldregora.miningtown.perfect_rocks.page.12=Till this day I dared not to return to that place and I feel like I can count myself the luckiest man still alive.
+
+rldregora.miningtown.holed_up.title=Holed Up
+rldregora.miningtown.holed_up.author=Oleg the Miner
+rldregora.miningtown.holed_up.lore=They came from outside, not within.
+rldregora.miningtown.holed_up.page.1=I am not from yesterday, of course I heard about the stories of past and fellow miners and of course some stories are false. It will be up to you, the reader to decide whenever this is one among them or of true telling.
+rldregora.miningtown.holed_up.page.2=It usually starts with a happy thought, happy moments followed by an incident and then a bad, good or neither of those kind of ending.
+rldregora.miningtown.holed_up.page.3=While I am not sure where this will end for us I do know that live in this mining town wasn't the live I imagined it would be. Hitting the rocks day after day after day is one hell of a nasty job. Tears of sweat that sting in my eyes, walls always surrounding me.
+rldregora.miningtown.holed_up.page.4=walls always surrounding you. The smell of sweat and rock in the air. It's a hard way of making a living but even then we couldn't complain as we were still free to choose what we wanted. We could venture out, perhaps build a cabin and learn to hunt or die trying.
+rldregora.miningtown.holed_up.page.5=We would be free unlike our current situation. This brings me back to the stories of old where people are trapped within some complex or mines. And well yes, trapped we are, but not by rocks, not due to being lost.
+rldregora.miningtown.holed_up.page.6=Nope, the evil did not come from within this time but it came from outside. Monsters started appearing in broad daylight, chased us in the mines and here we are in our last stronghold unable to venture out for many have already tried and met their end.
+rldregora.miningtown.holed_up.page.7=With grave eyes I look upon the future... What kind of ending will our story have?
+
+rldregora.miningtown.survey_depth.title=Survey of the depth
+rldregora.miningtown.survey_depth.author=Oleg the Miner
+rldregora.miningtown.survey_depth.lore=A description of what lies below.
+rldregora.miningtown.survey_depth.page.1=Stories about rock, rich with minerals and hollow earth is what attracted us to this place and as promised we were met with a wonderous complex of caverns hard to reach due to the thick layers of sharp obsidian.
+rldregora.miningtown.survey_depth.page.2=hopeful of treasures that would be weighted we dug deeper and deeper until we found ourselves in a glorious chasm of mushrooms and magma.
+rldregora.miningtown.survey_depth.page.3=Days went by and aside the usual composition of minerals we sadly didnt found anything worth while, at the very least however we've witnessed a glorious wonder of nature.
+#,LocLore:[\"\"]
+rldregora.miningtown.eathern_rose.name=The Earthern Rose
+rldregora.miningtown.eathern_rose.lore=The stone bears teeth yet somehow you feel safer holding it in your off-hand.
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/moderncity.json
+##################################################################
+rldregora.moderncity.pillars_heaven.title=Pillars of Heaven
+rldregora.moderncity.pillars_heaven.author=Scavenger
+rldregora.moderncity.pillars_heaven.lore=The journey of a scavenger and some of their findings.
+rldregora.moderncity.pillars_heaven.page.1=It has been several days up top since I left the safe confines of the underground colony and despite the horrors that roam around I couldn't resist the urge to climb these massive towers which once seemed to be mighty
+rldregora.moderncity.pillars_heaven.page.2=settlements as these structures contain remanants of beds, cabinets... living spaces I think.. Some even contain chests with valuables inside such as old grimoires containing spells and the likes.
+
+rldregora.moderncity.wasted_earth_bones_death.title=Wasted Earth, Bones and Death
+rldregora.moderncity.wasted_earth_bones_death.author=Explorer
+rldregora.moderncity.wasted_earth_bones_death.lore=The story of a explorer gotten lost.
+rldregora.moderncity.wasted_earth_bones_death.page.1=Weeks had passed in the sandy waste... Not sure where I find myself in, these towers that climb higher then anything I had seen before provide for some shelter and safety... Down below are these things that.. I just can't explain.
+rldregora.moderncity.wasted_earth_bones_death.page.2=I have tried finding my way out but I don't know where to go... When I venture out this complex of towers I find myself in the waste again without end... These unspeakable monsters... I just want to go home.. Yes just home.
+
+rldregora.moderncity.end_mydays.title=The end of my days
+rldregora.moderncity.end_mydays.author=Unknown
+rldregora.moderncity.end_mydays.lore=The final scribbles of someone unable to escape.
+rldregora.moderncity.end_mydays.page.1=Locked away in the building that will become my grave... I realize this now as I am being surrounded by evil digging their way to my safe haven as the time ticks away.\n\n 
+rldregora.moderncity.end_mydays.page.2=These are my last moments on this earth and I have made my peace with it...\n\nMay it be a quick end...
+
+rldregora.moderncity.skeletons_past.title=Skeletons of the past
+rldregora.moderncity.skeletons_past.author=Archaeologist
+rldregora.moderncity.skeletons_past.lore=A stained notebook by a archaeologist
+rldregora.moderncity.skeletons_past.page.1=Tunnels, I had to run.. they are infested with those foul beasts but there are tunnels everywhere underneath connecting everything. What was this place? It seems like it was a huge settlement of sorts but without any defences..
+rldregora.moderncity.skeletons_past.page.2=just open space.. Does this mean there was a past without the monsters? The old viking tales also tell about such a story... Is it true then that there once was a ship that could fly and came from above? I can't imagine such things..
+rldregora.moderncity.skeletons_past.page.3=There is just too much, too much possibilities.. I had heard about the people clad in red and black and even had one one them following me once. Does it hold any relation to the mark in the viking's book of law?
+rldregora.moderncity.skeletons_past.page.4=What stories lay hidden below everything that seems? This world has more to tell then the eye meets. I wonder what.\n\nThere must hav... The writing suddenly stops.
+
+rldregora.moderncity.demise_looter.title=The Demise of a looter
+rldregora.moderncity.demise_looter.author=Unknown
+rldregora.moderncity.demise_looter.lore=The last will of a foolish person.
+rldregora.moderncity.demise_looter.page.1=In this chest you will find a book imbued by magic... I went through high and low to get my hands on it, chased by countless horrors up the stairs until no stairs were left and down again. The holdings of this chest
+rldregora.moderncity.demise_looter.page.2=slowed me down, down so much that I can't escape the horde no more and thus I leave this for you, may you be wise and take the best of treasures or have the strength to carry it all but be quick as eyes are watching you all.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/pirate.json
+##################################################################
+rldregora.pirate.book_red.title=Book of Red
+rldregora.pirate.book_red.author=The Eight
+rldregora.pirate.book_red.lore=This book seems to be very old and nicely decorated.
+rldregora.pirate.book_red.page.1=\nHi sunt scriptae litterae ex decorum octo iterum rubrum.\n\n\n\n           ▄█\n        ▄███▄\n     ▄███████▄\n  ▄▄█████████▄\n 
+rldregora.pirate.book_red.page.2=\nLatine scriptum est non Ordinarius oculus parium suorum, per multa arcana sapientiae lucrata est liber tam magnis animis in diebus praeteritis E \u003d MC2 quarum una patet solutio ad industria.
+rldregora.pirate.book_red.page.3=\nDeinde, dum hominum genus incassum cognitione formarum simul inferre. Tandem tamen ad ultimum gradum quo nulla induxit prope hominem cadere.
+rldregora.pirate.book_red.page.4=\nAnnorum fuit cum patribus familias ac fundavit eam tueri iuramentum ut invicem diligatis qui nunc contra communem hostem invicem pacifice viventes peccaverunt.
+rldregora.pirate.book_red.page.5=\nSi suus 'fere ut si vivere in a venereum poema medii aevi in saecula saeculorum. A era sed quamdiu quis in oblivione coram nobis et octo Providerant conditores ex diversitate Rubrum.
+rldregora.pirate.book_red.page.6=\nDigni estis in fide scripturam legere, satis fidum super isto vitio ferre hostis iudicatus esset rubri.\n\n\nSit tibi anni vitare.\n 
+
+rldregora.pirate.pirates_treasure.title=The Pirate's Treasure
+rldregora.pirate.pirates_treasure.author=Librarian
+rldregora.pirate.pirates_treasure.lore=One of the three books needed to find the Hidden Library\n\nX is like Z as the vikings tell.
+rldregora.pirate.pirates_treasure.page.1=For these lands lie in the abyss of maps unfound and unexplored by many and hidden for even the keenest of eyes beyond this book no traces remain and all attempts finding these lands end in vain for there shall only be a few who will venture beyond the real.
+rldregora.pirate.pirates_treasure.page.2=Thou shall find the books; §4Valhalla§r in viking realm and The §4Hidden Map§r in north-western lands.
+rldregora.pirate.pirates_treasure.page.3=For these treasures you would need to look in the unexplored lands for Viking tales and underneath the tallest mountains of north-western highlands in the hidden village mines.
+
+rldregora.pirate.easter_trials.title=Guide of Easter Trials
+rldregora.pirate.easter_trials.author=Unknown
+rldregora.pirate.easter_trials.lore=This book is one of two and a translation for the other.
+rldregora.pirate.easter_trials.page.1=۩▤▤۩▤▤▤۩▤▤▤۩▤▤▤۩▤▤۩\nGuide of Easter Trials\n۩▤▤۩▤▤▤۩▤▤▤۩▤▤▤۩▤▤۩\n\n\n  ┼┼┼┼┼┼┼┼┼┼┼┼\n    ▃▅▆▇▇▇▇▆▅▃\n     ▐              ▐\n     ▐              ▐\n     ▐              ▐\n     ▐              ▐\n     ▐              ▐\n  ┼┼┼┼┼┼┼┼┼┼┼┼
+rldregora.pirate.easter_trials.page.2=\n§oThe first place you will\n     visit is the Archaeologist's Hoard\n   in which you will\n search till you find a\n   sacred book. This\n  sacred book will be\n   used to find a\n   sacred place.
+rldregora.pirate.easter_trials.page.3=\n§o   In namely sacred\n   place you will find\n       the book\n  that rules over all\n  other books. In this\n  book you will find a\n clue that brings you\nto a hidden spot with\na hidden room within a\n     hidden room.
+rldregora.pirate.easter_trials.page.4=\n\n§oWithin this hidden room\nyou will find directions\n   towards a hidden\n   library that is not\nentirely a library. This\n     library will be\ncorrupted but not as\n      a whole.
+rldregora.pirate.easter_trials.page.5=\n\n§o Here after cleansing\nthe corruption you will\n find the end that will\n  bear the fruits of\n      knowledge.
+
+rldregora.pirate.ratbeards.title=RatBeards Journal
+rldregora.pirate.ratbeards.author=RatBeards
+rldregora.pirate.ratbeards.lore=A book dedicated to a very special rat named Natsu.
+rldregora.pirate.ratbeards.page.1=\n§7▓▓▓▓▓▓▓▓▓▓▓▓§r\n〰§l§7⊏⊐§r▶                 ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶ §l§4RatBeards§r ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶   §l§4Journal§r   ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶                 ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶                 ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶   §o§8A story§r     ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶  §o§8dedicated§r   ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶   §o§8to Natsu§r    ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶   §o§8The Rat§r     ◀§l§7⊏⊐§r〰\n〰§l§7⊏⊐§r▶                 ◀§l§7⊏⊐§r〰\n§7▓▓▓▓▓▓▓▓▓▓▓▓
+rldregora.pirate.ratbeards.page.2=Rats, rats everywhere, always. On the sea, on the shore.. While we're sleeping or awake. I uses to hate the pesky little things and I kind of still do but not entirely. They would still swarm around, eat our food or end up as. But not my Natsu, no.
+rldregora.pirate.ratbeards.page.3=The brave little screamer as he is wouldn't end up in the pot. You see, there are rats and well.. rats. This one wasn't like the other fatty little biters. He would scream, jump and run around but never bite me.
+rldregora.pirate.ratbeards.page.4=This all didn't just happened overnight though. It was a night of horrors in which our ship flipped itself around as if it was a coin flipped by the gods themselves. The same night or the next I woke up on a beach and started searching for other survivors.
+rldregora.pirate.ratbeards.page.5=Not even a dead body. All I could find were some loose boards. To make matters even worse I couldn't use my right arm. Broken was my guess.
+rldregora.pirate.ratbeards.page.6=And so I started searching for a sign of life up ahead the shoreline only to be met by not only sheer cliffs at front but at back and land inwards too. I would need my arm to heal properly before I\ncould go any further.
+rldregora.pirate.ratbeards.page.7=Days passed until my little Natsu made his first appearance as he tried to steal some of my fish. I attempted to catch him as he would make a nice change for dinner but I failed. In the following weeks he\nstarted returning on regular basis,
+rldregora.pirate.ratbeards.page.8=noticeably losing weight with every return.\n\nFor his endurance I applauded him and tossed him a piece of fish. The next day I grabbed my coconut filled with water, my bag full of smoked fish and embarked on my journey.
+rldregora.pirate.ratbeards.page.9=Hours passed as i climbed the steep cliffs until i reached the top where I was faced with a most dreadful sight. Appears I stranded on a island. Knowing however we sailed close to the shore I know mainland shouldn't be far.
+rldregora.pirate.ratbeards.page.10=In fact after close inspection of the horizon I saw mountains in the distance and thus regained hope.\nOn my way down I realized it was going to take a long, long time as I would need to make a raft and for a raft I would need to make rope and so on.
+rldregora.pirate.ratbeards.page.11=Back at where I left I was met with a curious sight. The little Rat, little as he lost a lot of weight was standing right there on two legs with one of his paws directed towards me and the other hanging next to his lean body.
+rldregora.pirate.ratbeards.page.12=This was the moment I decided I could use some company for the journey ahead and threw him a piece of my smoked fish.\n\n 
+rldregora.pirate.ratbeards.page.13=Another week passed and the rat which I now named Natsu for his weird energetic, loud but tender behavior had gained some weight back. After cleaning him under a lot of protest his fur revealed\nto not just be a brownish color but instead a mix with white flanks.
+rldregora.pirate.ratbeards.page.14=In the following weeks I was again and again surprised on how clean and smart the little creature actually was. he would wash himself completely up to 3 times a day. Haven't seen anyone take a bath more then 2 times a day.
+rldregora.pirate.ratbeards.page.15=Being as clean as that is just one thing when it comes to Natsu as like the little jumper he is he managed to catch a bloody seagull. It tasted like shit but is definitely commendable!
+rldregora.pirate.ratbeards.page.16=Since the day I had stranded a lot of moons have passed the nightly sky but at last we were ready to embark on our journey which ironically enough lasted us only 2 days before we stranded at the other side\nwere we magically met with our fellow pirates building our new ship.
+rldregora.pirate.ratbeards.page.17=It is Natsu who helped me through the rough times on that beach and still is of immeasurable worth to me as Natsu the rat is more of a friend then any treasure could ever be.
+
+rldregora.pirate.oasis_gold_magical.title=Oasis of Gold and Magical Books.
+rldregora.pirate.oasis_gold_magical.author=Southern Pirate
+rldregora.pirate.oasis_gold_magical.lore=A book that contains notes on a treasure.
+rldregora.pirate.oasis_gold_magical.page.1=Down south from the center and beyond the reef lies an oasis of parrots and dense leaves. Corrupted roam these lands and dungeons are a common sight.\n\nDungeons and their inhabitants guarding books of wisdom and fiery swords.
+rldregora.pirate.oasis_gold_magical.page.2=Down south you go over land and sea.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/quarry.json
+##################################################################
+rldregora.quarry.prospector.title=The Prospector
+rldregora.quarry.prospector.author=Unknown
+rldregora.quarry.prospector.lore=Black Trees is where the Black Gold awaits.
+rldregora.quarry.prospector.page.1=It's pilot day, testing whether this location has either a bad or good deposit. The surface composition and the way the trees grow differently at this particular area is odd to say the least. With some luck it's a sign of riches deep below, such as coal which is exactly what we're looking for.\n 
+
+rldregora.quarry.sinkhole.title=Sinkhole
+rldregora.quarry.sinkhole.author=Unknown
+rldregora.quarry.sinkhole.lore=A world beneath?
+rldregora.quarry.sinkhole.page.1=Standing at the edge I feel lucky, lucky not to be swallowed by this hole that doesn't seem to have a bottom. That is, until I realize the corrupted come from below the ground. On the other hand there may be a large deposit of valuables, and that
+rldregora.quarry.sinkhole.page.2=would save us months of digging. On top of that, no matter how slim the chance is there may still be someone to have survived the fall. I quickly scramble everyone and tell them to grab their climbing gear. Half an hour passed as we started
+rldregora.quarry.sinkhole.page.3=going down and down. First meters, then hundred of meters until my workers started complaining just as we neared a clearing. What is this? Our curiosity overtook as we descended further. A gigantic chasm, an underground world, what is this place?
+rldregora.quarry.sinkhole.page.4=However, our admiration lasted mere moments as we became aware of the bottom. The first thought that went through my head was a magma or lava river but I couldn't feel the heat. Upon closer inspection I saw monsters, countless of
+rldregora.quarry.sinkhole.page.5=them, and I wasn't the only one. I could see it in the way my team members behaved so I calmly said, Don't make a sound and lets get the hell out of here. As we ascended we could hear noises from below, screaming from the corrupted?
+rldregora.quarry.sinkhole.page.6=Or maybe from the ones that fell and somehow survived. Once back at the surface we started sealing up the hole, first beams then plates and eventually dirt and stone so that nobody would ever come here and dig it up again.\n\n 
+
+rldregora.quarry.pandoras_key.title=Pandora's Key
+rldregora.quarry.pandoras_key.author=Unknown
+rldregora.quarry.pandoras_key.lore=The second Traveler.
+rldregora.quarry.pandoras_key.page.1=As we dug for days on end, each one of us with our own motives like family or wealth, we find ancient treasures. The finder receives 10% of the wealth it contains. Imagine finding an ancient magical sword or a book
+rldregora.quarry.pandoras_key.page.2=full of secrets. Yet none of that matters to me. With the amount I've gathered I could go some place and spend my old days without a worry ever again. If it hadn't been for that traveler I probably would be sitting in my mighty chair
+rldregora.quarry.pandoras_key.page.3=enjoying some good whiskey right now. It started at the Grimstone Quarry where a traveler met me just after I found a book with strange markings. He told me to bury it somewhere and never look back or face the Redcloaks. First I thought
+rldregora.quarry.pandoras_key.page.4=he was mad but soon after these so called Redcloaks started appearing from thin air in search of a book. So I made up my mind and buried the book. Moments later I was approached by the traveler once again. We talked for hours about the
+rldregora.quarry.pandoras_key.page.5=origin, what happened in the far past and most importantly what is to come.\n\n 
+rldregora.quarry.pandoras_key.page.6=Part of this involves a skeleton key I must find, somewhere beyond the wastelands. That was the moment I started my quest in search of this key that may mean our salvation or our demise.\n\n\n 
+
+rldregora.quarry.beware_earthquakes.title=Beware of Earthquakes
+rldregora.quarry.beware_earthquakes.author=Unknown
+rldregora.quarry.beware_earthquakes.lore=From above...
+rldregora.quarry.beware_earthquakes.page.1=The ground started shaking as we quickly ran to safety in fear of the falling rocks. It was the seventh time this had happened within the month, yet we still worked every day. In fact within 5 minutes we started digging again.
+rldregora.quarry.beware_earthquakes.page.2=Every day more and more workers left the quarry. Something I couldn't do just yet. This was my last chance to pay my debts, taking a run wasn't among the possibilities, or so I thought. Since here I stand, with my family, after escaping the
+rldregora.quarry.beware_earthquakes.page.3=massacre in the village. A horde accompanied by what we thought to be an earthquake. Something we disturbed as we dug deeper and deeper until we opened an ancient chasm from which it flew: a dragon! I leave this letter here for others to find.
+rldregora.quarry.beware_earthquakes.page.4=If you feel the ground moving do not hesitate and run for your lives as this earthquake is not just like any other, it's alive.\n\n 
+
+rldregora.quarry.productivity_report.title=Productivity Report
+rldregora.quarry.productivity_report.author=Quarry Headmaster
+rldregora.quarry.productivity_report.lore=A productivity report written by a quarry headmaster.
+rldregora.quarry.productivity_report.page.1=This report has been written up by the headmaster of the Kazungi Quarry and contains the following: Productivity chart, Reasoning, Current holdings. The charts have been updated each moon.\n 
+rldregora.quarry.productivity_report.page.2=§lProductivity Chart: Moon 1§r\n\nTotal Extracted: 6019 LBS Raw Ore\n\nExtract - 890 LBS Pure Coal\n\nExtract - 70 LBS Pure Gold\n 
+rldregora.quarry.productivity_report.page.3=\nExtract - 0.2 LBS Diamond\n\nExtract - 170 LBS RStone\n\nExtract - 0.1 LBS Emerald
+rldregora.quarry.productivity_report.page.4=§lProductivity Chart: Moon 2§r\n\nTotal Extracted: 8190 LBS Raw Ore\n\nExtract - 989 LBS Pure Coal\n\nExtract - 128 LBS Pure Gold
+rldregora.quarry.productivity_report.page.5=\nExtract - 0.1 LBS Diamond\n\nExtract - 320 LBS RStone\n\nExtract - 0.09 LBS Emerald
+rldregora.quarry.productivity_report.page.6=§lProductivity Chart: Moon 3§r\n\nTotal Extracted: 10290 LBS Raw Ore\n\nExtract - 1829 LBS Pure Coal\n\nExtract - 144 LBS Pure Gold
+rldregora.quarry.productivity_report.page.7=\nExtract - 0.5 LBS Diamond\n\nExtract - 158 LBS RStone\n\nExtract - 0.2 LBS Emerald
+rldregora.quarry.productivity_report.page.8=§lProductivity Chart: Moon 5§r\n\nTotal Extracted: 7881 LBS Raw Ore\n\nExtract - 1789 LBS Pure Coal\n\nExtract - 189 LBS Pure Gold
+rldregora.quarry.productivity_report.page.9=\nExtract - 0.3 LBS Diamond\n\nExtract - 111 LBS RStone\n\nExtract - 0.4 LBS Emerald
+rldregora.quarry.productivity_report.page.10=§lReasoning Moon 1: §r\nSetting up Equipment, digging initial quarries, removing top layer caused a lower than normal extraction.\n\n§lReasoning Moon 2:§r\nRain caused the pit to fill delaying the mining operation for 2 days.
+rldregora.quarry.productivity_report.page.11=§lReasoning Moon 3:§r\nNo problems to report, crew was especially motivated as things were going fine now.\n\n§lReasoning Moon 4: §rLarge concentration of corrupted were passing by, enforcing safety protocol.
+rldregora.quarry.productivity_report.page.12=Current Holdings:\n32380 LBS Raw Ore Extracted *\n5497 LBS Pure Coal Extracted - SOLD 80%%\n531 LBS Pure Gold Extracted - SOLD 30%%\n1.1 LBS Diamonds Extracted - SOLD 60%%\n759 LBS RStone Extracted - SOLD 10%%\n1.6 LBS Emerald Extracted - SOLD 5%%
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/shipfloat.json
+##################################################################
+rldregora.shipfloat.reclaiming_world.title=Reclaiming the World
+rldregora.shipfloat.reclaiming_world.author=Unknown
+rldregora.shipfloat.reclaiming_world.lore=A very old book.
+rldregora.shipfloat.reclaiming_world.page.1=Generations have passed since the landing of the Dregorian Voyager and despite breathing in fresh air, growing our food under the stars and having a world to explore, it has not been easy on us. The corrupted which remained from The Blight
+rldregora.shipfloat.reclaiming_world.page.2=have a strong foothold making exploration and reclaiming not as easy as we initially thought. Yet thanks to the Great Divide, which is the wall that separates us from them, nowadays we can move around more freely than ever. And so I
+rldregora.shipfloat.reclaiming_world.page.3=find myself in this ship on a great journey to reclaim our lands beyond the point we thought possible. Being part of this ship full of building materials I feel like a Dregorian anew. On our way to create one of many strongholds with great
+rldregora.shipfloat.reclaiming_world.page.4=defenses. 'Cities of Origin' is what we will name them and there will be more than just one, created to support us in our future voyages.\n 
+
+rldregora.shipfloat.city_origin.title=City of Origin
+rldregora.shipfloat.city_origin.author=Unknown
+rldregora.shipfloat.city_origin.lore=A very old book.
+rldregora.shipfloat.city_origin.page.1=We have arrived at our destination, which is currently nothing more than a rock, nevertheless a foundation on which we will build prosperity. A rock which will carry the weight of all future voyages and help Dregora emerge from the ashes that
+rldregora.shipfloat.city_origin.page.2=were once called Earth. Slowly we lower the beams and fix them with heavy stones. Ship by ship, stone by stone, I see towers and walls emerge while waves hit and storms rage. This is not just the creation of a city. This is hope.\n 
+
+rldregora.shipfloat.kingdoms_creation.title=Kingdom's Creation
+rldregora.shipfloat.kingdoms_creation.author=Unknown
+rldregora.shipfloat.kingdoms_creation.lore=A very old book.
+rldregora.shipfloat.kingdoms_creation.page.1=Having witnessed the creation of the cities a long time ago, plans are now being made to create a grand capital. A plan that has little to no chance of failing now as ships are already being charted and lands have been claimed. Not for long we will
+rldregora.shipfloat.kingdoms_creation.page.2=set sail for one more time in the name of this great century, a prosperous one where there's little to no suffering. A century which has given birth to hope, a lot of hope.\n 
+
+rldregora.shipfloat.sighting_pirates_hope.title=A Sighting, Pirates, and Hope
+rldregora.shipfloat.sighting_pirates_hope.author=Lucky Fred
+rldregora.shipfloat.sighting_pirates_hope.lore=A small story of luck, chance and hope.
+rldregora.shipfloat.sighting_pirates_hope.page.1=Row, row and row without end. What were they thinking to not bring a reserve? I can still see it happening, that bloody storm and some nut job of a sailor who didn't properly secure the sails. Now all we can do is row as we have lost
+rldregora.shipfloat.sighting_pirates_hope.page.2=our sail and don't have anything to replace it with. It will take weeks before we arrive back at port, if we even make it. Pirates are known to hunt these waters which makes me even angrier at the captain. First for not having anything in
+rldregora.shipfloat.sighting_pirates_hope.page.3=reserve, second for hiring nut jobs. 'Says the newbie' I think to myself. Anyway, we're in this situation and complaining can't do shit about it so let's just row and row without end, trying to escape a monstrosity of a storm which seems to
+rldregora.shipfloat.sighting_pirates_hope.page.4=come closer every day.\n\nOut of the luckiest and weirdest experiences in all of Dregora, this last one must deserve a spot among the top ten, as well as a fitting name for this journal, A Sighting, Pirates, and Hope.
+rldregora.shipfloat.sighting_pirates_hope.page.5=Yes hope to return to port despite the circumstances we're in. You see, we have a sail now despite being ripped apart and a mix up of crew members. The night before yesterday we got hit by the storm despite our efforts. In all its rage we lost a few
+rldregora.shipfloat.sighting_pirates_hope.page.6=members of our crew and were eventually stuck on a reef. I guess you could say we were lucky since we would've surely died if we were to continue, but unlucky too. Let's start with the lucky part. We managed to get away, not on our own ship,
+rldregora.shipfloat.sighting_pirates_hope.page.7=but another one with iron plating under it's hull protecting it against the reef. Full of panicking pirates though. Pirates which where very willing to cooperate to escape 'the monstrosity', even risk jail time for it.
+rldregora.shipfloat.sighting_pirates_hope.page.8=What I couldn't have guessed in that moment is that they didn't exactly mean the storm...
+rldregora.shipfloat.sighting_pirates_hope.page.9=What 'it' was became awfully clear to me as most of the crew arrived at the pirate's ship where the pirates were desperately trying to get loose from the reef. A loud cracking noise behind me, our ship was gone. Instead there was a black
+rldregora.shipfloat.sighting_pirates_hope.page.10=beast on top of the reef glaring in our direction just as the ship got loose. The beast flew up, getting in position for another attack I assume, but we didn't see it again. And so I sit here waiting till we arrive at port which should be in a few hours.
+rldregora.shipfloat.sighting_pirates_hope.page.11=The pirates and our crew made an agreement to leave the pirate part out of it. They, as I, are truly frightened and would rather spend their days on land from now on.
+
+rldregora.shipfloat.from_edge.title=From the Edge
+rldregora.shipfloat.from_edge.author=Unknown
+rldregora.shipfloat.from_edge.lore=A note from an explorer who saw it all.
+rldregora.shipfloat.from_edge.page.1=It's been several months since we ventured out with the goal of exploring the distant lands. We have seen the wall, the great divide, and the nuclear wastelands beyond and I survived. I, as the only remaining member of what you could call a fleet.
+rldregora.shipfloat.from_edge.page.2=I'm nothing more than a simple mercenary lucky enough to say he saw dragons, giant flesh eating worms, and even worse. Whoever thinks the corrupted within the walls are bad should be spared of what is beyond as there are no mutations there.
+rldregora.shipfloat.from_edge.page.3=There are no corrupted. It's gotten beyond that point and can only be described as pure evil. Evil with an awareness, fortresses and kingdoms. Evil dark kingdoms found far into the wastelands.\n\n 
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/shipsunk.json
+##################################################################
+rldregora.shipsunk.last_journey.title=The Last Journey
+rldregora.shipsunk.last_journey.author=Elithr
+rldregora.shipsunk.last_journey.lore=A bitter note.
+rldregora.shipsunk.last_journey.page.1=Day 1:\nSeveral months have passed since we escaped the Dungeon. I keep saying 'we' but I think I never really left that place. My wife passed away, or at least what was left of her, as she underwent horrible moments that felt like years within that
+rldregora.shipsunk.last_journey.page.2=damned place. I felt it too, staying much longer would have meant the end of me as well.\n\nSo I decided to venture out to seek meaning for all of this, a greater purpose, as I have lost faith.\n 
+rldregora.shipsunk.last_journey.page.3=Day 2:\nThere's a storm raging over the seas, the captain says it's bad and we should steer clear from this freak of nature. Something within me does not really care. It's not that I have given up on everything. No, shame would fall upon our names if I
+rldregora.shipsunk.last_journey.page.4=would cowardly take my own life. Yet there is this feeling that whispers to me telling me to destroy it all.
+
+rldregora.shipsunk.jinxed.title=Jinxed
+rldregora.shipsunk.jinxed.author=Sanguine
+rldregora.shipsunk.jinxed.lore=The last written entry of a sailors diary.
+rldregora.shipsunk.jinxed.page.1=May fortune smile upon us.\n\nOur drinks reach high and our songs fill the nightly sky.\n\nThis may be our last feast, for we the chosen few might not return.
+rldregora.shipsunk.jinxed.page.2=A great journey lies in front of us as we drink rum while sailing across the rift. A dangerous land as the old tales tell, full of ancient monsters. But with the fortune promised to us we sail brave with our precious cargo towards a small trading post.
+rldregora.shipsunk.jinxed.page.3=However, tales are tales and may not be fact so we are the wiser to worry about the foul pirates which are certain to sail on these waters. Cutthroats, murderers and all kinds of filth.\n 
+rldregora.shipsunk.jinxed.page.4=According to the messengers they were last seen near the Frozen Tides, a northern land of ice in which the whales are being hunted. This was a month ago, approximately the time they would need to lay down an ambush in the ocean's fog
+rldregora.shipsunk.jinxed.page.5=which is all too common in this area. I'd rather not think about how they circle round and round their prey loaded with gold, silver and most of all rum. If there ain't no booze it ain’t worth it. Which is why we, the dogs, and even the parrots are
+rldregora.shipsunk.jinxed.page.6=drifting on the seventh wave to Valhalla.\n\nHowever this time is the first time I have something that worries me even more then those nasty pirates...\n\n\n\n 
+rldregora.shipsunk.jinxed.page.7=What resides in that box which they carried on board at night before our hasty departure? What is that noise...
+
+rldregora.shipsunk.restless_waves.title=Restless waves and glistering ocean floors.
+rldregora.shipsunk.restless_waves.author=Unknown
+rldregora.shipsunk.restless_waves.lore=Greed will be their downfall.
+rldregora.shipsunk.restless_waves.page.1=Cold rain and strong gusts torment the sailors as they attempt to raise the sails in preperation for the coming storm. It's evening and the sun dissapeared in what probably would become a long slumber as the night would not be kind to us. 
+rldregora.shipsunk.restless_waves.page.2=Or so we tought because as we jelously watched the sun tuck in we storm also faded away as quickly as it had came. A fog rolled in and the sea became a mirror. Something unn atural is happening is what nobody said but everyone tought. We, all of us
+rldregora.shipsunk.restless_waves.page.3=were silent as our breath was taken away from us. Something was here and then it appeared, dim at first slowely growing until it was a monsterous beuty of illumination. As if a thousand silver swords were scattered along the sea bed
+rldregora.shipsunk.restless_waves.page.4=Silver and gold from a thousand shipwrecks lay down below us. Nature be doomed if we let this slip and so we carried the swords on board, many light as a feather, earrings, necklaces of gold, emerald and lapis like never seen before
+rldregora.shipsunk.restless_waves.page.5=And as we dove down again no teasure was seen, just wood, rot and dispear as the sea became angry again. The storm was back but we were unfazed as we gained a fortune or so we tought as this entry will be my last for the treasures
+rldregora.shipsunk.restless_waves.page.6=were cursed, for the treasures were no treasures at all but the embodyment of rot and slumbering greed. A greed that will surely take us down before we arrive home again.
+
+rldregora.shipsunk.dregorians_voyager_vii.title=Dregorian's Voyager VII Manifest
+rldregora.shipsunk.dregorians_voyager_vii.author=Captain Hawk
+rldregora.shipsunk.dregorians_voyager_vii.lore=A Manifest of a ship named after the Dregorian Voyager.
+rldregora.shipsunk.dregorians_voyager_vii.page.1=Ship Manifest:\n\n§lOres:§r\n330 LBS Unrefined Coal Dest: Sailors Camp\n\n110 LBS Unrefined Uranium\nDest: Westport 15\n\n452 LBS Iron Ingots Dest: DawnCliff Smithy
+rldregora.shipsunk.dregorians_voyager_vii.page.2=§lPerishable:§r\n820 LBS Wheat\nDest: Port Karim\n\n256 LBS Fruit\nDest: Port Karim\n\n§lPassengers:§r\nLudwig Heathrow\nElithr Raven
+
+rldregora.shipsunk.thunder_storm.title=Thunder Storm
+rldregora.shipsunk.thunder_storm.author=Joshua
+rldregora.shipsunk.thunder_storm.lore=Poem by Eagle's Claw.
+rldregora.shipsunk.thunder_storm.page.1=Day's pass by, day after day every one different from one another among which most forwards, others back and some like a summer breeze in which sitting at the shore seems like a timeless activity. These are the days which matter when all
+rldregora.shipsunk.thunder_storm.page.2=time's feeling collide at a single moment in time like a calm yet powerful storm of both happiness and sorrow. Would you recognize this? If so be happy, feel warm and enjoy these moments when you are true to yourselves. True as an anchor
+rldregora.shipsunk.thunder_storm.page.3=holding you in place when the storm hits instead of taking you to the unknown and dark places which lay in wait looking at you. Waiting until you are weak to strike you down.\n\n 
+rldregora.shipsunk.thunder_storm.page.4=Never again is what most would say but wait, stop and think for once. Feel for once as even unhappy feelings are still feelings.\n\n- Not all storms are bad -\n\n 
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/simpledungeon.json
+##################################################################
+rldregora.simpledungeon.the_origin2.title=The Origin Part 2
+rldregora.simpledungeon.the_origin2.author=Luthor
+rldregora.simpledungeon.the_origin2.lore=Luthor's research - Part 2
+rldregora.simpledungeon.the_origin2.page.1=New revelations have occurred while researching the corrupted and their habitats. It's almost as if the former person still resides within these beasts desperately trying to escape. Sometimes this can be seen in the form of delusional chatter,
+rldregora.simpledungeon.the_origin2.page.2=easily mistaken for attempts to communicate. Although, I have to say that whenever there is chatter the other corrupted seem to react. Some more than others, and in very rare cases they all respond equally as if they have a discussion.
+rldregora.simpledungeon.the_origin2.page.3=The latter only occurs when they face an event that requires above average effort to overcome.\n 
+
+rldregora.simpledungeon.aberrant_behavior.title=Aberrant Behavior
+rldregora.simpledungeon.aberrant_behavior.author=Unknown
+rldregora.simpledungeon.aberrant_behavior.lore=A research note, regarding the corrupted.
+rldregora.simpledungeon.aberrant_behavior.page.1=As a scientist I feel we are on the verge of discovering something huge, something important. It's as if the corrupted have acquired a way of thinking like we do. It's nothing much just yet, but observing these mysterious grooves carved by the
+rldregora.simpledungeon.aberrant_behavior.page.2=corrupted it proves they are capable of communication which implies having a memory and cognitive ability. It's something that frightens me as these findings do not appear in any of the history books. On top of that, more and more seem to
+rldregora.simpledungeon.aberrant_behavior.page.3=show aberrant behavior, grouping together and moving as if they were on a journey. They all seem to move towards the outer edges of Dregora like a grand migration toward some place they're attracted to.\n 
+
+rldregora.simpledungeon.basics_electricity.title=Basics of Electricity
+rldregora.simpledungeon.basics_electricity.author=Unknown
+rldregora.simpledungeon.basics_electricity.lore.0=The entire book seems to be written
+rldregora.simpledungeon.basics_electricity.lore.1=in gibberish. Or does it tell the truth?
+rldregora.simpledungeon.basics_electricity.page.1=§l§o§4      Secrets of\n   the ancient world\n\n\n\n§l§oA basic explaination on\nwhat electricity is and\n     how it works.\n\n\n\n 
+rldregora.simpledungeon.basics_electricity.page.2=§oElectricity is a type of\nenergy that can build\nup in one place or flow\nfrom one place to\nanother. When\nelectricity gathers in\none place it is known\nas static electricity\n(the word static means\nsomething that does\nnot move); electricity\nthat moves
+rldregora.simpledungeon.basics_electricity.page.3=§ofrom one place to\nanother is called\ncurrent electricity.
+rldregora.simpledungeon.basics_electricity.page.4=§oStatic electricity often\nhappens when you rub\nthings together. If you\nrub a balloon against\nyour pullover 20 or 30\ntimes, you'll find the\nballoon sticks to you.\nThis happens because\nrubbing the balloon\ngives it an electric\ncharge (a small amount\nof
+rldregora.simpledungeon.basics_electricity.page.5=§oelectricity). The\ncharge makes it stick\nto your pullover like a\nmagnet, because your\npullover gains an\nopposite electric\ncharge. So your\npullover and the\nballoon attract one\nanother like the\nopposite ends of two\nmagnets.
+rldregora.simpledungeon.basics_electricity.page.6=§oHave you ever walked\nacross a nylon rug or\ncarpet and felt a\nslight tingling\nsensation? Then\ntouched something\nmetal, like a door knob\nor a faucet (tap), and\nfelt a sharp pain in\nyour hand? That is an\nexample of an electric\nshock. When you walk
+rldregora.simpledungeon.basics_electricity.page.7=§oacross the rug, your\nfeet are rubbing\nagainst it. Your body\ngradually builds up an\nelectric charge, which\nis the tingling you can\nsense. When you touch\nmetal, the charge runs\ninstantly to Earth—and\nthat's the shock you\nfeel.
+rldregora.simpledungeon.basics_electricity.page.8=§oLightning is also\ncaused by static\nelectricity. As rain\nclouds move through\nthe sky, they rub\nagainst the air around\nthem. This makes them\nbuild up a huge\nelectric charge.\nEventually, when the\ncharge is big enough, it\nleaps to Earth as a\nbolt of
+rldregora.simpledungeon.basics_electricity.page.9=§olightning. You can\noften feel the tingling\nin the air when a storm\nis brewing nearby. This\nis the electricity in the\nair around you. Read\nmore about this in our\narticle on capacitors.
+rldregora.simpledungeon.basics_electricity.page.10=§oElectricity is caused\nby electrons, the tiny\nparticles that 'orbit'\naround the edges of\natoms, from which\neverything is made.\nEach electron has a\nsmall negative charge.\nAn atom normally has\nan equal number of\nelectrons and protons\n(positively
+rldregora.simpledungeon.basics_electricity.page.11=§ocharged particles in\nits nucleus or center),\nso atoms have no\noverall electrical\ncharge. A piece of\nrubber is made from\nlarge collections of\natoms called molecules.\nSince the atoms have\nno electrical charge,\nthe molecules have no\ncharge
+rldregora.simpledungeon.basics_electricity.page.12=§oeither—and nor does\nthe rubber.
+rldregora.simpledungeon.basics_electricity.page.13=§oSuppose you rub a\nballoon on your\npullover over and\nover again. As you\nmove the balloon back\nand forward, you give\nit energy. The energy\nfrom your hand makes\nthe balloon move. As it\nrubs against the wool\nin your pullover, some\nof the
+rldregora.simpledungeon.basics_electricity.page.14=§oelectrons in the\nrubber molecules are\nknocked free and\ngather on your body.\nThis leaves the balloon\nwith slightly too few\nelectrons. Since\nelectrons are\nnegatively charged,\nhaving too few\nelectrons makes the\nballoon slightly\npositively charged.
+rldregora.simpledungeon.basics_electricity.page.15=§oYour pullover\nmeanwhile gains these\nextra electrons and\nbecomes negatively\ncharged. Your pullover\nis negatively charged,\nand the balloon is\npositively charged.\nOpposite charges\nattract, so your\npullover sticks to the\nballoon.
+rldregora.simpledungeon.basics_electricity.page.16=§oFor an electric\ncurrent to happen,\nthere must be a circuit.\nA circuit is a closed\npath or loop around\nwhich an electric\ncurrent flows. A circuit\nis usually made by\nlinking electrical\ncomponents together\nwith pieces of wire\ncable. Thus, in a\nflashlight,
+rldregora.simpledungeon.basics_electricity.page.17=§othere is a simple\ncircuit with a switch, a\nlamp, and a battery\nlinked together by a\nfew short pieces of\ncopper wire. When you\nturn the switch on,\nelectricity flows\naround the circuit. If\nthere is a break\nanywhere in the circuit,\nelectricity cannot flow.
+rldregora.simpledungeon.basics_electricity.page.18=§oIf one of the wires is\nbroken, for example,\nthe lamp will not light.\nSimilarly, if the switch\nis turned off, no\nelectricity can flow.\nThis is why a switch is\nsometimes called a\ncircuit breaker.
+rldregora.simpledungeon.basics_electricity.page.19=§oYou don't always need\nwires to make a circuit,\nhowever. There is a\ncircuit formed between\na storm cloud and the\nEarth by the air in\nbetween. Normally air\ndoes not conduct\nelectricity. However, if\nthere is a big enough\nelectrical charge in\nthe
+rldregora.simpledungeon.basics_electricity.page.20=§ocloud, it can create\ncharged particles in\nthe air called ions\n(atoms that have lost\nor gained some\nelectrons). The ions\nwork like an invisible\ncable linking the cloud\nabove and the air\nbelow. Lightning flows\nthrough the air\nbetween the ions.
+
+rldregora.simpledungeon.project_icarus.title=Project Icarus
+rldregora.simpledungeon.project_icarus.author=Unknown
+rldregora.simpledungeon.project_icarus.lore.0=This book contains information regarding project Icarus,
+rldregora.simpledungeon.project_icarus.lore.1= the predecessor of the Dregorian Voyager. 
+rldregora.simpledungeon.project_icarus.lore.2=The summary gives a some explanation on it's origin
+rldregora.simpledungeon.project_icarus.page.1=Project Icarus is a theoretical engineering design study aimed at designing a credible, mainly nuclear fusion-based, unmanned interstellar space probe. Project Icarus was an initiative of members of the British Interplanetary Society and the Tau
+rldregora.simpledungeon.project_icarus.page.2=Zero Foundation (TZF) started in 2010. It was later managed by the members as a separate division of the umbrella organization of the nonprofit organization Icarus Interstellar. It was motivated by the British Interplanetary Society's Project
+rldregora.simpledungeon.project_icarus.page.3=Daedalus, a similar study that was conducted between 1973 and 1978.\n\nThe summary continues, explaining how the first real tests were a success initiating the design of the Dregorian Voyager.\n\n 
+
+rldregora.simpledungeon.maintenance.title=Maintenance Book
+rldregora.simpledungeon.maintenance.author=Unknown
+rldregora.simpledungeon.maintenance.lore=A Ancient Mechanic's Guide
+rldregora.simpledungeon.maintenance.page.1=This book contains information regarding maintenance of the Dregorian Voyager. It speaks of mechanical systems and the proper tools for each piece of equipment. The Dregorian Voyager was equipped with some state of the art
+rldregora.simpledungeon.maintenance.page.2=technology including advanced use of crystals to store and transfer a lot of data at lightning fast speeds. There are several chapters named Crystallization, Tool Maintenance, Basic Engineering, Safety Regulations and Basic Electronics. You figure
+rldregora.simpledungeon.maintenance.page.3=this may be of use later on.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/spawnbook.json
+##################################################################
+rldregora.spawnbook.realms_dregora.title=The Realms of Dregora
+rldregora.spawnbook.realms_dregora.author=The Founder
+rldregora.spawnbook.realms_dregora.lore=Dregora, The Blight and you in your adventure through a bountiful world
+rldregora.spawnbook.realms_dregora.page.1=\n  §l§4B§l§n§4⬡⬡§l§4k §l§n§4⬡§l§4f§l§4 Dreg§l§n§4⬡§l§4ra§r\n\n§l    Welcome to a\n decade old world\n made with passion\n      and love§r\n\n ████§4████§r████\n ████§4████§r████\n ████§4████§r████\n§4 ████§r████§4████\n §4████§r████§4████§r\n§4 ████§r████§4████
+rldregora.spawnbook.realms_dregora.page.2=     §6☀§8           \n               §r\n§n§2▁§n§8▲§n§2▁§n§8◢◣§n§2▁▁§l§8╱╲§n§2▁§n§r▊§n§2▁§n§0▅§n§2▁§n§r \n\n\nPage 3-5 Prolugue\nPage 6-9 Secrets\nPage 10 Realms\nPage 14 Thank you
+rldregora.spawnbook.realms_dregora.page.3=§oOur Earth, struck by a catastrophic event known as the Blight happened a few thousand years ago.\n\n§oRuined cities have been long overtaken by the sands of the wastelands, with the green of corruption feasting on the remains of the unfortunate. ➡
+rldregora.spawnbook.realms_dregora.page.4=\n§oFew places are suitable for those seeking shelter from the corruption, but dreams have shown you far away lands beyond canyons of molten rock where this world, now known as Dregora, seems to be healing. ➡
+rldregora.spawnbook.realms_dregora.page.5=\n§oHowever, despite serene visions and the warmth of the rising sun, a darkness yet lurked; one which you failed to notice§r\n\n###################\n#   Information ➡    #\n###################
+rldregora.spawnbook.realms_dregora.page.6=Having read this Prologue, take note of the sentence regarding canyons and molten rock.\n\nThe keen eye may have deduced the meaning behind this as your travels through Dregora should lead to these, and more importantly... ➡
+rldregora.spawnbook.realms_dregora.page.7=the lands beyond riddled with kingdoms, waterfalls, lush oceans, grand mountain ranges and overall beautiful, resource rich places to visit.\n\nThese secrets, just as most everything within the realms of Dregora, have been... ➡
+rldregora.spawnbook.realms_dregora.page.8=written in an immersive way without any links leading you away from what makes up these worlds.\n\nSo seeking the secrets are to be done within the boundaries of these worlds where you may find libraries of lore filled with magical... ➡\n 
+rldregora.spawnbook.realms_dregora.page.9=swords, stones, and their guardians.\n\nSo on your travels, if you are willing to read the lore, make sure to do so keenly as you may uncover secrets, hidden passages, and knowledge on shadows yet to come.
+rldregora.spawnbook.realms_dregora.page.10=Dregora exists out of 4 parts:\n\n§lThe Fromimage Center§r\n\nWith the octagonal structure in it's center, you'll find it closely resembles a compass from above.\n\n§lThe Wastelands ... ➡
+rldregora.spawnbook.realms_dregora.page.11=These lands make up the majority of Dregora and are entirely randomly generated. These biomes mostly resemble a wasteland, but upon your travels you will find lush, frozen, and corrupted biomes as well.\n\n§lThe Farlands... ➡
+rldregora.spawnbook.realms_dregora.page.12=These far away hidden lands are protected from the wastification by great fiery chasms of molten rock and contain lush biomes full of wonders. These are truly the most beautiful places to visit.\n\n§lThe Depths... ➡
+rldregora.spawnbook.realms_dregora.page.13=These are what make up the subterranean parts of Dregora. Not to be found in all biomes but commonly present in the world as a whole, where some may pose dangers but others will house full civilizations.\n\n\n\n 
+rldregora.spawnbook.realms_dregora.page.14=And with that, §l§ca world§r not just created by me, NLBlackEagle, but you as well, as I value §l§cyour opinion§r and without it Dregora wouldn't have been possible. So I would like to §l§cthank you greatly§r and welcome you to open a chat with me on our discord any time!\n\n 
+
+rldregora.spawnbook.legendary_loot.title=Book of Legendary Loot
+rldregora.spawnbook.legendary_loot.author=The Founder
+rldregora.spawnbook.legendary_loot.lore=Let there be luck to assist your in your spoils
+rldregora.spawnbook.legendary_loot.page.1=\n\nTake a sip and thou shalt be revealed a riddle of luck and loot\n\n
+rldregora.spawnbook.legendary_loot.hover=The path to Legendary loot lay before you. you.
+
+rldregora.spawnbook.skull_secrets.name=Skull of Secrets
+rldregora.spawnbook.skull_secrets.lore=The answer to the secret of closed doors.
+rldregora.spawnbook.ancient_clock.name=Ancient Clock
+rldregora.spawnbook.ancient_clock.lore=a mystical clock.
+rldregora.spawnbook.ancient_compass.name=Ancient Compass
+rldregora.spawnbook.ancient_compass.lore=The North star at pocket size!
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/viking.json
+##################################################################
+rldregora.viking.valhalla.title=Valhalla
+rldregora.viking.valhalla.author=Librarian
+rldregora.viking.valhalla.lore.0=One of the three books needed to find the Hidden Library
+rldregora.viking.valhalla.lore.1=Z is 17.000, higher then the highest mountains.
+rldregora.viking.valhalla.page.1=For these lands lie in the abyss of maps unfound and unexplored by many and hidden for even the keenest of eyes beyond this book no traces remain and all attempts finding these lands end in vain for there shall only be a few who will venture beyond the real.
+rldregora.viking.valhalla.page.2=Thou shall find the books; §l§4The Hidden Map §rin north-western lands and The §l§4Pirate's Treasure§r in ships afloat.
+rldregora.viking.valhalla.page.3=For these treasures you would need to look underneath the tallest mountains of north-western highlands in the hidden village mines and for seas in southern ends where the pirates hide and jungle thrives.
+
+rldregora.viking.ancient.title=Book of the Ancient
+rldregora.viking.ancient.author=Unknown
+rldregora.viking.ancient.lore=A old book written in a language that is famillair but much older...
+rldregora.viking.ancient.page.1=From the prologue you make out a tale of succession where once, a very long time ago beings arrived from the sky in their mighty ships carrying aboard books of gods which then were passed down among the beings.. The successors of those who came before.
+rldregora.viking.ancient.page.2=The book contains a lot of illustrations about humans with axes, feasts and battles against an entity they named the Corruption as a singular being.
+
+rldregora.viking.lawbook_viking.title=Lawbook of Viking
+rldregora.viking.lawbook_viking.author=Lawmaker
+rldregora.viking.lawbook_viking.lore.0=This book seems to be a copy of a copy of a copy and
+rldregora.viking.lawbook_viking.lore.1=contains a lot of words you can't make much sense off.
+rldregora.viking.lawbook_viking.page.1=In general the book reads about how humans must have lived a long, long time ago with their ships and houses, with their laws and how to treat one another...
+rldregora.viking.lawbook_viking.page.2=It goes on and on with how to hunt, how to cook, live and respect not just one another but also the wildlife around them. The book also contains what looks like an approval sign consisting of 8 cubes making up a flag of red and black.
+
+rldregora.viking.trial_bravery.title=Trial of Bravery
+rldregora.viking.trial_bravery.author=Unknown
+rldregora.viking.trial_bravery.lore.0=The book records what has to be done in order to complete
+rldregora.viking.trial_bravery.lore.1=the trial of bravery.
+rldregora.viking.trial_bravery.page.1=For those joining the expeditory forces of vikings there is a trial they have to undergo, this book tells about lands with huge Frozen spikes one must venture to and hunt the wild that lives there.
+rldregora.viking.trial_bravery.page.2=Dependent on with what the tested will return with they will recieve a status that can be recognized by what banner they hold in their households.
+
+rldregora.viking.day_ragnarok.title=Day of Ragnarok
+rldregora.viking.day_ragnarok.author=Unknown
+rldregora.viking.day_ragnarok.lore=This story tells about the end and beginning.
+rldregora.viking.day_ragnarok.page.1=A long, long time ago there were no monsters but humans stiving for higher glory as they attempted to obtain the power of Thor in which they foolingly thought the power to be theirs for the taking.
+rldregora.viking.day_ragnarok.page.2=And as they took the power the sky came crashing down destroying all that was tall and magnificent across the realm of humans. They had opened the gates of Ragnarok through which evil beings invaded our world slowely
+rldregora.viking.day_ragnarok.page.3=killing all that moved in the most horrific ways. With all their might humanity didnt stood a chance against these foul beasts, no wall could stop them from advancing and eventually all had fallen.
+rldregora.viking.day_ragnarok.page.4=Millennia had passed until things settled down and a valkery from the sky came down, not to strike nor to take but to give us yet another chance to do well and thus came our ancestors from who we had
+rldregora.viking.day_ragnarok.page.5=learned a message we will keep on teaching until the end of times where we'll open ragnarok's doors once again.
+
+rldregora.viking.chainmail_helmet.name=Viking Chain Helmet
+rldregora.viking.chainmail_helmet.lore=This helmet grants attack speed in trade for movement speed.
+rldregora.viking.chainmail_leggings.name=Viking Chain Leggings
+rldregora.viking.chainmail_leggings.lore=These leggings grants attack speed in trade for movement speed.
+rldregora.viking.chainmail_chestplate.name=Viking Chain Chestplate
+rldregora.viking.chainmail_chestplate.lore=This chestplate grants attack speed in trade for movement speed.
+rldregora.viking.chainmail_boots.name=Viking Chain Boots
+rldregora.viking.chainmail_boots.lore=These boots grants attack speed in trade for movement speed.
+rldregora.viking.shield.name=Viking Shield
+rldregora.viking.shield.lore.0=This shield increases armor toughness & knockback
+rldregora.viking.shield.lore.1=at the cost of attack and movement speed.
+rldregora.viking.iron_axe.name=Viking Axe
+rldregora.viking.iron_axe.lore=A typical viking axe.
+rldregora.viking.iron_sword.name=Viking Short Sword
+rldregora.viking.iron_sword.lore=A typical viking sword.
+rldregora.viking.wooden_sword.name=Training Sword
+rldregora.viking.wooden_sword.lore=There is nothing special about this sword.
+#,LocLore:[\"\"]
+#,LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]
+
+##################################################################
+# lore/village.json
+##################################################################
+rldregora.village.dear_diary.title=Dear Diary
+rldregora.village.dear_diary.author=Esmiralda
+rldregora.village.dear_diary.lore=A interesting page out of the diary a resident
+rldregora.village.dear_diary.page.1=Hello dear diary, it's me again! Today was a great day as I got to spend time with the smithy apprentice, he's such a nice boy. He has to see something in me doesn't he? He even made me an iron rose on which he worked for days (secretly
+rldregora.village.dear_diary.page.2=behind the back of the smith headmaster). I really hope he doesn't get in trouble for doing so as it was such a sweet thing to do. Oh, by the way, some weird things are going on here that I noticed on my way back home. I saw some
+rldregora.village.dear_diary.page.3=weird red cloaked people walking into that weird man's house. I'd never seen them before so I made sure to stay hidden behind the crates on the corner of the street. I watched them carry all sorts of stuff outside and load it on their
+rldregora.village.dear_diary.page.4=carriage. I think I sat there for about an hour until someone poked me in the back. I don't know whether I was more scared or surprised, as when I turned around it was the weird man who lived there. He told me to be
+rldregora.village.dear_diary.page.5=silent and quietly follow him. On the other side of town he stopped, and then made me promise to forget what I saw, if I wanted my life to continue as it was in this town. Weird right? But alas, he's a weird person after all. Maybe there were
+rldregora.village.dear_diary.page.6=some people very angry at him for pulling another one of his stunts. Bye Bye Diary.\n\n 
+
+rldregora.village.peculiar_merchant.title=A Peculiar Merchant
+rldregora.village.peculiar_merchant.author=Scientist
+rldregora.village.peculiar_merchant.lore=Precious sticks 'n stones.
+rldregora.village.peculiar_merchant.page.1=Often described as he who carries sticks 'n stones, he's our own peculiar merchant. It's rare to see him actually sell his wares as they're mostly rocks in which only he finds meaning. This rock has weird inscriptions! Do you see? I have never
+rldregora.village.peculiar_merchant.page.2=seen anything like it, but if you want to unravel its secrets you'll have to buy it to take a closer look. That's his opening line, most often. However, this time he actually brought something that piqued my interest. I'm one of
+rldregora.village.peculiar_merchant.page.3=the few who could identify the true nature of this device. Technically his merchandise is mostly ancient as he tries to sell rocks, but this is actually ancient and rare, as it's one of the few remaining portable interfaces
+rldregora.village.peculiar_merchant.page.4=left, or as known in ancient times, a tablet. It's just like the flat stone tablets he brings, but so much more as you could store information on it. Information I would love to see, so this time around I bought it. Although for more than I was hoping.
+
+rldregora.village.ancient_device.title=Ancient Device
+rldregora.village.ancient_device.author=Scientist
+rldregora.village.ancient_device.lore=Research notes on the strange device.
+rldregora.village.ancient_device.page.1=It's been several weeks and a couple gold coins further since I bought the device from the merchant. My house is currently stocked with books in which a fortune of ancient knowledge resides. They did not make a lot of sense to me but
+rldregora.village.ancient_device.page.2=apparently these ancients relied heavily on what can be described as lightning but not as destructive as we know it. They used it to power their machines like we use water and wind to do the same. With this knowledge I plan to build something
+rldregora.village.ancient_device.page.3=that does the same. Who knows, maybe I will find a way to power this device in some way...\n 
+
+rldregora.village.undelivered.title=Undelivered
+rldregora.village.undelivered.author=Messenger
+rldregora.village.undelivered.lore=Message for the Scientist
+rldregora.village.undelivered.page.1=Hello good sir, I leave this note as you do not seem to be here any longer. The letter has been burned as instructed by the sender if I failed to find you. If you happen to come across this note it is very urgent that you contact the
+rldregora.village.undelivered.page.2=teacher in the southern capital. He explicitly told me you are in grave danger and should act immediately as your life depends on it.\n 
+
+rldregora.village.last_note.title=Last note
+rldregora.village.last_note.author=The Thief
+rldregora.village.last_note.lore=A last note from a thief.
+rldregora.village.last_note.page.1=Those pesky red cloaked guys, what do they think, threatening me, the famous thief! Nevertheless they are to be considered a dangerous force, something even I can't escape from. I don't feel well about this task. Something big is happening
+rldregora.village.last_note.page.2=here which is why they approached me, of course, because I am The Thief. If you read this I will no longer be among the people, which is why I prepared this note and hid it for someone to find. Watch out for those who call themselves red. They
+rldregora.village.last_note.page.3=have been here for a long time and will still be in the future.\n\n 
+#,LocLore:[\"\"]
+#,LocName:"rldregora.ancient.totem_luck.name",LocLore:["rldregora.ancient.totem_luck.lore"]
+
+##################################################################
+# lore/witch.json
+##################################################################
+rldregora.witch.adv_pot_making.title=Advanced Potion Making
+rldregora.witch.adv_pot_making.author=Steven Heiran
+rldregora.witch.adv_pot_making.lore.0=This book's illustrations indicates this is a book about 
+rldregora.witch.adv_pot_making.lore.1=potions and the ingredients used to make them. 
+rldregora.witch.adv_pot_making.lore.2=If only this book was written in common text it 
+rldregora.witch.adv_pot_making.lore.3=could've been of some use.
+rldregora.witch.adv_pot_making.page.1=Eos diligenter recensenda religionis ubi sic advertatur. Habeantur sanguinem partiales medicinam cum sua cui. Ex virtutibus percepturi si complector aliquamdiu gi mo. Quaecunque nul verumtamen materialis hoc lor argumentum.
+rldregora.witch.adv_pot_making.page.2=Ita finitae hominem dei nam naturas. Vita pla fere luce adeo item eas. Cera illa atra ii cito et ad. Quiddam age sum nemoque impetus admodum. Si potuerit quidquid at impulsum im tenebras.
+
+rldregora.witch.mechanic.title=Book of the Mechanic
+rldregora.witch.mechanic.author=Baldy Blabbers
+rldregora.witch.mechanic.lore.0=This book contains various illustrations on basic
+rldregora.witch.mechanic.lore.1=spring powered mechanics.
+rldregora.witch.mechanic.page.1=Is integritas ab difficilia et consumerem co contrariae efficietur. Is ab suum illa ex ut deum. An co primis si fuerit posita ii. Cur serio falsa sequi anima istis nia sum vitae iii. Viris ex hausi ad longa negat. Possumus permulta putantur dumtaxat ut momentum to ac si.
+
+rldregora.witch.ghouls.title=Book of Ghouls
+rldregora.witch.ghouls.author=Ghoul
+rldregora.witch.ghouls.lore=The writings of many men yet only one who has written.
+rldregora.witch.ghouls.page.1=Entry 1:\nThe Blight and the red eyes that come with it is what keeps us moving. Further and Further away.. Before we are left, before the last doors are closed.
+rldregora.witch.ghouls.page.2=Entry 2:\nMonths have passed since the doors where closed. Many of us have perished... Some even worse. We are being hunted by those who walked among us not that long ago.\n\n\n 
+rldregora.witch.ghouls.page.3=Entry 3:\nI managed to outrun them, found this broken bunker and decided to stay here for the time being.\n\n\n 
+rldregora.witch.ghouls.page.4=Entry 4:\nA decade has passed. I stayed longer then I wanted to but the winter did not stop for many years... Everything is dead now. Everything is to waste.
+
+rldregora.witch.twilight.title=At Twilight
+rldregora.witch.twilight.author=The Dark Witch
+rldregora.witch.twilight.lore=Dark Omen
+rldregora.witch.twilight.page.1=Do not run but hide as they will come.\nHowls in the night, Dark red eyes... They will hunt...\nThey will grunt... Stay hidden, close the doors\nFootsteps on the nearby floors... It is too late\nThey found their prey...
+
+rldregora.witch.creep.title=At night they creep
+rldregora.witch.creep.author=The Dark Witch
+rldregora.witch.creep.lore=Dark Omen
+rldregora.witch.creep.page.1=Angels creeping, witches sleeping...\nKeep it light, fend of their might or they'll\nEat you alive.\n 
+
+#,LocLore:[\"\"]
+#,LocName:"rldregora.ancient.totem_luck.name",LocLore:["rldregora.ancient.totem_luck.lore"]

@@ -29,14 +29,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"We thought ourselves blessed when the neighboring mining locations went dark and we could ask a premium for what we dug up. This however was short lasted as we came to face the harsh truth of the rumors that had spread around.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"First we thought they were just strong stories, then we thought it was superstitious belief. We happily kept mining and weeks passed by until a particular cold night hit us by surprise after which everything changed.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"The sightings of shadows is what it started with, then the disappearances and eventually the screaming from deep within the mines. It was then when we decided to band up and look for the cause in force... With 14 we went in and only 3 returned.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I am the only one remaining at the camp as everyone else fled. I just couldn\u0027t bear to leave my friends behind and decided to wait a couple more days. This marks the end of day 2 and I fear the worst but I will remain a little while longer for hope still lingers.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.last_resident.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.last_resident.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.last_resident.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.last_resident.page.4\\\"}]\"
                 ],
                 title:\"The last resident\",
+                locTitle:\"rldregora.miningtown.last_resident.title\",
                 author:\"Chief Mullard\",
-                display:{Lore:[\"A dusty, superficially damaged book.\"]}
+                locAuthor:\"rldregora.miningtown.last_resident.author\",
+                display:{Lore:[\"A dusty, superficially damaged book.\"],LocLore:[\"rldregora.miningtown.last_resident.lore\"]}
               }"
             },
             {
@@ -45,15 +47,17 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"\u00A76\u00A7l-------------------\u00A7r\n\u00A74Red Tainted Emeralds\u00A7r\n\u00A7l\u00A76----------------\u00A7r\n\n\u00A7lA\u00A7rs told by leaves carried by the wind, a desolate town of emeralds and gold once seemingly brimming of life and opportunities but corrupted at its core.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"This is a small story written by those who came first but never left.\n\nMany a decade ago when the mountains were still pure and untainted by human hands there was a traveler who found a glistening stone of nature.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"One event that would lead to the other and soon there stood a house of coin accompanied by tunnels leading to deep within the mountains. Filled with the stench of sweat and greed, overflowing and seeping through the rocks.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Deeper and deeper until it found and filled a chasm of wrath. The door of corruption was unlocked and in came the horrors from worlds beyond.\n\nOne night passed and empty was the house of coin. Empty were the barracks.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\nEmpty was the air once filled with laughter and drunk men tales. Empty was all but the chasm deep, deep below now filled with the gold, the green and gore of humans.\n\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.red_emeralds.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.red_emeralds.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.red_emeralds.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.red_emeralds.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.red_emeralds.page.5\\\"}]\"
                 ],
                 title:\"Red Tainted Emeralds\",
+                locTitle:\"rldregora.miningtown.red_emeralds.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A very expensive looking book.\"]}
+                locAuthor:\"rldregora.miningtown.red_emeralds.author\",
+                display:{Lore:[\"A very expensive looking book.\"],LocLore:[\"rldregora.miningtown.red_emeralds.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -63,22 +67,24 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"\nBeing but a lonely miner in search of gold I considered myself lucky to stumble upon a rock of a type I had never seen before. It was a soft kind of rock that crumbled away with just a few hits of my pickaxe.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I continued mining through this rock curious to its contents but found something I would have never anticipated. The hollow sound of rocks falling down on the other side of this strange rock echoed through the tunnels as the dust settled.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"A sound of metal touching metal in the distance accompanied by a high-pitched sound of some kind. The rumbling of rocks made it hard to know what was going on but as soon as the dust settled I found myself staring at the smoothest wall I had ever seen.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"It wasn\u0027t just a wall though but part of a hallway  I apparently broke into.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"As i peaked around the corner my thoughts filled themselves with riches and fame like within the stories told by travelers about treasure filled temples and magical swords.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I also thought about the monsters they had to conquer to get these items and so my curiosity made me move forward into the tunnel but ever so quiet. I walked what felt like a fair distance when I arrived at a set of stairs when I heard a sound from my right.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"A cold shivering moved through my back into my neck but I was able to shake off the trembling that would have followed soon after. As I retraced my steps slowly while I stared at the direction the sound came from.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"A loud clang followed and my hearth sunk to my feet. Loud screeching followed and I started running like a madman. Through the tunnels and through the mines. With every step the sound grew more silent but this did not stop me from running.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Many moons later after I gathered the courage of a lifetime I packed my gear and a box of explosives. After what seemed hours of sitting in the dark and listening to the noises from up ahead, usually far away and sometimes closer, I was ready.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"As i took out my flint and steel I heard that same noise again... Did it notice me? My hands trembled and I failed the first 2 strikes. The 3rd one successfully lit up the fuse followed by yet again, that same noise but now much, much closer.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I jumped up and ran. I did not stopped to pick up my gear. I did not stopped to check the treeline for possible dangers. I did not stop to hide my trail as everything that kept me sane went overboard with that screech.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Till this day I dared not to return to that place and I feel like I can count myself the luckiest man still alive.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.11\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.perfect_rocks.page.12\\\"}]\"
                 ],
                 title:\"Perfect Rocks\",
+                locTitle:\"rldregora.miningtown.perfect_rocks.title\",
                 author:\"Dwargon the lone Miner\",
-                display:{Lore:[\"Encounter in the mountains.\"]}
+                locAuthor:\"rldregora.miningtown.perfect_rocks.author\",
+                display:{Lore:[\"Encounter in the mountains.\"],LocLore:[\"rldregora.miningtown.perfect_rocks.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -88,17 +94,19 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"I am not from yesterday, of course I heard about the stories of past and fellow miners and of course some stories are false. It will be up to you, the reader to decide whenever this is one among them or of true telling.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"It usually starts with a happy thought, happy moments followed by an incident and then a bad, good or neither of those kind of ending.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"While I am not sure where this will end for us I do know that live in this mining town wasn\u0027t the live I imagined it would be. Hitting the rocks day after day after day is one hell of a nasty job. Tears of sweat that sting in my eyes, walls always surrounding me.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"walls always surrounding you. The smell of sweat and rock in the air. It\u0027s a hard way of making a living but even then we couldn\u0027t complain as we were still free to choose what we wanted. We could venture out, perhaps build a cabin and learn to hunt or die trying.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"We would be free unlike our current situation. This brings me back to the stories of old where people are trapped within some complex or mines. And well yes, trapped we are, but not by rocks, not due to being lost.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Nope, the evil did not come from within this time but it came from outside. Monsters started appearing in broad daylight, chased us in the mines and here we are in our last stronghold unable to venture out for many have already tried and met their end.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"With grave eyes I look upon the future... What kind of ending will our story have?\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.holed_up.page.7\\\"}]\"
                 ],
                 title:\"Holed Up\",
+                locTitle:\"rldregora.miningtown.holed_up.title\",
                 author:\"Oleg the Miner\",
-                display:{Lore:[\"They came from outside, not within.\"]}
+                locAuthor:\"rldregora.miningtown.holed_up.author\",
+                display:{Lore:[\"They came from outside, not within.\"],LocLore:[\"rldregora.miningtown.holed_up.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -108,13 +116,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Stories about rock, rich with minerals and hollow earth is what attracted us to this place and as promised we were met with a wonderous complex of caverns hard to reach due to the thick layers of sharp obsidian.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"hopeful of treasures that would be weighted we dug deeper and deeper until we found ourselves in a glorious chasm of mushrooms and magma.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Days went by and aside the usual composition of minerals we sadly didnt found anything worth while, at the very least however we\u0027ve witnessed a glorious wonder of nature.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.survey_depth.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.survey_depth.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.miningtown.survey_depth.page.3\\\"}]\"
                 ],
                 title:\"Survey of the depth\",
+                locTitle:\"rldregora.miningtown.survey_depth.title\",
                 author:\"Oleg the Miner\",
-                display:{Lore:[\"A description of what lies below.\"]}
+                locAuthor:\"rldregora.miningtown.survey_depth.author\",
+                display:{Lore:[\"A description of what lies below.\"],LocLore:[\"rldregora.miningtown.survey_depth.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -133,7 +143,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -177,7 +187,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"The Earthern Rose\",Lore:[\"The stone bears teeth yet somehow you feel safer holding it in your off-hand.\"]}}"
+              "tag": "{display:{Name:\"The Earthern Rose\",Lore:[\"The stone bears teeth yet somehow you feel safer holding it in your off-hand.\"],LocName:\"rldregora.miningtown.eathern_rose.name\",LocLore:[\"rldregora.miningtown.eathern_rose.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",

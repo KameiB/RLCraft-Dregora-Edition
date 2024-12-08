@@ -29,16 +29,18 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Hello dear diary, it\u0027s me again! Today was a great day as I got to spend time with the smithy apprentice, he\u0027s such a nice boy. He has to see something in me doesn\u0027t he? He even made me an iron rose on which he worked for days (secretly\\\"}]\",
-                  \"[{\\\"text\\\":\\\"behind the back of the smith headmaster). I really hope he doesn\u0027t get in trouble for doing so as it was such a sweet thing to do. Oh, by the way, some weird things are going on here that I noticed on my way back home. I saw some\\\"}]\",
-                  \"[{\\\"text\\\":\\\"weird red cloaked people walking into that weird man\u0027s house. I\u0027d never seen them before so I made sure to stay hidden behind the crates on the corner of the street. I watched them carry all sorts of stuff outside and load it on their\\\"}]\",
-                  \"[{\\\"text\\\":\\\"carriage. I think I sat there for about an hour until someone poked me in the back. I don\u0027t know whether I was more scared or surprised, as when I turned around it was the weird man who lived there. He told me to be\\\"}]\",
-                  \"[{\\\"text\\\":\\\"silent and quietly follow him. On the other side of town he stopped, and then made me promise to forget what I saw, if I wanted my life to continue as it was in this town. Weird right? But alas, he\u0027s a weird person after all. Maybe there were\\\"}]\",
-                  \"[{\\\"text\\\":\\\"some people very angry at him for pulling another one of his stunts. Bye Bye Diary.\n\n \\\"}]\"
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.1\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.2\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.3\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.4\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.5\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.dear_diary.page.6\\\"}]\"
                 ],
                 title:\"Dear Diary\",
+                locTitle:\"rldregora.village.dear_diary.title\",
                 author:\"Esmiralda\",
-                display:{Lore:[\"A interesting page out of the diary a resident\"]}
+                locAuthor:\"rldregora.village.dear_diary.author\",
+                display:{Lore:[\"A interesting page out of the diary a resident\"],LocLore:[\"rldregora.village.dear_diary.lore\"]}
               }"
             },
             {
@@ -47,14 +49,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Often described as he who carries sticks \u0027n stones, he\u0027s our own peculiar merchant. It\u0027s rare to see him actually sell his wares as they\u0027re mostly rocks in which only he finds meaning. This rock has weird inscriptions! Do you see? I have never\\\"}]\",
-                  \"[{\\\"text\\\":\\\"seen anything like it, but if you want to unravel its secrets you\u0027ll have to buy it to take a closer look. That\u0027s his opening line, most often. However, this time he actually brought something that piqued my interest. I\u0027m one of\\\"}]\",
-                  \"[{\\\"text\\\":\\\"the few who could identify the true nature of this device. Technically his merchandise is mostly ancient as he tries to sell rocks, but this is actually ancient and rare, as it\u0027s one of the few remaining portable interfaces\\\"}]\",
-                  \"[{\\\"text\\\":\\\"left, or as known in ancient times, a tablet. It\u0027s just like the flat stone tablets he brings, but so much more as you could store information on it. Information I would love to see, so this time around I bought it. Although for more than I was hoping.\\\"}]\"
+                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.1\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.2\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.3\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.peculiar_merchant.page.4\\\"}]\"
                 ],
                 title:\"A Peculiar Merchant\",
+                locTitle:\"rldregora.village.peculiar_merchant.title\",
                 author:\"Scientist\",
-                display:{Lore:[\"Precious sticks \u0027n stones.\"]}
+                locAuthor:\"rldregora.village.peculiar_merchant.author\",
+                display:{Lore:[\"Precious sticks \u0027n stones.\"],LocLore:[\"rldregora.village.peculiar_merchant.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -64,13 +68,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"It\u0027s been several weeks and a couple gold coins further since I bought the device from the merchant. My house is currently stocked with books in which a fortune of ancient knowledge resides. They did not make a lot of sense to me but\\\"}]\",
-                  \"[{\\\"text\\\":\\\"apparently these ancients relied heavily on what can be described as lightning but not as destructive as we know it. They used it to power their machines like we use water and wind to do the same. With this knowledge I plan to build something\\\"}]\",
-                  \"[{\\\"text\\\":\\\"that does the same. Who knows, maybe I will find a way to power this device in some way...\n \\\"}]\"
+                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.1\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.2\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.ancient_device.page.3\\\"}]\"
                 ],
                 title:\"Ancient Device\",
+                locTitle:\"rldregora.village.ancient_device.title\",
                 author:\"Scientist\",
-                display:{Lore:[\"Research notes on the strange device.\"]}
+                locAuthor:\"rldregora.village.ancient_device.author\",
+                display:{Lore:[\"Research notes on the strange device.\"],LocLore:[\"rldregora.village.ancient_device.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -80,12 +86,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Hello good sir, I leave this note as you do not seem to be here any longer. The letter has been burned as instructed by the sender if I failed to find you. If you happen to come across this note it is very urgent that you contact the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"teacher in the southern capital. He explicitly told me you are in grave danger and should act immediately as your life depends on it.\n \\\"}]\"
+                  \"[{\\\"text\\\":\\\"rldregora.village.undelivered.page.1\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.undelivered.page.2\\\"}]\"
                 ],
                 title:\"Undelivered\",
+                locTitle:\"rldregora.village.undelivered.title\",
                 author:\"Messenger\",
-                display:{Lore:[\"Message for the Scientist\"]}
+                locAuthor:\"rldregora.village.undelivered.author\",
+                display:{Lore:[\"Message for the Scientist\"],LocLore:[\"rldregora.village.undelivered.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -95,13 +103,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Those pesky red cloaked guys, what do they think, threatening me, the famous thief! Nevertheless they are to be considered a dangerous force, something even I can\u0027t escape from. I don\u0027t feel well about this task. Something big is happening\\\"}]\",
-                  \"[{\\\"text\\\":\\\"here which is why they approached me, of course, because I am The Thief. If you read this I will no longer be among the people, which is why I prepared this note and hid it for someone to find. Watch out for those who call themselves red. They\\\"}]\",
-                  \"[{\\\"text\\\":\\\"have been here for a long time and will still be in the future.\n\n \\\"}]\"
+                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.1\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.2\\\"}]\",
+                  \"[{\\\"text\\\":\\\"rldregora.village.last_note.page.3\\\"}]\"
                 ],
                 title:\"Last note\",
+                locTitle:\"rldregora.village.last_note.title\",
                 author:\"The Thief\",
-                display:{Lore:[\"A last note from a thief.\"]}
+                locTuthor:\"rldregora.village.last_note.author\",
+                display:{Lore:[\"A last note from a thief.\"],LocLore:[\"rldregora.village.last_note.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -120,7 +130,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
