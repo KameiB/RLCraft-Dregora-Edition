@@ -3,7 +3,7 @@
   "CustomName": "Cursed Potion Chest",
   "pools": [
     {
-      "name": "Waterbreating with drown troll",
+      "name": "Water breathing with drown troll",
       "rolls": 1,
       "bonus_rolls": 0,
       "entries": [

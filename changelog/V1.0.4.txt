@@ -7,7 +7,6 @@ Fixed:
 - Arachno needs Arachna as name in brutal tower
 - P_LargeShip generating 1 block below water level
 - fixed dragon saddle recipe not using all of lightning dragon scales
-- lowered amount of infernals
 - lowered Geonach spawn chance
 - make artifacts repair material iron and add to description
 - remove toolbelts from crates in brutal tower
@@ -49,17 +48,39 @@ Fixed:
 - P_LargeShip - actually addd the fix this time ahahah
 - P_Aeriveth - fixed generation and masked
 - P_ForestGuardian-added masking, reduced size
+- Enabled tunneling blacklist
+- fixed typo on loottables ( liffe instead of life on cursed potion )
+- Increased spawnrate of sky castle (Letsaa gooo! Castle Gang!)
+- use new block for cities that do not fall like concrete powder
+- made performance optimizations for underneath by lowering generation frequency of several objects
+- Dungeon03C1R1 got chest that should be empty filled with loot there should not be making it so the door lock does not work.
+- fixed typo in cursed water breathing potion.
+- Added v1.0.3 and start of v1.0.4 changelogs
 
 RLCraft to do now:
-- fix tunneling through blocks "Tunneling Blacklist Enabled"=false
+- improve loot medusa temple
+- medusa temple contains remaining corrupted chest
+- Add sword of vitality (epic tier item) + Nunchucks of Legendary Risk "Does damage ++ but at a price!"
+- add fission potion to herblorist (in return for gems) and give it lore "Handy for villager re-rolling!" + remove it from crafting
+- Sarevok limit spawn area entities, limit entity spawning, buff sarevok with rust, more armor and more health
+- Golem floor add sentries + buff for armor all golems
+- Parasite floor add yelloweye parasites 50/50 rupter and make drop down less cheesable
+- Developer room  add yelloweye + all devs more armor & sentry spawns too
+- Boss room add yelloweye 50/50 rupter spawners
+- treasure room add special armor to chests & up the enchantment level (and remove ozzy) + add real high enchantments to armor
+- remove all drops in brutal towers except from bosses (and boost chest contents)
+- wither spawners in the nether? (nether dungeons)
+- Fishing rod breaks? (diamond with optimal attachments)
+- add long range teleportation devices
+- make a potion that removes COTH (splash and maybe also children of these entities) later convert to vaccine crafted by 2.0.0 planned stuff
+- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
+- decrease furnaces & dispensers in underneath
+- make setbonuses (skill issue, Eagle's Pity granted you)
 - Take a look at lattices, see why they cause lag issues
-- use new block for cities that do not fall like concrete powder
 - Make set bonus if equipped like Thor
-- add a city wall (containing parasites)
 - make atlas show cities in overworld
 - make rupter spawners in boss room slower but also have a 50% chance to spawn primitive yelloweye
 - Could make the baubles more rare in chests and give them to the golem instead + possibly make the golem have 2/3 the health it currently has
-- Dungeon03C1R1 got chest that should be empty filled with loot there should not be making it so the door lock does not work.
 - biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm (also smite people who try to do this!)
 - nerf lycanite bosses The chupacabra boss in the sungeon (nerf speed)
 - go over all unique items and see where it could get buffed.
@@ -79,8 +100,6 @@ RLCraft to do now:
 - ruins battletower top chest empty sometimes
 - lava island should be warm
 - chests spawn on top of buildings (lightcheck)
-- improve loot medusa temple
-- medusa temple contains remaining corrupted chest
 - make ominous feeling work for grey abyss too
 - Dragons should be at least tier 2 in grey mountains
 - Add RLDMixins disarm:1 tag on weapon vanish weapon on mob drop
@@ -101,6 +120,8 @@ RLCraft to do now:
 - take a look at tektopia mod for 2.0.0
 - Make port city have one of the labs required to progress gameplay + (But eh you never know.. maybe the villagers found the mending one so important
   (because people flocked to port city to trade with him...) that they made a secret society of mending villagers) + (needs 15-20 mending)
+- possibly repaint the trench biome to not be as frequent in the center area? Cut them off at little waystone areas
+- add a city wall (containing parasites)
 
 RLDMixins:
 - make bane of Arthropods work down a list of entities
@@ -142,6 +163,7 @@ RLDMixins:
 
 
 [LOW PRIORITY]
+- adjust loottables to have random hints on nametags
 - Add shiv script that makes it possible for shivaxi to get zapped by lightning after message "Divine Karma!" and cooldown of x seconds
 - move onplayertick check for mount to oninteractentity in dregora.zs
 - battletower cheese, respawn totem (mirror right click doesn't always activate)

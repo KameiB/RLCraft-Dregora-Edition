@@ -1260,7 +1260,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     // Deep Ocean & Ocean
 
     //SRP squids spawning
-    if ((EntityBiome has "ocean") || (EntityBiome has "sea")) {
+    if ((EntityBiome has "Ocean") || (EntityBiome has "Sea")) {
         if ((definition.id) == "minecraft:squid") {
 
             var RandomNum = event.entity.world.random.nextFloat(0, 100);
