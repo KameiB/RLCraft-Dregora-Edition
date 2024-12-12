@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"potioncore:strong_curse\",display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Poti§4§lon of Ult§e§limat§4§le Luck§e☢§r\",Lore:[\"§9Luck V (2:00)\",\"\",\"§5When Applied:\",\"§9+5 Luck:\"]},CustomPotionEffects:[{Id:26,Duration:2400,Amplifier:4}],CustomPotionColor:65280,HideFlags:32}"
+              "tag": "{Potion:\"potioncore:strong_curse\",display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Poti§4§lon of Ult§e§limat§4§le Luck§e☢§r\",Lore:[\"§9Luck V (2:00)\",\"\",\"§5When Applied:\",\"§9+5 Luck:\"],LocName:\"rldregora.nuclear.ultimate_luck.name\",LocLore:[\"rldregora.nuclear.ultimate_luck.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.nuclear.ultimate_luck.lore.1\"]},CustomPotionEffects:[{Id:26,Duration:2400,Amplifier:4}],CustomPotionColor:65280,HideFlags:32}"
             }
           ],
           "weight": 10
@@ -39,7 +39,7 @@
           "name": "craftablechainmail:chainmail_plate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ch§4§lain Pl§eate §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ch§4§lain Pl§eate §e☢§r\",LocName:\"rldregora.nuclear.contaminated_plate.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -68,7 +68,7 @@
           "functions": [
             {"function": "minecraft:set_data","data": 0},
             {"function": "minecraft:set_data","data": 1,"conditions": [{"condition": "random_chance","chance": 0.3}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Rem§4§lains §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Rem§4§lains §e☢§r\",LocName:\"rldregora.nuclear.contaminated_remains.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -96,7 +96,7 @@
           "weight": 50,
           "functions": [
             {"function": "minecraft:set_data","data": 3},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Mush§4§lrooms §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Mush§4§lrooms §e☢§r\",LocName:\"rldregora.nuclear.contaminated_mushrooms.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.1,"max": -0.9},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.1,"max": -0.9},"operation": "addition","slot": ["offhand"]}]
@@ -124,7 +124,7 @@
           "name": "foodexpansion:itemjelly",
           "weight": 50,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Je§4§llly §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Je§4§llly §e☢§r\",LocName:\"rldregora.nuclear.contaminated_jelly.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -151,7 +151,7 @@
           "name": "xat:glowing_powder",
           "weight": 50,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Po§4§lwder §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Po§4§lwder §e☢§r\",LocName:\"rldregora.nuclear.contaminated_powder.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -179,7 +179,7 @@
           "weight": 5,
           "functions": [
             {"function": "minecraft:set_data","data": 0},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated O§4§lre §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated O§4§lre §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ore.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -206,7 +206,7 @@
           "name": "forge:bucketfilled",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Amount:1000,FluidName:\"deadblood\",display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Slur§4§lry §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{Amount:1000,FluidName:\"deadblood\",display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Slur§4§lry §e☢§r\",LocName:\"rldregora.nuclear.contaminated_slurry.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -233,7 +233,7 @@
           "name": "lycanitesmobs:bucketacid",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ac§4§lid §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ac§4§lid §e☢§r\",LocName:\"rldregora.nuclear.contaminated_acid.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -260,7 +260,7 @@
           "name": "contenttweaker:neptunium_nugget",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Nug§4§lget §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Nug§4§lget §e☢§r\",LocName:\"rldregora.nuclear.contaminated_nugget.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -287,7 +287,7 @@
           "name": "variedcommodities:ingot_bronze",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lonze In§e§lgot §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lonze In§e§lgot §e☢§r\",LocName:\"rldregora.nuclear.contaminated_bronze_ingot.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -314,7 +314,7 @@
           "name": "iceandfire:copper_ingot",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cop§4§lper In§e§lgot §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cop§4§lper In§e§lgot §e☢§r\",LocName:\"rldregora.nuclear.contaminated_copper_ingot.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -342,7 +342,7 @@
           "weight": 5,
           "functions": [
             {"function": "minecraft:set_data","data": 2},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -369,7 +369,7 @@
           "name": "minecraft:activator_rail",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -396,7 +396,7 @@
           "name": "minecraft:heavy_weighted_pressure_plate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"#,LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -423,7 +423,7 @@
           "name": "minecraft:coal",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Res§4§lource §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Res§4§lource §e☢§r\",LocName:\"rldregora.nuclear.contaminated_resource.name\"},HideFlags:2}"},
             {"function": "minecraft:set_data","data": 0},
             {"function": "minecraft:set_data","data": 1,"conditions": [{"condition": "random_chance","chance": 0.3}]},
             {
@@ -452,7 +452,7 @@
           "name": "minecraft:iron_pickaxe",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 20,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.6}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -481,7 +481,7 @@
           "name": "minecraft:stone_axe",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -510,7 +510,7 @@
           "name": "minecraft:observer",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
@@ -537,7 +537,7 @@
           "name": "minecraft:stone_shovel",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -566,7 +566,7 @@
           "name": "minecraft:chainmail_chestplate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -595,7 +595,7 @@
           "name": "minecraft:chainmail_leggings",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -624,7 +624,7 @@
           "name": "minecraft:chainmail_boots",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -653,7 +653,7 @@
           "name": "minecraft:chainmail_helmet",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -683,7 +683,7 @@
           "weight": 5,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_helmet.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -715,7 +715,7 @@
           "weight": 5,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_chest.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -747,7 +747,7 @@
           "weight": 5,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_bottom.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -779,7 +779,7 @@
           "weight": 5,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_legs.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -810,7 +810,7 @@
           "name": "minecraft:leather_helmet",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat H§e§lelmet §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat H§e§lelmet §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"],LocName:\"rldregora.nuclear.contaminated_hazmat_helmet.name\",LocLore:[\"rldregora.nuclear.contaminated_hazmat_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -839,7 +839,7 @@
           "name": "minecraft:leather_leggings",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat P§e§lants §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat P§e§lants §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"],LocName:\"rldregora.nuclear.contaminated_hazmat_pants.name\",LocLore:[\"rldregora.nuclear.contaminated_hazmat_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -868,7 +868,7 @@
           "name": "minecraft:leather_boots",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§loots §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§loots §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"],LocName:\"rldregora.nuclear.contaminated_hazmat_boots.name\",LocLore:[\"rldregora.nuclear.contaminated_hazmat_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -897,7 +897,7 @@
           "name": "minecraft:leather_chestplate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§lody §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{color:16701501,Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§lody §e☢§r\",Lore:[\"Smooth to the touch, high quality leather.\"],LocName:\"rldregora.nuclear.contaminated_hazmat_body.name\",LocLore:[\"rldregora.nuclear.contaminated_hazmat_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -926,7 +926,7 @@
           "name": "minecraft:bucket",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -953,7 +953,7 @@
           "name": "minecraft:brick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lick §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lick §e☢§r\",LocName:\"rldregora.nuclear.contaminated_brick.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -980,7 +980,7 @@
           "name": "minecraft:minecart",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1007,7 +1007,7 @@
           "name": "adhooks:pudge_hook",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -1035,7 +1035,7 @@
           "name": "adhooks:prototype_launcher",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -1063,7 +1063,7 @@
           "name": "adhooks:pudge_launcher",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1092,7 +1092,7 @@
           "name": "adhooks:spear_hook",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -1120,7 +1120,7 @@
           "name": "adhooks:spear_launcher",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1149,7 +1149,7 @@
           "name": "adhooks:web_hook",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -1177,7 +1177,7 @@
           "name": "adhooks:web_launcher",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1206,7 +1206,7 @@
           "name": "biomesoplenty:jar_empty",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r\",LocName:\"rldregora.nuclear.contaminated_container.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1233,7 +1233,7 @@
           "name": "rustic:iron_lattice",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\",LocName:\"rldregora.nuclear.contaminated_rubble.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1260,7 +1260,7 @@
           "name": "quark:iron_ladder",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\",LocName:\"rldregora.nuclear.contaminated_rubble.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1287,7 +1287,7 @@
           "name": "quark:chain",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\",LocName:\"rldregora.nuclear.contaminated_rubble.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1314,7 +1314,7 @@
           "name": "quark:redstone_randomizer",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1341,7 +1341,7 @@
           "name": "quark:redstone_inductor",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1368,7 +1368,7 @@
           "name": "iceandfire:jar_empty",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r\",LocName:\"rldregora.nuclear.contaminated_container.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1395,7 +1395,7 @@
           "name": "inspirations:rope",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "minecraft:set_data","data": 0},
             {"function": "minecraft:set_data","data": 1,"conditions": [{"condition": "random_chance","chance": 0.3}]},
             {
@@ -1424,7 +1424,7 @@
           "name": "inspirations:barometer",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1451,7 +1451,7 @@
           "name": "inspirations:photometer",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
@@ -1479,7 +1479,7 @@
           "name": "inspirations:redstone_charger",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
@@ -1507,7 +1507,7 @@
           "name": "levelup2:respecbook",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1534,7 +1534,7 @@
           "name": "bountifulbaubles:flaregun",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
               "function": "minecraft:set_attributes",
@@ -1562,7 +1562,7 @@
           "name": "bountifulbaubles:flare_red",
           "weight": 15,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ammun§4§lition §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ammun§4§lition §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ammunition.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1589,7 +1589,7 @@
           "name": "locks:iron_lock_mechanism",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1616,7 +1616,7 @@
           "name": "locks:wood_lock_mechanism",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1643,7 +1643,7 @@
           "name": "locks:spring",
           "weight": 10,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1670,7 +1670,7 @@
           "name": "locks:steel_lock_mechanism",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1697,7 +1697,7 @@
           "name": "locks:key",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated K§4§ley §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated K§4§ley §e☢§r\",LocName:\"rldregora.nuclear.contaminated_key.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1724,7 +1724,7 @@
           "name": "locks:steel_lock_pick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1753,7 +1753,7 @@
           "name": "locks:iron_lock_pick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {
               "function": "minecraft:set_attributes",
@@ -1781,7 +1781,7 @@
           "name": "variedcommodities:wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1810,7 +1810,7 @@
           "name": "variedcommodities:crowbar",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1839,7 +1839,7 @@
           "name": "variedcommodities:pipe_wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1868,7 +1868,7 @@
           "name": "simpledifficulty:rain_collector",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r\",LocName:\"rldregora.nuclear.contaminated_machinery.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1895,7 +1895,7 @@
           "name": "spartanweaponry:hammer_stone",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1924,7 +1924,7 @@
           "name": "spartanweaponry:hammer_iron",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -1953,7 +1953,7 @@
           "name": "simpledifficulty:charcoal_filter",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -1980,7 +1980,7 @@
           "name": "notreepunching:mattock/iron",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2009,7 +2009,7 @@
           "name": "notreepunching:saw/iron",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2038,7 +2038,7 @@
           "name": "notreepunching:knife/iron",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2067,7 +2067,7 @@
           "name": "armorunder:goopak_cool",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -2094,7 +2094,7 @@
           "name": "armorunder:goopak_heat",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -2121,7 +2121,7 @@
           "name": "charm:iron_lantern",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -2148,7 +2148,7 @@
           "name": "spartanweaponry:hammer_gold",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2177,7 +2177,7 @@
           "name": "rlmixins:steel_helmet",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2206,7 +2206,7 @@
           "name": "rlmixins:steel_chestplate",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2235,7 +2235,7 @@
           "name": "rlmixins:steel_leggings",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2264,7 +2264,7 @@
           "name": "rlmixins:steel_boots",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
             {
@@ -2294,7 +2294,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"
+              "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"],LocName:\"rldregora.nuclear.contaminated_ancient_coins.name\",LocLore:[\"rldregora.nuclear.contaminated_ancient_artifact.lore.0\",\"rldregora.nuclear.contaminated_ancient_artifact.lore.1\"]},HideFlags:2}"
             },
             {"function": "set_count","count": {"min": 1,"max": 3}},
             {
@@ -2324,7 +2324,7 @@
           "name": "minecraft:iron_ingot",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Iron In§4§lgot §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Iron In§4§lgot §e☢§r\",LocName:\"rldregora.nuclear.contaminated_iron_ingot.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -2351,7 +2351,7 @@
           "name": "minecraft:gold_ingot",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Gol§4§ld Ingot §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Gol§4§ld Ingot §e☢§r\",LocName:\"rldregora.nuclear.contaminated_gold_ingot.name\"},HideFlags:2}"},
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
@@ -2378,7 +2378,7 @@
           "name": "iceandfire:armor_copper_metal_chestplate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2407,7 +2407,7 @@
           "name": "iceandfire:armor_copper_metal_leggings",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2436,7 +2436,7 @@
           "name": "iceandfire:armor_copper_metal_boots",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2465,7 +2465,7 @@
           "name": "iceandfire:armor_copper_metal_helmet",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2494,7 +2494,7 @@
           "name": "iceandfire:armor_silver_metal_chestplate",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2533,7 +2533,7 @@
           "name": "iceandfire:armor_silver_metal_leggings",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2572,7 +2572,7 @@
           "name": "iceandfire:armor_silver_metal_boots",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {
@@ -2611,7 +2611,7 @@
           "name": "iceandfire:armor_silver_metal_helmet",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\"},HideFlags:2}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {

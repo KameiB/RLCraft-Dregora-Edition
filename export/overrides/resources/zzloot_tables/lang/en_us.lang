@@ -6933,3 +6933,172 @@ rldregora.industrial.ancient_coins.lore.0=Treasure among Topographers in Outpost
 rldregora.industrial.ancient_coins.lore.1=Only sold when in pristine condition, use every day iron ingots to repair.
 #,LocName:"rldregora.industrial.ancient_coins.name",LocLore:["rldregora.industrial.ancient_coins.lore.0","rldregora.industrial.ancient_coins.lore.1"]
 
+##################################################################
+# ruins/nuclear.json
+##################################################################
+rldregora.nuclear.ultimate_luck.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Poti§4§lon of Ult§e§limat§4§le Luck§e☢§r
+rldregora.nuclear.ultimate_luck.lore.0=§9Luck V (2:00)
+rldregora.nuclear.ultimate_luck.lore.1=§9+5 Luck
+#,LocName:"rldregora.nuclear.ultimate_luck.name",LocLore:["rldregora.nuclear.ultimate_luck.lore.0"," ","rldregora.potion.whenDrank","rldregora.nuclear.ultimate_luck.lore.1"]
+rldregora.nuclear.contaminated_plate.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ch§4§lain Pl§eate §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_plate.name"
+rldregora.nuclear.contaminated_remains.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Rem§4§lains §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_remains.name"
+rldregora.nuclear.contaminated_mushrooms.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Mush§4§lrooms §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_mushrooms.name"
+rldregora.nuclear.contaminated_jelly.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Je§4§llly §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_jelly.name"
+rldregora.nuclear.contaminated_powder.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Po§4§lwder §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_powder.name"
+rldregora.nuclear.contaminated_ore.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated O§4§lre §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_ore.name"
+rldregora.nuclear.contaminated_slurry.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Slur§4§lry §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_slurry.name"
+rldregora.nuclear.contaminated_acid.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ac§4§lid §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_acid.name"
+rldregora.nuclear.contaminated_nugget.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Nug§4§lget §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_nugget.name"
+rldregora.nuclear.contaminated_bronze_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lonze In§e§lgot §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_bronze_ingot.name"
+rldregora.nuclear.contaminated_copper_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cop§4§lper In§e§lgot §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_copper_ingot.name"
+rldregora.nuclear.contaminated_machinery.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Machi§4§lnery §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_machinery.name"
+rldregora.nuclear.contaminated_resource.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Res§4§lource §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_resource.name"
+rldregora.nuclear.contaminated_tool.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_tool.name"
+rldregora.nuclear.contaminated_equipment.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_equipment.name"
+rldregora.nuclear.contaminated_RAD_helmet.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r
+rldregora.nuclear.contaminated_RAD_armor.lore=Lined with lead, must be heavy...
+#,LocName:"rldregora.nuclear.contaminated_RAD_helmet.name",LocLore:["rldregora.nuclear.contaminated_RAD_armor.lore"]
+rldregora.nuclear.contaminated_RAD_chest.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_RAD_chest.name",LocLore:["rldregora.nuclear.contaminated_RAD_armor.lore"]
+rldregora.nuclear.contaminated_RAD_bottom.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_RAD_bottom.name",LocLore:["rldregora.nuclear.contaminated_RAD_armor.lore"]
+rldregora.nuclear.contaminated_RAD_legs.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_RAD_legs.name",LocLore:["rldregora.nuclear.contaminated_RAD_armor.lore"]
+rldregora.nuclear.contaminated_hazmat_helmet.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat H§e§lelmet §e☢§r
+rldregora.nuclear.contaminated_hazmat_armor.lore=Smooth to the touch, high quality leather.
+#,LocName:"rldregora.nuclear.contaminated_hazmat_helmet.name",LocLore:["rldregora.nuclear.contaminated_hazmat_armor.lore"]
+rldregora.nuclear.contaminated_hazmat_pants.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat P§e§lants §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_hazmat_pants.name",LocLore:["rldregora.nuclear.contaminated_hazmat_armor.lore"]
+rldregora.nuclear.contaminated_hazmat_boots.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§loots §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_hazmat_boots.name",LocLore:["rldregora.nuclear.contaminated_hazmat_armor.lore"]
+rldregora.nuclear.contaminated_hazmat_body.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ha§4§lzmat B§e§lody §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_hazmat_body.name",LocLore:["rldregora.nuclear.contaminated_hazmat_armor.lore"]
+rldregora.nuclear.contaminated_brick.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lick §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_brick.name"
+rldregora.nuclear.contaminated_container.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_container.name"
+rldregora.nuclear.contaminated_rubble.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_rubble.name"
+rldregora.nuclear.contaminated_ammunition.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ammun§4§lition §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_ammunition.name"
+rldregora.nuclear.contaminated_parts.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_parts.name"
+rldregora.nuclear.contaminated_key.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated K§4§ley §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_key.name"
+rldregora.nuclear.contaminated_ancient_artifact.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r
+rldregora.nuclear.contaminated_ancient_artifact.lore.0=Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.
+rldregora.nuclear.contaminated_ancient_artifact.lore.1=Only sold when in pristine condition, use every day iron ingots to repair.
+#,LocName:"rldregora.nuclear.contaminated_ancient_artifact.name",LocLore:["rldregora.nuclear.contaminated_ancient_artifact.lore.0","rldregora.nuclear.contaminated_ancient_artifact.lore.1"]
+rldregora.nuclear.contaminated_ancient_coins.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_ancient_coins.name",LocLore:["rldregora.nuclear.contaminated_ancient_artifact.lore.0","rldregora.nuclear.contaminated_ancient_artifact.lore.1"]
+rldregora.nuclear.contaminated_iron_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Iron In§4§lgot §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_iron_ingot.name"
+rldregora.nuclear.contaminated_gold_ingot.name=§e☢§r §4§lCon§e§lta§4§lmin§e§lated Gol§4§ld Ingot §e☢§r
+#,LocName:"rldregora.nuclear.contaminated_gold_ingot.name"
+
+##################################################################
+# switch/rlcraft/milk.json
+##################################################################
+rldregora.milk.infested_milk.name=Infested Milk
+rldregora.milk.infested_milk.lore=There are bugs crawling in the milk!!!
+rldregora.milk.spoiled_milk.name=Spoiled Milk
+rldregora.milk.spoiled_milk.lore=The milk looks spoiled... Yugh.
+rldregora.milk.eyeball_milk.name=Eyeball Milk
+rldregora.milk.eyeball_milk.lore=There are Eyes in the milk!!!?
+rldregora.milk.syrup_milk.name=Syrup Milk
+rldregora.milk.syrup_milk.lore=Brrr Uhhll That is Disgusting!!!
+rldregora.milk.poisoned_milk.name=Poisoned Milk
+rldregora.milk.poisoned_milk.lore=This milk seems poisoned!!
+rldregora.milk.moldy_milk.name=Moldy Milk
+rldregora.milk.moldy_milk.lore=A green layer covers the milk.... Yeah... NOPE!
+rldregora.milk.spotted_milk.name=Spotted Milk
+rldregora.milk.spotted_milk.lore.0=Black.. Brown and Green spots in the milk?
+rldregora.milk.spotted_milk.lore.1=Not Drinking That!
+rldregora.milk.white_stuff.name=Bucket of White stuff
+rldregora.milk.white_stuff.lore=This can\u0027t be milk.. Can it?
+
+##################################################################
+# switch/rlcraft/toilet.json
+##################################################################
+rldregora.toilet.skull1.name=Reeking Skull ☠
+rldregora.toilet.skull1.lore=This skull deserved better...
+rldregora.toilet.skull2.name=Stinky Skull ☠
+rldregora.toilet.skull2.lore=It reeks...
+rldregora.toilet.skull3.name=Smelly Skull ☢
+rldregora.toilet.skull3.lore=Yugh....
+#,LocName:"rldregora.toilet.skull1.name",LocLore:["rldregora.toilet.skull1.lore"]
+rldregora.toilet.red_mold1.name=Stinky Red Mold ☠
+rldregora.toilet.red_mold1.lore=Reeks of a dimensional fart...
+rldregora.toilet.red_mold2.name=Disgusting Red Mold ☢
+rldregora.toilet.red_mold2.lore=It reeks of filthy corruption...
+rldregora.toilet.red_mold3.name=Fleshy Mold ☠
+rldregora.toilet.red_mold3.lore=Brrr... Horrifying.
+#,LocName:"rldregora.toilet.red_mold1.name",LocLore:["rldregora.toilet.red_mold1.lore"]
+rldregora.toilet.aq_fish1.name=Stinky Fish Bones ☢
+rldregora.toilet.aq_fish1.lore=Fish and Horror...
+rldregora.toilet.aq_fish2.name=Disgusting Fish ⚠
+rldregora.toilet.aq_fish2.lore=Fish and Chills
+#,LocName:"rldregora.toilet.aq_fish1.name",LocLore:["rldregora.toilet.aq_fish1.lore"]
+rldregora.toilet.poopcharge1.name=Turd ☢
+rldregora.toilet.poopcharge1.lore=This has gone Nuclear!
+rldregora.toilet.poopcharge2.name=Discharge ‼✖
+rldregora.toilet.poopcharge2.lore=Yugh! Never heard of flushing!?
+#,LocName:"rldregora.toilet.poopcharge1.name",LocLore:["rldregora.toilet.poopcharge1.lore"]
+rldregora.toilet.mudball1.name=Poop ☢
+rldregora.toilet.mudball1.lore=Shite!!
+rldregora.toilet.mudball2.name=Poop ☢
+rldregora.toilet.mudball2.lore=Rancid!!
+rldregora.toilet.mudball3.name=Crappy Mud Ball ‼✖
+rldregora.toilet.mudball3.lore=Crap! That is no mud ball!!
+rldregora.toilet.mudball4.name=Dookie ‼✖
+rldregora.toilet.mudball4.lore=Squeedily Spooch!
+#,LocName:"rldregora.toilet.mudball1.name",LocLore:["rldregora.toilet.mudball1.lore"]
+rldregora.toilet.suspicious_soup.name=Suspicious Soup From a Ancient Toilet ☢
+rldregora.toilet.suspicious_soup.lore=Yeah...
+#,LocName:"rldregora.toilet.suspicious_soup.name",LocLore:["rldregora.toilet.suspicious_soup.lore"]
+rldregora.toilet.brown_dye1.name=Brown Smelly Substance ☠
+rldregora.toilet.brown_dye1.lore=Why am i even looking in here?!☢╳✖
+rldregora.toilet.brown_dye2.name=Brown Smelly Substance ☢
+rldregora.toilet.brown_dye2.lore=That is disgusting!⚠☠
+rldregora.toilet.brown_dye3.name=Brown Smelly Substance ☠
+rldregora.toilet.brown_dye3.lore=Enough toilet looting for me!☠
+rldregora.toilet.brown_dye4.name=Brown Smelly Substance ☢
+rldregora.toilet.brown_dye4.lore=What else did I expect?‼☒
+rldregora.toilet.brown_dye5.name=Brown Smelly Substance ☠
+rldregora.toilet.brown_dye5.lore=Ohh noo!☢☠ Nope, I am out!⚠☒
+#,LocName:"rldregora.toilet.brown_dye1.name",LocLore:["rldregora.toilet.brown_dye1.lore"]
+rldregora.toilet.adv_fish1.name=Brown Fish ☠
+rldregora.toilet.adv_fish1.lore=It came from a toilet...
+#,LocName:"rldregora.toilet.adv_fish1.name",LocLore:["rldregora.toilet.adv_fish1.lore"]
+rldregora.toilet.mystery_content.name=Potion of Mystery Content
+rldregora.toilet.mystery_content.lore=Probably not Apple Juice...
+rldregora.toilet.potion_apple.name=Potion of Apple Juice?
+rldregora.toilet.potion_apple.lore=Looks like apple juice right?
+rldregora.toilet.rebranded_apple.name=Rebranded Apple Juice
+rldregora.toilet.rebranded_apple.lore.0=The attached note says it is
+rldregora.toilet.rebranded_apple.lore.1=Rebranded Apple Juice...
+rldregora.toilet.rebranded_apple.lore.2=This one is signed by Kekistani?
+
+rldregora.toilet.dirt1.name=Turd ☢
+rldregora.toilet.dirt1.lore=This has gone Nuclear!
+rldregora.toilet.dirt2.name=Discharge ‼✖
+rldregora.toilet.dirt2.lore=Yugh! Never heard of flushing!?
+#,LocName:"rldregora.toilet.dirt1.name",LocLore:["rldregora.toilet.dirt1.lore"]
+rldregora.toilet.mushroom_stew.name=Suspicious Soup From a Ancient Toilet ☢
+rldregora.toilet.mushroom_stew.lore=Yeah...
+#,LocName:"rldregora.toilet.mushroom_stew.name",LocLore:["rldregora.toilet.mushroom_stew.lore"]
