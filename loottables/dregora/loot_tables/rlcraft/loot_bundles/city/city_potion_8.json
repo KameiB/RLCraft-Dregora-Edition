@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Chocomel\",Lore:[\"\u00A70\u2620\"]}
+                display:{Name:\"Bottled Chocomel\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_8.chocomel.name\"}
               }"
             },
             {
@@ -23,7 +23,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "tag": "
               {
-                display:{Name:\"Bottled Chocomel\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Chocomel\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_8.chocomel.name\"},
                 CustomPotionEffects:[{Id:17,Duration:300,Amplifier:2}],
                 CustomPotionColor:2053119,
                 HideFlags:32

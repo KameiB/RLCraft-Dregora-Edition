@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]}
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"}
               }"
             },
             {
@@ -23,7 +23,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.5}],
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 CustomPotionEffects:[{Id:10,Duration:900}]
               }"
             },

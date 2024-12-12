@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Hertog Jan\",Lore:[\"\u00A70\u2620\"]}
+                display:{Name:\"Bottled Hertog Jan\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_4.hertog_jan.name\"}
               }"
             },
             {
@@ -23,7 +23,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "tag": "
               {
-                display:{Name:\"Bottled Hertog Jan\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Hertog Jan\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_4.hertog_jan.name\"},
                 CustomPotionEffects:[{Id:5,Duration:0,Amplifier:0}],
                 CustomPotionColor:2053119,
                 HideFlags:32

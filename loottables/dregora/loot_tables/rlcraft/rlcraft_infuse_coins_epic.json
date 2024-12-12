@@ -14,7 +14,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Ancient Coins\",Lore:[\"These may be of interest to the Topographers in villager outposts\"]}}"
+              "tag": "{display:{Name:\"Ancient Coins\",Lore:[\"These may be of interest to the Topographers in villager outposts\"],LocName:\"rlcraft.rlcraft_infuse_coins_common.ancient_coins.name\",LocLore:[\"rlcraft.rlcraft_infuse_coins_common.ancient_coins.lore\"]}}"
             },
             {
               "function": "set_count",

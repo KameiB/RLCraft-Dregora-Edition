@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:long_spin\",
-                display:{Name:\"Potion of Bending Speed\",Lore:[\"§9Speed X (1:30)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +100%\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Bending Speed\",Lore:[\"§9Speed X (1:30)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +100%\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_13.bending_speed.name\",LocLore:[\"rldregora.cursed_potion_13.bending_speed.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_13.bending_speed.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:1,Duration:1800,Amplifier:9}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:long_spin\",
-                display:{Name:\"Potion of Bending Speed\",Lore:[\"§9Speed X (1:30)\",\"\",\"§5When Applied:\",\"§9Speed: +100%\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Bending Speed\",Lore:[\"§9Speed X (1:30)\",\"\",\"§5When Applied:\",\"§9Speed: +100%\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_13.bending_speed.name\",LocLore:[\"rldregora.cursed_potion_13.bending_speed.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_13.bending_speed.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:1,Duration:1800,Amplifier:9}],
                 HideFlags:32
               }"

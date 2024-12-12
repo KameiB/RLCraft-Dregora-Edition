@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:explode\",
-                display:{Name:\"Potion of Explosive Strength\",Lore:[\"§9Explosive Strength (0:30)\",\"\",\"§5When Applied:\",\"§9Strength: +30%\",\"§9Attack Damage: +50%\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Explosive Strength\",Lore:[\"§9Explosive Strength (0:30)\",\"\",\"§5When Applied:\",\"§9Strength: +30%\",\"§9Attack Damage: +50%\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_4.explosive_strength.name\",LocLore:[\"rldregora.cursed_potion_4.explosive_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.skull\"],LocLoreArg:[\"\",\"\",\"\",\"30%\",\"50%\",\"\"]},
                 CustomPotionEffects:[{Id:11,Duration:100,Amplifier:5}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:explode\",
-                display:{Name:\"Potion of Explosive Strength\",Lore:[\"§9Explosive Strength (0:30)\",\"\",\"§5When Applied:\",\"§9Strength: +30%\",\"§9Attack Damage: +50%\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Explosive Strength\",Lore:[\"§9Explosive Strength (0:30)\",\"\",\"§5When Applied:\",\"§9Strength: +30%\",\"§9Attack Damage: +50%\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_4.explosive_strength.name\",LocLore:[\"rldregora.cursed_potion_4.explosive_strength.lore\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.attribute.name.effect.damageBoost.plus.arg\",\"rldregora.attribute.name.generic.attackDamage.plus.arg\",\"rldregora.cursed_potions.sadface\"],LocLoreArg:[\"\",\"\",\"\",\"30%\",\"50%\",\"\"]},
                 CustomPotionEffects:[{Id:11,Duration:100,Amplifier:5}],
                 HideFlags:32
               }"

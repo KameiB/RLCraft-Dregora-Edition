@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_teleport\",
-                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to swap point.\",\"§0\u2620 Trolololol\"]},
+                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to swap point.\",\"§0\u2620 Trolololol\"],LocName:\"rldregora.cursed_potion_9.recall_potion.name\",LocLore:[\"rldregora.cursed_potion_9.recall_potion.lore.0\",\"rldregora.cursed_potion_9.recall_potion.lore.1\",\"rldregora.cursed_potion_9.recall_potion.lore.skull\"]},
                 CustomPotionEffects:[{Id:27,Duration:600},{Id:15,Duration:600},{Id:9,Duration:600},{Id:10,Duration:600}],
                 CustomPotionColor:16777215,
                 HideFlags:32
@@ -28,7 +28,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_teleport\",
-                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your swap point.\",\"§0\u2639 Trolololol\"]},
+                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your swap point.\",\"§0\u2639 Trolololol\"],LocName:\"rldregora.cursed_potion_9.recall_potion.name\",LocLore:[\"rldregora.cursed_potion_9.recall_potion.lore.0\",\"rldregora.cursed_potion_9.recall_potion.lore.1\",\"rldregora.cursed_potion_9.recall_potion.lore.sadface\"]},
                 CustomPotionEffects:[{Id:27,Duration:600},{Id:15,Duration:600},{Id:9,Duration:600},{Id:10,Duration:600}],
                 CustomPotionColor:16777215,
                 HideFlags:32

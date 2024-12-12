@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_fire\",
-                display:{Name:\"Potion of Fire Breathing\",Lore:[\"§9Water Breathing (0:30)\",\"§9Fire Breathing (0:30)\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Fire Breathing\",Lore:[\"§9Water Breathing (0:30)\",\"§9Fire Breathing (0:30)\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_3.fire_breathing.name\",LocLore:[\"rldregora.cursed_potion_3.fire_breathing.lore.0\",\"rldregora.cursed_potion_3.fire_breathing.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:24,Duration:600}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_fire\",
-                display:{Name:\"Potion of Fire Breathing\",Lore:[\"§9Water Breathing (0:30)\",\"§9Fire Breathing (0:30)\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Fire Breathing\",Lore:[\"§9Water Breathing (0:30)\",\"§9Fire Breathing (0:30)\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_3.fire_breathing.name\",LocLore:[\"rldregora.cursed_potion_3.fire_breathing.lore.0\",\"rldregora.cursed_potion_3.fire_breathing.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:24,Duration:600}],
                 HideFlags:32
               }"
