@@ -294,6 +294,7 @@ rldregora.cursed_potion_3.potion_luck2.name=Potion of Luck     §0☹
 ##################################################################
 rldregora.cursed_potion_4.potion_breath1.lore=§r§9Water Breathing V (3:00)          §0☠
 rldregora.cursed_potion_4.potion_breath2.lore=§r§9Water Breathing V (3:00)          §0☹
+rldregora.cursed_potion_4.potion_breath.lore=§0More like Beating..
 rldregora.cursed_potion_4.potion_breath_ling.name=Lingering Potion of Water Breathing
 rldregora.cursed_potion_4.potion_breath_splash.name=Splash Potion of Water Breathing
 rldregora.cursed_potion_4.potion_breath.name=Potion of Water Breathing
@@ -5965,8 +5966,8 @@ rldregora.cursed_potion_13.bending_speed.lore.1=§9Dig Speed: +100%%
 # rlcraft/loot_bundles/cursed/cursed_potion_14.json
 ##################################################################
 rldregora.cursed_potion_14.blessed_sun.name=Potion of Blessed Sun
-rldregora.cursed_potion_14.blessed_sun.lore.0=§9+1 liffe if used outside
-rldregora.cursed_potion_14.blessed_sun.lore.1=§c-1 live if used inside.
+rldregora.cursed_potion_14.blessed_sun.lore.0=§9+1 life if used outside
+rldregora.cursed_potion_14.blessed_sun.lore.1=§c-1 life if used inside.
 #,LocName:\"rldregora.cursed_potion_14.blessed_sun.name\",LocLore:[\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_14.blessed_sun.lore.0\",\"rldregora.cursed_potion_14.blessed_sun.lore.1\",\"rldregora.cursed_potions.skull\"]
 #,LocName:\"rldregora.cursed_potion_14.blessed_sun.name\",LocLore:[\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_14.blessed_sun.lore.0\",\"rldregora.cursed_potion_14.blessed_sun.lore.1\",\"rldregora.cursed_potions.sadface\"]
 
@@ -7102,3 +7103,403 @@ rldregora.toilet.dirt2.lore=Yugh! Never heard of flushing!?
 rldregora.toilet.mushroom_stew.name=Suspicious Soup From a Ancient Toilet ☢
 rldregora.toilet.mushroom_stew.lore=Yeah...
 #,LocName:"rldregora.toilet.mushroom_stew.name",LocLore:["rldregora.toilet.mushroom_stew.lore"]
+
+##################################################################
+# travelers/ocean_main.json
+##################################################################
+rldregora.ocean_main.compass.name=Travelers Compass
+rldregora.ocean_main.compass.lore.0=The compass has a inscription on the back
+rldregora.ocean_main.compass.lore.1=Follow the pointed path and wonders await.
+#,LocName:"rldregora.ocean_main.compass.name",LocLore:["rldregora.ocean_main.compass.lore.0","rldregora.ocean_main.compass.lore.1"]
+
+##################################################################
+# travelers/oceans_castle.json
+##################################################################
+rldregora.oceans_castle.filled_map.name=Castle Ruins
+rldregora.oceans_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_castle.filled_map.lore.1=x:-14202 z:-6004
+#,LocName:"rldregora.oceans_castle.filled_map.name",LocLore:["rldregora.oceans_castle.filled_map.lore.0","rldregora.oceans_castle.filled_map.lore.1"]
+rldregora.oceans_castle.book.name=x:-14202 z:-6004
+rldregora.oceans_castle.book.lore=Ruins undisturbed and lands undiscovered.
+#,LocName:"rldregora.oceans_castle.book.name",LocLore:["rldregora.oceans_castle.book.lore"]
+
+##################################################################
+# travelers/oceans_church.json
+##################################################################
+rldregora.oceans_church.filled_map.name=Haunted Church
+rldregora.oceans_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_church.filled_map.lore.1=x:-17011 z:2659
+#,LocName:"rldregora.oceans_church.filled_map.name",LocLore:["rldregora.oceans_church.filled_map.lore.0","rldregora.oceans_church.filled_map.lore.1"]
+rldregora.oceans_church.book.name=x:-17011 z:2659
+rldregora.oceans_church.book.lore=The cult of the pumpkins await!
+#,LocName:"rldregora.oceans_church.book.name",LocLore:["rldregora.oceans_church.book.lore"]
+rldregora.oceans_church.chest.name=Hidden
+#,LocName:"rldregora.oceans_church.chest.name"
+
+##################################################################
+# travelers/oceans_daeroc.json
+##################################################################
+rldregora.oceans_daeroc.filled_map.name=Kingdom of Daeroc
+rldregora.oceans_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_daeroc.filled_map.lore.1=Area Around x:-14900 z:-3800
+#,LocName:"rldregora.oceans_daeroc.filled_map.name",LocLore:["rldregora.oceans_daeroc.filled_map.lore.0","rldregora.oceans_daeroc.filled_map.lore.1"]
+rldregora.oceans_daeroc.book.name=x:-14900 z:-3800
+rldregora.oceans_daeroc.book.lore=Capital on the hill.
+#,LocName:"rldregora.oceans_daeroc.book.name",LocLore:["rldregora.oceans_daeroc.book.lore"]
+
+##################################################################
+# travelers/oceans_farmstead.json
+##################################################################
+rldregora.oceans_farmstead.filled_map.name=Farmstead
+rldregora.oceans_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_farmstead.filled_map.lore.1=x:-15384 z:-3207
+#,LocName:"rldregora.oceans_farmstead.filled_map.name",LocLore:["rldregora.oceans_farmstead.filled_map.lore.0","rldregora.oceans_farmstead.filled_map.lore.1"]
+rldregora.oceans_farmstead.book.name=x:-15384 z:-3207
+rldregora.oceans_farmstead.book.lore=Glorious Golden Grain
+#,LocName:"rldregora.oceans_farmstead.book.name",LocLore:["rldregora.oceans_farmstead.book.lore"]
+
+##################################################################
+# travelers/oceans_greendungeon.json
+##################################################################
+rldregora.oceans_greendungeon.filled_map.name=Dungeons of the Beasts
+rldregora.oceans_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_greendungeon.filled_map.lore.1=x:-723 z:17155
+#,LocName:"rldregora.oceans_greendungeon.filled_map.name",LocLore:["rldregora.oceans_greendungeon.filled_map.lore.0","rldregora.oceans_greendungeon.filled_map.lore.1"]
+rldregora.oceans_greendungeon.book.name=x:-723 z:17155
+rldregora.oceans_greendungeon.book.lore.0=Three dungeons clad in green reside with treasure and foe.
+rldregora.oceans_greendungeon.book.lore.1=One a pyramid, two a hole, three a offering.
+#,LocName:"rldregora.oceans_greendungeon.book.name",LocLore:["rldregora.oceans_greendungeon.book.lore.0","rldregora.oceans_greendungeon.book.lore.1"]
+
+##################################################################
+# travelers/oceans_iceships.json
+##################################################################
+rldregora.oceans_iceships.filled_map.name=Frozen Ships
+rldregora.oceans_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_iceships.filled_map.lore.1=Area Around x:7576 z:12204
+#,LocName:"rldregora.oceans_iceships.filled_map.name",LocLore:["rldregora.oceans_iceships.filled_map.lore.0","rldregora.oceans_iceships.filled_map.lore.1"]
+rldregora.oceans_iceships.book.name=x:7576 z:12204
+rldregora.oceans_iceships.book.lore=Ocasionally along the shore frozen death awaits.
+#,LocName:"rldregora.oceans_iceships.book.name",LocLore:["rldregora.oceans_iceships.book.lore"]
+
+##################################################################
+# travelers/oceans_icetemple.json
+##################################################################
+rldregora.oceans_icetemple.filled_map.name=Temple of Winter
+rldregora.oceans_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_icetemple.filled_map.lore.1=Area Around x:14273 z:7038
+#,LocName:"rldregora.oceans_icetemple.filled_map.name",LocLore:["rldregora.oceans_icetemple.filled_map.lore.0","rldregora.oceans_icetemple.filled_map.lore.1"]
+rldregora.oceans_icetemple.book.name=x:14273 z:7038
+rldregora.oceans_icetemple.book.lore=Spikes crossing at four points, as deadly as the careless adventurer.
+#,LocName:"rldregora.oceans_icetemple.book.name",LocLore:["rldregora.oceans_icetemple.book.lore"]
+
+##################################################################
+# travelers/oceans_legacyspawn.json
+##################################################################
+rldregora.oceans_legacyspawn.filled_map.name=Legacy Monument
+rldregora.oceans_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_legacyspawn.filled_map.lore.1=x:-2327 z:15842
+#,LocName:"rldregora.oceans_legacyspawn.filled_map.name",LocLore:["rldregora.oceans_legacyspawn.filled_map.lore.0","rldregora.oceans_legacyspawn.filled_map.lore.1"]
+rldregora.oceans_legacyspawn.book.name=x:-2327 z:15842
+rldregora.oceans_legacyspawn.book.lore=The center of once a great civilization.
+#,LocName:"rldregora.oceans_legacyspawn.book.name",LocLore:["rldregora.oceans_legacyspawn.book.lore"]
+
+##################################################################
+# travelers/oceans_mineshafts.json
+##################################################################
+rldregora.oceans_mineshafts.filled_map.name=Happy Times Industries
+rldregora.oceans_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_mineshafts.filled_map.lore.1=x:-14198 z:-7854
+#,LocName:"rldregora.oceans_mineshafts.filled_map.name",LocLore:["rldregora.oceans_mineshafts.filled_map.lore.0","rldregora.oceans_mineshafts.filled_map.lore.1"]
+rldregora.oceans_mineshafts.book.name=x:-14198 z:-7854
+rldregora.oceans_mineshafts.book.lore=Valley of the grand treasure mines, beware your head!
+#,LocName:"rldregora.oceans_mineshafts.book.name",LocLore:["rldregora.oceans_mineshafts.book.lore"]
+
+##################################################################
+# travelers/oceans_mountains.json
+##################################################################
+rldregora.oceans_mountains.filled_map.name=Resourceful Mountains
+rldregora.oceans_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_mountains.filled_map.lore.1=x:-14881 z:-7754
+#,LocName:"rldregora.oceans_mountains.filled_map.name",LocLore:["rldregora.oceans_mountains.filled_map.lore.0","rldregora.oceans_mountains.filled_map.lore.1"]
+rldregora.oceans_mountains.book.name=x:-14881 z:-7754
+rldregora.oceans_mountains.book.lore=Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.
+#,LocName:"rldregora.oceans_mountains.book.name",LocLore:["rldregora.oceans_mountains.book.lore"]
+
+##################################################################
+# travelers/oceans_origin.json
+##################################################################
+rldregora.oceans_origin.filled_map.name=Medieval City, ORIGIN
+rldregora.oceans_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_origin.filled_map.lore.1=Area Around x:-16972 z:5231
+#,LocName:"rldregora.oceans_origin.filled_map.name",LocLore:["rldregora.oceans_origin.filled_map.lore.0","rldregora.oceans_origin.filled_map.lore.1"]
+rldregora.oceans_origin.book.name=x:-16972 z:5231
+rldregora.oceans_origin.book.lore=Stronghold in the ocean where no corrupted roam, except for those below.
+#,LocName:"rldregora.oceans_origin.book.name",LocLore:["rldregora.oceans_origin.book.lore"]
+
+##################################################################
+# travelers/oceans_pirate.json
+##################################################################
+rldregora.oceans_pirate.filled_map.name=Pirate Outpost
+rldregora.oceans_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_pirate.filled_map.lore.1=Area Around x:-175 z:15950
+#,LocName:"rldregora.oceans_pirate.filled_map.name",LocLore:["rldregora.oceans_pirate.filled_map.lore.0","rldregora.oceans_pirate.filled_map.lore.1"]
+rldregora.oceans_pirate.book.name=x:-175 z:15950
+rldregora.oceans_pirate.book.lore=Resident the Corrupted, Vindicators and treasure!
+#,LocName:"rldregora.oceans_pirate.book.name",LocLore:["rldregora.oceans_pirate.book.lore"]
+
+##################################################################
+# travelers/oceans_quarry.json
+##################################################################
+rldregora.oceans_quarry.filled_map.name=Quarry
+rldregora.oceans_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_quarry.filled_map.lore.1=x:-16254 z:-4887
+#,LocName:"rldregora.oceans_quarry.filled_map.name",LocLore:["rldregora.oceans_quarry.filled_map.lore.0","rldregora.oceans_quarry.filled_map.lore.1"]
+rldregora.oceans_quarry.book.name=x:-16254 z:-4887
+rldregora.oceans_quarry.book.lore=Once a brimming area full of wealth now overtaken by something else...
+#,LocName:"rldregora.oceans_quarry.book.name",LocLore:["rldregora.oceans_quarry.book.lore"]
+rldregora.oceans_quarry.iron_pickaxe.name=Ancient Pickaxe
+rldregora.oceans_quarry.iron_pickaxe.lore=Inscribed in the handle it says 'Merlin's touch'
+#,LocName:"rldregora.oceans_quarry.iron_pickaxe.name",LocLore:["rldregora.oceans_quarry.iron_pickaxe.lore"]
+
+##################################################################
+# travelers/oceans_spook.json
+##################################################################
+rldregora.oceans_spook.filled_map.name=Haunted Lands
+rldregora.oceans_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_spook.filled_map.lore.1=x:-13477 z:-7683
+#,LocName:"rldregora.oceans_spook.filled_map.name",LocLore:["rldregora.oceans_spook.filled_map.lore.0","rldregora.oceans_spook.filled_map.lore.1"]
+rldregora.oceans_spook.book.name=x:-13477 z:-7683
+rldregora.oceans_spook.book.lore=Haunted, rot, bellows below the hanging cages and stranded pillager ships of old.
+#,LocName:"rldregora.oceans_spook.book.name",LocLore:["rldregora.oceans_spook.book.lore"]
+
+##################################################################
+# travelers/oceans_tribal.json
+##################################################################
+rldregora.oceans_tribal.filled_map.name=Tribal Village
+rldregora.oceans_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.oceans_tribal.filled_map.lore.1=x:-2813 z:16534
+#,LocName:"rldregora.oceans_tribal.filled_map.name",LocLore:["rldregora.oceans_tribal.filled_map.lore.0","rldregora.oceans_tribal.filled_map.lore.1"]
+rldregora.oceans_tribal.book.name=Tribal Village Coordinates
+rldregora.oceans_tribal.book.lore.0=x:-2690 z:17124
+rldregora.oceans_tribal.book.lore.1=x:-2851 z:16557
+rldregora.oceans_tribal.book.lore.2=x:-2065 z:16821
+rldregora.oceans_tribal.book.lore.3=x:-2983 z:15678
+rldregora.oceans_tribal.book.lore.4=x:-2309 z:15097
+rldregora.oceans_tribal.book.lore.5=x:-1772 z:15473
+rldregora.oceans_tribal.book.lore.6=x:-1054 z:14414
+rldregora.oceans_tribal.book.lore.7=x:-302 z:15649
+#,LocName:"rldregora.oceans_tribal.book.name",LocLore:["rldregora.oceans_tribal.book.lore.0","rldregora.oceans_tribal.book.lore.1","rldregora.oceans_tribal.book.lore.2","rldregora.oceans_tribal.book.lore.3","rldregora.oceans_tribal.book.lore.4","rldregora.oceans_tribal.book.lore.5","rldregora.oceans_tribal.book.lore.6","rldregora.oceans_tribal.book.lore.7"]
+
+##################################################################
+# travelers/traveler_main.json
+##################################################################
+rldregora.traveler_main.compass.name=Travelers Compass
+rldregora.traveler_main.compass.lore.0=Old, and decorated but otherwise insignificant
+rldregora.traveler_main.compass.lore.1=where it not for the other contents in the chest...
+#,LocName:"rldregora.traveler_main.compass.name",LocLore:["rldregora.traveler_main.compass.lore.0","rldregora.traveler_main.compass.lore.1"]
+
+##################################################################
+# travelers/travelers_castle.json
+##################################################################
+rldregora.travelers_castle.filled_map.name=Castle Ruins
+rldregora.travelers_castle.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_castle.filled_map.lore.1=x:-14202 z:-6004
+#,LocName:"rldregora.travelers_castle.filled_map.name",LocLore:["rldregora.travelers_castle.filled_map.lore.0","rldregora.travelers_castle.filled_map.lore.1"]
+rldregora.travelers_castle.book.name=x:-14202 z:-6004
+rldregora.travelers_castle.book.lore=Ruins undisturbed and lands undiscovered.
+#,LocName:"rldregora.travelers_castle.book.name",LocLore:["rldregora.travelers_castle.book.lore"]
+
+##################################################################
+# travelers/travelers_church.json
+##################################################################
+rldregora.travelers_church.filled_map.name=Haunted Church
+rldregora.travelers_church.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_church.filled_map.lore.1=x:-17011 z:2659
+#,LocName:"rldregora.travelers_church.filled_map.name",LocLore:["rldregora.travelers_church.filled_map.lore.0","rldregora.travelers_church.filled_map.lore.1"]
+rldregora.travelers_church.book.name=x:-17011 z:2659
+rldregora.travelers_church.book.lore=The cult of the pumpkins await!
+#,LocName:"rldregora.travelers_church.book.name",LocLore:["rldregora.travelers_church.book.lore"]
+rldregora.travelers_church.chest.name=Hidden
+#,LocName:"rldregora.travelers_church.chest.name"
+
+##################################################################
+# travelers/travelers_daeroc.json
+##################################################################
+rldregora.travelers_daeroc.filled_map.name=Kingdom of Daeroc
+rldregora.travelers_daeroc.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_daeroc.filled_map.lore.1=Area Around x:-14900 z:-3800
+#,LocName:"rldregora.travelers_daeroc.filled_map.name",LocLore:["rldregora.travelers_daeroc.filled_map.lore.0","rldregora.travelers_daeroc.filled_map.lore.1"]
+rldregora.travelers_daeroc.book.name=x:-14900 z:-3800
+rldregora.travelers_daeroc.book.lore=Capital on the hill.
+#,LocName:"rldregora.travelers_daeroc.book.name",LocLore:["rldregora.travelers_daeroc.book.lore"]
+
+##################################################################
+# travelers/travelers_farmstead.json
+##################################################################
+rldregora.travelers_farmstead.filled_map.name=Farmstead
+rldregora.travelers_farmstead.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_farmstead.filled_map.lore.1=x:-15384 z:-3207
+#,LocName:"rldregora.travelers_farmstead.filled_map.name",LocLore:["rldregora.travelers_farmstead.filled_map.lore.0","rldregora.travelers_farmstead.filled_map.lore.1"]
+rldregora.travelers_farmstead.book.name=x:-15384 z:-3207
+rldregora.travelers_farmstead.book.lore=Glorious Golden Grain
+#,LocName:"rldregora.travelers_farmstead.book.name",LocLore:["rldregora.travelers_farmstead.book.lore"]
+
+##################################################################
+# travelers/travelers_greendungeon.json
+##################################################################
+rldregora.travelers_greendungeon.filled_map.name=Dungeons of the Beasts
+rldregora.travelers_greendungeon.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_greendungeon.filled_map.lore.1=x:-723 z:17155
+#,LocName:"rldregora.travelers_greendungeon.filled_map.name",LocLore:["rldregora.travelers_greendungeon.filled_map.lore.0","rldregora.travelers_greendungeon.filled_map.lore.1"]
+rldregora.travelers_greendungeon.book.name=x:-723 z:17155
+rldregora.travelers_greendungeon.book.lore.0=Three dungeons clad in green reside with treasure and foe.
+rldregora.travelers_greendungeon.book.lore.1=One a pyramid, two a hole, three a offering.
+#,LocName:"rldregora.travelers_greendungeon.book.name",LocLore:["rldregora.travelers_greendungeon.book.lore.0","rldregora.travelers_greendungeon.book.lore.1"]
+
+##################################################################
+# travelers/travelers_iceships.json
+##################################################################
+rldregora.travelers_iceships.filled_map.name=Frozen Ships
+rldregora.travelers_iceships.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_iceships.filled_map.lore.1=Area Around x:7576 z:12204
+#,LocName:"rldregora.travelers_iceships.filled_map.name",LocLore:["rldregora.travelers_iceships.filled_map.lore.0","rldregora.travelers_iceships.filled_map.lore.1"]
+rldregora.travelers_iceships.book.name=x:7576 z:12204
+rldregora.travelers_iceships.book.lore=Occasionally along the shore frozen death awaits.
+#,LocName:"rldregora.travelers_iceships.book.name",LocLore:["rldregora.travelers_iceships.book.lore"]
+
+##################################################################
+# travelers/travelers_icetemple.json
+##################################################################
+rldregora.travelers_icetemple.filled_map.name=Temple of Winter
+rldregora.travelers_icetemple.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_icetemple.filled_map.lore.1=Area Around x:14273 z:7038
+#,LocName:"rldregora.travelers_icetemple.filled_map.name",LocLore:["rldregora.travelers_icetemple.filled_map.lore.0","rldregora.travelers_icetemple.filled_map.lore.1"]
+rldregora.travelers_icetemple.book.name=x:14273 z:7038
+rldregora.travelers_icetemple.book.lore=Spikes crossing at four points, as deadly as the careless adventurer.
+#,LocName:"rldregora.travelers_icetemple.book.name",LocLore:["rldregora.travelers_icetemple.book.lore"]
+
+##################################################################
+# travelers/travelers_legacyspawn.json
+##################################################################
+rldregora.travelers_legacyspawn.filled_map.name=Legacy Monument
+rldregora.travelers_legacyspawn.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_legacyspawn.filled_map.lore.1=x:-2327 z:15842
+#,LocName:"rldregora.travelers_legacyspawn.filled_map.name",LocLore:["rldregora.travelers_legacyspawn.filled_map.lore.0","rldregora.travelers_legacyspawn.filled_map.lore.1"]
+rldregora.travelers_legacyspawn.book.name=x:-2327 z:15842
+rldregora.travelers_legacyspawn.book.lore=The center of once a great civilization.
+#,LocName:"rldregora.travelers_legacyspawn.book.name",LocLore:["rldregora.travelers_legacyspawn.book.lore"]
+rldregora.travelers_legacyspawn.banner.name=Tribal Banner
+#,LocName:"rldregora.travelers_legacyspawn.banner.name"
+
+##################################################################
+# travelers/travelers_mineshafts.json
+##################################################################
+rldregora.travelers_mineshafts.filled_map.name=Happy Times Industries
+rldregora.travelers_mineshafts.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_mineshafts.filled_map.lore.1=x:-14198 z:-7854
+#,LocName:"rldregora.travelers_mineshafts.filled_map.name",LocLore:["rldregora.travelers_mineshafts.filled_map.lore.0","rldregora.travelers_mineshafts.filled_map.lore.1"]
+rldregora.travelers_mineshafts.book.name=x:-14198 z:-7854
+rldregora.travelers_mineshafts.book.lore=Valley of the grand treasure mines, beware your head!
+#,LocName:"rldregora.travelers_mineshafts.book.name",LocLore:["rldregora.travelers_mineshafts.book.lore"]
+rldregora.travelers_mineshafts.golden_pickaxe.name=Golden Gurlet
+rldregora.travelers_mineshafts.golden_pickaxe.lore=a nimble pickaxe that packs a punch but leaves you wide open.
+#,LocName:"rldregora.travelers_mineshafts.golden_pickaxe.name",LocLore:["rldregora.travelers_mineshafts.golden_pickaxe.lore"]
+rldregora.travelers_mineshafts.banner.name=Tribal Banner
+#,LocName:"rldregora.travelers_mineshafts.banner.name"
+
+##################################################################
+# travelers/travelers_mountains.json
+##################################################################
+rldregora.travelers_mountains.filled_map.name=Resourceful Mountains
+rldregora.travelers_mountains.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_mountains.filled_map.lore.1=x:-14881 z:-7754
+#,LocName:"rldregora.travelers_mountains.filled_map.name",LocLore:["rldregora.travelers_mountains.filled_map.lore.0","rldregora.travelers_mountains.filled_map.lore.1"]
+rldregora.travelers_mountains.book.name=x:-14881 z:-7754
+rldregora.travelers_mountains.book.lore=Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.
+#,LocName:"rldregora.travelers_mountains.book.name",LocLore:["rldregora.travelers_mountains.book.lore"]
+rldregora.travelers_mountains.stone_pickaxe.name=Stone Breaker
+rldregora.travelers_mountains.stone_pickaxe.lore=This pickaxe is super heavy, slows you down and destroys yours opponents
+#,LocName:"rldregora.travelers_mountains.stone_pickaxe.name",LocLore:["rldregora.travelers_mountains.stone_pickaxe.lore"]
+
+##################################################################
+# travelers/travelers_origin.json
+##################################################################
+rldregora.travelers_origin.filled_map.name=Medieval City, ORIGIN
+rldregora.travelers_origin.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_origin.filled_map.lore.1=Area Around x:-16972 z:5231
+#,LocName:"rldregora.travelers_origin.filled_map.name",LocLore:["rldregora.travelers_origin.filled_map.lore.0","rldregora.travelers_origin.filled_map.lore.1"]
+rldregora.travelers_origin.book.name=x:-16972 z:5231
+rldregora.travelers_origin.book.lore=Stronghold in the ocean where no corrupted roam, except for those below.
+#,LocName:"rldregora.travelers_origin.book.name",LocLore:["rldregora.travelers_origin.book.lore"]
+rldregora.travelers_origin.banner.name=City of Origins Banner
+#,LocName:"rldregora.travelers_origin.banner.name"
+
+##################################################################
+# travelers/travelers_pirate.json
+##################################################################
+rldregora.travelers_pirate.filled_map.name=Pirate Outpost
+rldregora.travelers_pirate.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_pirate.filled_map.lore.1=Area Around x:-175 z:15950
+#,LocName:"rldregora.travelers_pirate.filled_map.name",LocLore:["rldregora.travelers_pirate.filled_map.lore.0","rldregora.travelers_pirate.filled_map.lore.1"]
+rldregora.travelers_pirate.book.name=x:-175 z:15950
+rldregora.travelers_pirate.book.lore=Resident the Corrupted, Vindicators and treasure!
+#,LocName:"rldregora.travelers_pirate.book.name",LocLore:["rldregora.travelers_pirate.book.lore"]
+rldregora.travelers_pirate.banner.name=Pirate Flag
+#,LocName:"rldregora.travelers_pirate.banner.name"
+
+##################################################################
+# travelers/travelers_quarry.json
+##################################################################
+rldregora.travelers_quarry.filled_map.name=Quarry
+rldregora.travelers_quarry.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_quarry.filled_map.lore.1=x:-16254 z:-4887
+#,LocName:"rldregora.travelers_quarry.filled_map.name",LocLore:["rldregora.travelers_quarry.filled_map.lore.0","rldregora.travelers_quarry.filled_map.lore.1"]
+rldregora.travelers_quarry.book.name=x:-16254 z:-4887
+rldregora.travelers_quarry.book.lore=Once a brimming area full of wealth now overtaken by something else...
+#,LocName:"rldregora.travelers_quarry.book.name",LocLore:["rldregora.travelers_quarry.book.lore"]
+rldregora.travelers_quarry.iron_pickaxe.name=Ancient Pickaxe
+rldregora.travelers_quarry.iron_pickaxe.lore=Inscribed in the handle it says 'Merlin's touch'
+#,LocName:"rldregora.travelers_quarry.iron_pickaxe.name",LocLore:["rldregora.travelers_quarry.iron_pickaxe.lore"]
+rldregora.travelers_quarry.book_salt.name=Book of Salt
+rldregora.travelers_quarry.book_salt.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_quarry.book_salt.lore.1=A mighty pickaxe within the chest, upon touching it vanishes for you carry no luck.
+#,LocName:"rldregora.travelers_quarry.book_salt.name",LocLore:["rldregora.travelers_quarry.book_salt.lore.0","rldregora.travelers_quarry.book_salt.lore.1"]
+
+##################################################################
+# travelers/travelers_spook.json
+##################################################################
+rldregora.travelers_spook.filled_map.name=Haunted Lands
+rldregora.travelers_spook.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_spook.filled_map.lore.1=x:-13477 z:-7683
+#,LocName:"rldregora.travelers_spook.filled_map.name",LocLore:["rldregora.travelers_spook.filled_map.lore.0","rldregora.travelers_spook.filled_map.lore.1"]
+rldregora.travelers_spook.book.name=x:-13477 z:-7683
+rldregora.travelers_spook.book.lore=Haunted, rot, bellows below the hanging cages and stranded pillager ships of old.
+#,LocName:"rldregora.travelers_spook.book.name",LocLore:["rldregora.travelers_spook.book.lore"]
+
+##################################################################
+# travelers/travelers_tribal.json
+##################################################################
+rldregora.travelers_tribal.filled_map.name=Tribal Village
+rldregora.travelers_tribal.filled_map.lore.0=The map seems unusable apart from a set of coordinates
+rldregora.travelers_tribal.filled_map.lore.1=x:-2813 z:16534
+#,LocName:"rldregora.travelers_tribal.filled_map.name",LocLore:["rldregora.travelers_tribal.filled_map.lore.0","rldregora.travelers_tribal.filled_map.lore.1"]
+rldregora.travelers_tribal.book.name=Tribal Village Coordinates
+rldregora.travelers_tribal.book.lore.0=x:-2690 z:17124
+rldregora.travelers_tribal.book.lore.1=x:-2851 z:16557
+rldregora.travelers_tribal.book.lore.2=x:-2065 z:16821
+rldregora.travelers_tribal.book.lore.3=x:-2983 z:15678
+rldregora.travelers_tribal.book.lore.4=x:-2309 z:15097
+rldregora.travelers_tribal.book.lore.5=x:-1772 z:15473
+rldregora.travelers_tribal.book.lore.6=x:-1054 z:14414
+rldregora.travelers_tribal.book.lore.7=x:-302 z:15649
+#,LocName:"rldregora.travelers_tribal.book.name",LocLore:["rldregora.travelers_tribal.book.lore.0","rldregora.travelers_tribal.book.lore.1","rldregora.travelers_tribal.book.lore.2","rldregora.travelers_tribal.book.lore.3","rldregora.travelers_tribal.book.lore.4","rldregora.travelers_tribal.book.lore.5","rldregora.travelers_tribal.book.lore.6","rldregora.travelers_tribal.book.lore.7"]
+rldregora.travelers_tribal.banner.name=Tribe of Khadr Kryk
+#,LocName:"rldregora.travelers_tribal.banner.name"
+
+##################################################################
+# underneath/fish_undead.json
+##################################################################
+rldregora.fish_undead.skeletonking_mace.lore.0=An ancient heavy relic passed down the Royal Fonny Family
+rldregora.fish_undead.skeletonking_mace.lore.1=Thought to be forever lost to the wicked cities of the corrupted.
+#,locLore:["rldregora.fish_undead.skeletonking_mace.lore.0","rldregora.fish_undead.skeletonking_mace.lore.1"]
+

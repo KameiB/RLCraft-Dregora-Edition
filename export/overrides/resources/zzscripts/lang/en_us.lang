@@ -488,7 +488,7 @@ rldregora.mod_lavacow:vespa_dagger.tooltip=§eInflicts Poison II
 rldregora.mod_lavacow:dreamcatcher.tooltip.0=§eThe Dead roam nearby as you wake from your deep slumber...
 rldregora.mod_lavacow:dreamcatcher.tooltip.1=§8Foglet, Undead Swine, Ithaqua, Sludge lord, Vespa, Scarecrow, Osvermis
 rldregora.mod_lavacow:dreamcatcher.tooltip.2=§8Pinghoul, Undertaker, Banshee, Avaton, Vindicator, Ghost or a Chest!?
-rldregora.mod_lavacow:skeletonking_mace.tooltip.0=§eInstantly kills if the victim falls under 25% health for 10 seconds after each hit.
+rldregora.mod_lavacow:skeletonking_mace.tooltip.0=§eInstantly kills if the victim falls under 25%% health for 10 seconds after each hit.
 rldregora.mod_lavacow:skeletonking_mace.tooltip.1=§4This item is banned for obvious reasons.
 rldregora.mod_lavacow:mootenheart.tooltip=§eFire Damage Reduction: 25%%
 # VariedCommodities

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Medieval City, ORIGIN\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-16972 z:5231\"]}}"
+              "tag": "{display:{Name:\"Medieval City, ORIGIN\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-16972 z:5231\"],LocName:\"rldregora.oceans_origin.filled_map.name\",LocLore:[\"rldregora.oceans_origin.filled_map.lore.0\",\"rldregora.oceans_origin.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-16972 z:5231\",Lore:[\"Stronghold in the ocean where no corrupted roam, except for those below.\"]}}"
+              "tag": "{display:{Name:\"x:-16972 z:5231\",Lore:[\"Stronghold in the ocean where no corrupted roam, except for those below.\"],LocName:\"rldregora.oceans_origin.book.name\",LocLore:[\"rldregora.oceans_origin.book.lore\"]}}"
             }
           ],
           "weight": 1

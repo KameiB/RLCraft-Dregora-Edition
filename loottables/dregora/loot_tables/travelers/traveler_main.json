@@ -25,7 +25,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Travelers Compass\",Lore:[\"Old, and decorated but otherwise insignificant\",\"where it not for the other contents in the chest...\"]}}"
+              "tag": "{display:{Name:\"Travelers Compass\",Lore:[\"Old, and decorated but otherwise insignificant\",\"where it not for the other contents in the chest...\"],LocName:\"rldregora.traveler_main.compass.name\",LocLore:[\"rldregora.traveler_main.compass.lore.0\",\"rldregora.traveler_main.compass.lore.1\"]}}"
             }
           ],
           "weight": 1

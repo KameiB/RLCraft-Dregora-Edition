@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribal Village\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-2813 z:16534\"]}}"
+              "tag": "{display:{Name:\"Tribal Village\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-2813 z:16534\"],LocName:\"rldregora.travelers_tribal.filled_map.name\",LocLore:[\"rldregora.travelers_tribal.filled_map.lore.0\",\"rldregora.travelers_tribal.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribal Village Coordinates\",Lore:[\"x:-2690 z:17124\",\"x:-2851 z:16557\",\"x:-2065 z:16821\",\"x:-2983 z:15678\",\"x:-2309 z:15097\",\"x:-1772 z:15473\",\"x:-1054 z:14414\",\"x:-302 z:15649\"]}}"
+              "tag": "{display:{Name:\"Tribal Village Coordinates\",Lore:[\"x:-2690 z:17124\",\"x:-2851 z:16557\",\"x:-2065 z:16821\",\"x:-2983 z:15678\",\"x:-2309 z:15097\",\"x:-1772 z:15473\",\"x:-1054 z:14414\",\"x:-302 z:15649\"],LocName:\"rldregora.travelers_tribal.book.name\",LocLore:[\"rldregora.travelers_tribal.book.lore.0\",\"rldregora.travelers_tribal.book.lore.1\",\"rldregora.travelers_tribal.book.lore.2\",\"rldregora.travelers_tribal.book.lore.3\",\"rldregora.travelers_tribal.book.lore.4\",\"rldregora.travelers_tribal.book.lore.5\",\"rldregora.travelers_tribal.book.lore.6\",\"rldregora.travelers_tribal.book.lore.7\"]}}"
             }
           ],
           "weight": 1
@@ -64,7 +64,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribe of Khadr Kryk\"}}"
+              "tag": "{display:{Name:\"Tribe of Khadr Kryk\",LocName:\"rldregora.travelers_tribal.banner.name\"}}"
             },
             {
               "function": "minecraft:set_nbt",

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Pirate Outpost\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-175 z:15950\"]}}"
+              "tag": "{display:{Name:\"Pirate Outpost\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-175 z:15950\"],LocName:\"rldregora.oceans_pirate.filled_map.name\",LocLore:[\"rldregora.oceans_pirate.filled_map.lore.0\",\"rldregora.oceans_pirate.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-175 z:15950\",Lore:[\"Resident the Corrupted, Vindicators and treasure!\"]}}"
+              "tag": "{display:{Name:\"x:-175 z:15950\",Lore:[\"Resident the Corrupted, Vindicators and treasure!\"],LocName:\"rldregora.oceans_pirate.book.name\",LocLore:[\"rldregora.oceans_pirate.book.lore\"]}}"
             }
           ],
           "weight": 1
