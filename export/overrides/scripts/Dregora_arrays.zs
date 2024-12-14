@@ -67,14 +67,23 @@ global ParasiteBuffBiomes as string[] = [
 ];
 
 global RandomLightningMessageArray as string[] = [
-  "Zzzrrt zzzap zskrt",
+  /*"Zzzrrt zzzap zskrt",
   "You feel a tingling sensation...",
   "What's that crackling sound...?",
   "Your hair suddenly stands on end",
   "Brrzzz kerack zrpp zrrrktttt",
   "Bliksement blawargh zrrrktt",
   "Did you know the chance of getting hit by lightning is 1 in 1,222,000?",
-  "There's a hint of ozone in the air..."
+  "There's a hint of ozone in the air..."*/
+  "message.rldregora.RandomLightningMessageArray.0",
+  "message.rldregora.RandomLightningMessageArray.1",
+  "message.rldregora.RandomLightningMessageArray.2",
+  "message.rldregora.RandomLightningMessageArray.3",
+  "message.rldregora.RandomLightningMessageArray.4",
+  "message.rldregora.RandomLightningMessageArray.5",
+  "message.rldregora.RandomLightningMessageArray.6",
+  "message.rldregora.RandomLightningMessageArray.7",
+  
 ];
 
 global ArrowArrayLong as IItemStack[] = [

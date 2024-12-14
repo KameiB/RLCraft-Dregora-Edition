@@ -62,6 +62,7 @@ import crafttweaker.event.EntityJoinWorldEvent;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.Attribute;
 
+import crafttweaker.text.ITextComponent;
 
 // use /ct syntax to validate scripts
 
@@ -269,13 +270,15 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent){
                     if (event.player.y <= 70) {
 
                         event.player.dropItem(true);
-                        event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the potion from your hands", true);
+                        //event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the potion from your hands", true);
+                        event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.yank_potion") , true);
                         event.cancel();
                     }
                 }
             }
         } else if ((event.item.definition.id == "bountifulbaubles:magicmirror") || (event.item.definition.id == "bountifulbaubles:wormholemirror")) {
-            event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the mirror from your hands", true);
+            //event.player.sendStatusMessage("You sense a mysterious force from below coming up at you as it yanks the mirror from your hands", true);
+            event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.yank_mirror") , true);
             event.player.dropItem(true);
             event.cancel();
         }
@@ -538,7 +541,7 @@ events.onPlayerCrafted(function(event as PlayerCraftedEvent){
    if ((event.output.name == "item.srparasites.weapon_bow") || (event.output.name == "item.srparasites.armor_boots") || (event.output.name == "item.srparasites.armor_pants") || (event.output.name == "item.srparasites.armor_chest") || (event.output.name == "item.srparasites.armor_helm")) {
 
         var SRPKills = ("§r§9---> 0") as string;
-        event.output.mutable().updateTag({display:{Lore:[SRPKills]}});
+        event.output.mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills"],LocLoreArg:["0"]}});
 
    } else if ((event.output.name == "item.srparasites.weapon_scythe") || (event.output.name == "item.srparasites.weapon_axe") || (event.output.name == "item.srparasites.weapon_sword") || (event.output.name == "item.srparasites.weapon_cleaver") || (event.output.name == "item.srparasites.weapon_maul") || (event.output.name == "item.srparasites.weapon_lance")) {
 
@@ -587,17 +590,19 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
         if (HeldArmor[0].name == "item.srparasites.armor_boots") {
 
             var totalHealth = Math.floor(event.entityLivingBase.maxHealth) / armorpieces;
+            var totalHealthString as String = totalHealth;
 
             if (isNull(HeldArmor[0].tag.srpkills)) {
 
                 var SRPKills = ("§r§9---> " + totalHealth + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                HeldArmor[0].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldArmor[0].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[totalHealthString]}});
                 HeldArmor[0].mutable().updateTag({srpkills:totalHealth});
 
             } else if ((event.entity.definition.id) has "srparasites") {
 
                 var CurrentKills = HeldArmor[0].tag.srpkills as int;
                 var TotalNewKills = CurrentKills + totalHealth;
+                var TotalNewKillsString as String = TotalNewKills;
 
                 if TotalNewKills >= 50000 {
 
@@ -607,7 +612,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
                     var posy = event.damageSource.getTrueSource().position.y;
                     var posz = event.damageSource.getTrueSource().position.z;
 
-                    HeldArmor[0].mutable().updateTag({display:{Lore:[""]}});
+                    HeldArmor[0].mutable().updateTag({display:{Lore:[""],LocLore:[""],LocLoreArg:[""]}});
                     var SentientArmor = <srparasites:armor_boots_sentient>.withTag(SavedTag);
                     event.entityLivingBase.dropItem(SentientArmor);
 
@@ -620,7 +625,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
 
                     HeldArmor[0].mutable().updateTag({srpkills:TotalNewKills});
                     var SRPKills = ("§r§9---> " + TotalNewKills + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                    HeldArmor[0].mutable().updateTag({display:{Lore:[SRPKills]}});
+                    HeldArmor[0].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[TotalNewKillsString]}});
 
                 }
 
@@ -635,17 +640,19 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
         if (HeldArmor[1].name == "item.srparasites.armor_pants") {
 
             var totalHealth = Math.floor(event.entityLivingBase.maxHealth) / armorpieces;
+            var totalHealthString as String = totalHealth;
 
             if (isNull(HeldArmor[1].tag.srpkills)) {
 
                 var SRPKills = ("§r§9---> " + totalHealth + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                HeldArmor[1].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldArmor[1].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[totalHealthString]}});
                 HeldArmor[1].mutable().updateTag({srpkills:totalHealth});
 
             } else if ((event.entity.definition.id) has "srparasites") {
 
                 var CurrentKills = HeldArmor[1].tag.srpkills as int;
                 var TotalNewKills = CurrentKills + totalHealth;
+                var TotalNewKillsString as String = TotalNewKills;
 
                 if TotalNewKills >= 50000 {
 
@@ -655,7 +662,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
                     var posy = event.damageSource.getTrueSource().position.y;
                     var posz = event.damageSource.getTrueSource().position.z;
 
-                    HeldArmor[1].mutable().updateTag({display:{Lore:[""]}});
+                    HeldArmor[1].mutable().updateTag({display:{Lore:[""],LocLore:[""],LocLoreArg:[""]}});
                     var SentientArmor = <srparasites:armor_pants_sentient>.withTag(SavedTag);
                     event.entityLivingBase.dropItem(SentientArmor);
 
@@ -669,7 +676,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
 
                     HeldArmor[1].mutable().updateTag({srpkills:TotalNewKills});
                     var SRPKills = ("§r§9---> " + TotalNewKills + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                    HeldArmor[1].mutable().updateTag({display:{Lore:[SRPKills]}});
+                    HeldArmor[1].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[TotalNewKillsString]}});
 
                 }
 
@@ -683,17 +690,19 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
         if (HeldArmor[2].name == "item.srparasites.armor_chest") {
 
             var totalHealth = Math.floor(event.entityLivingBase.maxHealth) / armorpieces;
+            var totalHealthString as String = totalHealth;
 
             if (isNull(HeldArmor[2].tag.srpkills)) {
 
                 var SRPKills = ("§r§9---> " + totalHealth + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                HeldArmor[2].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldArmor[2].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[totalHealthString]}});
                 HeldArmor[2].mutable().updateTag({srpkills:totalHealth});
 
             } else if ((event.entity.definition.id) has "srparasites") {
 
                 var CurrentKills = HeldArmor[2].tag.srpkills as int;
                 var TotalNewKills = CurrentKills + totalHealth;
+                var TotalNewKillsString as String = TotalNewKills;
 
                 if TotalNewKills >= 50000 {
 
@@ -703,7 +712,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
                     var posy = event.damageSource.getTrueSource().position.y;
                     var posz = event.damageSource.getTrueSource().position.z;
 
-                    HeldArmor[2].mutable().updateTag({display:{Lore:[""]}});
+                    HeldArmor[2].mutable().updateTag({display:{Lore:[""],LocLore:[""],LocLoreArg:[""]}});
                     var SentientArmor = <srparasites:armor_chest_sentient>.withTag(SavedTag);
                     event.entityLivingBase.dropItem(SentientArmor);
 
@@ -716,7 +725,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
 
                     HeldArmor[2].mutable().updateTag({srpkills:TotalNewKills});
                     var SRPKills = ("§r§9---> " + TotalNewKills + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                    HeldArmor[2].mutable().updateTag({display:{Lore:[SRPKills]}});
+                    HeldArmor[2].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[TotalNewKillsString]}});
 
                 }
 
@@ -730,17 +739,19 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
         if (HeldArmor[3].name == "item.srparasites.armor_helm") {
 
             var totalHealth = Math.floor(event.entityLivingBase.maxHealth) / armorpieces;
+            var totalHealthString as String = totalHealth;
 
             if (isNull(HeldArmor[3].tag.srpkills)) {
 
                 var SRPKills = ("§r§9---> " + totalHealth + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                HeldArmor[3].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldArmor[3].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[totalHealthString]}});
                 HeldArmor[3].mutable().updateTag({srpkills:totalHealth});
 
             } else if ((event.entity.definition.id) has "srparasites") {
 
                 var CurrentKills = HeldArmor[3].tag.srpkills as int;
                 var TotalNewKills = CurrentKills + totalHealth;
+                var TotalNewKillsString as String = TotalNewKills;
 
                 if TotalNewKills >= 50000 {
 
@@ -750,7 +761,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
                     var posy = event.damageSource.getTrueSource().position.y;
                     var posz = event.damageSource.getTrueSource().position.z;
 
-                    HeldArmor[3].mutable().updateTag({display:{Lore:[""]}});
+                    HeldArmor[3].mutable().updateTag({display:{Lore:[""],LocLore:[""],LocLoreArg:[""]}});
                     var SentientArmor = <srparasites:armor_helm_sentient>.withTag(SavedTag);
                     event.entityLivingBase.dropItem(SentientArmor);
 
@@ -763,7 +774,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
 
                     HeldArmor[3].mutable().updateTag({srpkills:TotalNewKills});
                     var SRPKills = ("§r§9---> " + TotalNewKills + "§r§5§o Your weapon tasted blood, now it longs for Parasites...") as string;
-                    HeldArmor[3].mutable().updateTag({display:{Lore:[SRPKills]}});
+                    HeldArmor[3].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills.tasted_blood"],LocLoreArg:[TotalNewKillsString]}});
 
                 }
             }
@@ -850,16 +861,18 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
             }
 
             var totalHealth = Math.floor(event.entityLivingBase.maxHealth) / armorpieces;
+            var totalHealthString as String = totalHealth;
 
             if (!isNull(HeldEquipment[0].tag.srpkills)) {
 
 
                 var CurrentKills = HeldEquipment[0].tag.srpkills;
                 var TotalNewKills = CurrentKills + totalHealth;
+                var TotalNewKillsString as String = TotalNewKills;
                 HeldEquipment[0].mutable().updateTag({srpkills:TotalNewKills});
 
                 var SRPKills = ("§r§9---> " + TotalNewKills) as string;
-                HeldEquipment[0].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldEquipment[0].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills"],LocLoreArg:[TotalNewKillsString]}});
 
                 //Destroy item and drop a new sentient weapon with it's full NBT data on the ground + lightning strike
                 if TotalNewKills >= 50000 {
@@ -893,7 +906,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
                 HeldEquipment[0].mutable().updateTag({srpkills:totalHealth});
 
                 var SRPKills = ("§r§9---> " + totalHealth) as string;
-                HeldEquipment[0].mutable().updateTag({display:{Lore:[SRPKills]}});
+                HeldEquipment[0].mutable().updateTag({display:{Lore:[SRPKills],LocLore:["tooltip.rldregora.srpkills"],LocLoreArg:[totalHealthString]}});
 
             }
 
@@ -977,7 +990,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent){
 
         } else {
 
-            HeldEquipment[0].mutable().updateTag({display:{Lore:["","Your weapon tasted blood, now it longs for Parasites..."]}});
+            HeldEquipment[0].mutable().updateTag({display:{Lore:["","Your weapon tasted blood, now it longs for Parasites..."],LocLore:[" ","tooltip.rldregora.srpkills.tasted_blood_empty"]}});
             HeldEquipment[0].mutable().updateTag({srpkills:0});
         }
     }
@@ -1414,7 +1427,7 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent){
                                 if i.item.definition.id == "minecraft:enchanted_book" {
 
                                     var RandomInt = event.entity.world.random.nextFloat(0, 100);
-                                    if RandomInt <= 50 { event.addItem(i); } else { event.addItem(<biomesoplenty:ash>.withTag({display: {Name: "Infernal Ashes"}})); }
+                                    if RandomInt <= 50 { event.addItem(i); } else { event.addItem(<biomesoplenty:ash>.withTag({display: {Name: "Infernal Ashes",LocName:"item.rldregora.infernal_ashes.name"}})); }
 
                                 } else {
 
@@ -1452,7 +1465,7 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent){
                                     //event.addItem(<srparasites:assimilated_flesh>);
 
                                     var RandomInt = event.entity.world.random.nextFloat(0, 100);
-                                    if RandomInt <= 62 { event.addItem(i); } else { event.addItem(<biomesoplenty:ash>.withTag({display: {Name: "Corrupted Ashes"}})); } //Based of healthmultiply 0.5 & damagemultiply 0.25 averaged out on 0.625 the overall strength of parasites in the overworld compared to lost cities parasites.
+                                    if RandomInt <= 62 { event.addItem(i); } else { event.addItem(<biomesoplenty:ash>.withTag({display: {Name: "Corrupted Ashes",LocName: "item.rldregora.corrupted_ashes.name"}})); } //Based of healthmultiply 0.5 & damagemultiply 0.25 averaged out on 0.625 the overall strength of parasites in the overworld compared to lost cities parasites.
 
                                 } else {
                                     event.addItem(i);
@@ -1546,14 +1559,20 @@ function addPotionEffectHotSpring(player as IPlayer){
 }
 
 //tooltips Conductivity
-for item in conductivity_1 {item.addTooltip("§e§oConductivity +1");}
-for item in conductivity_2 {item.addTooltip("§e§oConductivity +2");}
-for item in conductivity_3 {item.addTooltip("§e§oConductivity +3");}
-for item in conductivity_4 {item.addTooltip("§e§oConductivity +4");}
-for item in conductivity_5 {item.addTooltip("§e§oConductivity +5");}
-for item in conductivity_10 {item.addTooltip("§e§oConductivity +10");}
-for item in conductivity_100 {item.addTooltip("§e§oConductivity +100");}
-
+//for item in conductivity_1 {item.addTooltip("§e§oConductivity +1");}
+//for item in conductivity_2 {item.addTooltip("§e§oConductivity +2");}
+//for item in conductivity_3 {item.addTooltip("§e§oConductivity +3");}
+//for item in conductivity_4 {item.addTooltip("§e§oConductivity +4");}
+//for item in conductivity_5 {item.addTooltip("§e§oConductivity +5");}
+//for item in conductivity_10 {item.addTooltip("§e§oConductivity +10");}
+//for item in conductivity_100 {item.addTooltip("§e§oConductivity +100");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.1"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.2"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.3"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.4"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.5"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.10"), "en_us");}
+for item in conductivity_1 {item.addTooltip(game.localize("tooltip.rldregora.conductivity.100"), "en_us");}
 
 
 events.onPlayerTick(function(event as PlayerTickEvent){
@@ -1648,7 +1667,8 @@ events.onPlayerTick(function(event as PlayerTickEvent){
                     event.player.setNBT({lightning_warning: warning});
 
                     // warns the player about impending lightning strike
-                    event.player.sendStatusMessage(RandomLightningMessage, true);
+                    //event.player.sendStatusMessage(RandomLightningMessage, true);
+                    event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation(RandomLightningMessage), true);
                 }
             }
 
@@ -1661,7 +1681,8 @@ events.onPlayerTick(function(event as PlayerTickEvent){
                     event.player.setNBT({lightning_warning: warning});
 
                     // warns the player about impending lightning strike
-                    event.player.sendStatusMessage(RandomLightningMessage, true);
+                    //event.player.sendStatusMessage(RandomLightningMessage, true);
+                    event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation(RandomLightningMessage), true);
                 }
             }
 
@@ -1703,7 +1724,8 @@ events.onEntityMount(function(event as EntityMountEvent){
 
     if (MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name == "Abyssal Rift") {
 
-        MountingPlayer.sendStatusMessage("It seems something has your mount spooked, and will not cooporate.", true);
+        //MountingPlayer.sendStatusMessage("It seems something has your mount spooked, and will not cooporate.", true);
+        MountingPlayer.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.mount_spooked"), true);
         event.cancel();
 
     }
@@ -1729,15 +1751,19 @@ events.onPlayerTick(function(event as PlayerTickEvent){
             if (isNull(event.player.nbt.ForgeData.lightning_cooldown_abyssal)) {
 
                 event.player.setNBT({lightning_cooldown_abyssal: newtime});
-                event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", true);
-                event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", false);
+                //event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", true);
+                //event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", false);
+                event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.cant_mount"), true);
+                event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.cant_mount"), false);
             }
 
             else if (event.player.nbt.ForgeData.lightning_cooldown_abyssal == 0) {
 
                 event.player.setNBT({lightning_cooldown_abyssal: newtime});
-                event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", true);
-                event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", false);
+                //event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", true);
+                //event.player.sendStatusMessage("An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot", false);
+                event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.cant_mount"), true);
+                event.player.sendRichTextStatusMessage(ITextComponent.fromTranslation("message.rldregora.cant_mount"), false);
             }
 
             else if (event.player.world.time > event.player.nbt.ForgeData.lightning_cooldown_abyssal ){
