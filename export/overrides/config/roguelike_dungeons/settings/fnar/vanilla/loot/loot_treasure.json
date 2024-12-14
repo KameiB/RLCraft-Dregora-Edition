@@ -18,11 +18,11 @@
         {"data": {"type": "specialty", "level": 3}, "weight": 8},
         {"data": {"type": "specialty", "level": 4}, "weight": 4},
 
-        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 4, \"id\": 0}]}"}, "weight": 1},
-        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 5, \"id\": 16}]}"}, "weight": 1},
-        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 3, \"id\": 21}]}"}, "weight": 1},
-        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 1, \"id\": 33}]}"}, "weight": 1},
-        {"data": {"name": "minecraft:enchanted_book", "nbt": "{\"StoredEnchantments\": [{\"lvl\": 3, \"id\": 35}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{StoredEnchantments: [{lvl: 4, id: 0}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{StoredEnchantments: [{lvl: 5, id: 16}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{StoredEnchantments: [{lvl: 3, id: 21}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{StoredEnchantments: [{lvl: 1, id: 33}]}"}, "weight": 1},
+        {"data": {"name": "minecraft:enchanted_book", "nbt": "{StoredEnchantments: [{lvl: 3, id: 35}]}"}, "weight": 1},
 
         {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"American Gothic\",Lore:[\"But what does it /mean/?.\"],LocName:\"json.roguelike.painting.gothic.name\",rldLocLore:[\"json.roguelike.painting.gothic.lore\"]}}"}, "weight": 1},
         {"data": {"name": "minecraft:painting", "nbt": "{display:{Name:\"The Last Supper\",Lore:[\"Allegedly.\"],LocName:\"json.roguelike.painting.supper.name\",rldLocLore:[\"json.roguelike.painting.supper.lore\"]}}"}, "weight": 1},
