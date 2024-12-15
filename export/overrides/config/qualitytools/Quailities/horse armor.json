@@ -15,7 +15,7 @@
     ],
     "qualities": [
       {
-        "name": "Skill Issue",
+        "name": "quality.skill_issue.name",
         "color": "dark_red",
         "weight": 5,
         "attributes": [
