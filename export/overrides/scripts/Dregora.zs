@@ -1024,6 +1024,16 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         }
     }
 
+    if (event.damageSource.getDamageType() == "LIGHTNING_BOLT") {
+        if (event.entity.isRiding) {
+            if ((event.amount) > 0) {
+
+                event.entity.dismountRidingEntity();
+                event.entity.removePassengers();
+            }
+        }
+    }
+
     if (!isNull(event.damageSource.getTrueSource())){
         if(!isNull(event.damageSource.getTrueSource().getCustomName())){
             if((event.damageSource.getTrueSource().getCustomName() has "Dismounter") || (event.damageSource.getTrueSource().getCustomName() has "Dismounting")) {
@@ -1704,8 +1714,8 @@ events.onEntityMount(function(event as EntityMountEvent){
     if (!(event.mountedEntity instanceof IEntityLivingBase)) {return;}
 
     var MountingPlayer as IPlayer = event.mountingEntity;
-
-    if (MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name == "Abyssal Rift") {
+    var MountingBiome = MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name;
+    if ((MountingBiome == "Abyssal Rift") || (MountingBiome == "Parasite Biome")) {
 
         MountingPlayer.sendStatusMessage("It seems something has your mount spooked, and will not cooporate.", true);
         event.cancel();
@@ -1721,8 +1731,9 @@ events.onPlayerTick(function(event as PlayerTickEvent){
 
     if event.player.world.isRemote() {return;}
     if (event.player.world.time % 20 != 0) {return;}
+    var entityBiome = event.player.world.getBiome(event.player.getPosition3f()).name;
 
-    if (event.player.world.getBiome(event.player.getPosition3f()).name == "Abyssal Rift") {
+    if ((entityBiome == "Abyssal Rift") || (entityBiome == "Parasite Biome")) {
 
         if (!isNull(event.player.getRidingEntity())) {
 
