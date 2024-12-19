@@ -11,9 +11,19 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "RLCraft Dregora",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Shivaxi & NLBlackEagle",
   "files": [
+    {
+      "projectID": 449209,
+      "fileID": 3301355,
+      "required": true
+    },
+    {
+      "projectID": 363102,
+      "fileID": 4118829,
+      "required": true
+    },
     {
       "projectID": 638065,
       "fileID": 3852378,

@@ -384,7 +384,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Rebuked Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Self\",\"§9+10% Max Health\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Rebuked Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Self\",\"§9+10% Max Health\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -520,7 +520,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Umbrium Spear\",Lore:[\"The§kre is§r a presence insi§kde th§re Spear...\",\"\",\"§4When in main hand:\",\"§9+5% Bye Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Umbrium Spear\",Lore:[\"The§kre is§r a presence insi§kde th§re Spear...\",\"\",\"§4When in main hand:\",\"§9+5% Bye Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -656,7 +656,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Umbrium Saber\",Lore:[\"The§kre is§r a presence insi§kde th§re Saber...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Fake Health\",\"§0+100% Lies\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Umbrium Saber\",Lore:[\"The§kre is§r a presence insi§kde th§re Saber...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Fake Health\",\"§0+100% Lies\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -792,7 +792,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Diamond Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage §0Fails\",\"§9+10% Max Health\",\"§0aordnaP %81\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Diamond Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage §0Fails\",\"§9+10% Max Health\",\"§0aordnaP %81\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -928,7 +928,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Diamond Glaive\",Lore:[\"The§kre is§r a presence insi§kde th§re Glaive...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health §0Troll\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Diamond Glaive\",Lore:[\"The§kre is§r a presence insi§kde th§re Glaive...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health §0Troll\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1064,7 +1064,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Desert Stinger Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Yourself!\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Desert Stinger Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Yourself!\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1200,7 +1200,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Jungle Stinger Greatsword\",Lore:[\"The§kre is§r a presence insi§kde th§re Greatsword...\",\"\",\"§4When in fake hand:\",\"§9+5% Anti Speed\",\"§9+5% Attack Damage\",\"§9+10% Less Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Jungle Stinger Greatsword\",Lore:[\"The§kre is§r a presence insi§kde th§re Greatsword...\",\"\",\"§4When in fake hand:\",\"§9+5% Anti Speed\",\"§9+5% Attack Damage\",\"§9+10% Less Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1336,7 +1336,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Stinger Sword\",Lore:[\"The§kre is§r a presence insi§kde th§ris Sword...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% No Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Stinger Sword\",Lore:[\"The§kre is§r a presence insi§kde th§ris Sword...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% No Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1472,7 +1472,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Quarterstaff\",Lore:[\"The§kre is§r a presence insi§kde th§re Quarterstaff...\",\"\",\"§4When in main hand:\",\"§9+5% Return To Mentalberian When Lost\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Quarterstaff\",Lore:[\"The§kre is§r a presence insi§kde th§re Quarterstaff...\",\"\",\"§4When in main hand:\",\"§9+5% Return To Mentalberian When Lost\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1608,7 +1608,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Posessed Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Kotlin Language\",\"§9+5% Attack Damage\",\"§9+10% Eagle Scripted\",\"§0aordnaP %81\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Kotlin Language\",\"§9+5% Attack Damage\",\"§9+10% Eagle Scripted\",\"§0aordnaP %81\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",

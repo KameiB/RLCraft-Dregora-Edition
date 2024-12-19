@@ -638,7 +638,6 @@ recipes.remove(<biomesoplenty:berries>);
 recipes.remove(<biomesoplenty:plant_0:5>);
 recipes.remove(<biomesoplenty:gem:6>);
 recipes.remove(<biomesoplenty:gem_block:6>);
-recipes.remove(<biomesoplenty:terrestrial_artifact>);
 
 <biomesoplenty:mushroom:3>.displayName = "Gleamshroom";
 <biomesoplenty:terrarium:8>.displayName = "Gleamshroom Terrarium";
