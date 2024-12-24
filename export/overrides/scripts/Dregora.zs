@@ -1274,7 +1274,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
         if ((definition.id) == "minecraft:squid") {
 
             var RandomNum = event.entity.world.random.nextFloat(0, 100);
-            if RandomNum <= 10 {
+            if RandomNum <= 3 {
 
                 val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
                 parasite_squid.setPosition(event.entity.position);

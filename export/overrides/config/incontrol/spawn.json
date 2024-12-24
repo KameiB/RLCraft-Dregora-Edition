@@ -11,6 +11,12 @@
   },
   {
     "dimension": 3,
+    "minheight": 235,
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 3,
     "spawner": true,
     "mincount": {
       "amount": 75,
