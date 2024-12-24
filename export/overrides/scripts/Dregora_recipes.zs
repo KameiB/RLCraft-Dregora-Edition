@@ -640,6 +640,11 @@ recipes.remove(<biomesoplenty:gem:6>);
 recipes.remove(<biomesoplenty:gem_block:6>);
 recipes.remove(<biomesoplenty:terrestrial_artifact>);
 
+recipes.addShaped("dregora56",<biomesoplenty:terrestrial_artifact>,
+ [[<biomesoplenty:gem:1>,<biomesoplenty:gem:3>,<biomesoplenty:gem:7>],
+  [<biomesoplenty:gem:2>,<biomesoplenty:gem:5>,<iceandfire:sapphire_gem>],
+  [<biomesoplenty:gem:4>,<minecraft:emerald>,null]]);
+
 <biomesoplenty:mushroom:3>.displayName = "Gleamshroom";
 <biomesoplenty:terrarium:8>.displayName = "Gleamshroom Terrarium";
 

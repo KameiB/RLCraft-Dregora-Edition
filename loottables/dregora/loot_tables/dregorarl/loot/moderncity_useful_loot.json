@@ -21,7 +21,7 @@
         {
           "type": "loot_table",
           "name": "dregora:loot/food_loot",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "loot_table",
