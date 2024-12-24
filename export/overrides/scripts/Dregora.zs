@@ -1283,26 +1283,6 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
             }
         }
     }
-
-    if ((definition.id) != "minecraft:villager") { return; }
-    if (event.entity.customName != "") { return; }
-
-    var nbt = event.entity.nbt;
-    if (nbt.Profession == 1 && isNull(nbt.ForgeData.SussyBerianNaming)) {
-        event.entity.setNBT({SussyBerianNaming: 1});
-        var RandomNum = event.entity.world.random.nextFloat(0, 100);
-
-        if RandomNum <= 10 {
-
-            event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
-
-            if RandomNum <= 7 {
-                event.entity.setCustomName("Sussyberian");
-            } else {
-                event.entity.setCustomName("Mentalberian");
-            }
-        }
-    }
 });
 
 // SRParasites in overworld Script Biome Whitelist
