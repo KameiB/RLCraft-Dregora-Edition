@@ -177,6 +177,8 @@ P2:
 - customize arrow array to also use a timing script, something like {"<string arrow_type>",<int time>}
 
 P3:
+- if entity has a customname do not make it a berian if (event.entity.customName != "") { return; }
+- add deathloottable to berians: event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
 - make new mod enchant slots
 - make player dropped items linger around longer
 - make srp armor equip again on evolve
