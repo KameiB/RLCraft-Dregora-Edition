@@ -22,10 +22,38 @@
         },
         {
           "type": "item",
+          "name": "spartanfire:dagger_desert_venom",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:regeneration\",remainingPotionHits:1000000,display:{Name:\"Dagger of Vitality\",Lore:[\"For neither friend nor foe will this dagger deal a decisive blow.\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:mortalitas"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:vampirism"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:cursededge"]},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:lifesteal", "levels": 3},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": 0.25, "operation": "multiply_base", "slot": ["offhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 1.5, "max": 3.0}, "operation": "addition", "slot": ["mainhand"]}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "spartanfire:scythe_fire_dragonbone",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Scythe of Bountiful Risk\",Lore:[\"For the brave and bold of this unfair world.\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lifesteal"]},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sweeping", "levels": 10},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage", "name": "attackDamage", "amount": {"min": 5, "max": 6}, "operation": "addition", "slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.9, "operation": "multiply_base", "slot": ["mainhand"]}]}
+          ]
+        },
+        {
+          "type": "item",
           "name": "spartanfire:katana_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"May Heaven Strike Your Enemies Blind!\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},

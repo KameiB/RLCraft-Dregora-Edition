@@ -563,6 +563,7 @@ global conductivity_10 as IItemStack[] = [
     <spartanfire:katana_lightning_dragonbone:*>,
     <spartanfire:scythe_lightning_dragonbone:*>,
     <spartanfire:greatsword_lightning_dragonbone:*>,
+    <spartanfire:longsword_lightning_dragonbone:*>,
     <spartanfire:saber_lightning_dragonbone:*>,
     <spartanfire:rapier_lightning_dragonbone:*>,
     <spartanfire:dagger_lightning_dragonbone:*>,
@@ -586,7 +587,8 @@ global conductivity_10 as IItemStack[] = [
     <mujmajnkraftsbettersurvival:itemlightningdragonbonespear:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonedagger:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonebattleaxe:*>,
-    <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>,
+	<iceandfire:dragonbone_sword_lightning:*>
 
 ];
 

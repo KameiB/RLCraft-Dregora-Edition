@@ -1024,6 +1024,16 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
         }
     }
 
+    if (event.damageSource.getDamageType() == "LIGHTNING_BOLT") {
+        if (event.entity.isRiding) {
+            if ((event.amount) > 0) {
+
+                event.entity.dismountRidingEntity();
+                event.entity.removePassengers();
+            }
+        }
+    }
+
     if (!isNull(event.damageSource.getTrueSource())){
         if(!isNull(event.damageSource.getTrueSource().getCustomName())){
             if((event.damageSource.getTrueSource().getCustomName() has "Dismounter") || (event.damageSource.getTrueSource().getCustomName() has "Dismounting")) {
@@ -1260,36 +1270,16 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     // Deep Ocean & Ocean
 
     //SRP squids spawning
-    if ((EntityBiome has "ocean") || (EntityBiome has "sea")) {
+    if ((EntityBiome has "Ocean") || (EntityBiome has "Sea")) {
         if ((definition.id) == "minecraft:squid") {
 
             var RandomNum = event.entity.world.random.nextFloat(0, 100);
-            if RandomNum <= 10 {
+            if RandomNum <= 3 {
 
                 val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
                 parasite_squid.setPosition(event.entity.position);
                 event.world.spawnEntity(parasite_squid);
                 event.cancel();
-            }
-        }
-    }
-
-    if ((definition.id) != "minecraft:villager") { return; }
-    if (event.entity.customName != "") { return; }
-
-    var nbt = event.entity.nbt;
-    if (nbt.Profession == 1 && isNull(nbt.ForgeData.SussyBerianNaming)) {
-        event.entity.setNBT({SussyBerianNaming: 1});
-        var RandomNum = event.entity.world.random.nextFloat(0, 100);
-
-        if RandomNum <= 10 {
-
-            event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
-
-            if RandomNum <= 7 {
-                event.entity.setCustomName("Sussyberian");
-            } else {
-                event.entity.setCustomName("Mentalberian");
             }
         }
     }
@@ -1704,8 +1694,8 @@ events.onEntityMount(function(event as EntityMountEvent){
     if (!(event.mountedEntity instanceof IEntityLivingBase)) {return;}
 
     var MountingPlayer as IPlayer = event.mountingEntity;
-
-    if (MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name == "Abyssal Rift") {
+    var MountingBiome = MountingPlayer.world.getBiome(MountingPlayer.getPosition3f()).name;
+    if ((MountingBiome == "Abyssal Rift") || (MountingBiome == "Parasite Biome")) {
 
         MountingPlayer.sendStatusMessage("It seems something has your mount spooked, and will not cooporate.", true);
         event.cancel();
@@ -1721,8 +1711,9 @@ events.onPlayerTick(function(event as PlayerTickEvent){
 
     if event.player.world.isRemote() {return;}
     if (event.player.world.time % 20 != 0) {return;}
+    var entityBiome = event.player.world.getBiome(event.player.getPosition3f()).name;
 
-    if (event.player.world.getBiome(event.player.getPosition3f()).name == "Abyssal Rift") {
+    if ((entityBiome == "Abyssal Rift") || (entityBiome == "Parasite Biome")) {
 
         if (!isNull(event.player.getRidingEntity())) {
 

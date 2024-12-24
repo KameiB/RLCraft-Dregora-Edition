@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2620\"]},
+                display:{Name:\"Lingering Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2620\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2639\"]},
+                display:{Name:\"Lingering Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2639\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2620\"]},
+                display:{Name:\"Splash Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2620\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2639\"]},
+                display:{Name:\"Splash Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2639\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2620\"]},
+                display:{Name:\"Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2620\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breating V (3:00)          \u00A70\u2639\"]},
+                display:{Name:\"Potion of Water Breathing\",Lore:[\"\u00A7r\u00A79Water Breathing V (3:00)          \u00A70\u2639\",\"\u00A0More like Beating..\"]},
                 CustomPotionEffects:[{Id:25,Duration:100,Amplifier:100,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:3600,Amplifier:5}],
                 CustomPotionColor:3101852,
                 HideFlags:32
