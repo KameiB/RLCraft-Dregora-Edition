@@ -1,5 +1,4 @@
 Fixed:
-- Lowered sentry durability damage from 0.1 to 0.005
 - fixed powerlines in mountains
 - cooldown effect on all hotbar slots is a bit op in underneath
 - remove mana from jei blacklist and give it a clear description
@@ -66,177 +65,99 @@ Fixed:
 - Sarevok limit spawn area entities, limit entity spawning, buff sarevok with rust, more armor and more health
 - Golem floor add sentries + buff for armor all golems
 - Parasite floor add yelloweye parasites 50/50 rupter and lowered spawn range of bogle to counter ceiling cheese
-- Developer room  add yelloweye + all devs more armor + triple health health & sentry spawns too
+- Developer room  add yelloweye + all devs more armor & sentry spawns too
 - Boss room add yelloweye 50/50 rupter spawners
 - Find OTG issue with smoothing: https://mclo.gs/HJ4ZX7v (Kotlin Fixed this!)
 - chests spawn on top of buildings (lightcheck)
 - biomesoplenty:hive needs to become unmoveable by pistons or it'll be used as farm (Kotlin Fixed this!)
-- added additional death messages
-- fixed srparasite weapons not saving nbt tag on evolve
-- Fixed Ruins of Blight Border set to Nuclear Ruins instead.
-- Removed biomes Hot Steppe & Steppe Ruins (These were near identical to Steppe)
-- add walls arround cities (quarantaine wall)
-- fixed posessed typo (now possessed)
-- limit amount of spawns in underneath to 75 parasites per player if spawned naturally and an additional 75 parasites if from spawner (max 150 per player)
-- changed global limiter of 150 parasites to 100 parasites per player in the overworld
-- disabled lycanite spawners in underneath
-- added + configured fogger & dynamic darkness creating a more atmospheric world setting by dimming lights and giving some dimensions a spooky effect
-- Made pirate ships more common and disabled quark pirate ships
-- Underneath wont have hordes of spawncamping entities anymore above y235 (You still have to escape though)
-- fix villagers from Recurrent Complex structures having a 10% chance to become of the sussy/mentalberian variants on chunk reload. (make EagleMixins) Thanks Kotlin!
-- made Terrestrial Artifact obtainable
-- made food chest appear less often and contain less food
-- made mimics spawn more frequently below y25 at a lightlevel of 0 to 10.
-- Expand Cure & COTH Potion effect descriptions with information about how to cure COTH
-- added mod RLCraft Parasited for player phases and configured SRP/Parasited.
-- enabled evolution phases and adjusted srp spawning
-- re-enabled lures & evolution clock
 
 RLCraft to do now:
-P1:
-Update RLMixins, DregoraRL, Underneath, EagleMixins
-Update jarlist.txt
-Update Modlist.html (through export)
-
-
-P2:
-
-- Add EVClOCK and Lures to herbalist traders
-- remove all drops in brutal towers except from bosses (and boost chest contents)
-- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
-- ThreeTowers (X) spawns outside villages while it should not
-- zombie.spawnReinforcements in cities do not work
-- Make book at brutal tower explain to follow obsidian, not fly and that not all bosses drop brutal coins but somee drop brutal fragments which you can combine
-- Change barrier block names & Pendants
-
-Brutal Artifact - Challenger
-Brutal Artifact - Remorseless
-Brutal Artifact - Corrupted
-Brutal Artifact - Biohazard
-Brutal Artifact - Corrosive
-Brutal Artifact - Nuclear
-Brutal Artifact - Decayed
-Brutal Artifact - Torment
-
-- Yale doesn't spawn correctly (does this still happen)
-- levelup needs sand/dirt added to treasure hunter from bop
-- Enable evolution phases, add trades for lures to villagers and add lures randomly in cities protected by parasites
-- give tower golems levitation when hit by teleport arrow
-- Overhaul caverns (yung's caverns) to make underground exploring easier
+- add additional death messages
 - treasure room add special armor to chests & up the enchantment level (and remove ozzy) + add real high enchantments to armor
+- remove all drops in brutal towers except from bosses (and boost chest contents)
+- Overhaul caverns (yung's caverns) to make underground exploring easier
+- improve loot medusa temple
+- medusa temple contains remaining corrupted chest
+- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
+- make rupter spawners in boss room slower but also have a 50% chance to spawn primitive yelloweye
+- Could make the baubles more rare in chests and give them to the golem instead
+- nerf lycanite bosses The chupacabra boss in the sungeon (nerf speed)
+- make food chests 30% rarer and have less food items
+- Take a look at lattices, see why they cause lag issues
+- Glacier lags?
+- lowered amount of biomes where cockatrices can spawn
+- give tower golems levitation when hit by teleport arrow
+- ruins battletower top chest empty sometimes
+- lava island should be warm
+- Dragons should be at least tier 2 in grey mountains
+- herblorist needs dark lore in basement book
+- Enable evolution phases, add trades for lures to villagers and add lures randomly in cities protected by parasites
+- Dragons still spawn in dearoc village (also blacklist lycanite dungeons in daeroc biomes + origin biomes)
+- add custom qualities to swords
+- add a city wall (containing parasites)
+- decrease furnaces & dispensers in underneath
+- more caves in underneath?
+- battletower cheese, respawn totem (mirror right click doesn't always activate)
+- add lore to all books (variedcommodities books)
+- increase luck required to get the legendary treasure
+- add specialized loot in unique structures (pirate hat in pirate outpost, pumpkins for cult, etc)
+- Particle lags from parasite hosts
+- levelup needs sand/dirt added to treasure hunter from bop
+- Using recal potion/mirror whilst being grabbed by a dragon makes the dragon dissapear (this happened on a server)
+- Yale doesn't spawn correctly (does this still happen)
+- adjust loottables to have random hints on nametags
+- Check whenever hardcore worlds on re-make new world still produce the Not Enough ID's error
+- check if chests at dragon dens are still broken.
+- check if Wiki link hitbox is too small in menu on dragon scene (possisbly others too).
+- fallout shelters with starter loot (maybe 1.0.4, likely 1.0.5/1.1.0)
+- add waystone to Trader_Silo
+- check if creepers blow up waystones
 - fix saplings having the stone texture
+- CSetBonus3 (chad solid core in setbonuses) (not sure what this to do was)
+- check if still the case: mod_lavacow:burntovipositor.display double in Dregora_Recipes.zs
+- Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc. Sneezing Sword is an example
+- Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo) (already fixed?)
 - Structure "PirateShip.bo4" has an issue that the latern at the front of the ship generates in the wrong direction (The Stairs bug)
 - Cold Desert ID698 biome has watercutoff issue ^
 - Cold Desert ID698 biome spawns Deathworms > Can't move because of the snow and such and feels out of place
 - Volcanic Beach ID393 has an overspawn of Rock bo4's
 - Ancient Rainforest Isle RM ID548 Trolls spawn outside in daylight under canopy
 - jei earth blacklist (bop) (check if needed)
-- add quests for items in underneath
+- Better Survival config regenerated default enchant level configs. Config switched to Title Case setting names.
 
-P3:
-- add dragon/myrmex unique armors to underneath loottables
-- adjust loottables to have random hints on nametags
-- add custom qualities to swords
-- Dragons still spawn in dearoc village (also blacklist lycanite dungeons in daeroc biomes + origin biomes)
-- Dragons should be at least tier 2 in grey mountains
-- lava island should be warm
-- ruins battletower top chest empty sometimes
-- improve loot medusa temple
-- medusa temple contains remaining corrupted chest
-- remove all baubles from battletowers and add them to the golem
-- Fallout shelters with basic necessities ("Surviving for Dummies", "Git Gud" and "How not to Skill Issue" books)
-- Add hanging vines to buildings in Ruins of Blight biome
-- add specialized loot in unique structures (pirate hat in pirate outpost, pumpkins for cult, etc)
-- check if chests at dragon dens are still broken.
-- Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo) (already fixed?)
-
-P4:
-- Trees need NBT data in root blocks (some trees fall over without the leaves attached)
-- Clean up following errors: [22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'rustic:iron_lattice': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'iceandfire:ash': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to find property variant for block Red Sandstone Slab
-- Using recal potion/mirror whilst being grabbed by a dragon makes the dragon dissapear (this happened on a server)
-- increase luck required to get the legendary treasure
-- battletower cheese, respawn totem (mirror right click doesn't always activate)
-- more caves in underneath?
-- decrease furnaces & dispensers in underneath
-- herblorist needs dark lore in basement book
-- Take a look at lattices, see why they cause lag issues
-- Glacier lags?
-- Particle lags from parasite hosts
-- nerf lycanite bosses The chupacabra boss in the sungeon (nerf speed)
-- add lore to all books (variedcommodities books)
-- CSetBonus3 (chad solid core in setbonuses) (not sure what this to do was)
-- add waystone to Trader_Silo
-- check if creepers blow up waystones
-- Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc. Sneezing Sword is an example
-
-
-Backlog EagleMixins/SummonPotions/MobsReimagined/RLBeacons
-P1:
-- scripts need to be moved to their own mod because CT is slower
-- Make ground entity exception for parasite biome dismount & lightning strike (change message and make array of blacklist entities)
-- Temperature goo pack in loottable, check heat biome
-- convert skylight function for conductivity making it so people do not get struck by lightning under glass (when making RLDMixins)
-
-P2:
-- add potion to revert berian state but have a chance to inflict berian effect on player on fail (have potion be a configurable 10% success/fail rate with the fail rate having a negative effect)
-- Add tool that lets you identify attributes of items and lock it behind lvl 24 magic. eagle eye (lists all curses or make them visible somehow on items?)
-- Make a vaccine that makes entity immune versus COTH
-- Make a bauble that makes you immune versus COTH & Shows what animals have COTH
-- customize arrow array to also use a timing script, something like {"<string arrow_type>",<int time>}
-
-P3:
-- if entity has a customname do not make it a berian if (event.entity.customName != "") { return; }
-- add deathloottable to berians: event.entity.setNBT({DeathLootTable:"dregora:entities/encounters/berian"});
-- make new mod enchant slots
-- make player dropped items linger around longer
+Backlog EagleMixins/SummonPotions/MobsReimagined
 - make srp armor equip again on evolve
-- make bane of Arthropods work down a list of entities (Make the enchant more useful)
-
-P4:
-- add entities to artropods enchantment
-- re-create herbalist, gemtrader, topographer and brutal merchant with custom skinsquar
-- RLBeacons make new types of beacons with- No explosion damage on blocks, no fire spread, no parasite biome spread
-- MobsReimagined add cooldown for passive mobs aggro
+- check srp weapons on evolve, make sure they do not lose enchantments
 - Banshee AOE explosion make all bodyparts take hits instead of one bodypart and destroy blocks option. (Make Epic siege replacement mod)
 - add summon potions (D&D style!) that summons a small army defending you (possibly own mod on substantial expansion)
-- Make it so flying entities keep flying (Kotlin?)
+- make underneath have darker/grey effect instead of red effect
+- make exception list for ground entities lightning strike
+- Make it so flying entities keep flying
 - Make it so Compass display True biome names
+- Temperature goo pack in loottable, check heat biome
 - Make sussyberian explode on death or spawn a creeper
 - Make mentalberian spawn an illusioner and/or give potion effect on death
 - Transberian? (make librarians transform into an abhorrent creatures)
 - Teleberians (Teleport you to the underneath or a cool spot in dregora after trading for random teleportation)
 - Goopyberian gives 10/90 fame/shame on trade (with a 10% chance) on 5% spawn
 - Add Teleberian (teleports you to the other side of world)
+- curse_break or mending removing the sussyberian tag with a 10% success rate
+- fix villagers from Recurrent Complex structures having a 10% chance to become of the sussy/mentalberian variants on chunk reload. (make RLDMixins)
+- Add tool that lets you identify attributes of items and lock it behind lvl 24 magic.
+- customize arrow array to also use a timing script, something like {"<string arrow_type>",<int time>}
 - bucket of extended milk usage
+- make bane of Arthropods work down a list of entities
 - umbrella bauble (negate lightning from striking + slow fall)
-- increased mimic spawning by making them spawn with a 25% chance per chunkw below y45 in a darkness level of 0 to 10.
+- scripts need to be moved to their own mod because CT is slower
+- make new mod enchant slots
+- eagle eye (lists all curses or make them visible somehow on items?)
+- convert skylight function for conductivity making it so people do not get struck by lightning under glass (when making RLDMixins)
 
-Backlog (Additional mods)
-- maybe add https://www.curseforge.com/minecraft/mc-mods/dragon-tweaker
-- maybe add https://www.curseforge.com/minecraft/mc-mods/witherconfig
-- maybe add https://www.curseforge.com/minecraft/mc-mods/hotkettles
-- RLCraft Parasited https://www.curseforge.com/minecraft/mc-mods/rlcraft-parasited
-- add and test end expansion: https://discord.com/channels/199155955206717440/626949850730332160/1318254738881511475
-- add AppleSkin
-- add NC + Fog Biome for Indication
-- add https://www.curseforge.com/minecraft/mc-mods/rlluck
-- add https://www.curseforge.com/minecraft/mc-mods/foodspoiling
-- look into https://www.curseforge.com/minecraft/mc-mods/unofficial-bosses-of-mass-destruction-dungeon
-- Cooking for Blockheads (Add kitchen stuff to fallout shelters)
-- take a look at tektopia mod for 2.0.0
-- add Baublui (JB Redwards) to modpack to fix bauble dissapearing on death. (is this even needed?)
-- add https://www.curseforge.com/minecraft/mc-mods/deeper-depths
-- look into adding https://www.curseforge.com/minecraft/mc-mods/end-expansion-the-lamented-islands (end expansion)
-- maybe https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus (instead of familair fauna?)
-- Add Weather mod to the LC dimension
 
 Backlog: (1.0.5 / 1.1.0 ?)
-- reduce loot in ice ships and look for bugged chest
-- Add additional blocks (translucent) that can not be destroyed by SRParasites in any way
-- Fire Cape swarms but SRP in 2.0.0 brutal tower equivalent
-- Add Boss areas to the far out landmasses in Dregora (Make then the Ender Guardians which drop a key each making a total of 9 bosses with one situated at 0,0
 - lycanite boss in nether still goes through roof, lower with incontrol.
 - gorgon possible blacklist for aggro on mobs
+- add Baublui (JB Redwards) to modpack to fix bauble dissapearing on death. (is this even needed?)
 - Overgrown Cliffs Edge ID407 biome has the annoying water cutoff issue with Deep Polluted Ocean ID973 and Polluted Ocean ID31
 - Indian Dregora Village (with the totempoles etc) still has a building with the stairs bug being turned in the wrong direction.
 - Red Maple tree is missing the NBT so leaves stay in the air after harvesting the tree ( Flower Island Biome)
@@ -250,6 +171,8 @@ Backlog: (1.0.5 / 1.1.0 ?)
 - if item is cursed and player uses a curse break potion then tell the player it could not remove all curses
 - increase temperate biomes (and ominous forest) and decrease desert biome rarity
 - lycanites spawner spawns unburied or dread in cold biomes when digging dirt 0.05 chance
+- add https://www.curseforge.com/minecraft/mc-mods/foodspoiling
+- look into https://www.curseforge.com/minecraft/mc-mods/unofficial-bosses-of-mass-destruction-dungeon
 - change quest description on underneath
 - increase luck required to get the legendary treasure
 - Add unique loot locations: Pirate hat in pirate biome, Viking helm in viking biome, pumpkin cult has special pumpkin hat (add absurd amount of pumpkin), etc..
@@ -262,6 +185,7 @@ Backlog: (1.0.5 / 1.1.0 ?)
 - Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions (Not sure on this one)
 - make set bonuses for specific tiers
 - 'Toxic' stuff should be added to hot blocks.... Whatever that means ;)
+- take a look at tektopia mod for 2.0.0
 - Make port city have one of the labs required to progress gameplay (include parasites only through spawners) + (But eh you never know.. maybe the villagers found the mending one so important
   (because people flocked to port city to trade with him...) that they made a secret society of mending villagers) + (needs 15-20 mending)
 - possibly repaint the trench biome to not be as frequent in the center area? Cut them off at little waystone areas
