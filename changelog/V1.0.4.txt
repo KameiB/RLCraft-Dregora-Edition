@@ -170,10 +170,11 @@ P1:
 - convert skylight function for conductivity making it so people do not get struck by lightning under glass (when making RLDMixins)
 
 P2:
-- add potion to revert berian state but have a chance to inflict berian effect on player on fail (have potion be a configurable 10% success/fail rate with the fail rate having a negative effect)
+- add potion to revert berian state but have a chance to inflict berian effect on player on fail (have potion be 75/25 success/fail rate)
 - Add tool that lets you identify attributes of items and lock it behind lvl 24 magic. eagle eye (lists all curses or make them visible somehow on items?)
 - Make a vaccine that makes entity immune versus COTH
 - Make a bauble that makes you immune versus COTH & Shows what animals have COTH
+- curse_break or mending removing the sussyberian tag with a 10% success rate
 - customize arrow array to also use a timing script, something like {"<string arrow_type>",<int time>}
 
 P3:
