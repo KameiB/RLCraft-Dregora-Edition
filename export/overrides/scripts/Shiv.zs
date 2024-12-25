@@ -452,10 +452,8 @@ recipes.remove(<charm:suspicious_soup:*>);
 
 recipes.remove(<testdummy:dummy>);
 
-recipes.remove(<srparasites:evolutionlure:*>);
 recipes.remove(<srparasites:parasitecanister:*>);
 recipes.remove(<srparasites:biomepurifier>);
-recipes.remove(<srparasites:evclock>);
 
 recipes.remove(<spartandefiled:staff_umbrium>);
 

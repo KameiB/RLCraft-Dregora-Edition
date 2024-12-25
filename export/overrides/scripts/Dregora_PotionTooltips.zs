@@ -144,7 +144,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Bleeding",Lore:["§f ☕§b Inflicts damage over time and doubles this when moving."," ","§8id: srparasites:bleed"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Foster",Lore:["§f ☕§b Increases Adaptation."," ","§8id: srparasites:foster"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Link",Lore:["§f ☕§b Contributes to global adaptation without the Colony requirement."," ","§8id: srparasites:link"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Call of the Hive",Lore:["§f ☕§b Turns susceptible entities into Assimilated, Feral or Incomplete parasites."," ","§8id: srparasites:coth"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Call of the Hive",Lore:["§f ☕§b Turns susceptible entities into parasites including your mounts, use a cure splash potion to remove."," ","§8id: srparasites:coth"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Viral",Lore:["§f ☕§b Entities with this effect take more Damage."," ","§8id: srparasites:viral"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Rage",Lore:["§f ☕§b Increases speed, damage and lowers parasite cooldowns."," ","§8id: srparasites:rage"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Prey",Lore:["§f ☕§b Creates a new scent at the player location if they wear or wield Sentient equipment."," ","§8id: srparasites:prey"]}}));
@@ -326,7 +326,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Anti-Warp",Lore:["§f ☕§b Prevents a player or entity with the effect from teleporting or using ender pearls except for Ender Warp"," ","§8id: mujmajnkraftsbettersurvival:antiwarp"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Milk",Lore:["§f ☕§b Removes all potion and status effects that the player has. "," ","§8id: mujmajnkraftsbettersurvival:milk"]}})); //Missing Icon
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Cure",Lore:["§f ☕§b Removes all negative effects."," ","§8id: mujmajnkraftsbettersurvival:cure"]}})); //Missing Icon
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Cure",Lore:["§f ☕§b Removes all negative effects including Call of the hive."," ","§8id: mujmajnkraftsbettersurvival:cure"]}})); //Missing Icon
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Stun",Lore:["§f ☕§b Locks you in place, cancelling all movement."," ","§8id: mujmajnkraftsbettersurvival:stun"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Ender Warp",Lore:["§f ☕§b Random teleport."," ","§8id: mujmajnkraftsbettersurvival:warp"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Dispel",Lore:["§f ☕§b Removes all positive effects."," ","§8id: mujmajnkraftsbettersurvival:dispel"]}})); //Missing Icon

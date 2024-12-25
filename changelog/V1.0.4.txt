@@ -86,16 +86,25 @@ Fixed:
 - fix villagers from Recurrent Complex structures having a 10% chance to become of the sussy/mentalberian variants on chunk reload. (make EagleMixins) Thanks Kotlin!
 - made Terrestrial Artifact obtainable
 - made food chest appear less often and contain less food
+- made mimics spawn more frequently below y25 at a lightlevel of 0 to 10.
+- Expand Cure & COTH Potion effect descriptions with information about how to cure COTH
+- added mod RLCraft Parasited for player phases and configured SRP/Parasited.
+- enabled evolution phases and adjusted srp spawning
+- re-enabled lures & evolution clock
 
 RLCraft to do now:
 P1:
-- remove all drops in brutal towers except from bosses (and boost chest contents)
-- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
-- Check whenever hardcore worlds on re-make new world still produce the Not Enough ID's error
-- Better Survival config regenerated default enchant level configs. Config switched to Title Case setting names.
-- ThreeTowers (X) spawns outside villages while it should not
+Update RLMixins, DregoraRL, Underneath, EagleMixins
+Update jarlist.txt
+Update Modlist.html (through export)
+
 
 P2:
+
+- Add EVClOCK and Lures to herbalist traders
+- remove all drops in brutal towers except from bosses (and boost chest contents)
+- biomesoplenty:rainforest (pit) should have blacklisted dragon dens
+- ThreeTowers (X) spawns outside villages while it should not
 - zombie.spawnReinforcements in cities do not work
 - Make book at brutal tower explain to follow obsidian, not fly and that not all bosses drop brutal coins but somee drop brutal fragments which you can combine
 - Change barrier block names & Pendants
