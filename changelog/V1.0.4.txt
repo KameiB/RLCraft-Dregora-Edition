@@ -91,16 +91,22 @@ Fixed:
 - added mod RLCraft Parasited for player phases and configured SRP/Parasited.
 - enabled evolution phases and adjusted srp spawning
 - re-enabled lures & evolution clock
+- removed COTH from CURE blacklist
+- Fixed loottable: DregoraRL\WorldObjects\Chests\Lore\simpledungeon.nbt (Thanks cdstk_ALT)
+- Added Bounceable to manifest fixing the jump attributes broken by potion core.
+- Disabled tunneling enchant (Block Blacklist does not work)
+- added quark dyanamic trees mod to manifest and disabled quark spawning of trees (they are manually added to mystical and bog biomes now)
 
 RLCraft to do now:
 P1:
+Change fog effect
 Update RLMixins, DregoraRL, Underneath, EagleMixins
 Update jarlist.txt
 Update Modlist.html (through export)
 
 
 P2:
-
+- Amalgalich gets affected by COTH!? It's on COTH immunity though?
 - Add EVClOCK and Lures to herbalist traders
 - remove all drops in brutal towers except from bosses (and boost chest contents)
 - biomesoplenty:rainforest (pit) should have blacklisted dragon dens
@@ -172,6 +178,7 @@ P4:
 
 Backlog EagleMixins/SummonPotions/MobsReimagined/RLBeacons
 P1:
+- added lore to mental/sussyberians as a rare drop (needs sussyberian name as drop mechanic)
 - scripts need to be moved to their own mod because CT is slower
 - Make ground entity exception for parasite biome dismount & lightning strike (change message and make array of blacklist entities)
 - Temperature goo pack in loottable, check heat biome
