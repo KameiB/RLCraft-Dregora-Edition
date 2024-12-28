@@ -26,8 +26,6 @@ IMPORTANT INFO:
 CHANGELOG for v1.0.4:
 ====================
 
-- Fixed memory leak with Mo'Bends rendering models inside spawners causing lag spikes every few seconds
-
 Stuffs you wanted!
 - Removed most instances of Spawnkill in the Underneath
 - Nerfed the SRP ORB cool down on items.
@@ -265,6 +263,7 @@ P3:
 - Passive mobs spawn alot (Colonies of seagulls and crows of about 9 per group > It's the otg Donkey and Parrot all over again noooooooooooo) (already fixed?)
 
 P4:
+- update SRPMultiplier & check all srp configs for :* because SRPMultiplier enables wildcards now
 - Trees need NBT data in root blocks (some trees fall over without the leaves attached)
 - Clean up following errors: [22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'rustic:iron_lattice': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'iceandfire:ash': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to read block 'quark:iron_plate_slab': java.lang.NullPointerException[22:45:33] [Client thread/ERROR]:Using air instead...[22:45:33] [Client thread/ERROR]:variants.json: Unable to find property variant for block Red Sandstone Slab
 - Using recal potion/mirror whilst being grabbed by a dragon makes the dragon dissapear (this happened on a server)
