@@ -208,7 +208,8 @@ Fixed:
 
 RLCraft to do now:
 P1:
-
+- add starter caches to underneath ceiling
+- make spawners feral
 
 P2:
 - Amalgalich gets affected by COTH!? It's on COTH immunity though?
