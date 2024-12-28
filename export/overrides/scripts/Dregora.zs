@@ -105,6 +105,46 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
     }
 });
 
+events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
+
+    if event.entity.world.isRemote() {return;}
+
+    if (isNull(event.damageSource.trueSource)) {return;}
+    if (isNull(event.damageSource.trueSource.definition)) {return;}
+    if (isNull(event.damageSource.trueSource.definition.id)) {return;}
+
+    if event.damageSource.trueSource.world.dimension == 0 {
+
+        // Lower health of parasites in cities
+        var BiomeName = event.damageSource.trueSource.world.getBiome(event.entity.getPosition3f()).name;
+        for Biome in ParasiteBuffBiomes {
+            if (BiomeName != Biome) {
+                if !(event.damageSource.trueSource.definition.id == "srparasites:succor") && (event.damageSource.trueSource.definition.id has "srparasites") {
+
+                    //DMGMultiply 0.25
+                    event.amount = event.amount * 0.25;
+                }
+            }
+        }
+    }
+
+    if event.damageSource.trueSource.world.dimension == 3 {
+
+        // Lower DMG of parasites in underneath dimension
+        var BiomeName = event.damageSource.trueSource.world.getBiome(event.entity.getPosition3f()).name;
+        for Biome in ParasiteBuffBiomes {
+            if (BiomeName == Biome) {
+                if !(event.damageSource.trueSource.definition.id == "srparasites:succor") && (event.damageSource.trueSource.definition.id has "srparasites") {
+
+                    //DMGMultiply 0.8
+                    event.amount = event.amount * 0.8;
+                }
+            }
+        }
+    }
+
+});
+
 // Berries nerf
 events.onEntityLivingUseItemFinish(function(event as Finish){
 
