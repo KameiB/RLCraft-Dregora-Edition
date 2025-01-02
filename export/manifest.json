@@ -15,11 +15,6 @@
   "author": "Shivaxi & NLBlackEagle",
   "files": [
     {
-      "projectID": 256717,
-      "fileID": 2666198,
-      "required": true
-    },
-    {
       "projectID": 386753,
       "fileID": 3098571,
       "required": true
@@ -31,17 +26,12 @@
     },
     {
       "projectID": 1119777,
-      "fileID": 6021911,
+      "fileID": 6047105,
       "required": true
     },
     {
       "projectID": 821595,
       "fileID": 6028214,
-      "required": true
-    },
-    {
-      "projectID": 449209,
-      "fileID": 3301355,
       "required": true
     },
     {
