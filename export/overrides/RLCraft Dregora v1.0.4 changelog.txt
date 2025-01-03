@@ -35,16 +35,16 @@ Stuffs you wanted!
 - Fixed some structures spawning amongus sussyberians that would "randomly" become sus! >:|
 - New chests spawning at y25 have a 5% chance of being a mimic (Hint: Barometer!)
 - Gungnir, Keraunos, Dagger of Vitality & Scythe of Bountiful Risk added to unique weapon loot table
-- Removed napalm creepers (for the time being)
 - Watch closely, and you'll know what items have Pandora now! :D
 - Monstrous Monsters added to the ocean! Blame @Lqury: "id want to be on my toes when crossing these"
 - Pixies now really do spawn on Flower Islands!
 - Quickly unequip your conductive weapons, shields and armor to prevent being struck by lightning!
 
 The neutral zone!
-- Fixed performance issues in relation to concrete powder in both the Overworld as Underneath.
-- Fixed performance related issue in underneath by lowering the amount of population requests.
-- Fixed SRP living weapons not saving NBT data on transmutation to sentient weapons.
+- Quark Blossom trees now properly spawn as their dynamic tree variant
+- Fixed performance issues in relation to concrete powder in both the Overworld as Underneath
+- Fixed performance related issue in underneath by lowering the amount of population requests
+- Fixed SRP living weapons not saving NBT data on transmutation to sentient weapons
 - Reduced Underneath SRP entities DMG/HP by 20%
 - Buffed sleeper sword! (Grab them lootz!!!) & no over spawning Skull of Luck anymore
 - Food chests appear less often, contain less food & mana candy is added to various loot tables!
@@ -69,7 +69,7 @@ The neutral zone!
 
 Stuffs we wanted >:D
 - Pickaxe zombies are back! ?
-- Disabled tunneling enchant in relation to a exploit
+- Added dimstack blocks to tunneling enchantment
 - Added atmospheric effects fog & darkness
 - SRP Evolution phases! (per individual player)
 - Fixed some waspy thorns (farm) in our side and not so cursed (hp exploit) items >:|

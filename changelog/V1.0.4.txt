@@ -94,5 +94,12 @@ Fixed:
 - removed COTH from CURE blacklist
 - Fixed loottable: DregoraRL\WorldObjects\Chests\Lore\simpledungeon.nbt (Thanks cdstk_ALT)
 - Added Bounceable to manifest fixing the jump attributes broken by potion core.
-- Disabled tunneling enchant (Block Blacklist does not work)
 - added quark dyanamic trees mod to manifest and disabled quark spawning of trees (they are manually added to mystical and bog biomes now)
+- Blossomtrees now properly spawn as their dynamic tree variant.
+
+
+
+New Fixes:
+- Removed SRP squids from oceans
+- removed script pendant
+-

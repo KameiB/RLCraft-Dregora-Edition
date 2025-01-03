@@ -59,6 +59,9 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
 //=================================
 
 //Change blockhardness Blocks in relation to SRParasites
+var BarrierHard as IItemStack = <dimstack:bedrock>;
+BarrierHard.hardness = 30;
+
 var AshenStoneHard as IItemStack = <lycanitesmobs:ashenstone>;
 AshenStoneHard.hardness = 30;
 

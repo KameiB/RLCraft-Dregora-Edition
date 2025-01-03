@@ -64,7 +64,7 @@ INIT() {
 	!dim_transitions:<dimId> = [<botMaterial>, <botLayerSize>, <topMaterial>, <topLayerSize>];
 	dim_transitions:3 = ["minecraft:stone", 0, "minecraft:stone", 0]; !Overworld has stone at floor and air at ceiling
 	!dim_transitions:1 = ["minecraft:air", 0, "minecraft:air", 0]; !The End has air at both floor and ceiling
-  !dim_transitions:-1 = ["minecraft:netherrack", 4, "minecraft:netherrack", 4]; !The Nether has netherrack at both floor and ceiling
+    !dim_transitions:-1 = ["minecraft:netherrack", 4, "minecraft:netherrack", 4]; !The Nether has netherrack at both floor and ceiling
 
 	!lower the portal ceiling height in the nether
 	dim_ceiling:-1 = 127;

@@ -3,6 +3,15 @@ Fixed:
 
 RLCraft to do now:
 P1:
+- update DregoraRL
+- Update manifest with DregoraRL
+- Update modlist and jar modlist
+
+
+
+
+- Make OP weapon a bit more common, set to 1% (currently 0.1% even if you get the loot table)
+- How to Update (main menu button)
 - fix eagle holding cube in off hand (main hand has scythe)
 - add starter caches to underneath ceiling
 - make spawners feral in underneath
@@ -183,3 +192,8 @@ Backlog: (1.0.5 / 1.1.0 ?)
 - make old road structures for in biomes
 - add a way to reset adaptations on living/sentient armor
 - add parasite event "From under they come!" (but give nbt tag on spawn to exclude them from being killed & make them weaker)
+
+FL Version: (Secret Stuff you won't figure out until it's there designed for your entertainment!)
+- Splash Text of liability
+- loottable rename to NS
+
