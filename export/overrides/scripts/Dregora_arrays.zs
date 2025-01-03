@@ -61,11 +61,6 @@ import mods.ctutils.world.World;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.LivingExperienceDropEvent;
 
-
-global ParasiteBuffBiomes as string[] = [
-  "Abyssal Rift"
-];
-
 global RandomLightningMessageArray as string[] = [
   "Zzzrrt zzzap zskrt",
   "You feel a tingling sensation...",

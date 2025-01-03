@@ -46,7 +46,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 //=================================
 
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Magic Inhibition",Lore:["§f ☕§b Decreases magic damage."," ","§8id: potioncore:magic_inhibition"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Blesss",Lore:["§f ☕§b Gives a random positive potion effect."," ","§8id: potioncore:bless"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Bless",Lore:["§f ☕§b Gives a random positive potion effect."," ","§8id: potioncore:bless"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Teleport",Lore:["§f ☕§b Teleports the target to a random nearby location."," ","§8id: potioncore:teleport"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Iron Skin",Lore:["§f ☕§b Increases armor."," ","§8id: potioncore:iron_skin"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Recoil",Lore:["§f ☕§b Reflects some of the damage back to the attacker."," ","§8id: potioncore:recoil"]}}));
@@ -83,7 +83,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Reach",Lore:["§f ☕§b Increases reach."," ","§8id: potioncore:reach"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Diamond Skin",Lore:["§f ☕§b Increases armor toughness."," ","§8id: potioncore:diamond_skin"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Launch",Lore:["§f ☕§b Launches the target into the air."," ","§8id: potioncore:launch"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrision",Lore:["§f ☕§b Damages target's equipped and held items. Gold is not affected."," ","§8id: potioncore:rust"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrosion",Lore:["§f ☕§b Damages target's equipped and held items. Gold is not affected."," ","§8id: potioncore:rust"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Invert",Lore:["§f ☕§b Inverts potion effects."," ","§8id: potioncore:invert"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Purity",Lore:["§f ☕§b Grants immunity to wither."," ","§8id: potioncore:purity"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Disorganization",Lore:["§f ☕§b Shuffles player's inventory."," ","§8id: potioncore:disorganization"]}}));
@@ -148,7 +148,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Viral",Lore:["§f ☕§b Entities with this effect take more Damage."," ","§8id: srparasites:viral"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Rage",Lore:["§f ☕§b Increases speed, damage and lowers parasite cooldowns."," ","§8id: srparasites:rage"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Prey",Lore:["§f ☕§b Creates a new scent at the player location if they wear or wield Sentient equipment."," ","§8id: srparasites:prey"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrision",Lore:["§f ☕§b Weakens armor durability."," ","§8id: srparasites:corrosive"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrosion",Lore:["§f ☕§b Weakens armor durability."," ","§8id: srparasites:corrosive"]}}));
 mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Fear",Lore:["§f ☕§b Inflicts major fall damage and cancels controls."," ","§8id: srparasites:fear"]}}));
 
 //=================================
@@ -293,7 +293,7 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§r
 "§f ☕§b -50% Attack Speed.",
 "§f ☕§b +100% Attack Damage.",
 "§f ☕§b +100% Health.",
-"§f ☕§b +75% Knockback Resista",
+"§f ☕§b +75% Knockback Resistance",
 "§f ☕§b +25% Movement Speed.",
 "§f ☕§b +75% Jump Height.",
 "§f ☕§b +1.4 Step Height.",

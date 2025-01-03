@@ -71,39 +71,6 @@ print("Dregora Script starting!");
 
 var Logging = false;
 
-//DMG and health multiplier script for spawning entities
-events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
-
-    if event.entity.world.isRemote() {return;}
-
-    if (event.entity instanceof IEntityLivingBase) {
-
-        var EntityBase as IEntityLivingBase = event.entity;
-
-        if (event.world.dimension == 0) {
-
-            if (isNull(EntityBase)) {return;}
-            if (isNull(EntityBase.definition)) {return;}
-            if (isNull(EntityBase.definition.id)) {return;}
-
-            // Lower health of parasites in cities
-            if (EntityBase.definition.id has "srparasites") {
-
-                var BiomeName = event.world.getBiome(EntityBase.getPosition3f()).name;
-                for Biome in ParasiteBuffBiomes {
-
-                    if (BiomeName != Biome) {
-
-                        //HealthMultiply 0.5
-                        EntityBase.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("DregoraHealth", -0.5, 1));
-                        //EntityBase.health = EntityBase.maxHealth;
-
-                    }
-                }
-            }
-        }
-    }
-});
 
 // Berries nerf
 events.onEntityLivingUseItemFinish(function(event as Finish){
