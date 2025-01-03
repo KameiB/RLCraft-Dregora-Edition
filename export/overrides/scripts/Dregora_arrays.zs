@@ -167,44 +167,6 @@ global ArrowArray as IItemStack[] = [
 	<minecraft:tipped_arrow>.withTag({Potion: "xat:goblin"})
 	];
 
-global MentalPotions as IPotion[] = [
-    <potion:lycanitesmobs:paralysis>,
-    <potion:lycanitesmobs:insomnia>,
-    <potion:lycanitesmobs:fear>,
-    <potion:potioncore:klutz>,
-    <potion:rustic:tipsy>,
-    <potion:minecraft:nausea>,
-    <potion:elenaidodge:sluggish>,
-    <potion:potioncore:spin>,
-    <potion:minecraft:mining_fatigue>,
-    <potion:lycanitesmobs:aphagia>,
-    <potion:minecraft:blindness>,
-    <potion:minecraft:unluck>,
-    <potion:srparasites:fear>,
-    <potion:potioncore:disorganization>
-    ];
-
-global SussyPotions as IPotion[] = [
-    <potion:potioncore:lightning>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>
-	];
-
-global BlackListEntitiesNameChangeVillager as string[] = [
-    "Mentalberian",
-    "Sussyberian"
-	];
-
 global BlackListEntitiesNameChangeAny as string[] = [
     "Dismounting",
     "Dismounter",

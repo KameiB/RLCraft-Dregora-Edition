@@ -408,27 +408,18 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent){
     }
 });
 
-//Trading with entity named Sussyberian makes you explode
-//Trading with entity named mentalberian makes you nausiated, fear, etc
+
 events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
 
+    if event.entity.world.isRemote() {return;}
     if (isNull(event.target.customName)) {return;}
 
-    // Villager zombies can still be named MentalBerian or Sussyberian and converted back but I left it like such because I think that's a fun thing to have for players
     if (!isNull(event.item)) {
         if (!isNull(event.item.definition.id)) {
             if (!isNull(event.item.tag)) {
                 if (!isNull(event.item.tag.display)) {
                     if (!isNull(event.item.tag.display.Name)) {
                         if (event.item.definition.id == "minecraft:name_tag") {
-
-                            if (event.target.definition.id == "minecraft:villager") {
-                                for name in BlackListEntitiesNameChangeVillager {
-                                    if ((name has event.target.customName) || (name has event.item.tag.display.Name)) {
-                                        event.cancel();
-                                    }
-                                }
-                            }
 
                             if (event.target.definition.id == "playerbosses:player_boss") {
                                 for name in BlackListEntitiesNameChangePlayerbosses {
@@ -458,29 +449,6 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent){
                 }
             }
         }
-    }
-
-    if ((event.target.customName == "Mentalberian") && (event.target.definition.id == "minecraft:villager")) {
-
-		if !event.entity.world.isRemote() {
-			var randomPotion = event.target.world.random.nextFloat(0, 13);
-			var RandomMentalPotion = MentalPotions[randomPotion];
-			event.player.addPotionEffect(<potion:mod_lavacow:soiled>.makePotionEffect(200, 1));
-			event.player.addPotionEffect(RandomMentalPotion.makePotionEffect(200, 1));
-		}
-        event.cancel();
-
-    }
-    if ((event.target.customName == "Sussyberian") && (event.target.definition.id == "minecraft:villager")) {
-
-		if !event.entity.world.isRemote() {
-			var randomPotion = event.target.world.random.nextFloat(0, 12);
-			var RandomSussyPotion = SussyPotions[randomPotion];
-			event.player.addPotionEffect(<potion:mod_lavacow:soiled>.makePotionEffect(200, 1));
-			event.player.addPotionEffect(RandomSussyPotion.makePotionEffect(1, 2));
-		}
-        event.cancel();
-
     }
 });
 
