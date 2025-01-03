@@ -1146,31 +1146,6 @@ events.onEntityLivingUseItemFinish(function(event as Finish){
       }
 });
 
-events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
-
-    if (event.entity.world.isRemote()) { return; }
-
-    var definition = event.entity.definition;
-    if (isNull(definition)) { return; }
-
-    var EntityBiome = (event.entity.world.getBiome(event.entity.getPosition3f()).name);
-    // Deep Ocean & Ocean
-
-    //SRP squids spawning
-    if ((EntityBiome has "Ocean") || (EntityBiome has "Sea")) {
-        if ((definition.id) == "minecraft:squid") {
-
-            var RandomNum = event.entity.world.random.nextFloat(0, 100);
-            if RandomNum <= 3 {
-
-                val parasite_squid = <entity:srparasites:sim_squid>.createEntity(event.entity.world) as IEntity;
-                parasite_squid.setPosition(event.entity.position);
-                event.world.spawnEntity(parasite_squid);
-                event.cancel();
-            }
-        }
-    }
-});
 
 // SRParasites in overworld Script Biome Whitelist
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
@@ -1179,10 +1154,9 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent){
 
     if (!isNull(event.entity.definition)) {
         if (!isNull(event.entity.definition.name)) {
-            if (((event.entity.definition.name) has "srparasites") && ((event.entity.definition.name) != "srparasites.sim_squid")) {
+            if ((event.entity.definition.name) has "srparasites")  {
 
                 if ((event.entity.world.getDimension()) == 0) || ((event.entity.world.getDimension()) == 3) {
-
 
                     var entityBase as IEntityLivingBase = event.entity;
                     var entityName = (event.entity.definition.name);

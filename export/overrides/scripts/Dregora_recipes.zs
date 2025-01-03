@@ -35,6 +35,28 @@ recipes.addShaped("dregora51",<contenttweaker:coin_pile>,
 recipes.addShapeless("dregora52",<variedcommodities:coin_gold> * 63,[<variedcommodities:satchel>]);
 recipes.addShapeless("dregora55",<variedcommodities:coin_gold> * 9,[<contenttweaker:coin_pile>]);
 
+// Removes recipe xp bug (level up)
+recipes.remove(<variedcommodities:wooden_dagger_reversed>);
+recipes.remove(<variedcommodities:stone_dagger_reversed>);
+recipes.remove(<variedcommodities:iron_dagger_reversed>);
+recipes.remove(<variedcommodities:golden_dagger_reversed>);
+recipes.remove(<variedcommodities:diamond_dagger_reversed>);
+recipes.remove(<variedcommodities:bronze_dagger_reversed>);
+recipes.remove(<variedcommodities:emerald_dagger_reversed>);
+recipes.remove(<variedcommodities:demonic_dagger_reversed>);
+recipes.remove(<variedcommodities:mithril_dagger_reversed>);
+recipes.remove(<variedcommodities:frost_dagger_reversed>);
+recipes.remove(<variedcommodities:wooden_dagger>);
+recipes.remove(<variedcommodities:stone_dagger>);
+recipes.remove(<variedcommodities:iron_dagger>);
+recipes.remove(<variedcommodities:golden_dagger>);
+recipes.remove(<variedcommodities:diamond_dagger>);
+recipes.remove(<variedcommodities:bronze_dagger>);
+recipes.remove(<variedcommodities:emerald_dagger>);
+recipes.remove(<variedcommodities:demonic_dagger>);
+recipes.remove(<variedcommodities:mithril_dagger>);
+recipes.remove(<variedcommodities:frost_dagger>);
+
 // Remove Bread recipe
 recipes.removeByRecipeName("minecraft:bread");
 

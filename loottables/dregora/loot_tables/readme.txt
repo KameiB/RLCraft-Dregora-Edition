@@ -144,6 +144,7 @@ Loottable Test Strings:
 
 Todo: RLC potions maybe use splash some?
 
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/loot_bundles/cursed_test"}
 
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:underneath/fish_undead"}
 

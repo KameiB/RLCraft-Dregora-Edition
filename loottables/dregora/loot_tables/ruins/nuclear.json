@@ -455,9 +455,12 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 20,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.6}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}
+              ]
             },
             {
               "function": "minecraft:set_attributes",
@@ -484,9 +487,12 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.8,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}
+              ]
             },
             {
               "function": "minecraft:set_attributes",
@@ -540,9 +546,12 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}
+              ]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1784,14 +1793,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1813,14 +1825,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1842,14 +1857,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",Lore:[\"Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities.\",\"Only sold when in pristine condition, use every day iron ingots to repair.\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1898,14 +1916,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.76,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.8,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1927,14 +1948,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.76,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -1983,14 +2007,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -2012,14 +2039,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",
@@ -2151,14 +2181,17 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}},
+            {"function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [{"attribute": "generic.luck","name": "luck","amount": {"min": -100,"max": -10},"operation": "addition","slot": ["mainhand"]}]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["mainhand"]},{"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.9,"max": 0},"operation": "multiply_total","slot": ["offhand"]}]
             },
             {
               "function": "minecraft:set_attributes",

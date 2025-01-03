@@ -10,6 +10,8 @@
           "name": "variedcommodities:mithril_dagger",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting\",Lore:[\"This dagger seems to always give off a bright glow...\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:moonlight"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
@@ -40,8 +42,8 @@
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedblastprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:physicalprotection"]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.armorToughness", "name": "Armor", "amount": {"min": 10, "max": 20}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]}
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.armorToughness", "name": "Armor", "amount": {"min": 10, "max": 20}, "operation": "addition", "slot": ["chest"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["chest"]}]}
           ]
         }
       ]
