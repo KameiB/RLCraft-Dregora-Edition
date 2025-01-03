@@ -82,8 +82,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -193,8 +191,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -299,8 +295,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.7,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -419,8 +413,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -539,8 +531,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -659,8 +649,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -779,8 +767,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -899,8 +885,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 11,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -1019,8 +1003,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -1139,8 +1121,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -1259,8 +1239,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -1379,8 +1357,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
@@ -1499,8 +1475,6 @@
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
-                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
