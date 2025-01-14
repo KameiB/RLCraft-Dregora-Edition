@@ -1,13 +1,38 @@
 Fixed:
-
+- Fixed remaining instances of faulty stat calculations for armor & weapons through EagleMixins (Thanks Nischelm!)
+- Added weapon the Eternal Dooter and changed weapon Keraunos to be a Javelin instead of a spear
+- Buffed Famine set by removing Corrosion, Vulnerability and Fragile from the Famine Set
+- Buffed Scarecrow heads: Plague Mask has immunization, Pumpkin head has Strength & Rage, and Straw head has Reach I
+- Buffed Weta set with stupidly fast speed + 15 and jump boost + 5 through attributes Kinetic Roach!!!
+- Added missing ] character in loot tables fixing the loottables not spawning and throwing an error
+- Corrected typo Pandroa to Pandora in some custom items (Yes you can see what may have Pandora now)
+- Fixed Epic loottable spawning x10 items instead of x1 items and gave it a luck requirement of at least 1
+- Adjusted Underneath spawner activation range from 25 to 15, delay from 10-30 to 30-60 ticks
+- Added copper, weta and swine sets + bone/copper axe/sword and shards of reminiscence along with a few crafting materials
+  to cyclops den chests & increased the chest spawnrate to 5x as much
+- fixed eaglemixins nullpointer: (Thanks Fonny!)
+    at com.tmtravlr.potioncore.potion.PotionExplosion.affectEntity(PotionExplosion.java:42)
+    at eaglemixins.handlers.BerianHandler.onPlayerInteractEntity(BerianHandler.java:50)
+- Converted all of dregora.zs to EagleMixins (Thanks Nischelm!)
+- Eaglemixins remove gradle.properties org.gradle.caching=true (Thanks Fonny!)
 
 RLCraft to do now:
 P1:
-- update DregoraRL
-- Update manifest with DregoraRL
-- Update modlist and jar modlist
+- add version extension to DregoraRL & Underneath x.x.x instead of x.x
+- fix tile entity data missing for defiled lands altars
+- blacklist respawn statue in abyssal rift
+- shattered ice and chunks need to be sorted out
+- update manifest to use new I&F and SpartanFire
+- alter biomesoplenty:wasteland & biomesoplenty:steppe & biomesoplenty:heath (if applicable) to InheritMobsBiomeName: minecraft:desert as to cancel out SRP spawning in unintended biomes
+- remove steppe, replace for wasteland & remove the biome from biomesoplenty
+- give dragon armor a setbonus
 
-
+- Herbalist has 1 brutal + 10 terrestrial artifact where the artifact needs to be 1
+- shocked weapon in brutal tower add impossible enchantments
+- look into v1.5 for fish undead rising
+- add heart container to battletower (top chest)
+- add savanna biome to center compas biome (darker color water)
+- bountiful risk needs to be Supreme Sharpness 6
 
 
 - Make OP weapon a bit more common, set to 1% (currently 0.1% even if you get the loot table)
@@ -89,8 +114,10 @@ P4:
 - Custom Item weapons are broken sometimes (They Revert to pre spartanfire changes) Wrong damage values, attack speed etc. Sneezing Sword is an example
 
 
-Backlog EagleMixins/SummonPotions/MobsReimagined/RLBeacons
+Backlog EagleMixins/SummonPotions/MobsReimagined/RLBeacons/Shifter
 P1:
+- make minecarts go faster
+- make a bauble that negates 25% of lightning damage for early game
 - added lore to mental/sussyberians as a rare drop (needs sussyberian name as drop mechanic)
 - scripts need to be moved to their own mod because CT is slower
 - Make ground entity exception for parasite biome dismount & lightning strike (change message and make array of blacklist entities)
@@ -113,6 +140,12 @@ P3:
 - make bane of Arthropods work down a list of entities (Make the enchant more useful)
 
 P4:
+- make mod Shifter that adds a player entity that copies over it's target player attributes, armor and occasionally morphs into something else
+  make a boss that goes through all RLC entities from easy to extremely difficult with as last boss yourself (maybe make it morph with glitch effect into something else briefly)
+  make white dimension that sometimes glitches black
+  make entity morph into sim endermen if range exceeds x blocks and morphs back into what it was if range is within x blocks
+  make boss morph into something that deals 95% damage and then morphs back
+- make a biome compass that displays biome tags & otg virtual biome names
 - add entities to artropods enchantment
 - re-create herbalist, gemtrader, topographer and brutal merchant with custom skinsquar
 - RLBeacons make new types of beacons with- No explosion damage on blocks, no fire spread, no parasite biome spread
@@ -182,7 +215,6 @@ Backlog: (1.0.5 / 1.1.0 ?)
 - Add fromimage defiled lands to inner circle fromimage regions and abyssal rift to outter fromimage regions (Not sure on this one)
 - make set bonuses for specific tiers
 - 'Toxic' stuff should be added to hot blocks.... Whatever that means ;)
-- Add lore to starter shelters explaining srparasites, underneath and lc in a immersive way
 - Make port city have one of the labs required to progress gameplay (include parasites only through spawners) + (But eh you never know.. maybe the villagers found the mending one so important
   (because people flocked to port city to trade with him...) that they made a secret society of mending villagers) + (needs 15-20 mending)
 - possibly repaint the trench biome to not be as frequent in the center area? Cut them off at little waystone areas

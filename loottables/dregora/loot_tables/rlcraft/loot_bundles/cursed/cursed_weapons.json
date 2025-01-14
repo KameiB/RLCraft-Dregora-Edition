@@ -84,7 +84,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -92,7 +92,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -106,7 +106,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -119,16 +119,16 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Cursed be its wielder.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§0+5% Death\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Cursed be its wielder.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§0+5% Death\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0arodnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Damned be its wielder.\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Deathly Crash Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Damned be its wielder.\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Deathly Crash Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Death awaits its wielder.\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§9+10 Fake Health\",\"§0+100% Fraud\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Death awaits its wielder.\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§9+10 Fake Health\",\"§0+100% Fraud\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -195,7 +195,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -203,7 +203,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -217,7 +217,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -230,7 +230,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"§0Broadsword of Withering Cold\",Lore:[\"Omae Wa Mou Shindeiru.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0+100% Fraud\",\"§0aordnaP %81\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"§0Broadsword of Withering Cold\",Lore:[\"Omae Wa Mou Shindeiru.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0+100% Fraud\",\"§0arodnaP %81\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -301,7 +301,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.7,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -309,7 +309,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -323,7 +323,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -336,7 +336,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Rebuked Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Self\",\"§9+10% Max Health\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Rebuked Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Self\",\"§9+10% Max Health\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -355,12 +355,12 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Rebuked Halberd\",Lore:[\"A beautiful Halberd, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Good Game Resistance\",\"§9+10% Fake Looting\",\"§0aordnaP evah dluoC\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Rebuked Halberd\",Lore:[\"A beautiful Halberd, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Good Game Resistance\",\"§9+10% Fake Looting\",\"§0arodnaP evah dluoC\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Umbrium Halberd\",Lore:[\"This Halberd comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Bye Movement Speed\",\"§9+10% Fake Enemy Regeneration\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Umbrium Halberd\",Lore:[\"This Halberd comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Bye Movement Speed\",\"§9+10% Fake Enemy Regeneration\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -421,7 +421,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -429,7 +429,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -443,7 +443,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -456,21 +456,21 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Umbrium Spear\",Lore:[\"The§kre is§r a presence insi§kde th§re Spear...\",\"\",\"§4When in main hand:\",\"§9+5% Bye Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Umbrium Spear\",Lore:[\"The§kre is§r a presence insi§kde th§re Spear...\",\"\",\"§4When in main hand:\",\"§9+5% Bye Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0arodnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Accursed Umbrium Spear\",Lore:[\"§kThi§rs Spe§kar§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Less Health\",\"§9+5% Fly Speed\",\"§9+10% Agility Counter\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Accursed Umbrium Spear\",Lore:[\"§kThi§rs Spe§kar§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Less Health\",\"§9+5% Fly Speed\",\"§9+10% Agility Counter\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Umbrium Spear\",Lore:[\"Upon thi§ks Sp§rear lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Anti Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Umbrium Spear\",Lore:[\"Upon thi§ks Sp§rear lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Anti Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Umbrium Spear\",Lore:[\"A sinister aura envelops this Spear!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-100% Capable\",\"§0aordnaP %81\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Umbrium Spear\",Lore:[\"A sinister aura envelops this Spear!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-100% Capable\",\"§0arodnaP %81\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -480,7 +480,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Umbrium Spear\",Lore:[\"This Spear comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+100% Regret\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Umbrium Spear\",Lore:[\"This Spear comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+100% Regret\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -541,7 +541,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -549,7 +549,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -563,7 +563,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -590,17 +590,17 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Umbrium Saber\",Lore:[\"A sinister aura envelops this Saber!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9100% Fear §0Eagle\",\"§0aordnaP evah dluoC\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Umbrium Saber\",Lore:[\"A sinister aura envelops this Saber!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9100% Fear §0Eagle\",\"§0arodnaP evah dluoC\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Umbrium Saber\",Lore:[\"A beautiful Saber, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0+100% Blame Eagle\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Umbrium Saber\",Lore:[\"A beautiful Saber, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0+100% Blame Eagle\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Umbrium Saber\",Lore:[\"This Saber comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+69% Check When In Main Hand Is Red!\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Umbrium Saber\",Lore:[\"This Saber comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+69% Check When In Main Hand Is Red!\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -661,7 +661,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -669,7 +669,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -683,7 +683,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -696,7 +696,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Diamond Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage §0Fails\",\"§9+10% Max Health\",\"§0aordnaP %81\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Diamond Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage §0Fails\",\"§9+10% Max Health\",\"§0arodnaP %81\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -705,7 +705,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Diamond Halberd\",Lore:[\"Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage §0Denial\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Diamond Halberd\",Lore:[\"Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage §0Denial\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -781,7 +781,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -789,7 +789,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -803,7 +803,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -816,21 +816,21 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Diamond Glaive\",Lore:[\"The§kre is§r a presence insi§kde th§re Glaive...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health §0Troll\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Diamond Glaive\",Lore:[\"The§kre is§r a presence insi§kde th§re Glaive...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health §0Troll\",\"§0arodnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Accursed Diamond Glaive\",Lore:[\"§kThi§rs Glai§kve§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Fake Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0No way to Un-Curse this!\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Accursed Diamond Glaive\",Lore:[\"§kThi§rs Glai§kve§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Fake Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0No way to Un-Curse this!\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Diamond Glaive\",Lore:[\"Upon thi§ks Glai§rve lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Lucky §0Lies\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Diamond Glaive\",Lore:[\"Upon thi§ks Glai§rve lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Lucky §0Lies\",\"§9+100% Attack Speed\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Diamond Glaive\",Lore:[\"A sinister aura envelops this Glaive!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Lies!\",\"§9-10% Fear\",\"§0aordnaP %81\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Diamond Glaive\",Lore:[\"A sinister aura envelops this Glaive!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Lies!\",\"§9-10% Fear\",\"§0arodnaP %81\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -840,7 +840,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Diamond Glaive\",Lore:[\"This Glaive comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration §0To Full Health After You Die!\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Diamond Glaive\",Lore:[\"This Glaive comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration §0To Full Health After You Die!\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -901,7 +901,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 11,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -909,7 +909,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -923,7 +923,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -950,17 +950,17 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Desert Stinger Rapier\",Lore:[\"A sinister aura envelops this Rapier!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Rickroll\",\"§9-10% Fear §0This Weapon!\",\"§0aordnaP evah dluoC\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Desert Stinger Rapier\",Lore:[\"A sinister aura envelops this Rapier!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Rickroll\",\"§9-10% Fear §0This Weapon!\",\"§0arodnaP evah dluoC\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Desert Stinger Rapier\",Lore:[\"A beautiful Rapier, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs 3000!\",\"§9+10% Looting §0Lies\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Desert Stinger Rapier\",Lore:[\"A beautiful Rapier, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs 3000!\",\"§9+10% Looting §0Lies\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Desert Stinger Rapier\",Lore:[\"This Rapier comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed §0Towards Death!\",\"§9+10% Regeneration\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Desert Stinger Rapier\",Lore:[\"This Rapier comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed §0Towards Death!\",\"§9+10% Regeneration\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1021,7 +1021,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -1029,7 +1029,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -1043,7 +1043,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -1056,21 +1056,21 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Jungle Stinger Greatsword\",Lore:[\"The§kre is§r a presence insi§kde th§re Greatsword...\",\"\",\"§4When in fake hand:\",\"§9+5% Anti Speed\",\"§9+5% Attack Damage\",\"§9+10% Less Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Jungle Stinger Greatsword\",Lore:[\"The§kre is§r a presence insi§kde th§re Greatsword...\",\"\",\"§4When in fake hand:\",\"§9+5% Anti Speed\",\"§9+5% Attack Damage\",\"§9+10% Less Health\",\"§0arodnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Accursed Jungle Stinger Greatsword\",Lore:[\"§kThi§rs Greatsw§kord§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed §0You Fools!\",\"§9+10% Agility\",\"§0It's Fake!\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Accursed Jungle Stinger Greatsword\",Lore:[\"§kThi§rs Greatsw§kord§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed §0You Fools!\",\"§9+10% Agility\",\"§0It's Fake!\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Jungle Stinger Greatsword\",Lore:[\"Upon thi§ks Great§rsword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§0+100% Emotional Damage\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Jungle Stinger Greatsword\",Lore:[\"Upon thi§ks Great§rsword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§0+100% Emotional Damage\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Jungle Stinger Greatsword\",Lore:[\"A sinister aura envelops this Greatsword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-10% Fear §0The Eagle And His Stunts!\",\"§0aordnaP %81\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Jungle Stinger Greatsword\",Lore:[\"A sinister aura envelops this Greatsword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-10% Fear §0The Eagle And His Stunts!\",\"§0arodnaP %81\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1080,7 +1080,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Jungle Stinger Greatsword\",Lore:[\"This Greatsword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Debuff\",\"§9+10% Regeneration\",\"§0Eagle Troll!\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Jungle Stinger Greatsword\",Lore:[\"This Greatsword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Debuff\",\"§9+10% Regeneration\",\"§0Eagle Troll!\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1141,7 +1141,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -1149,7 +1149,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -1163,7 +1163,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -1176,21 +1176,21 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Stinger Sword\",Lore:[\"The§kre is§r a presence insi§kde th§ris Sword...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% No Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Stinger Sword\",Lore:[\"The§kre is§r a presence insi§kde th§ris Sword...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% No Attack Damage\",\"§9+10% Max Health\",\"§0arodnaP evah dluoC\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Accursed Stinger Sword\",Lore:[\"§kThi§rs Swo§krd§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Death\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Accursed Stinger Sword\",Lore:[\"§kThi§rs Swo§krd§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Death\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Stinger Sword\",Lore:[\"Upon thi§ks S§rword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Negative Yes.\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Stinger Sword\",Lore:[\"Upon thi§ks S§rword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Negative Yes.\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Stinger Sword\",Lore:[\"A sinister aura envelops this Sword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§91000% Sus\",\"§0aordnaP %81\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Stinger Sword\",Lore:[\"A sinister aura envelops this Sword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§91000% Sus\",\"§0arodnaP %81\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1200,7 +1200,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Stinger Sword\",Lore:[\"This Sword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Mentalberian Herritage\",\"§9+10% Regeneration\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Stinger Sword\",Lore:[\"This Sword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Mentalberian Herritage\",\"§9+10% Regeneration\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1261,7 +1261,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -1269,7 +1269,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -1283,7 +1283,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -1310,17 +1310,17 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Deplored Quarterstaff\",Lore:[\"A sinister aura envelops this Quarterstaff!\",\"\",\"§4When in main hand:\",\"§9+1 Agility Fails\",\"§9+5 Magic Gone!\",\"§9-10% Fear\",\"§0aordnaP evah dluoC\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Deplored Quarterstaff\",Lore:[\"A sinister aura envelops this Quarterstaff!\",\"\",\"§4When in main hand:\",\"§9+1 Agility Fails\",\"§9+5 Magic Gone!\",\"§9-10% Fear\",\"§0arodnaP evah dluoC\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Reviled Quarterstaff\",Lore:[\"A beautiful Quarterstaff, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Fails\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0nihtiw tser yam aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Reviled Quarterstaff\",Lore:[\"A beautiful Quarterstaff, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Fails\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0nihtiw tser yam arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Rebuked Quarterstaff\",Lore:[\"This Quarterstaff comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Slowed\",\"§9+10% Degeneration\",\"§0uoy steerg aordnaP\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Rebuked Quarterstaff\",Lore:[\"This Quarterstaff comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Slowed\",\"§9+10% Degeneration\",\"§0uoy steerg arodnaP\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1381,7 +1381,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -1389,7 +1389,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -1403,7 +1403,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -1416,7 +1416,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Possessed Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Kotlin Language\",\"§9+5% Attack Damage\",\"§9+10% Eagle Scripted\",\"§0aordnaP %81\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Possessed Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Kotlin Language\",\"§9+5% Attack Damage\",\"§9+10% Eagle Scripted\",\"§0arodnaP %81\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -1425,7 +1425,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damned Rapier\",Lore:[\"Upon thi§ks R§rapier lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Failed Damage\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam aordnaP rof areweB\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Damned Rapier\",Lore:[\"Upon thi§ks R§rapier lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Failed Damage\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam arodnaP rof areweB\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
@@ -1501,7 +1501,7 @@
               "modifiers": [
                 {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
                 {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]},
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_base","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
                 {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
               ]
             },
@@ -1509,7 +1509,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -1523,7 +1523,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],

@@ -68,7 +68,7 @@
                     "min": 0.01,
                     "max": 0.1
                   },
-                  "operation": "multiply_base",
+                  "operation": "multiply_total",
                   "slot": [
                     "offhand"
                   ]
@@ -80,7 +80,7 @@
                     "min": 0.01,
                     "max": 0.05
                   },
-                  "operation": "multiply_base",
+                  "operation": "multiply_total",
                   "slot": [
                     "offhand"
                   ]
