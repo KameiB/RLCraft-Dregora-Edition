@@ -18,7 +18,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Suspicious Steel Bonnet\",Lore:[\"Theres something irresistible about it...\",\"\",\"§4When on head:\",\"§9+1 Luck\",\"§9+12% Knockback Resistance\",\"§9+1 Max Health\",\"§0nihtiw tser yam aordnaP\"]#,LocName:\"rldregora.cursed_armor.steel_helmet2.name\",LocLore:[\"rldregora.cursed_armor.description2.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.maxHealth.plus.arg\",\"rldregora.cursed_armor.pandora2.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"12%\",\"1\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
+              "tag": "{display:{Name:\"Suspicious Steel Bonnet\",Lore:[\"Theres something irresistible about it...\",\"\",\"§4When on head:\",\"§9+1 Luck\",\"§9+12% Knockback Resistance\",\"§9+1 Max Health\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_armor.steel_helmet2.name\",LocLore:[\"rldregora.cursed_armor.description2.lore\",\" \",\"rldregora.cursed.modifiers.head\",\"rldregora.attribute.name.generic.luck.plus.arg\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.maxHealth.plus.arg\",\"rldregora.cursed_armor.pandora2.lore\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"12%\",\"1\",\"\"]},ench:[{id:10,lvl:1}],HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

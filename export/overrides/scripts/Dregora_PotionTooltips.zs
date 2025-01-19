@@ -45,50 +45,50 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "
 // Potioncore Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.magic_inhibition.name",LocLore:["rldregora.effect.potioncore.magic_inhibition.lore"," ","§8id: potioncore:magic_inhibition"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.bless.name",LocLore:["rldregora.effect.potioncore.bless.lore"," ","§8id: potioncore:bless"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.teleport.name",LocLore:["rldregora.effect.potioncore.teleport.lore"," ","§8id: potioncore:teleport"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.iron_skin.name",LocLore:["rldregora.effect.potioncore.iron_skin.lore"," ","§8id: potioncore:iron_skin"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.recoil.name",LocLore:["rldregora.effect.potioncore.recoil.lore"," ","§8id: potioncore:recoil"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.drown.name",LocLore:["rldregora.effect.potioncore.drown.lore"," ","§8id: potioncore:drown"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.broken_magic_shield.name",LocLore:["rldregora.effect.potioncore.broken_magic_shield.lore"," ","§8id: potioncore:broken_magic_shield"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.flight.name",LocLore:["rldregora.effect.potioncore.flight.lore"," ","§8id: potioncore:flight"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.love.name",LocLore:["rldregora.effect.potioncore.love.lore"," ","§8id: potioncore:love"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.perplexity.name",LocLore:["rldregora.effect.potioncore.perplexity.lore"," ","§8id: potioncore:perplexity"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.klutz.name",LocLore:["rldregora.effect.potioncore.klutz.lore"," ","§8id: potioncore:klutz"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.chance.name",LocLore:["rldregora.effect.potioncore.chance.lore"," ","§8id: potioncore:chance"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.antidote.name",LocLore:["rldregora.effect.potioncore.antidote.lore"," ","§8id: potioncore:antidote"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.magic_shield.name",LocLore:["rldregora.effect.potioncore.magic_shield.lore"," ","§8id: potioncore:magic_shield"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.teleport_spawn.name",LocLore:["rldregora.effect.potioncore.teleport_spawn.lore"," ","§8id: potioncore:teleport_spawn"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.revival.name",LocLore:["rldregora.effect.potioncore.revival.lore"," ","§8id: potioncore:revival"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.broken_armor.name",LocLore:["rldregora.effect.potioncore.broken_armor.lore"," ","§8id: potioncore:broken_armor"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.magic_focus.name",LocLore:["rldregora.effect.potioncore.magic_focus.lore"," ","§8id: potioncore:magic_focus"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.burst.name",LocLore:["rldregora.effect.potioncore.burst.lore"," ","§8id: potioncore:burst"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.teleport_surface.name",LocLore:["rldregora.effect.potioncore.teleport_surface.lore"," ","§8id: potioncore:teleport_surface"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.extension.name",LocLore:["rldregora.effect.potioncore.extension.lore"," ","§8id: potioncore:extension"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.repair.name",LocLore:["rldregora.effect.potioncore.repair.lore"," ","§8id: potioncore:repair"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.lightning.name",LocLore:["rldregora.effect.potioncore.lightning.lore"," ","§8id: potioncore:lightning"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.spin.name",LocLore:["rldregora.effect.potioncore.spin.lore"," ","§8id: potioncore:spin"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.vulnerable.name",LocLore:["rldregora.effect.potioncore.vulnerable.lore"," ","§8id: potioncore:vulnerable"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.curse.name",LocLore:["rldregora.effect.potioncore.curse.lore"," ","§8id: potioncore:curse"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.archery.name",LocLore:["rldregora.effect.potioncore.archery.lore"," ","§8id: potioncore:archery"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.fire.name",LocLore:["rldregora.effect.potioncore.fire.lore"," ","§8id: potioncore:fire"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.explode.name",LocLore:["rldregora.effect.potioncore.explode.lore"," ","§8id: potioncore:explode"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.step_up.name",LocLore:["rldregora.effect.potioncore.step_up.lore"," ","§8id: potioncore:step_up"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.cure.name",LocLore:["rldregora.effect.potioncore.cure.lore"," ","§8id: potioncore:cure"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.potion_sickness.name",LocLore:["rldregora.effect.potioncore.potion_sickness.lore"," ","§8id: potioncore:potion_sickness"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.climb.name",LocLore:["rldregora.effect.potioncore.climb.lore"," ","§8id: potioncore:climb"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.solid_core.name",LocLore:["rldregora.effect.potioncore.solid_core.lore"," ","§8id: potioncore:solid_core"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.slow_fall.name",LocLore:["rldregora.effect.potioncore.slow_fall.lore"," ","§8id: potioncore:slow_fall"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.reach.name",LocLore:["rldregora.effect.potioncore.reach.lore"," ","§8id: potioncore:reach"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.diamond_skin.name",LocLore:["rldregora.effect.potioncore.diamond_skin.lore"," ","§8id: potioncore:diamond_skin"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.launch.name",LocLore:["rldregora.effect.potioncore.launch.lore"," ","§8id: potioncore:launch"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.rust.name",LocLore:["rldregora.effect.potioncore.rust.lore"," ","§8id: potioncore:rust"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.invert.name",LocLore:["rldregora.effect.potioncore.invert.lore"," ","§8id: potioncore:invert"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.purity.name",LocLore:["rldregora.effect.potioncore.purity.lore"," ","§8id: potioncore:purity"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.disorganization.name",LocLore:["rldregora.effect.potioncore.disorganization.lore"," ","§8id: potioncore:disorganization"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.weight.name",LocLore:["rldregora.effect.potioncore.weight.lore"," ","§8id: potioncore:weight"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.potioncore.dispel.name",LocLore:["rldregora.effect.potioncore.dispel.lore"," ","§8id: potioncore:dispel"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Magic Inhibition",Lore:["§f ☕§b Decreases magic damage."," ","§8id: potioncore:magic_inhibition"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Bless",Lore:["§f ☕§b Gives a random positive potion effect."," ","§8id: potioncore:bless"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Teleport",Lore:["§f ☕§b Teleports the target to a random nearby location."," ","§8id: potioncore:teleport"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Iron Skin",Lore:["§f ☕§b Increases armor."," ","§8id: potioncore:iron_skin"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Recoil",Lore:["§f ☕§b Reflects some of the damage back to the attacker."," ","§8id: potioncore:recoil"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Drowning",Lore:["§f ☕§b Makes the target only breath underwater."," ","§8id: potioncore:drown"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Broken Shield",Lore:["§f ☕§b Increases magic damage taken."," ","§8id: potioncore:broken_magic_shield"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Flight",Lore:["§f ☕§b Grants creative flight."," ","§8id: potioncore:flight"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Love",Lore:["§f ☕§b Causes affected animals to breed."," ","§8id: potioncore:love"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Perplexity",Lore:["§f ☕§b Reverses player's controls."," ","§8id: potioncore:perplexity"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Klutz",Lore:["§f ☕§b Decreases projectile damage."," ","§8id: potioncore:klutz"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Chance",Lore:["§f ☕§b Gives a random potion effect."," ","§8id: potioncore:chance"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Antidote",Lore:["§f ☕§b Grants immunity to poison."," ","§8id: potioncore:antidote"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Magic Shield",Lore:["§f ☕§b Reduces magic damage taken."," ","§8id: potioncore:magic_shield"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Spawn Teleport",Lore:["§f ☕§b Teleports you to the spawn after standing still for 10 seconds."," ","§8id: potioncore:teleport_spawn"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Revival",Lore:["§f ☕§b Revives the target with 2 hearts per level on death."," ","§8id: potioncore:revival"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Broken Armor",Lore:["§f ☕§b Decreases armor."," ","§8id: potioncore:broken_armor"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Magic Focus",Lore:["§f ☕§b Increases magic damage."," ","§8id: potioncore:magic_focus"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Burst",Lore:["§f ☕§b Creates an explosion that doesn't damage the target and surrounding blocks."," ","§8id: potioncore:burst"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Teleport Surface",Lore:["§f ☕§b Teleports the target to the surface."," ","§8id: potioncore:teleport_surface"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Extension",Lore:["§f ☕§b Extends the duration of one random effect per level."," ","§8id: potioncore:extension"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Repairing",Lore:["§f ☕§b Repairs target's equipped and held items."," ","§8id: potioncore:repair"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Lightning",Lore:["§f ☕§b Strikes the target with lightning."," ","§8id: potioncore:lightning"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Spinning",Lore:["§f ☕§b Makes the target spin around."," ","§8id: potioncore:spin"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Vulnerability",Lore:["§f ☕§b Increases damage taken."," ","§8id: potioncore:vulnerable"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Curse",Lore:["§f ☕§b Gives a random negative potion effect."," ","§8id: potioncore:curse"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Trueshot",Lore:["§f ☕§b Increases projectile damage."," ","§8id: potioncore:archery"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Fire",Lore:["§f ☕§b Sets the target on fire."," ","§8id: potioncore:fire"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Explode",Lore:["§f ☕§b Creates an explosion."," ","§8id: potioncore:explode"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Step Up",Lore:["§f ☕§b Increases step height."," ","§8id: potioncore:step_up"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Cure",Lore:["§f ☕§b Clears all negative potion effects."," ","§8id: potioncore:cure"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Potion Sickness",Lore:["§f ☕§b Applies various negative debuffs"," ","§8id: potioncore:potion_sickness"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Climbing",Lore:["§f ☕§b Allows climbing on walls."," ","§8id: potioncore:climb"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Solid Core",Lore:["§f ☕§b Increases knockback resistance."," ","§8id: potioncore:solid_core"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Slowfall",Lore:["§f ☕§b Reduces falling speed and fall damage."," ","§8id: potioncore:slow_fall"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Reach",Lore:["§f ☕§b Increases reach."," ","§8id: potioncore:reach"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Diamond Skin",Lore:["§f ☕§b Increases armor toughness."," ","§8id: potioncore:diamond_skin"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Launch",Lore:["§f ☕§b Launches the target into the air."," ","§8id: potioncore:launch"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrosion",Lore:["§f ☕§b Damages target's equipped and held items. Gold is not affected."," ","§8id: potioncore:rust"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Invert",Lore:["§f ☕§b Inverts potion effects."," ","§8id: potioncore:invert"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Purity",Lore:["§f ☕§b Grants immunity to wither."," ","§8id: potioncore:purity"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Disorganization",Lore:["§f ☕§b Shuffles player's inventory."," ","§8id: potioncore:disorganization"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Weight",Lore:["§f ☕§b Decreases jump height."," ","§8id: potioncore:weight"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Dispel",Lore:["§f ☕§b Clears all positive potion effects."," ","§8id: potioncore:dispel"]}}));
 
 //=================================
 // Rustic Effects
@@ -135,21 +135,21 @@ mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "
 // SRParasites Effects
 //=================================
 
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.needler.name",LocLore:["rldregora.effect.srparasites.needler.lore"," ","§8id: srparasites:needler"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.antimall.name",LocLore:["rldregora.effect.srparasites.antimall.lore"," ","§8id: srparasites:antimall"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.senses.name",LocLore:["rldregora.effect.srparasites.senses.lore"," ","§8id: srparasites:senses"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.debar.name",LocLore:["rldregora.effect.srparasites.debar.lore"," ","§8id: srparasites:debar"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.pivot.name",LocLore:["rldregora.effect.srparasites.pivot.lore"," ","§8id: srparasites:pivot"]}})); //Missing Icon
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.repel.name",LocLore:["rldregora.effect.srparasites.repel.lore"," ","§8id: srparasites:repel"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.bleed.name",LocLore:["rldregora.effect.srparasites.bleed.lore"," ","§8id: srparasites:bleed"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.foster.name",LocLore:["rldregora.effect.srparasites.foster.lore"," ","§8id: srparasites:foster"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.link.name",LocLore:["rldregora.effect.srparasites.link.lore"," ","§8id: srparasites:link"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.coth.name",LocLore:["rldregora.effect.srparasites.coth.lore"," ","§8id: srparasites:coth"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.viral.name",LocLore:["rldregora.effect.srparasites.viral.lore"," ","§8id: srparasites:viral"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.rage.name",LocLore:["rldregora.effect.srparasites.rage.lore"," ","§8id: srparasites:rage"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.prey.name",LocLore:["rldregora.effect.srparasites.prey.lore"," ","§8id: srparasites:prey"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.corrosive.name",LocLore:["rldregora.effect.srparasites.corrosive.lore"," ","§8id: srparasites:corrosive"]}}));
-mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{LocName: "rldregora.effect.srparasites.fear.name",LocLore:["rldregora.effect.srparasites.fear.lore"," ","§8id: srparasites:fear"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Needler",Lore:["§f ☕§b Deals 40% of HP after reaching stage 7."," ","§8id: srparasites:needler"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Immalleable",Lore:["§f ☕§b Disables parasites adaption system."," ","§8id: srparasites:antimall"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Heightened Senses",Lore:["§f ☕§b Buffs parasite follow range and target range."," ","§8id: srparasites:senses"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Debar",Lore:["§f ☕§b Halts the substraction of evolution points and item drops."," ","§8id: srparasites:debar"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Pivot",Lore:["§f ☕§b Diverts damage to Rooters, increases attack speed and doubles evolution gain."," ","§8id: srparasites:pivot"]}})); //Missing Icon
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Camouflage",Lore:["§f ☕§b Decreases the chance of substracting Call of the Hive by 70%."," ","§8id: srparasites:repel"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Bleeding",Lore:["§f ☕§b Inflicts damage over time and doubles this when moving."," ","§8id: srparasites:bleed"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Foster",Lore:["§f ☕§b Increases Adaptation."," ","§8id: srparasites:foster"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Link",Lore:["§f ☕§b Contributes to global adaptation without the Colony requirement."," ","§8id: srparasites:link"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Call of the Hive",Lore:["§f ☕§b Turns susceptible entities into parasites including your mounts, use a cure splash potion to remove."," ","§8id: srparasites:coth"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Viral",Lore:["§f ☕§b Entities with this effect take more Damage."," ","§8id: srparasites:viral"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§a Rage",Lore:["§f ☕§b Increases speed, damage and lowers parasite cooldowns."," ","§8id: srparasites:rage"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Prey",Lore:["§f ☕§b Creates a new scent at the player location if they wear or wield Sentient equipment."," ","§8id: srparasites:prey"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Corrosion",Lore:["§f ☕§b Weakens armor durability."," ","§8id: srparasites:corrosive"]}}));
+mods.jei.JEI.addItem(<contenttweaker:status_effect>.withTag({display:{Name: "§rStatus Effect§c Fear",Lore:["§f ☕§b Inflicts major fall damage and cancels controls."," ","§8id: srparasites:fear"]}}));
 
 //=================================
 // Fish Undead Effects

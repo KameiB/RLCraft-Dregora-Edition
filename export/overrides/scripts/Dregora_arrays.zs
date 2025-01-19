@@ -61,11 +61,6 @@ import mods.ctutils.world.World;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.LivingExperienceDropEvent;
 
-
-global ParasiteBuffBiomes as string[] = [
-  "Abyssal Rift"
-];
-
 global RandomLightningMessageArray as string[] = [
   /*"Zzzrrt zzzap zskrt",
   "You feel a tingling sensation...",
@@ -174,44 +169,6 @@ global ArrowArray as IItemStack[] = [
 	<minecraft:tipped_arrow>.withTag({Potion: "potioncore:explode"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "xat:extended_goblin"}),
 	<minecraft:tipped_arrow>.withTag({Potion: "xat:goblin"})
-	];
-
-global MentalPotions as IPotion[] = [
-    <potion:lycanitesmobs:paralysis>,
-    <potion:lycanitesmobs:insomnia>,
-    <potion:lycanitesmobs:fear>,
-    <potion:potioncore:klutz>,
-    <potion:rustic:tipsy>,
-    <potion:minecraft:nausea>,
-    <potion:elenaidodge:sluggish>,
-    <potion:potioncore:spin>,
-    <potion:minecraft:mining_fatigue>,
-    <potion:lycanitesmobs:aphagia>,
-    <potion:minecraft:blindness>,
-    <potion:minecraft:unluck>,
-    <potion:srparasites:fear>,
-    <potion:potioncore:disorganization>
-    ];
-
-global SussyPotions as IPotion[] = [
-    <potion:potioncore:lightning>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>,
-    <potion:potioncore:explode>,
-    <potion:potioncore:launch>
-	];
-
-global BlackListEntitiesNameChangeVillager as string[] = [
-    "Mentalberian",
-    "Sussyberian"
 	];
 
 global BlackListEntitiesNameChangeAny as string[] = [
@@ -572,6 +529,7 @@ global conductivity_10 as IItemStack[] = [
     <spartanfire:katana_lightning_dragonbone:*>,
     <spartanfire:scythe_lightning_dragonbone:*>,
     <spartanfire:greatsword_lightning_dragonbone:*>,
+    <spartanfire:longsword_lightning_dragonbone:*>,
     <spartanfire:saber_lightning_dragonbone:*>,
     <spartanfire:rapier_lightning_dragonbone:*>,
     <spartanfire:dagger_lightning_dragonbone:*>,
@@ -595,7 +553,8 @@ global conductivity_10 as IItemStack[] = [
     <mujmajnkraftsbettersurvival:itemlightningdragonbonespear:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonedagger:*>,
     <mujmajnkraftsbettersurvival:itemlightningdragonbonebattleaxe:*>,
-    <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>
+    <mujmajnkraftsbettersurvival:itemlightningdragonbonenunchaku:*>,
+	<iceandfire:dragonbone_sword_lightning:*>
 
 ];
 

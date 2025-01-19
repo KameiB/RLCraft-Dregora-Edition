@@ -2,13 +2,14 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "name": "Unique armor for in epic chests",
+      "name": "Unique Main Epic",
       "rolls": 1,
       "entries": [
         {
           "type": "loot_table",
           "name": "dregora:loot/unique_loot_epic/unique_weapons_epic",
-          "weight": 1
+          "weight": 1,
+          "quality": 100
         }
       ]
     }

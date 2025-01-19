@@ -35,6 +35,28 @@ recipes.addShaped("dregora51",<contenttweaker:coin_pile>,
 recipes.addShapeless("dregora52",<variedcommodities:coin_gold> * 63,[<variedcommodities:satchel>]);
 recipes.addShapeless("dregora55",<variedcommodities:coin_gold> * 9,[<contenttweaker:coin_pile>]);
 
+// Removes recipe xp bug (level up)
+recipes.remove(<variedcommodities:wooden_dagger_reversed>);
+recipes.remove(<variedcommodities:stone_dagger_reversed>);
+recipes.remove(<variedcommodities:iron_dagger_reversed>);
+recipes.remove(<variedcommodities:golden_dagger_reversed>);
+recipes.remove(<variedcommodities:diamond_dagger_reversed>);
+recipes.remove(<variedcommodities:bronze_dagger_reversed>);
+recipes.remove(<variedcommodities:emerald_dagger_reversed>);
+recipes.remove(<variedcommodities:demonic_dagger_reversed>);
+recipes.remove(<variedcommodities:mithril_dagger_reversed>);
+recipes.remove(<variedcommodities:frost_dagger_reversed>);
+recipes.remove(<variedcommodities:wooden_dagger>);
+recipes.remove(<variedcommodities:stone_dagger>);
+recipes.remove(<variedcommodities:iron_dagger>);
+recipes.remove(<variedcommodities:golden_dagger>);
+recipes.remove(<variedcommodities:diamond_dagger>);
+recipes.remove(<variedcommodities:bronze_dagger>);
+recipes.remove(<variedcommodities:emerald_dagger>);
+recipes.remove(<variedcommodities:demonic_dagger>);
+recipes.remove(<variedcommodities:mithril_dagger>);
+recipes.remove(<variedcommodities:frost_dagger>);
+
 // Remove Bread recipe
 recipes.removeByRecipeName("minecraft:bread");
 
@@ -59,6 +81,9 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
 //=================================
 
 //Change blockhardness Blocks in relation to SRParasites
+var BarrierHard as IItemStack = <dimstack:bedrock>;
+BarrierHard.hardness = 30;
+
 var AshenStoneHard as IItemStack = <lycanitesmobs:ashenstone>;
 AshenStoneHard.hardness = 30;
 
@@ -638,7 +663,11 @@ recipes.remove(<biomesoplenty:berries>);
 recipes.remove(<biomesoplenty:plant_0:5>);
 recipes.remove(<biomesoplenty:gem:6>);
 recipes.remove(<biomesoplenty:gem_block:6>);
-recipes.remove(<biomesoplenty:terrestrial_artifact>);
+
+recipes.addShaped("dregora56",<biomesoplenty:terrestrial_artifact>,
+ [[<biomesoplenty:gem:1>,<biomesoplenty:gem:3>,<biomesoplenty:gem:7>],
+  [<biomesoplenty:gem:2>,<biomesoplenty:gem:5>,<iceandfire:sapphire_gem>],
+  [<biomesoplenty:gem:4>,<minecraft:emerald>,null]]);
 
 <biomesoplenty:mushroom:3>.displayName = game.localize("rldregora.biomesoplenty:mushroom:3.tooltip", "en_us");
 <biomesoplenty:terrarium:8>.displayName = game.localize("rldregora.biomesoplenty:terrarium:8.tooltip", "en_us");
