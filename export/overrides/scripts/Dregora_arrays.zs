@@ -1,3 +1,5 @@
+/* replaced by eaglemixins
+
 #priority 1000
 
 import crafttweaker.events.IEventManager;
@@ -552,3 +554,5 @@ global conductivity_10 as IItemStack[] = [
 global conductivity_100 as IItemStack[] = [
     <mujmajnkraftsbettersurvival:itemlumiumhammer:*>
 ];
+
+*/

@@ -15,25 +15,37 @@ Fixed:
     at eaglemixins.handlers.BerianHandler.onPlayerInteractEntity(BerianHandler.java:50)
 - Converted all of dregora.zs to EagleMixins (Thanks Nischelm!)
 - Eaglemixins remove gradle.properties org.gradle.caching=true (Thanks Fonny!)
+- Fixed unintentional spawning of srparasites in some wasteland biomes by altering the "InheritMobsBiomeName" setting to something else than Wasteland or Steppe
+- Removed SRP dragon from natural spawning in city biomes
+- Blacklisted ghostray from dimension 0 (should only spawn in end now)
+- Changed Herbalist trade where you need to give 10 terrestrial artifacts to 1 artifact.
+- Added weapon Megumin's Staff to epic loottable
 
 RLCraft to do now:
 P1:
+- make shattered ice not consumable
+- replace shattered ice recipes with ice chunk recipes
 - add version extension to DregoraRL & Underneath x.x.x instead of x.x
+- shattered ice and chunks need to be sorted out
+- enchantment.level.0 on gold/iron armor in dungeon
+- Make random encounter wildkin and call it bigfoot
+- tone down diamond in viking village a bit
+- add wooden sword that adds 100% health but makes you hit 1's
 - fix tile entity data missing for defiled lands altars
 - blacklist respawn statue in abyssal rift
-- shattered ice and chunks need to be sorted out
 - update manifest to use new I&F and SpartanFire
-- alter biomesoplenty:wasteland & biomesoplenty:steppe & biomesoplenty:heath (if applicable) to InheritMobsBiomeName: minecraft:desert as to cancel out SRP spawning in unintended biomes
 - remove steppe, replace for wasteland & remove the biome from biomesoplenty
 - give dragon armor a setbonus
-
-- Herbalist has 1 brutal + 10 terrestrial artifact where the artifact needs to be 1
 - shocked weapon in brutal tower add impossible enchantments
 - look into v1.5 for fish undead rising
 - add heart container to battletower (top chest)
 - add savanna biome to center compas biome (darker color water)
 - bountiful risk needs to be Supreme Sharpness 6
 
+
+- block heart crystals from spawning and add in DregoraRL biomes (to allow for more control and decrease their spawning in certain biomes)
+- Make near surface troll cave entrance structures (Troll in basement, troll in cave attached to basement, troll in surface cave forest/cold/mountain types (12 in total)
+  and add weta loot to troll dens
 
 - Make OP weapon a bit more common, set to 1% (currently 0.1% even if you get the loot table)
 - How to Update (main menu button)
@@ -42,6 +54,7 @@ P1:
 - make spawners feral in underneath
 
 P2:
+
 - Amalgalich gets affected by COTH!? It's on COTH immunity though?
 - Add EVClOCK and Lures to herbalist traders
 - remove all drops in brutal towers except from bosses (and boost chest contents)

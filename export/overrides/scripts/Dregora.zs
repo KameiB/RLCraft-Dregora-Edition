@@ -1,3 +1,5 @@
+/* (all replaced by eaglemixins)
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.BlockBreakEvent;
@@ -1708,3 +1710,5 @@ events.onBlockHarvestDrops(function(blockDrops as BlockHarvestDropsEvent){
         ] as WeightedItemStack[];
     }
 });
+
+*/

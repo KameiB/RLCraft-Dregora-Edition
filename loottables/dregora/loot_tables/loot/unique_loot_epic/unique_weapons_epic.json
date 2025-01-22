@@ -22,6 +22,24 @@
         },
         {
           "type": "item",
+          "name": "spartanfire:staff_fire_dragonbone",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:explode\",remainingPotionHits:1000000,display:{Name:\"Megumin's Staff\",Lore:[\"EXPLOSION!!!!!!!!!\",\"A rather explosive relic...\"]}}"},
+            {"function": "rlmixins:enchant_specific", "enchantment": "charm:clumsiness_curse", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "charm:harming_curse", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:curseofvulnerability", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:science", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "mujmajnkraftsbettersurvival:blast", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:criticalstrike", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:ashdestroyer", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:fieryedge", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:unbreaking", "levels": 10}
+          ]
+        },
+        {
+          "type": "item",
           "name": "trumpetskeleton:trumpet",
           "weight": 1,
           "functions": [
@@ -62,9 +80,9 @@
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Scythe of Bountiful Risk\",Lore:[\"For the brave and bold of this unfair world.\",\"- Epic Collectable -\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lifesteal"]},
-            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sharpness", "levels": 10},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.9, "operation": "multiply_total", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.9, "operation": "multiply_total", "slot": ["offhand"]}]}
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:supremesharpness", "levels": 10},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.95, "operation": "multiply_total", "slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.maxHealth", "name": "maxHealth", "amount": -0.95, "operation": "multiply_total", "slot": ["offhand"]}]}
           ]
         },
         {

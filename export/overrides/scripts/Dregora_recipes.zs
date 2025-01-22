@@ -6,6 +6,27 @@ print("Dregora Recipe Script starting!");
 //Normal recipe adjustments
 //=================================
 
+//Shattered Ice Recipes (FUR) removal and replacement with SimpeDifficulty Ice Chunks
+recipes.removeShaped(<minecraft:ice>,
+ [[<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>],
+  [<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>],
+  [<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>,<mod_lavacow:shattered_ice>]]);
+recipes.remove(<mod_lavacow:baobing>);
+recipes.remove(<mod_lavacow:frozen_dagger>);
+recipes.remove(<mod_lavacow:shattered_ice>);
+
+recipes.addShaped("dregora57",<mod_lavacow:baobing>,
+ [[<minecraft:bowl>,<mod_lavacow:moltenpan>.anyDamage().transformDamage(8),null],
+  [<simpledifficulty:ice_chunk>,<mod_lavacow:cactus_fruit>,null],
+  [null,null,null]]);
+
+recipes.addShaped("dregora58",<mod_lavacow:frozen_dagger>,
+ [[null,<simpledifficulty:ice_chunk>,null],
+  [null,<simpledifficulty:ice_chunk>,null],
+  [null,<iceandfire:witherbone>,null]]);
+
+
+
 recipes.remove(<biomesoplenty:gem_block:1>);
 // Re-add Diomesoplenty ruby
 recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
@@ -15,7 +36,6 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
 
 recipes.addShaped("saw_bookshelf",<minecraft:book>*3,
 [[<ore:toolSaw>,<ore:bookshelf>]]);
-
 
 <variedcommodities:mana>.addTooltip("§6A valuable resource used as ancient power source for magic wands.");
 
