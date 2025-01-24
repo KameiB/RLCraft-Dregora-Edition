@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "name": "Spawns with -1 Luck",
+      "name": "Unique Shields Epic",
       "rolls": 1,
       "entries": [
         {

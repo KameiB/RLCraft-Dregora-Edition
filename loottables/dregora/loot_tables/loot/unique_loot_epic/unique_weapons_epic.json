@@ -56,6 +56,8 @@
           "name": "spartanfire:dagger_desert_venom",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:regeneration\",remainingPotionHits:1000000,display:{Name:\"Dagger of Vitality\",Lore:[\"For neither friend nor foe will this dagger deal a decisive blow.\",\"Relic of Vitality\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:mortalitas"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:vampirism"]},
@@ -71,6 +73,10 @@
           "name": "spartanfire:scythe_fire_dragonbone",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["offhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["offhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Scythe of Bountiful Risk\",Lore:[\"For the brave and bold of this unfair world.\",\"- Epic Collectable -\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lifesteal"]},
@@ -84,6 +90,8 @@
           "name": "spartanfire:katana_dragonbone",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"May Heaven Strike Your Enemies Blind!\",\"Dark blade of relics, the one that casts night upon those stricken\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
@@ -100,6 +108,8 @@
           "name": "iceandfire:troll_weapon.hammer",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.5,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\",\"The lesser of the two hammers yet a powerful relic on it's own\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
@@ -113,6 +123,8 @@
           "name": "iceandfire:troll_weapon.column",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.5,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Obelisk\",Lore:[\"Obelisk's Obelisk\",\"From before the before times, a relic from Germania\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
@@ -126,7 +138,8 @@
           "name": "iceandfire:dread_sword",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount":  {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount":  {"min": 6, "max": 8},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Nullpointer\",Lore:[\"Divide them by zero!\",\"Sword of glitch, bugger, this relic rips apart the fabric of time\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
@@ -150,6 +163,8 @@
           "name": "variedcommodities:bo_staff",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Stick of Bonk\",Lore:[\"Does Bonk!\",\"Staff of staffs, a relic both strong as sturdy\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
@@ -167,6 +182,8 @@
           "name": "variedcommodities:chicken_sword",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.2,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 15,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\",\"Ancient relic and meme, sturdy for it withstood time\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:curseofdecay"]},
@@ -183,6 +200,8 @@
           "name": "spartanfire:spear_dragonbone",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"srparasites:viral\",remainingPotionHits:6969,display:{Name:\"Gungnir\",Lore:[\"Odin's Spear\",\"Beautifully crafted ancient relic\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:mending"]},
@@ -205,6 +224,8 @@
           "name": "spartanfire:javelin_lightning_dragonbone",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Keraunos\",Lore:[\"For Olympus!!\",\"Keraunos, the relic loyal to it's wielder\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:supremesmite"]},
@@ -220,7 +241,8 @@
           "name": "mujmajnkraftsbettersurvival:itemlumiumhammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.7,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 10, "max": 12},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\",\"From before the blight and even the origins, this is a relic of old\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:smite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lessersmite"]},
@@ -238,7 +260,8 @@
           "name": "variedcommodities:bronze_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 6, "max": 8},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\",\"This relic is said to harness the heat of the Blight itself\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:smelter"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:meltdown"]},
@@ -257,7 +280,8 @@
           "name": "variedcommodities:katana",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.0,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 5, "max": 7},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Honjo Masamune\",Lore:[\"The legendary vanishing katana of old origins.\",\"May this relic serve you for longer days\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unsheathing"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:vanishing_curse"]},
@@ -277,8 +301,8 @@
           "name": "variedcommodities:broken_bottle",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": {"min": 0, "max": 0.5},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 3},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": {"min": 1.5, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 3, "max": 6},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Kotlin\",Lore:[\"Fonny's bane\",\"May the code imbued in this relic touch thou enemies and confuse them\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedpunch"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disorientation"]},
@@ -307,6 +331,8 @@
           "name": "variedcommodities:cleaver",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\",\"No scale too hard, no bone too thick for this relic wil rip\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:innerberserk"]},
@@ -326,6 +352,8 @@
           "name": "variedcommodities:frost_dagger",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.8,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\",\"May this relic piece straight and decisive\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:penetration"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:reviledblade"]},
@@ -338,6 +366,8 @@
           "name": "variedcommodities:excalibur",
           "weight": 1,
           "functions": [
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Excalibur\",Lore:[\"For Camelot!\",\"May this relic grant you vitality in your battles\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:sweeping"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:fieryedge"]},
@@ -356,7 +386,8 @@
           "name": "variedcommodities:emerald_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 6, "max": 8},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Shiv\",Lore:[\"Get Shivved!\",\"May this relic, the Shiv Serve you Supremely\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:sunshine"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:rusted"]},
@@ -375,7 +406,8 @@
           "name": "variedcommodities:sai",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 6, "max": 8},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Eagle's Claw\",Lore:[\"Get Eagle'd!\",\"This relic strikes your foes with Eagle's Math\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:assassinate"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:criticalstrike"]},
