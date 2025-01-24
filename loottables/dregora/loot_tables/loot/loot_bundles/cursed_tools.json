@@ -44,7 +44,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -58,21 +58,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -115,7 +115,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -129,21 +129,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -186,7 +186,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -200,21 +200,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -257,7 +257,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -271,21 +271,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -328,7 +328,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -342,21 +342,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -399,7 +399,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -413,21 +413,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -470,7 +470,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -484,21 +484,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -541,7 +541,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -555,21 +555,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -612,7 +612,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -626,21 +626,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -683,7 +683,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -697,21 +697,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -754,7 +754,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -768,21 +768,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
@@ -825,7 +825,7 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
@@ -839,21 +839,21 @@
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             },
             {
               "function": "minecraft:set_attributes",
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "modifiers": [
-                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_base","slot": ["mainhand"]}
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
               ]
             }
           ],
