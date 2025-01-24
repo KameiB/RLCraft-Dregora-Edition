@@ -18,15 +18,14 @@ Fixed:
 - Fixed unintentional spawning of srparasites in some wasteland biomes by altering the "InheritMobsBiomeName" setting to something else than Wasteland or Steppe
 - Removed SRP dragon from natural spawning in city biomes
 - Blacklisted ghostray from dimension 0 (should only spawn in end now)
-- Changed Herbalist trade where you need to give 10 terrestrial artifacts to 1 artifact.
+- Changed Herbalist trade where you need to give 10 terrestrial artifacts to 1 artifact
 - Added weapon Megumin's Staff to epic loottable
+- Replaced shattered ice recipes & block drops with ice chunks
+- Added high tier & some impossible enchantments to Brutal tower shocked weapon reward in treasure room
 
 RLCraft to do now:
 P1:
-- make shattered ice not consumable
-- replace shattered ice recipes with ice chunk recipes
 - add version extension to DregoraRL & Underneath x.x.x instead of x.x
-- shattered ice and chunks need to be sorted out
 - enchantment.level.0 on gold/iron armor in dungeon
 - Make random encounter wildkin and call it bigfoot
 - tone down diamond in viking village a bit
@@ -36,12 +35,10 @@ P1:
 - update manifest to use new I&F and SpartanFire
 - remove steppe, replace for wasteland & remove the biome from biomesoplenty
 - give dragon armor a setbonus
-- shocked weapon in brutal tower add impossible enchantments
 - look into v1.5 for fish undead rising
 - add heart container to battletower (top chest)
 - add savanna biome to center compas biome (darker color water)
 - bountiful risk needs to be Supreme Sharpness 6
-
 
 - block heart crystals from spawning and add in DregoraRL biomes (to allow for more control and decrease their spawning in certain biomes)
 - Make near surface troll cave entrance structures (Troll in basement, troll in cave attached to basement, troll in surface cave forest/cold/mountain types (12 in total)
