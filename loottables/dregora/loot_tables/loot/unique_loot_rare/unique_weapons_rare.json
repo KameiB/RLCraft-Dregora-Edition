@@ -36,8 +36,6 @@
             {"function": "enchant_with_levels", "levels": 10, "treasure": true},
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
@@ -75,8 +73,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 3.14,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -113,8 +109,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -151,8 +145,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.08,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -189,8 +181,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -227,8 +217,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.76,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -265,8 +253,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.1}], "modifiers": [{"attribute": "generic.maxHealth", "name": "Health", "amount": {"min": 0.5, "max": 1.0}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.5}], "modifiers": [{"attribute": "potioncore.digSpeed", "name": "DigSpeed", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
@@ -305,8 +291,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.1}], "modifiers": [{"attribute": "generic.maxHealth", "name": "Health", "amount": {"min": 0.5, "max": 1.0}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.5}], "modifiers": [{"attribute": "potioncore.digSpeed", "name": "DigSpeed", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
@@ -345,8 +329,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.1}], "modifiers": [{"attribute": "generic.maxHealth", "name": "Health", "amount": {"min": 0.5, "max": 1.0}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
@@ -384,8 +366,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.1}], "modifiers": [{"attribute": "generic.maxHealth", "name": "Health", "amount": {"min": 0.5, "max": 1.0}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
@@ -423,8 +403,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -461,8 +439,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -499,8 +475,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -537,8 +511,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -575,8 +547,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -613,8 +583,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -651,8 +619,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -689,8 +655,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -727,8 +691,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -765,8 +727,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -803,8 +763,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -841,8 +799,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -879,8 +835,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -989,8 +943,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1027,8 +979,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1065,8 +1015,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1139,8 +1087,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1177,8 +1123,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1215,8 +1159,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1253,8 +1195,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1291,8 +1231,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1329,8 +1267,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1367,8 +1303,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1405,8 +1339,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1443,8 +1375,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1481,8 +1411,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1519,8 +1447,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1557,8 +1483,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1595,8 +1519,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1633,8 +1555,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1671,8 +1591,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1709,8 +1627,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1747,8 +1663,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1857,8 +1771,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1895,8 +1807,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -1933,8 +1843,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2007,8 +1915,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2045,8 +1951,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2083,8 +1987,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2121,8 +2023,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2159,8 +2059,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2197,8 +2095,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2235,8 +2131,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2273,8 +2167,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2311,8 +2203,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2349,8 +2239,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 1.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2387,8 +2275,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2425,8 +2311,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2463,8 +2347,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2501,8 +2383,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2539,8 +2419,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2577,8 +2455,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2615,8 +2491,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2653,8 +2527,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 1.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2691,8 +2563,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2729,8 +2599,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 1.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2803,8 +2671,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2841,8 +2707,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2879,8 +2743,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2917,8 +2779,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2955,8 +2815,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -2993,8 +2851,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3031,8 +2887,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3069,8 +2923,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3107,8 +2959,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3145,8 +2995,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3183,8 +3031,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3221,8 +3067,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3259,8 +3103,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3297,8 +3139,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.12,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3335,8 +3175,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9.75,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3373,8 +3211,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3411,8 +3247,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3521,8 +3355,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3559,8 +3391,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3597,8 +3427,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3671,8 +3499,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3709,8 +3535,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3747,8 +3571,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3785,8 +3607,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3823,8 +3643,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3861,8 +3679,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3899,8 +3715,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3937,8 +3751,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -3975,8 +3787,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4013,8 +3823,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4051,8 +3859,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4089,8 +3895,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4127,8 +3931,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4165,8 +3967,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.25,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4203,8 +4003,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4241,8 +4039,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.4,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 9.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4279,8 +4075,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4389,8 +4183,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.5,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 4.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4427,8 +4219,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.9,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 8,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4465,8 +4255,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4539,8 +4327,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 13,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4577,8 +4363,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.5,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4615,8 +4399,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 11,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
@@ -4653,8 +4435,6 @@
             {"function": "enchant_with_levels", "levels": 20, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "enchant_with_levels", "levels": 30, "treasure": true, "conditions": [{"condition": "random_chance", "chance": 0.1}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.movementSpeed", "name": "movementSpeed", "amount": {"min": 0.01, "max": 0.05}, "operation": "addition", "slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "conditions": [{"condition": "random_chance", "chance": 0.25}], "modifiers": [{"attribute": "generic.luck", "name": "Luck", "amount": {"min": 0.1, "max": 0.5}, "operation": "addition", "slot": ["mainhand"]}]},
             {"function": "set_damage","damage": {"min": 0.30,"max": 0.95}}
           ]
