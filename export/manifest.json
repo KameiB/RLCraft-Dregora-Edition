@@ -14,6 +14,11 @@
   "version": "1.0.6",
   "author": "Shivaxi & NLBlackEagle",
   "files": [
+	{
+      "projectID": 948959,
+      "fileID": 6046201,
+      "required": true
+    },
     {
       "projectID": 1165515,
       "fileID": 6050618,
