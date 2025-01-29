@@ -33,15 +33,6 @@ mod_lavacow_mimic.clear();
 val mod_lavacow = mod_lavacow_mimic.addPool("claw", 1, 1, 0, 0);
 mod_lavacow.addItemEntry(<mod_lavacow:mimic_claw>, 75);
 
-val forsaken_regular = LootTweaker.getTable("mod_lavacow:entities/forsaken");
-forsaken_regular.clear();
-
-val skeleton_regular = LootTweaker.getTable("minecraft:entities/skeleton");
-skeleton_regular.clear();
-
-val skeleton_regular_new = skeleton_regular.addPool("skeleton_regular_new", 1, 1, 0, 0);
-skeleton_regular_new.addLootTableEntry("dregora:entities/regular/skeleton", 100);
-
 val mod_lavacow_skeleton_king = LootTweaker.getTable("mod_lavacow:entities/bosses/skeleton_king");
 mod_lavacow_skeleton_king.clear();
 val mod_lavacow_skeleton_king_new = mod_lavacow_skeleton_king.addPool("dregora_skeleton_king", 1, 1, 0, 0);
