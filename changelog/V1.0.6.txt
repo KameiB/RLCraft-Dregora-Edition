@@ -25,6 +25,7 @@ Fixed:
 
 RLCraft to do now:
 P1:
+- do crabs spawn?
 - add version extension to DregoraRL & Underneath x.x.x instead of x.x
 - enchantment.level.0 on gold/iron armor in dungeon
 - Make random encounter wildkin and call it bigfoot
