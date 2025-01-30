@@ -22,10 +22,14 @@ Fixed:
 - Added weapon Megumin's Staff to epic loottable
 - Replaced shattered ice recipes & block drops with ice chunks
 - Added high tier & some impossible enchantments to Brutal tower shocked weapon reward in treasure room
+- Changed ravens from 8 weight to 3 weight (Making Crabs spawn more often)
+- Kinetic Roach is too Kinetic do 50/30% current speed
+- Adjust Sussyberian/Mentalberian custom spawns to have special nbt tag
 
 RLCraft to do now:
 P1:
-- do crabs spawn?
+
+- Adjust Sussyberian/Mentalberian custom spawns to have special nbt tag
 - add version extension to DregoraRL & Underneath x.x.x instead of x.x
 - enchantment.level.0 on gold/iron armor in dungeon
 - Make random encounter wildkin and call it bigfoot
