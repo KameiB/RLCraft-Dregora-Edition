@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Training Sword\",Lore:[\"This sword belongs to either a trainee or a very unlucky pirate.\"]}}"
+              "tag": "{display:{Name:\"Training Sword\",Lore:[\"This sword belongs to either a trainee or a very unlucky pirate.\"],LocName:\"rldregora.piratejunk_loot.training_sword.name\",LocLore:[\"rldregora.piratejunk_loot.training_sword.lore\"]}}"
             },
             {
               "function": "set_damage",
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Blunt Sword\",Lore:[\"A Pirate sword, all battered up.\"]}}"
+              "tag": "{display:{Name:\"Blunt Sword\",Lore:[\"A Pirate sword, all battered up.\"],LocName:\"rldregora.piratejunk_loot.blunt_sword.name\",LocLore:[\"rldregora.piratejunk_loot.blunt_sword.lore\"]}}"
             },
             {
               "function": "set_damage",

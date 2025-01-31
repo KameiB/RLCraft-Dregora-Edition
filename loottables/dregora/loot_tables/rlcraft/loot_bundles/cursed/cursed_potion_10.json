@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"xat:extended_titan\",
-                display:{Name:\"Potion of Dwarf Transformation\",Lore:[\"§9Dwarf (3:00)\",\"\",\"§5When Applied:\",\"§9+1 Enhanced Race\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Dwarf Transformation\",Lore:[\"§9Dwarf (3:00)\",\"\",\"§5When Applied:\",\"§9+1 Enhanced Race\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_10.dwarf.name\",LocLore:[\"rldregora.cursed_potion_10.dwarf.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_10.dwarf.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:2,Duration:3600,Amplifier:1}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"xat:extended_titan\",
-                display:{Name:\"Potion of Dwarf Transformation\",Lore:[\"§9Dwarf (3:00)\",\"\",\"§5When Applied:\",\"§9+1 Enhanced Race\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Dwarf Transformation\",Lore:[\"§9Dwarf (3:00)\",\"\",\"§5When Applied:\",\"§9+1 Enhanced Race\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_10.dwarf.name\",LocLore:[\"rldregora.cursed_potion_10.dwarf.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_10.dwarf.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:2,Duration:3600,Amplifier:1}],
                 HideFlags:32
               }"

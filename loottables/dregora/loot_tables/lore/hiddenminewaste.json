@@ -29,14 +29,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"\n\u00A74   ⬟─▚  \u00A71⬟─▚  \u00A72⬟─▚\u00A7r\n\nThis book is the map to the three keys required in revealing the hidden library stocked to the brim with rare treasures, diamonds, emerald and magical books.\n\n\u00A74   ⬟─▚  \u00A71⬟─▚  \u00A72⬟─▚\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\n\u00A74⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\u00A7r\nFor the first key thou shalt walk the ever changing landscape which make up the wastelands within this realm and among the stories of viking warriors you shall find the book Valhalla.\n\u00A74⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\n\u00A72⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\u00A7r\nFor the second key thou shalt walk south towards the land of crawling roots and tribal folks. There between the treasures of pirates you shall find a book called The Pirate\u0027s Treasure.\n\u00A72⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\n\u00A71⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\u00A7r\nFor the third and last key thou shalt walk west and perhaps a bit east until you meet the autumn mountains with villages and mineshafts deep below in which you shall find a book named The Hidden Map.\n\u00A71⬟─▚ ⬟─▚ ⬟─▚ ⬟─▚\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.hidden_library.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.hidden_library.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.hidden_library.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.hidden_library.page.4\\\"}]\"
                 ],
                 title:\"Tale of the Hidden Library\",
+                locTitle:\"rldregora.hiddenminewaste.hidden_library.title\",
                 author:\"Librarian\",
-                display:{Lore:[\"This book describes a treasure trove and more interesting, ways on finding it.\"]}
+                locAuthor:\"entity.Villager.librarian\",
+                display:{Lore:[\"This book describes a treasure trove and more interesting, ways on finding it.\"],LocLore:[\"rldregora.hiddenminewaste.hidden_library.lore\"]}
               }"
             },
             {
@@ -45,12 +47,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Beyond the ends of these tunnels, out of exits rarely seen the exists massive stretches of land without ceiling in which monoliths of ancient times tower above the sand, steel and molten stone formed creating these giant rusting skeletons to whom no\\\"}]\",
-                  \"[{\\\"text\\\":\\\"one dares to venture. These are the lands where the quiet rules. There are no animals, nothing... There\u0027s just the visitors and the lurking hosts waching from the shadows.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.monoliths_decay.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.monoliths_decay.page.2\\\"}]\"
                 ],
                 title:\"Monoliths of decay\",
+                locTitle:\"rldregora.hiddenminewaste.monoliths_decay.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"There's a loose page, part of a journal so to seem with a single entry...\"]}
+                locAuthor:\"rldregora.hiddenminewaste.monoliths_decay.author\",
+                display:{Lore:[\"There's a loose page, part of a journal so to seem with a single entry...\"],LocLore:[\"rldregora.hiddenminewaste.monoliths_decay.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -60,13 +64,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"From and to our village exist tunnels in mass, some leading down and other up to the wastelands above where we find massive skeletons of old towering against the sky in which machines and old metal sometimes moans but mostly the it\u0027s the quiet that roams.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Along the stretches of unhospitable land where monsters lurk there are other things which defy both logic as reason alike, for who had build these magnificent structures, deep underground far away from the highest clouds where no light shines. These are no\\\"}]\",
-                  \"[{\\\"text\\\":\\\"tunnels of ours but more like the skeletons of past. These tunnels lead back and forth to magnificent lands where the arrows point will be the biggest stretch but rewarded you shall be for at the end paradise is what you will meet.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.secret_passages.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.secret_passages.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.secret_passages.page.3\\\"}]\"
                 ],
                 title:\"Secret Passages\",
+                locTitle:\"rldregora.hiddenminewaste.secret_passages.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"As you open the book a page falls out containing a drawing of\nlush lands with a huge entryway leading down...\"]}
+                locAuthor:\"rldregora.hiddenminewaste.secret_passages.author\",
+                display:{Lore:[\"As you open the book a page falls out containing a drawing of\nlush lands with a huge entryway leading down...\"],LocLore:[\"rldregora.hiddenminewaste.secret_passages.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -76,12 +82,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Despair thou shalt be for when the skies turn black, the horizon turns purple or green poison fills the skies as this is the place where monsters lurk in the depths of the land where blood flows and breeds evil unlike anyone has ever seen.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Despair for this is the land of the wicked from which few return. Despair for when the fog turns heavy and grey as this is the land of the flesh in which thou shalt be food for those that roam underneath in the belly of the earth.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.lairs_corrupted.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.lairs_corrupted.page.2\\\"}]\"
                 ],
                 title:\"Lairs of the Corrupted\",
+                locTitle:\"rldregora.hiddenminewaste.lairs_corrupted.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This book contains a warning on dangerous lands.\"]}
+                locAuthor:\"rldregora.hiddenminewaste.lairs_corrupted.author\",
+                display:{Lore:[\"This book contains a warning on dangerous lands.\"],LocLore:[\"rldregora.hiddenminewaste.lairs_corrupted.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -91,14 +99,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Lava streams below in the canyon, bridges passing over.\n\nAnd there we witnessed a land so beautiful.\n\nLush Jungle unlike our previous expidition to the west.\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Saw huge mountains with autumn trees, forests and lakes.\n\nWaterfalls, magnificent.\n\nPeople live here, tribes. In west there were huge settlements.\n\nSettlements with mighty walls.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Voyage back through underground tunnels.\n\nDays of walking. Lots of days.\n\nBeasts and mysterious people clad in black and red roaming around.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Black and Red figured following us, shaked them in the tunnels.\n\nArrived back safely.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.beyond_wastelands.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.beyond_wastelands.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.beyond_wastelands.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenminewaste.beyond_wastelands.page.4\\\"}]\"
                 ],
                 title:\"Beyond the Wastelands\",
+                locTitle:\"rldregora.hiddenminewaste.beyond_wastelands.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The book nearly crumbles in your hands and contains old writing,\nyou can make out a few sentences...\"]}
+                locAuthor:\"rldregora.hiddenminewaste.beyond_wastelands.author\",
+                display:{Lore:[\"The book nearly crumbles in your hands and contains old writing,\nyou can make out a few sentences...\"],LocLore:[\"rldregora.hiddenminewaste.beyond_wastelands.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -117,7 +127,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

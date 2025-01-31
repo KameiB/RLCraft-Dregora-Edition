@@ -25,7 +25,7 @@
           "name": "spartanfire:staff_fire_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:explode\",remainingPotionHits:1000000,display:{Name:\"Megumin's Staff\",Lore:[\"EXPLOSION!!!!!!!!!\",\"A rather explosive relic...\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:explode\",remainingPotionHits:1000000,display:{Name:\"Megumin's Staff\",Lore:[\"EXPLOSION!!!!!!!!!\",\"A rather explosive relic...\"],LocName:\"rldregora.unique_weapons_weapons.staff_fire_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.0\",\"rldregora.unique_weapons_weapons.staff_fire_dragonbone.lore.1\"]}}"},
             {"function": "rlmixins:enchant_specific", "enchantment": "charm:clumsiness_curse", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "charm:harming_curse", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:curseofvulnerability", "levels": 10},
@@ -43,7 +43,7 @@
           "name": "trumpetskeleton:trumpet",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:launch\",remainingPotionHits:1000000,display:{Name:\"Eternal Dooter\",Lore:[\"DOOOOOTTTTTTTT!!!!!!!!\",\"The trumpet, the relic, the one that sends them flying\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:launch\",remainingPotionHits:1000000,display:{Name:\"Eternal Dooter\",Lore:[\"DOOOOOTTTTTTTT!!!!!!!!\",\"The trumpet, the relic, the one that sends them flying\"],LocName:\"rldregora.unique_weapons_weapons.trumpet.name\",LocLore:[\"rldregora.unique_weapons_weapons.trumpet.lore.0\",\"rldregora.unique_weapons_weapons.trumpet.lore.1\"]}}"},
             {"function": "rlmixins:enchant_specific", "enchantment": "mujmajnkraftsbettersurvival:blast", "levels": 3},
             {"function": "rlmixins:enchant_specific", "enchantment": "mujmajnkraftsbettersurvival:blast", "levels": 2},
             {"function": "rlmixins:enchant_specific", "enchantment": "mujmajnkraftsbettersurvival:blast", "levels": 1},
@@ -56,7 +56,7 @@
           "name": "spartanfire:dagger_desert_venom",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:regeneration\",remainingPotionHits:1000000,display:{Name:\"Dagger of Vitality\",Lore:[\"For neither friend nor foe will this dagger deal a decisive blow.\",\"Relic of Vitality\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:regeneration\",remainingPotionHits:1000000,display:{Name:\"Dagger of Vitality\",Lore:[\"For neither friend nor foe will this dagger deal a decisive blow.\",\"Relic of Vitality\"],LocName:\"rldregora.unique_weapons_weapons.dagger_desert_venom.name\",LocLore:[\"rldregora.unique_weapons_weapons.dagger_desert_venom.lore.0\",\"rldregora.unique_weapons_weapons.dagger_desert_venom.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:mortalitas"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:vampirism"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:blessededge"]},
@@ -71,7 +71,7 @@
           "name": "spartanfire:scythe_fire_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Scythe of Bountiful Risk\",Lore:[\"For the brave and bold of this unfair world.\",\"- Epic Collectable -\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Scythe of Bountiful Risk\",Lore:[\"For the brave and bold of this unfair world.\",\"- Epic Collectable -\"],LocName:\"rldregora.unique_weapons_weapons.scythe_fire_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.0\",\"rldregora.unique_weapons_weapons.scythe_fire_dragonbone.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lifesteal"]},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:supremesharpness", "levels": 10},
@@ -84,7 +84,7 @@
           "name": "spartanfire:katana_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"May Heaven Strike Your Enemies Blind!\",\"Dark blade of relics, the one that casts night upon those stricken\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"minecraft:blindness\",remainingPotionHits:42069,display:{Name:\"Heaven's Blade\",Lore:[\"May Heaven Strike Your Enemies Blind!\",\"Dark blade of relics, the one that casts night upon those stricken\"],LocName:\"rldregora.unique_weapons_weapons.katana_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_weapons.katana_dragonbone.lore.0\",\"rldregora.unique_weapons_weapons.katana_dragonbone.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -100,7 +100,7 @@
           "name": "iceandfire:troll_weapon.hammer",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\",\"The lesser of the two hammers yet a powerful relic on it's own\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Lesser Ban Hammer\",Lore:[\"Dragonsteel you say? Banned!\",\"The lesser of the two hammers yet a powerful relic on it's own\"],LocName:\"rldregora.unique_weapons_weapons.troll_weapon.hammer.name\",LocLore:[\"rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.0\",\"rldregora.unique_weapons_weapons.troll_weapon.hammer.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -113,7 +113,7 @@
           "name": "iceandfire:troll_weapon.column",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Obelisk\",Lore:[\"Obelisk's Obelisk\",\"From before the before times, a relic from Germania\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Obelisk\",Lore:[\"Obelisk's Obelisk\",\"From before the before times, a relic from Germania\"],LocName:\"rldregora.unique_weapons_weapons.troll_weapon.column.name\",LocLore:[\"rldregora.unique_weapons_weapons.troll_weapon.column.lore.0\",\"rldregora.unique_weapons_weapons.troll_weapon.column.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:heavy"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:heavyweight"]},
@@ -127,7 +127,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount":  {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Nullpointer\",Lore:[\"Divide them by zero!\",\"Sword of glitch, bugger, this relic rips apart the fabric of time\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Nullpointer\",Lore:[\"Divide them by zero!\",\"Sword of glitch, bugger, this relic rips apart the fabric of time\"],LocName:\"rldregora.unique_weapons_weapons.dread_sword.name\",LocLore:[\"rldregora.unique_weapons_weapons.dread_sword.lore.0\",\"rldregora.unique_weapons_weapons.dread_sword.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:english"]},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
@@ -150,7 +150,7 @@
           "name": "variedcommodities:bo_staff",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Stick of Bonk\",Lore:[\"Does Bonk!\",\"Staff of staffs, a relic both strong as sturdy\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Stick of Bonk\",Lore:[\"Does Bonk!\",\"Staff of staffs, a relic both strong as sturdy\"],LocName:\"rldregora.unique_weapons_weapons.bo_staff.name\",LocLore:[\"rldregora.unique_weapons_weapons.bo_staff.lore.0\",\"rldregora.unique_weapons_weapons.bo_staff.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:knockback"]},
@@ -167,7 +167,7 @@
           "name": "variedcommodities:chicken_sword",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\",\"Ancient relic and meme, sturdy for it withstood time\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"mod_lavacow:soiled\",remainingPotionHits:420,display:{Name:\"The Big Skibidi\",Lore:[\"Toilet Humor...\",\"Ancient relic and meme, sturdy for it withstood time\"],LocName:\"rldregora.unique_weapons_weapons.chicken_sword.name\",LocLore:[\"rldregora.unique_weapons_weapons.chicken_sword.lore.0\",\"rldregora.unique_weapons_weapons.chicken_sword.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:curseofdecay"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -183,7 +183,7 @@
           "name": "spartanfire:spear_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"srparasites:viral\",remainingPotionHits:6969,display:{Name:\"Gungnir\",Lore:[\"Odin's Spear\",\"Beautifully crafted ancient relic\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"srparasites:viral\",remainingPotionHits:6969,display:{Name:\"Gungnir\",Lore:[\"Odin's Spear\",\"Beautifully crafted ancient relic\"],LocName:\"rldregora.unique_weapons_weapons.spear_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_weapons.spear_dragonbone.lore.0\",\"rldregora.unique_weapons_weapons.spear_dragonbone.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:mending"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:penetratingedge"]},
@@ -205,7 +205,7 @@
           "name": "spartanfire:javelin_lightning_dragonbone",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Keraunos\",Lore:[\"For Olympus!!\",\"Keraunos, the relic loyal to it's wielder\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Keraunos\",Lore:[\"For Olympus!!\",\"Keraunos, the relic loyal to it's wielder\"],LocName:\"rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.name\",LocLore:[\"rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.0\",\"rldregora.unique_weapons_weapons.javelin_lightning_dragonbone.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:supremesmite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedsmite"]},
@@ -221,7 +221,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\",\"From before the blight and even the origins, this is a relic of old\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"potioncore:lightning\",remainingPotionHits:6969,display:{Name:\"Mjolnir\",Lore:[\"Thor's Hammer\",\"From before the blight and even the origins, this is a relic of old\"],LocName:\"rldregora.unique_weapons_weapons.itemlumiumhammer.name\",LocLore:[\"rldregora.unique_weapons_weapons.itemlumiumhammer.lore.0\",\"rldregora.unique_weapons_weapons.itemlumiumhammer.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:smite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:lessersmite"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedsmite"]},
@@ -239,7 +239,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\",\"This relic is said to harness the heat of the Blight itself\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{Potion:\"lycanitesmobs:smited\",remainingPotionHits:1000,display:{Name:\"Melt'exun\",Lore:[\"Slices through everything like butter\",\"This relic is said to harness the heat of the Blight itself\"],LocName:\"rldregora.unique_weapons_weapons.bronze_dagger.name\",LocLore:[\"rldregora.unique_weapons_weapons.bronze_dagger.lore.0\",\"rldregora.unique_weapons_weapons.bronze_dagger.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:smelter"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:meltdown"]},
             {"function": "enchant_randomly", "enchantments": ["spartanweaponry:incendiary"]},
@@ -258,7 +258,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Honjo Masamune\",Lore:[\"The legendary vanishing katana of old origins.\",\"May this relic serve you for longer days\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Honjo Masamune\",Lore:[\"The legendary vanishing katana of old origins.\",\"May this relic serve you for longer days\"],LocName:\"rldregora.unique_weapons_weapons.katana.name\",LocLore:[\"rldregora.unique_weapons_weapons.katana.lore.0\",\"rldregora.unique_weapons_weapons.katana.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unsheathing"]},
             {"function": "enchant_randomly", "enchantments": ["minecraft:vanishing_curse"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:parry"]},
@@ -279,7 +279,7 @@
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackSpeed","name": "attackSpeed","amount": {"min": 0, "max": 0.5},"operation": "addition","slot": ["mainhand"]}]},
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 3},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Kotlin\",Lore:[\"Fonny's bane\",\"May the code imbued in this relic touch thou enemies and confuse them\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Kotlin\",Lore:[\"Fonny's bane\",\"May the code imbued in this relic touch thou enemies and confuse them\"],LocName:\"rldregora.unique_weapons_weapons.broken_bottle.name\",LocLore:[\"rldregora.unique_weapons_weapons.broken_bottle.lore.0\",\"rldregora.unique_weapons_weapons.broken_bottle.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedpunch"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disorientation"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:inhumane"]},
@@ -307,7 +307,7 @@
           "name": "variedcommodities:cleaver",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\",\"No scale too hard, no bone too thick for this relic wil rip\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Cleaver\",Lore:[\"For your every day butchering!\",\"No scale too hard, no bone too thick for this relic wil rip\"],LocName:\"rldregora.unique_weapons_weapons.cleaver.name\",LocLore:[\"rldregora.unique_weapons_weapons.cleaver.lore.0\",\"rldregora.unique_weapons_weapons.cleaver.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:looting"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:innerberserk"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:unpredictable"]},
@@ -326,7 +326,7 @@
           "name": "variedcommodities:frost_dagger",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\",\"May this relic piece straight and decisive\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sting Ray\",Lore:[\"Useful in case of abductions!\",\"May this relic piece straight and decisive\"],LocName:\"rldregora.unique_weapons_weapons.frost_dagger.name\",LocLore:[\"rldregora.unique_weapons_weapons.frost_dagger.lore.0\",\"rldregora.unique_weapons_weapons.frost_dagger.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:penetration"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:reviledblade"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:penetratingedge"]},
@@ -338,7 +338,7 @@
           "name": "variedcommodities:excalibur",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Excalibur\",Lore:[\"For Camelot!\",\"May this relic grant you vitality in your battles\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Excalibur\",Lore:[\"For Camelot!\",\"May this relic grant you vitality in your battles\"],LocName:\"rldregora.unique_weapons_weapons.excalibur.name\",LocLore:[\"rldregora.unique_weapons_weapons.excalibur.lore.0\",\"rldregora.unique_weapons_weapons.excalibur.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:sweeping"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:fieryedge"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:strengthenedvitality"]},
@@ -357,7 +357,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Shiv\",Lore:[\"Get Shivved!\",\"May this relic, the Shiv Serve you Supremely\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Shiv\",Lore:[\"Get Shivved!\",\"May this relic, the Shiv Serve you Supremely\"],LocName:\"rldregora.unique_weapons_weapons.emerald_dagger.name\",LocLore:[\"rldregora.unique_weapons_weapons.emerald_dagger.lore.0\",\"rldregora.unique_weapons_weapons.emerald_dagger.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:sunshine"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:rusted"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disorientation"]},
@@ -376,7 +376,7 @@
           "weight": 1,
           "functions": [
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0, "max": 2},"operation": "addition","slot": ["mainhand"]}]},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Eagle's Claw\",Lore:[\"Get Eagle'd!\",\"This relic strikes your foes with Eagle's Math\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Eagle's Claw\",Lore:[\"Get Eagle'd!\",\"This relic strikes your foes with Eagle's Math\"],LocName:\"rldregora.unique_weapons_weapons.sai.name\",LocLore:[\"rldregora.unique_weapons_weapons.sai.lore.0\",\"rldregora.unique_weapons_weapons.sai.lore.1\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:assassinate"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:criticalstrike"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:disarmament"]},

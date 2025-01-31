@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Legacy Monument\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-2327 z:15842\"]}}"
+              "tag": "{display:{Name:\"Legacy Monument\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-2327 z:15842\"],LocName:\"rldregora.travelers_legacyspawn.filled_map.name\",LocLore:[\"rldregora.travelers_legacyspawn.filled_map.lore.0\",\"rldregora.travelers_legacyspawn.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-2327 z:15842\",Lore:[\"The center of once a great civilization.\"]}}"
+              "tag": "{display:{Name:\"x:-2327 z:15842\",Lore:[\"The center of once a great civilization.\"],LocName:\"rldregora.travelers_legacyspawn.book.name\",LocLore:[\"rldregora.travelers_legacyspawn.book.lore\"]}}"
             }
           ],
           "weight": 1
@@ -79,7 +79,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribal Banner\"}}"
+              "tag": "{display:{Name:\"Tribal Banner\",LocName:\"rldregora.travelers_legacyspawn.banner.name\"}}"
             },
             {
               "function": "minecraft:set_nbt",

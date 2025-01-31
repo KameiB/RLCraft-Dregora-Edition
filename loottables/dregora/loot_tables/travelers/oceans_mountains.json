@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Resourceful Mountains\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14881 z:-7754\"]}}"
+              "tag": "{display:{Name:\"Resourceful Mountains\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14881 z:-7754\"],LocName:\"rldregora.oceans_mountains.filled_map.name\",LocLore:[\"rldregora.oceans_mountains.filled_map.lore.0\",\"rldregora.oceans_mountains.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-14881 z:-7754\",Lore:[\"Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.\"]}}"
+              "tag": "{display:{Name:\"x:-14881 z:-7754\",Lore:[\"Vertical, down and down the shaft for at the bottom you will be met with essence of minecraft.\"],LocName:\"rldregora.oceans_mountains.book.name\",LocLore:[\"rldregora.oceans_mountains.book.lore\"]}}"
             }
           ],
           "weight": 1

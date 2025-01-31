@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Castle Ruins\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14202 z:-6004\"]}}"
+              "tag": "{display:{Name:\"Castle Ruins\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14202 z:-6004\"],LocName:\"rldregora.oceans_castle.filled_map.name\",LocLore:[\"rldregora.oceans_castle.filled_map.lore.0\",\"rldregora.oceans_castle.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-14202 z:-6004\",Lore:[\"Ruins undisturbed and lands undiscovered.\"]}}"
+              "tag": "{display:{Name:\"x:-14202 z:-6004\",Lore:[\"Ruins undisturbed and lands undiscovered.\"],LocName:\"rldregora.oceans_castle.book.name\",LocLore:[\"rldregora.oceans_castle.book.lore\"]}}"
             }
           ],
           "weight": 1

@@ -12,7 +12,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Sword\",Lore:[\"The sword feels warm to the touch\"]}}"
+              "tag": "{display:{Name:\"Gilded Sword\",Lore:[\"The sword feels warm to the touch\"],LocName:\"rldregora.gilded_sword4.gilded_sword.name\",LocLore:[\"rldregora.gilded_sword4.gilded_sword.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -69,7 +69,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Yugi\u0027s Grave\"}}"
+              "tag": "{display:{Name:\"Yugi\u0027s Grave\",LocName:\"rldregora.gilded_sword4.yugis_grave.name\"}}"
             },
             {
               "function": "minecraft:set_attributes",

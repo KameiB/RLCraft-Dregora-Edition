@@ -29,13 +29,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"My hands feel rough, there\u0027s dirt under my nails and my cheeks are black. This is what it is to work in the mines, day after day. It surely does pay good but as I go day by day my muscles grow stronger yet I grow weaker and today might be my\\\"}]\",
-                  \"[{\\\"text\\\":\\\"last day as the entrance collapsed. At the same time the shifting rocks also opened up an ancient cave, a cave with weird straight beams made from a material I have never seen before. I heard the stories about ancient structures in the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"wastelands yet this is here, in the middle of the mountains. A big cave with beams and lights, doors... Maybe these will grant us a way out of this maze of mines.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.stronghold.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.stronghold.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.stronghold.page.3\\\"}]\"
                 ],
                 title:\"The Stronghold\",
+                locTitle:\"rldregora.mineshafts.stronghold.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Ancient structures, deep underground.\"]}
+                locAuthor:\"rldregora.mineshafts.stronghold.author\",
+                display:{Lore:[\"Ancient structures, deep underground.\"],LocLore:[\"rldregora.mineshafts.stronghold.lore\"]}
               }"
             },
             {
@@ -44,12 +46,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"As the operational officer of the Z1-3, Z2-3 and Z1-15 mines, I discovered there is a variation in mineral deposits depending on the location. Usually rivers and such should accumulate a larger then average gold deposit, however the ancient\\\"}]\",
-                  \"[{\\\"text\\\":\\\"records seem to be failing at this point as we have not found any trace of gold in the rivers just yet. Instead they are mainly buried deep under the ground. In particular, the mountains contain a large quantity of valuables.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.mineral_deposits.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.mineral_deposits.page.2\\\"}]\"
                 ],
                 title:\"Mineral Deposits\",
+                locTitle:\"rldregora.mineshafts.mineral_deposits.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Useful information regarding mineral deposits.\"]}
+                locAuthor:\"rldregora.mineshafts.mineral_deposits.author\",
+                display:{Lore:[\"Useful information regarding mineral deposits.\"],LocLore:[\"rldregora.mineshafts.mineral_deposits.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -59,12 +63,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Buried deep underground in chasms we found bones, mainly underneath the plains. I can still hear the historians talk about this with great admiration. Something I can\u0027t fathom as there are stories of these beasts walking, running or even flying\\\"}]\",
-                  \"[{\\\"text\\\":\\\"around. Stories go that there are even those who dig tunnels, gigantic worms in the wastelands... It truly gives me the creeps while chopping away rock after rock in search of gold, emerald, diamonds and more.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.bones_beasts.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.bones_beasts.page.2\\\"}]\"
                 ],
                 title:\"Bones & Beasts\",
+                locTitle:\"rldregora.mineshafts.bones_beasts.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A not so ancient discovery in the mines\"]}
+                locAuthor:\"rldregora.mineshafts.bones_beasts.author\",
+                display:{Lore:[\"A not so ancient discovery in the mines\"],LocLore:[\"rldregora.mineshafts.bones_beasts.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -74,12 +80,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"I hear rumors about the beasts and their dungeons, both underground. It\u0027s scary but well paid. They say the deeper you go the more dangerous it becomes, and the more frequent these encounters will be. So I mine and mine, now equipped\\\"}]\",
-                  \"[{\\\"text\\\":\\\"with a sword and armor for safety. Yet they roam in these tunnels waiting for a moment in which I let down my guard. They won\u0027t get me, though.  No, definitely not.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.encounters_mines.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.encounters_mines.page.2\\\"}]\"
                 ],
                 title:\"Encounters in the Mines\",
+                locTitle:\"rldregora.mineshafts.encounters_mines.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Rumors, or truth?\"]}
+                locAuthor:\"rldregora.mineshafts.encounters_mines.author\",
+                display:{Lore:[\"Rumors, or truth?\"],LocLore:[\"rldregora.mineshafts.encounters_mines.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -89,15 +97,17 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"I am but a John Doe trapped underneath dirt and rock. Water is slowly rising as they have broken through the ceiling and the lake came falling down. We, our crew are all here experiencing our final moments. These mines are dangerous, not to\\\"}]\",
-                  \"[{\\\"text\\\":\\\"be underestimated. Corrupted roaming around, surrounded by ancient relics striking those who witness with everlasting fear for something they may or may not ever encounter. Stories about ancient structures, paths leading to the surface. The\\\"}]\",
-                  \"[{\\\"text\\\":\\\"last as a sliver of hope. Not here though... Here is darkness, here is the place where life decays slowly while the water is rising and rising while we close our eyes and imagine. We are not here, we are bathing in a bathhouse, washing the dirt\\\"}]\",
-                  \"[{\\\"text\\\":\\\"off while enjoying the moment with a glass of beer...\n\nAs we keep talking about our past experiences I turn around and see the door, an exit. I stand up, slowly walk over only to find myself falling into the void.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\n\nThis is it, farewell cruel world.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.trapped.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.trapped.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.trapped.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.trapped.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mineshafts.trapped.page.5\\\"}]\"
                 ],
                 title:\"Trapped\",
+                locTitle:\"rldregora.mineshafts.trapped.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The Demise of a John Doe.\"]}
+                locAuthor:\"rldregora.mineshafts.trapped.author\",
+                display:{Lore:[\"The Demise of a John Doe.\"],LocLore:[\"rldregora.mineshafts.trapped.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -116,7 +126,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

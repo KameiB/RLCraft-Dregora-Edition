@@ -29,19 +29,21 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Once upon a time there was a fisherman and the fisherman had a son. Every early morning the boy would wake up, sometimes even before his dad. Why you may ask? Well, the boy looked up to his dad the fisherman who even procured a claw of the beasts from beyond.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"He would often say that he would become the strongest fisherman of them all and to achieve such a goal he would carry his dad\u0027s fishing road as his father took the much much lighter fishing nets.\n\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Until one day, proud as he was he told all his friends that his dad would fish along the shorelines where monsters lurked from below the tall, gray trees and could catch him at any moment. But his dad was not afraid! He has beaten one of them before and holds the claw as proof!\\\"}]\",
-                  \"[{\\\"text\\\":\\\"His friends however were not impressed, they even stated the fisherman lied about the monsters and the claw was from a bird. Bring in a head is what his friends said. And so the kid smart as he was said that that was something he could not ask nor get. However...\\\"}]\",
-                  \"[{\\\"text\\\":\\\"He could show them as his dad took him on his boat sometimes and he learned to sail.\n\nMoments later they stood at the docks and climbed into the boat, Monster Hunting Time! is what the kid silently announced.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"As they raised the sails Whispers came and the current took over. A last look behind them revealed dense fog rolling in over the harbor and the whispers becoming louder...\\\"}]\",
-                  \"[{\\\"text\\\":\\\"As the villagers returned to their houses the fisherman searched the streets. Alan? Alan! is what he yelled. He started running towards the docks fearful of what he would or rather would not find.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Coughing and out of breath he stood there with his eyes wide open staring to his boat with Alan in it. He just sat there staring to the ocean. All by himself. Angry the dad asked Alan what he was thinking but the boy still just sat there.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Hey!? his dad yelled at him. No response, but as the fisherman waited for a response he could hear one thing.\n\n\nWhispers calling for him...\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.lurking_trees.page.9\\\"}]\"
                 ],
                 title:\"Lurking below the trees.\",
+                locTitle:\"rldregora.medievalcity.lurking_trees.title\",
                 author:\"The Whisperer\",
-                display:{Lore:[\"A book meant to scare children from venturing too far.\"]}
+                locAuthor:\"rldregora.medievalcity.lurking_trees.author\",
+                display:{Lore:[\"A book meant to scare children from venturing too far.\"],LocLore:[\"rldregora.medievalcity.lurking_trees.lore\"]}
               }"
             },
             {
@@ -50,14 +52,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"It\u0027s been just a month since we finished the foundation of this city, one of many to function as a bridge between the inner and middle layer of this safe haven we call Dregora. The morale is amazing as we have not lost a single soul to the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"invaders of our newly invented world. Brick by brick we\u0027ll rebuild what was destroyed but better while giving this new world a chance the former world never had. A way to build and create without the need of nuclear reactors. Without the risk of\\\"}]\",
-                  \"[{\\\"text\\\":\\\"an energy war ever happening again and thus we build like our very old ancestors did. With wood, stone, tears and blood. Slowly laying the foundation of a new civilization, of new strongholds and huge kingdoms, now nothing more than plans\\\"}]\",
-                  \"[{\\\"text\\\":\\\"written on paper, but soon to be realized.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.the_frontier.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.the_frontier.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.the_frontier.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.the_frontier.page.4\\\"}]\"
                 ],
                 title:\"The Frontier\",
+                locTitle:\"rldregora.medievalcity.the_frontier.title\",
                 author:\"Unknown Dregorian Origin\",
-                display:{Lore:[\"A very old book.\"]}
+                locAuthor:\"rldregora.medievalcity.the_frontier.author\",
+                display:{Lore:[\"A very old book.\"],LocLore:[\"rldregora.medievalcity.the_frontier.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -67,12 +71,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"This book contains information on the ancient laws of Dregora in which it states several rules like we live by these days, except for a couple of differences. One, for example, would be to live in harmony and prosper, which seems awfully idealistic\\\"}]\",
-                  \"[{\\\"text\\\":\\\"for these times. However despite being a book of laws it has some interesting entries basically preventing anyone to experiment with the forces of nature, explicitly lightning.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.forbidden_laws.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.forbidden_laws.page.2\\\"}]\"
                 ],
                 title:\"Forbidden Book of Laws\",
+                locTitle:\"rldregora.medievalcity.forbidden_laws.title\",
                 author:\"Ancient Lawmakers\",
-                display:{Lore:[\"Banned Book of Laws, with a very interesting scope.\"]}
+                locAuthor:\"rldregora.medievalcity.forbidden_laws.author\",
+                display:{Lore:[\"Banned Book of Laws, with a very interesting scope.\"],LocLore:[\"rldregora.medievalcity.forbidden_laws.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -82,14 +88,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Entry 1-9:\nIn the beginning Dregorians came upon our lands. The land was scorched and lifeless and darkness was over the face of the deep. And a Dregorian said, let there be light, and light there was. And a Dregorian said let there be good and the corrupted left.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 1-17\nAs for the one who is weak in faith, welcome him, but not to quarrel over opinions.\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 3-19\nBut of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 11-4\nAnd God saw everything that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.ancient_church.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.ancient_church.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.ancient_church.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.ancient_church.page.4\\\"}]\"
                 ],
                 title:\"Ancient Book of the Church\",
+                locTitle:\"rldregora.medievalcity.ancient_church.title\",
                 author:\"The Dregoran\",
-                display:{Lore:[\"This Ancient book is mostly unreadable, however some can just nearly be read...\"]}
+                locAuthor:\"rldregora.medievalcity.ancient_church.author\",
+                display:{Lore:[\"This Ancient book is mostly unreadable, however some can just nearly be read...\"],LocLore:[\"rldregora.medievalcity.ancient_church.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -99,12 +107,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"It has been months since the initial creation of this stronghold started. It\u0027s nothing like the old cities whose remnants still remain in the wastelands, yet it\u0027s a start. It surprises me how fast it all goes. Ships already started setting sail towards the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"great unknown to go and explore what remains of this world. Rumors already return telling grand tales about ice forming on the outer edges of Dregora.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.founders_note.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.medievalcity.founders_note.page.2\\\"}]\"
                 ],
                 title:\"Founder\u0027s Note\",
+                locTitle:\"rldregora.medievalcity.founders_note.title\",
                 author:\"Sapphiran Origin, The Sailor\",
-                display:{Lore:[\"A page from the Founders Book\"]}
+                locAuthor:\"rldregora.medievalcity.founders_note.author\",
+                display:{Lore:[\"A page from the Founders Book\"],LocLore:[\"rldregora.medievalcity.founders_note.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -123,7 +133,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Quarry\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-16254 z:-4887\"]}}"
+              "tag": "{display:{Name:\"Quarry\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-16254 z:-4887\"],LocName:\"rldregora.travelers_quarry.filled_map.name\",LocLore:[\"rldregora.travelers_quarry.filled_map.lore.0\",\"rldregora.travelers_quarry.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-16254 z:-4887\",Lore:[\"Once a brimming area full of wealth now overtaken by something else...\"]}}"
+              "tag": "{display:{Name:\"x:-16254 z:-4887\",Lore:[\"Once a brimming area full of wealth now overtaken by something else...\"],LocName:\"rldregora.travelers_quarry.book.name\",LocLore:[\"rldregora.travelers_quarry.book.lore\"]}}"
             }
           ],
           "weight": 1
@@ -55,7 +55,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Ancient Pickaxe\",Lore:[\"Inscribed in the handle it says \u0027Merlin\u0027s touch\u0027\"]}}"
+              "tag": "{display:{Name:\"Ancient Pickaxe\",Lore:[\"Inscribed in the handle it says \u0027Merlin\u0027s touch\u0027\"],LocName:\"rldregora.travelers_quarry.iron_pickaxe.name\",LocLore:[\"rldregora.travelers_quarry.iron_pickaxe.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -94,7 +94,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Book of Salt\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"A mighty pickaxe within the chest, upon touching it vanishes for you carry no luck.\"]}}"
+              "tag": "{display:{Name:\"Book of Salt\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"A mighty pickaxe within the chest, upon touching it vanishes for you carry no luck.\"],LocName:\"rldregora.travelers_quarry.book_salt.name\",LocLore:[\"rldregora.travelers_quarry.book_salt.lore.0\",\"rldregora.travelers_quarry.book_salt.lore.1\"]}}"
             }
           ]
         },

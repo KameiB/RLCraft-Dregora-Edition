@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Fantol\",Lore:[\" "]},
+                display:{Name:\"Bottled Fantol\",Lore:[\" \"],LocName:\"rldregora.city_potion_2.fantol.name\"},
                 Potion:\"minecraft:water\"
               }"
             },
@@ -24,7 +24,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.7}],
               "tag": "
               {
-                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_2.fantol.name\"},
                 CustomPotionEffects:[{Id:3,Duration:300,Amplifier:0},{Id:7,Duration:100,Amplifier:1}],
                 CustomPotionColor:2053119,
                 HideFlags:32
@@ -34,7 +34,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_2.fantol.name\"},
                 Potion:\"minecraft:mundane\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]
@@ -43,7 +43,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Fantol\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_2.fantol.name\"},
                 Potion:\"minecraft:thick\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]

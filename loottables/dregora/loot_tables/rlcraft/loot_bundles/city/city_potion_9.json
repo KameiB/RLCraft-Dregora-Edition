@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Dr Booster\",Lore:[\"\u00A70\u2620\"]}
+                display:{Name:\"Bottled Dr Booster\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_9.dr_booster.name\"}
               }"
             },
             {
@@ -23,7 +23,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.3}],
               "tag": "
               {
-                display:{Name:\"Bottled Dr Booster\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Dr Booster\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_9.dr_booster.name\"},
                 CustomPotionEffects:[{Id:9,Duration:300,Amplifier:0},{Id:15,Duration:100,Amplifier:0},{Id:17,Duration:600,Amplifier:0}],
                 CustomPotionColor:2053119,
                 HideFlags:32

@@ -14,7 +14,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Pandora\u0027s Shield\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+1 Knockback Resistance\",\"§9+1 Armor Toughness\",\"§9+1 Armor\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Pandora\u0027s Shield\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+1 Knockback Resistance\",\"§9+1 Armor Toughness\",\"§9+1 Armor\"],LocName:\"rldregora.cursed_shields.pandoras_shield.name\",LocLore:[\"rldregora.cursed_shields.pandoras_shield.lore\",\" \",\"rldregora.cursed.modifiers.offhand\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.armorToughness.plus.arg\",\"rldregora.attribute.name.generic.armor.plus.arg\"],LocLoreArg:[\"\",\"\",\"\",\"1\",\"1\",\"1\"]},HideFlags:3}"
             },
             {
               "function": "enchant_randomly",
@@ -100,7 +100,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shield of Posession\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Shield of Posession\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"],LocName:\"rldregora.cursed_shields.shield_possession.name\",LocLore:[\"rldregora.cursed_shields.shield_possession.lore\",\" \",\"rldregora.cursed.modifiers.offhand\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.armorToughness.plus.arg\",\"rldregora.attribute.name.generic.armor.plus.arg\"],LocLoreArg:[\"\",\"\",\"\",\"2\",\"3\",\"1\"]},HideFlags:3}"
             },
             {
               "function": "enchant_randomly",
@@ -186,7 +186,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shield of Greed\",Lore:[\"With greed thou shalt have it all.\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Shield of Greed\",Lore:[\"With greed thou shalt have it all.\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"],LocName:\"rldregora.cursed_shields.shield_greed.name\",LocLore:[\"rldregora.cursed_shields.shield_greed.lore\",\" \",\"rldregora.cursed.modifiers.offhand\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.armorToughness.plus.arg\",\"rldregora.attribute.name.generic.armor.plus.arg\"],LocLoreArg:[\"\",\"\",\"\",\"2\",\"3\",\"1\"]},HideFlags:3}"
             },
             {
               "function": "enchant_randomly",
@@ -287,7 +287,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shield of Brittle Ownership\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Shield of Brittle Ownership\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"],LocName:\"rldregora.cursed_shields.brittle_ownership.name\",LocLore:[\"rldregora.cursed_shields.brittle_ownership.lore\",\" \",\"rldregora.cursed.modifiers.offhand\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.armorToughness.plus.arg\",\"rldregora.attribute.name.generic.armor.plus.arg\"],LocLoreArg:[\"\",\"\",\"\",\"2\",\"3\",\"1\"]},HideFlags:3}"
             },
             {
               "function": "enchant_randomly",
@@ -376,7 +376,7 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shield of Pain\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Shield of Pain\",Lore:[\"Upon this shield rest a heavy curse...\",\"\",\"§4When in off hand:\",\"§9+2 Knockback Resistance\",\"§9+3 Armor Toughness\",\"§9+1 Armor\"],LocName:\"rldregora.cursed_shields.shield_pain.name\",LocLore:[\"rldregora.cursed_shields.shield_pain.lore\",\" \",\"rldregora.cursed.modifiers.offhand\",\"rldregora.attribute.name.generic.knockbackResistance.plus.arg\",\"rldregora.attribute.name.generic.armorToughness.plus.arg\",\"rldregora.attribute.name.generic.armor.plus.arg\"],LocLoreArg:[\"\",\"\",\"\",\"2\",\"3\",\"1\"]},HideFlags:3}"
             },
             {
               "function": "enchant_randomly",

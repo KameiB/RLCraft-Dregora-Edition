@@ -29,12 +29,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Eos diligenter recensenda religionis ubi sic advertatur. Habeantur sanguinem partiales medicinam cum sua cui. Ex virtutibus percepturi si complector aliquamdiu gi mo. Quaecunque nul verumtamen materialis hoc lor argumentum.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Ita finitae hominem dei nam naturas. Vita pla fere luce adeo item eas. Cera illa atra ii cito et ad. Quiddam age sum nemoque impetus admodum. Si potuerit quidquid at impulsum im tenebras.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.adv_pot_making.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.adv_pot_making.page.2\\\"}]\"
                 ],
                 title:\"Advanced Potion Making\",
+                locTitle:\"rldregora.witch.adv_pot_making.title\",
                 author:\"Steven Heiran\",
-                display:{Lore:[\"This book\u0027s illustrations indicates this is a book about \npotions and the ingredients used to make them. \nIf only this book was written in common text it \ncould\u0027ve been of some use.\"]}
+                locAuthor:\"rldregora.witch.adv_pot_making.author\",
+                display:{Lore:[\"This book\u0027s illustrations indicates this is a book about \",\"potions and the ingredients used to make them. \",\"If only this book was written in common text it \",\"could\u0027ve been of some use.\"],LocLore:[\"rldregora.witch.adv_pot_making.lore.0\",\"rldregora.witch.adv_pot_making.lore.1\",\"rldregora.witch.adv_pot_making.lore.2\",\"rldregora.witch.adv_pot_making.lore.3\"]}
               }"
             },
             {
@@ -43,11 +45,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Is integritas ab difficilia et consumerem co contrariae efficietur. Is ab suum illa ex ut deum. An co primis si fuerit posita ii. Cur serio falsa sequi anima istis nia sum vitae iii. Viris ex hausi ad longa negat. Possumus permulta putantur dumtaxat ut momentum to ac si.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.mechanic.page.1\\\"}]\"
                 ],
                 title:\"Book of the Mechanic\",
+                locTitle:\"rldregora.witch.mechanic.title\",
                 author:\"Baldy Blabbers\",
-                display:{Lore:[\"This book contains various illustrations on basic\",\"spring powered mechanics.\"]}
+                locAuthor:\"rldregora.witch.mechanic.author\",
+                display:{Lore:[\"This book contains various illustrations on basic\",\"spring powered mechanics.\"],LocLore:[\"rldregora.witch.mechanic.lore.0\",\"rldregora.witch.mechanic.lore.1\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -57,14 +61,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Entry 1:\nThe Blight and the red eyes that come with it is what keeps us moving. Further and Further away.. Before we are left, before the last doors are closed.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 2:\nMonths have passed since the doors where closed. Many of us have perished... Some even worse. We are being hunted by those who walked among us not that long ago.\n\n\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 3:\nI managed to outrun them, found this broken bunker and decided to stay here for the time being.\n\n\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Entry 4:\nA decade has passed. I stayed longer then I wanted to but the winter did not stop for many years... Everything is dead now. Everything is to waste.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.ghouls.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.ghouls.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.ghouls.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.ghouls.page.4\\\"}]\"
                 ],
                 title:\"Book of Ghouls\",
+                locTitle:\"rldregora.witch.ghouls.title\",
                 author:\"Ghoul\",
-                display:{Lore:[\"The writings of many men yet only one who has written.\"]}
+                locAuthor:\"rldregora.witch.ghouls.author\",
+                display:{Lore:[\"The writings of many men yet only one who has written.\"],LocLore:[\"rldregora.witch.ghouls.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -74,11 +80,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Do not run but hide as they will come.\nHowls in the night, Dark red eyes... They will hunt...\nThey will grunt... Stay hidden, close the doors\nFootsteps on the nearby floors... It is too late\nThey found their prey...\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.twilight.page.1\\\"}]\"
                 ],
                 title:\"At Twilight\",
+                locTitle:\"rldregora.witch.twilight.title\",
                 author:\"The Dark Witch\",
-                display:{Lore:[\"Dark Omen\"],ench:[{id:10,lvl:1}]}
+                locAuthor:\"rldregora.witch.twilight.author\",
+                display:{Lore:[\"Dark Omen\"],LocLore:[\"rldregora.witch.twilight.lore\"],ench:[{id:10,lvl:1}]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -88,11 +96,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Angels creeping, witches sleeping...\nKeep it light, fend of their might or they\u0027ll\nEat you alive.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.witch.creep.page.1\\\"}]\"
                 ],
                 title:\"At night they creep\",
+                locTitle:\"rldregora.witch.creep.title\",
                 author:\"The Dark Witch\",
-                display:{Lore:[\"Dark Omen\"],ench:[{id:10,lvl:1}]}
+                locAuthor:\"rldregora.witch.creep.author\",
+                display:{Lore:[\"Dark Omen\"],LocLore:[\"rldregora.witch.creep.lore\"],ench:[{id:10,lvl:1}]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -111,7 +121,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

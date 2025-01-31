@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_potion_sickness\",
-                display:{Name:\"Potion of Chaotic Regeneration\",Lore:[\"§9Regeneration III (0:45)\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Chaotic Regeneration\",Lore:[\"§9Regeneration III (0:45)\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_12.chaotic_regen.name\",LocLore:[\"rldregora.cursed_potion_12.chaotic_regen.lore\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:25,Duration:1800},{Id:10,Duration:900,Amplifier:2}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_potion_sickness\",
-                display:{Name:\"Potion of Chaotic Regeneration\",Lore:[\"§9Regeneration III (0:45)\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Chaotic Regeneration\",Lore:[\"§9Regeneration III (0:45)\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_12.chaotic_regen.name\",LocLore:[\"rldregora.cursed_potion_12.chaotic_regen.lore\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:25,Duration:1800},{Id:10,Duration:900,Amplifier:2}],
                 HideFlags:32
               }"

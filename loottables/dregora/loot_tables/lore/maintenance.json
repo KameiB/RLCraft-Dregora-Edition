@@ -29,12 +29,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Why I took this pencil and paper evades me in these last moments I have. The exit has been cut off and these beings kept streaming in, it\u0027s only a matter of time before they\u0027ll find me so I guess writing helps me calm down..\n\nPerhaps some unlucky soul manages to.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"distract these... Former humans. That\u0027ll be my only shot at escaping these tunnels.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.no_escape.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.no_escape.page.2\\\"}]\"
                 ],
                 title:\"No Escape\",
+                locTitle:\"rldregora.maintenance.no_escape.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This book barely holds together, it must be very old.\"]}
+                locAuthor:\"rldregora.maintenance.no_escape.author\",
+                display:{Lore:[\"This book barely holds together, it must be very old.\"],LocLore:[\"rldregora.maintenance.no_escape.lore\"]}
               }"
             },
             {
@@ -43,12 +45,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Blasted tunnels, one would expect more then a singular entry and exit point but no they had to subsidize again. Why am I even writing this down...? Perhaps in a brighter future then mine they\u0027ll learn to not subsidize!\\\"}]\",
-                  \"[{\\\"text\\\":\\\"And while I am at it, if only that slowpoke of a Luigi would\u0027ve been faster we wouldn\u0027t have had to hide here and could've gone to the shelters instead!\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.evacuation.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.evacuation.page.2\\\"}]\"
                 ],
                 title:\"Evacuation\",
+                locTitle:\"rldregora.maintenance.evacuation.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This book barely holds together, it must be very old.\"]}
+                locAuthor:\"rldregora.maintenance.evacuation.author\",
+                display:{Lore:[\"This book barely holds together, it must be very old.\"],LocLore:[\"rldregora.maintenance.evacuation.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -58,11 +62,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Breathing my last breaths, mistaking these maintenance shafts for the shelters will be my end... I think i lost them for now bu\n\n- the writing abrubtly stops.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.shelter.page.1\\\"}]\"
                 ],
                 title:\"Shelter\",
+                locTitle:\"rldregora.maintenance.shelter.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This book barely holds together, it must be very old.\"]}
+                locAuthor:\"rldregora.maintenance.shelter.author\",
+                display:{Lore:[\"This book barely holds together, it must be very old.\"],LocLore:[\"rldregora.maintenance.shelter.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -72,12 +78,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"147 moons passed since my departure from the remnants into the wastelands and today I stumbled upon a odd structure, unlike the smooth stone decaying towers these seem to go deep below.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"I\u0027ve only taken a peek and it seems safe except for the climb down during which I have to be very careful. With some luck I\u0027ll be able to find some of those artifacts mentioned by those folks at the outpost.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.explorers_note.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.explorers_note.page.2\\\"}]\"
                 ],
                 title:\"Explorer\u0027s Note\",
+                locTitle:\"rldregora.maintenance.explorers_note.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Some scribbles, not too old from the looks of it.\"]}
+                locAuthor:\"rldregora.maintenance.explorers_note.author\",
+                display:{Lore:[\"Some scribbles, not too old from the looks of it.\"],LocLore:[\"rldregora.maintenance.explorers_note.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -87,11 +95,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"I\u0027ve barricated myself in with only few supplies, my companions failed to make it. They fell victim to those beasts on the other side, they hadn\u0027t noticed me yet but it\u0027s probably only a matter of time.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.maintenance.barricade.page.1\\\"}]\"
                 ],
                 title:\"Barricade\",
+                locTitle:\"rldregora.maintenance.barricade.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This book barely holds together, it must be very old.\"]}
+                locAuthor:\"rldregora.maintenance.barricade.author\",
+                display:{Lore:[\"This book barely holds together, it must be very old.\"],LocLore:[\"rldregora.maintenance.barricade.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -110,7 +120,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

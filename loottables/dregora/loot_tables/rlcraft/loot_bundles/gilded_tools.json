@@ -13,7 +13,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Hammer\",Lore:[\"This ancient weapon is infused with corrupted energy\"]}}"
+              "tag": "{display:{Name:\"Gilded Hammer\",Lore:[\"This ancient weapon is infused with corrupted energy\"],LocName:\"rldregora.gilded_tools.itemgoldhammer.name\",LocLore:[\"rldregora.gilded_tools.gilded.lore\"]}}"
             },
             {"function": "set_damage","damage": {"min": 0.60,"max": 0.95}},
             {"function": "enchant_with_levels","levels": 10,"conditions": [{"condition": "random_chance","chance": 0.2}]},
@@ -28,7 +28,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Spear\",Lore:[\"This ancient weapon is infused with corrupted energy\"]}}"
+              "tag": "{display:{Name:\"Gilded Spear\",Lore:[\"This ancient weapon is infused with corrupted energy\"],LocName:\"rldregora.gilded_tools.itemgoldspear.name\",LocLore:[\"rldregora.gilded_tools.gilded.lore\"]}}"
             },
             {"function": "enchant_with_levels","levels": 10,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "enchant_with_levels","levels": 20,"conditions": [{"condition": "random_chance","chance": 0.2}]},
@@ -42,7 +42,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Dagger\",Lore:[\"This ancient weapon is infused with corrupted energy\"]}}"
+              "tag": "{display:{Name:\"Gilded Dagger\",Lore:[\"This ancient weapon is infused with corrupted energy\"],LocName:\"rldregora.gilded_tools.itemgolddagger.name\",LocLore:[\"rldregora.gilded_tools.gilded.lore\"]}}"
             },
             {"function": "set_damage","damage": {"min": 0.60,"max": 0.95}},
             {"function": "enchant_with_levels","levels": 10,"conditions": [{"condition": "random_chance","chance": 0.2}]},
@@ -57,7 +57,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Battleaxe\",Lore:[\"This ancient weapon is infused with corrupted energy\"]}}"
+              "tag": "{display:{Name:\"Gilded Battleaxe\",Lore:[\"This ancient weapon is infused with corrupted energy\"],LocName:\"rldregora.gilded_tools.itemgoldbattleaxe.name\",LocLore:[\"rldregora.gilded_tools.gilded.lore\"]}}"
             },
             {"function": "set_damage","damage": {"min": 0.60,"max": 0.95}},
             {"function": "enchant_with_levels","levels": 10,"conditions": [{"condition": "random_chance","chance": 0.2}]},
@@ -72,7 +72,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Gilded Nunchaku\",Lore:[\"This ancient weapon is infused with corrupted energy\"]}}"
+              "tag": "{display:{Name:\"Gilded Nunchaku\",Lore:[\"This ancient weapon is infused with corrupted energy\"],LocName:\"rldregora.gilded_tools.itemgoldnunchaku.name\",LocLore:[\"rldregora.gilded_tools.gilded.lore\"]}}"
             },
             {"function": "set_damage","damage": {"min": 0.60,"max": 0.95}},
             {"function": "enchant_with_levels","levels": 10,"conditions": [{"condition": "random_chance","chance": 0.2}]},

@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Jar of Dirt\",Lore:[\"You have a jar of dirt!\"]}}"
+              "tag": "{display:{Name:\"Jar of Dirt\",LocName:\"rldregora.piratejunk.dirtbucket.name\",Lore:[\"You have a jar of dirt!\"],LocLore:[\"rldregora.piratejunk.dirtbucket.lore\"]}}"
             }
           ]
         },
@@ -117,7 +117,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Cooked Bat Wing\",Lore:[\"Let\u0027s not start a pandemic should we?\"]}}"
+              "tag": "{display:{Name:\"Cooked Bat Wing\",LocName:\"rldregora.piratejunk.itemcookedbatwing.name\",Lore:[\"Let\u0027s not start a pandemic should we?\"],LocLore:[\"rldregora.piratejunk.itemcookedbatwing.lore\"]}}"
             }
           ]
         },

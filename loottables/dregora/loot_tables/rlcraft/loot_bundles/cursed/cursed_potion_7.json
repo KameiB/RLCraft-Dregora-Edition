@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:drown\",
-                display:{Name:\"Potion Water Breathing\",Lore:[\"§9Water Breathing (3:00)\",\"§0\u2620\"]},
+                display:{Name:\"Potion Water Breathing\",Lore:[\"§9Water Breathing (3:00)\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_7.water_breathing.name\",LocLore:[\"rldregora.cursed_potion_7.water_breathing.lore\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:13,Duration:3600},{Id:2,Duration:3600,Amplifier:2}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:drown\",
-                display:{Name:\"Potion Water Breathing\",Lore:[\"§9Water Breathing (3:00)\",\"§0\u2639\"]},
+                display:{Name:\"Potion Water Breathing\",Lore:[\"§9Water Breathing (3:00)\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_7.water_breathing.name\",LocLore:[\"rldregora.cursed_potion_7.water_breathing.lore\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:13,Duration:3600},{Id:2,Duration:3600,Amplifier:2}],
                 HideFlags:32
               }"

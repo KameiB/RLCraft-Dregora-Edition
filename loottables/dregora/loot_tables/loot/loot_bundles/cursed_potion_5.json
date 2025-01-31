@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Lingering Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness_ling.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_1\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Lingering Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness_ling.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Splash Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness_splash.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_1\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Splash Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness_splash.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_1\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"]},
+                display:{Name:\"Potion of Shiftness\",Lore:[\"\u00A7r\u00A79Speed IV (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+80% Speed\"],LocName:\"rldregora.cursed_potion_5.potion_shiftness.name\",LocLore:[\"rldregora.cursed_potion_5.potion_shiftness.lore.0\",\"rldregora.cursed_potion_5.potion_shiftness.lore.1_2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.2\",\"rldregora.cursed_potion_5.potion_shiftness.lore.3\"]},
                 CustomPotionEffects:[{Id:9,Duration:1200,Amplifier:10,ShowParticles:0b,ShowIcon:0b},{Id:1,Duration:600,Amplifier:3b}],
                 CustomPotionColor:8303306,
                 HideFlags:32

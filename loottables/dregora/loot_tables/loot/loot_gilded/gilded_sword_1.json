@@ -12,7 +12,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Ancient Sword\",Lore:[\"A sword imbued with magic making it feel lighter and sharper.\"]}}"
+              "tag": "{display:{Name:\"Ancient Sword\",Lore:[\"A sword imbued with magic making it feel lighter and sharper.\"],LocName:\"rldregora.gilded_sword1.ancient_sword.name\",LocLore:[\"rldregora.gilded_sword1.ancient_sword.lore\"]}}"
             },
             {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:vanishing_curse", "levels": 1},
             {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:fire_aspect", "levels": 2},
@@ -56,7 +56,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Natsu\u0027s Grave\"}}"
+              "tag": "{display:{Name:\"Natsu\u0027s Grave\",LocName:\"rldregora.gilded_sword1.natsus_grave.name\"}}"
             },
             {
               "function": "minecraft:set_attributes",

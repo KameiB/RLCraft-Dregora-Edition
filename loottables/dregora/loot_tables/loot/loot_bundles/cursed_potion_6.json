@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Lingering Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration_ling1.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Lingering Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration_ling2.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Splash Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration_splash1.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Splash Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration_splash2.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Potion of Regeneration \u00A70\u2620\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration1.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"]},
+                display:{Name:\"Potion of Regeneration \u00A70\u2639\",Lore:[\"\u00A7r\u00A79Regeneration III (0:15)\"],LocName:\"rldregora.cursed_potion_6.potion_regeneration2.name\",LocLore:[\"rldregora.cursed_potion_6.potion_regeneration.lore\"]},
                 CustomPotionEffects:[{Id:19,Duration:300,Amplifier:1,ShowParticles:0b,ShowIcon:0b},{Id:10,Duration:300,Amplifier:2,},{Id:2,Duration:300,Amplifier:10,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:13721262,
                 HideFlags:32

@@ -23,7 +23,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Skull of Luck\",Lore:[\"Holding this in your off-hand gives you a boost of luck.\"]}}"
+              "tag": "{display:{Name:\"Skull of Luck\",Lore:[\"Holding this in your off-hand gives you a boost of luck.\"],LocName:\"rldregora.bone_loot.skull.name\",LocLore:[\"rldregora.bone_loot.skull.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Helm of Resentment\",Lore:[\"This headpiece comes with a surprise\"]}}"
+              "tag": "{display:{Name:\"Helm of Resentment\",Lore:[\"This headpiece comes with a surprise\"],LocName:\"rldregora.bone_loot.iron_helmet.name\",LocLore:[\"rldregora.bone_loot.iron_helmet.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -118,7 +118,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Sleeper Sword\",Lore:[\"This training sword packs more of\",\"a punch it should be able to\",\"handle\"]}}"
+              "tag": "{display:{Name:\"Sleeper Sword\",Lore:[\"This training sword packs more of\",\"a punch it should be able to\",\"handle\"],LocName:\"rldregora.bone_loot.wooden_sword.name\",LocLore:[\"rldregora.bone_loot.wooden_sword.lore.0\",\"rldregora.bone_loot.wooden_sword.lore.1\",\"rldregora.bone_loot.wooden_sword.lore.2\"]}}"
             },
             {
               "function": "set_nbt",

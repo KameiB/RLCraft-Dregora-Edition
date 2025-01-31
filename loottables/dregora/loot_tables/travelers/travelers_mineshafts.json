@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Happy Times Industries\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14198 z:-7854\"]}}"
+              "tag": "{display:{Name:\"Happy Times Industries\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14198 z:-7854\"],LocName:\"rldregora.travelers_mineshafts.filled_map.name\",LocLore:[\"rldregora.travelers_mineshafts.filled_map.lore.0\",\"rldregora.travelers_mineshafts.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-14198 z:-7854\",Lore:[\"Valley of the grand treasure mines, beware your head!\"]}}"
+              "tag": "{display:{Name:\"x:-14198 z:-7854\",Lore:[\"Valley of the grand treasure mines, beware your head!\"],LocName:\"rldregora.travelers_mineshafts.book.name\",LocLore:[\"rldregora.travelers_mineshafts.book.lore\"]}}"
             }
           ],
           "weight": 1
@@ -61,7 +61,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Golden Gurlet\",Lore:[\"a nimble pickaxe that packs a punch but leaves you wide open.\"]}}"
+              "tag": "{display:{Name:\"Golden Gurlet\",Lore:[\"a nimble pickaxe that packs a punch but leaves you wide open.\"],LocName:\"rldregora.travelers_mineshafts.golden_pickaxe.name\",LocLore:[\"rldregora.travelers_mineshafts.golden_pickaxe.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -89,7 +89,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tribal Banner\"}}"
+              "tag": "{display:{Name:\"Tribal Banner\",LocName:\"rldregora.travelers_mineshafts.banner.name\"}}"
             },
             {
               "function": "minecraft:set_nbt",

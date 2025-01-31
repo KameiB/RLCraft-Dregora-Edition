@@ -25,7 +25,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Travelers Compass\",Lore:[\"The compass has a inscription on the back\",\"Follow the pointed path and wonders await.\"]}}"
+              "tag": "{display:{Name:\"Travelers Compass\",Lore:[\"The compass has a inscription on the back\",\"Follow the pointed path and wonders await.\"],LocName:\"rldregora.ocean_main.compass.name\",LocLore:[\"rldregora.ocean_main.compass.lore.0\",\"rldregora.ocean_main.compass.lore.1\"]}}"
             }
           ],
           "weight": 1

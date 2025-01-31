@@ -10,7 +10,7 @@
           "name": "variedcommodities:demonic_staff",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Rizzler\",Lore:[\"Rizz them down before they even know you are there!\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"The Rizzler\",Lore:[\"Rizz them down before they even know you are there!\"],LocName:\"rldregora.demonic_staff.rizzler.name\",LocLore:[\"rldregora.demonic_staff.rizzler.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
             {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 0.1, "max": 0.8}, "operation": "addition", "slot": ["mainhand"]}]}
           ]

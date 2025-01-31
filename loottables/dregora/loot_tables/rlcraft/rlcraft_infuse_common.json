@@ -93,7 +93,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"rlmixins:curse_break\",display:{Name:\"Potion of Untainted Curse Break\"}}"
+              "tag": "{Potion:\"rlmixins:curse_break\",display:{Name:\"Potion of Untainted Curse Break\",LocName:\"rldregora.brutaltowers.curse_break.name\"}}"
             }
           ],
           "weight": 5
