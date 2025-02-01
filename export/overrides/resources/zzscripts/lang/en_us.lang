@@ -1,39 +1,13 @@
 ##################################################################
 # Dregora.zs
 ##################################################################
-## StatusMessages ===========================================================
-#ITextComponent.fromTranslation(String translationKey);
-message.rldregora.mount_spooked=It seems something has your mount spooked, and will not cooperate.
-message.rldregora.cant_mount=An ominous feeling overcomes you, as if you are being watched... Perhaps it's best to proceed on foot
-message.rldregora.yank_potion=You sense a mysterious force from below coming up at you as it yanks the potion from your hands
-message.rldregora.yank_mirror=You sense a mysterious force from below coming up at you as it yanks the mirror from your hands
-
 ## Event-conditioned Item Names & Lore =============================================
 item.rldregora.corrupted_ashes.name=Corrupted Ashes
 item.rldregora.infernal_ashes.name=Infernal Ashes
-tooltip.rldregora.conductivity.1=§e§oConductivity +1
-tooltip.rldregora.conductivity.2=§e§oConductivity +2
-tooltip.rldregora.conductivity.3=§e§oConductivity +3
-tooltip.rldregora.conductivity.4=§e§oConductivity +4
-tooltip.rldregora.conductivity.5=§e§oConductivity +5
-tooltip.rldregora.conductivity.10=§e§oConductivity +10
-tooltip.rldregora.conductivity.100=§e§oConductivity +100
-tooltip.rldregora.srpkills=§r§9---> %s
-tooltip.rldregora.srpkills.tasted_blood=§r§9---> %s§r§5§o Your weapon tasted blood, now it longs for Parasites...
-tooltip.rldregora.srpkills.tasted_blood_empty=§5§oYour weapon tasted blood, now it longs for Parasites...
 
 ##################################################################
 # Dregora_arrays.zs
 ##################################################################
-## RandomLightningMessageArray =========================================
-message.rldregora.RandomLightningMessageArray.0=Zzzrrt zzzap zskrt
-message.rldregora.RandomLightningMessageArray.1=You feel a tingling sensation...
-message.rldregora.RandomLightningMessageArray.2=What's that crackling sound...?
-message.rldregora.RandomLightningMessageArray.3=Your hair suddenly stands on end
-message.rldregora.RandomLightningMessageArray.4=Brrzzz kerack zrpp zrrrktttt
-message.rldregora.RandomLightningMessageArray.5=Bliksement blawargh zrrrktt
-message.rldregora.RandomLightningMessageArray.6=Did you know the chance of getting hit by lightning is 1 in 1,222,000?
-message.rldregora.RandomLightningMessageArray.7=There's a hint of ozone in the air...
 ## BlackListEntitiesNameChangeVillager ==================================
 Sussyberian=Sussyberian
 Mentalberian=Mentalberian
@@ -111,13 +85,13 @@ rldregora.effect.minecraft.unluck.lore=§f ☕§b Can decrease the quality and q
 rldregora.effect.minecraft.fire_resistance.name=§rStatus Effect§a Fire Resistance
 rldregora.effect.minecraft.fire_resistance.lore=§f ☕§b Grants immunity to fire and lava.
 
-# Charm Effects
+# Charm Effects =================================================================
 rldregora.effect.charm.ender_sight.name=§rStatus Effect§a Ender Sight
 rldregora.effect.charm.ender_sight.lore=§f ☕§b Allows to locate the stronghold and attracts endermen.
 rldregora.effect.charm.coffee.name=§rStatus Effect§a Coffee
 rldregora.effect.charm.coffee.lore=§f ☕§b Gives Speed, Haste and Strength for a short time.
 
-# PotionCore Effects
+# PotionCore Effects =================================================================
 rldregora.effect.potioncore.magic_inhibition.name=§rStatus Effect§c Magic Inhibition
 rldregora.effect.potioncore.magic_inhibition.lore=§f ☕§b Decreases magic damage.
 rldregora.effect.potioncore.bless.name=§rStatus Effect§a BlessS
@@ -207,7 +181,7 @@ rldregora.effect.potioncore.weight.lore=§f ☕§b Decreases jump height.
 rldregora.effect.potioncore.dispel.name=§rStatus Effect§c Dispel
 rldregora.effect.potioncore.dispel.lore=§f ☕§b Clears all positive potion effects.
 
-# Rustic Effects
+# Rustic Effects =================================================================
 rldregora.effect.rustic.blazing_trail.name=§rStatus Effect§a Blazing Trail
 rldregora.effect.rustic.blazing_trail.lore=§f ☕§b Leaves a trail of fire behind the target.
 rldregora.effect.rustic.shame.name=§rStatus Effect§c Shame
@@ -223,11 +197,11 @@ rldregora.effect.rustic.magic_resistance.lore=§f ☕§b Reduces magic damage ta
 rldregora.effect.rustic.ironskin.name=§rStatus Effect§a Iron Skin
 rldregora.effect.rustic.ironskin.lore=§f ☕§b Increases armor and armor toughness.
 
-# Quark Effects
+# Quark Effects =================================================================
 rldregora.effect.quark.resilience.name=§rStatus Effect§a Resilience
 rldregora.effect.quark.resilience.lore=§f ☕§b Increases knockback resistance.
 
-# SimpleDifficulty Effects
+# SimpleDifficulty Effects ======================================================
 rldregora.effect.simpledifficulty.parasites.name=§rStatus Effect§c Parasites
 rldregora.effect.simpledifficulty.parasites.lore=§f ☕§b Deals damage each second.
 rldregora.effect.simpledifficulty.cold_resist.name=§rStatus Effect§a Cold Resistance
@@ -241,11 +215,11 @@ rldregora.effect.simpledifficulty.hyperthermia.lore=§f ☕§b Causes damage ove
 rldregora.effect.simpledifficulty.thirsty.name=§rStatus Effect§c Thirsty
 rldregora.effect.simpledifficulty.thirsty.lore=§f ☕§b Causes increased thirst.
 
-# ScalingHealth Effects
+# ScalingHealth Effects ==========================================================
 rldregora.effect.scalinghealth.bandaged.name=§rStatus Effect§a Bandaged
 rldregora.effect.scalinghealth.bandaged.lore=§f ☕§b Applies Slowness and Heals you over time
 
-#SRParasites Effects
+#SRParasites Effects =============================================================
 rldregora.effect.srparasites.needler.name=§rStatus Effect§c Needler
 rldregora.effect.srparasites.needler.lore=§f ☕§b Deals 40%% of HP after reaching stage 7.
 rldregora.effect.srparasites.antimall.name=§rStatus Effect§c Immalleable
@@ -277,7 +251,7 @@ rldregora.effect.srparasites.corrosive.lore=§f ☕§b Weakens armor durability.
 rldregora.effect.srparasites.fear.name=§rStatus Effect§c Fear
 rldregora.effect.srparasites.fear.lore=§f ☕§b Inflicts major fall damage and cancels controls.
 
-# Fish Undead Effects
+# Fish Undead Effects ==============================================================
 rldregora.effect.mod_lavacow.infested.name=§rStatus Effect§c Infested
 rldregora.effect.mod_lavacow.infested.lore=§f ☕§b Inflicts Hunger and Slowness, also spawns parasites when the inflicted is dead.
 rldregora.effect.mod_lavacow.fragile.name=§rStatus Effect§c Deathtouched
@@ -289,7 +263,7 @@ rldregora.effect.mod_lavacow.corroded.lore=§f ☕§b Causes the inflicted entit
 rldregora.effect.mod_lavacow.soiled.name=§rStatus Effect§c Soiled
 rldregora.effect.mod_lavacow.soiled.lore=§f ☕§b Causes inflicted entity to be unable to eat food or drink potions.
 
-# LycanitesMobs Effects
+# LycanitesMobs Effects ============================================================
 rldregora.effect.lycanitesmobs.paralysis.name=§rStatus Effect§c Paralysis
 rldregora.effect.lycanitesmobs.paralysis.lore=§f ☕§b Drastically reduces movement speed and prevents jumping.
 rldregora.effect.lycanitesmobs.insomnia.name=§rStatus Effect§c Insomnia
@@ -343,7 +317,7 @@ rldregora.effect.lycanitesmobs.weight.lore=§f ☕§b Creates a constant downwar
 rldregora.effect.lycanitesmobs.heataura.name=§rStatus Effect§a Heat Aura
 rldregora.effect.lycanitesmobs.heataura.lore=§f ☕§b Burns enemies around the affected.
 
-# DefiledLands Effects
+# DefiledLands Effects ==========================================================
 rldregora.effect.defiledlands.bleeding.name=§rStatus Effect§c Bleeding
 rldregora.effect.defiledlands.bleeding.lore=§f ☕§b Deals damage every 2 seconds, with damage scaling with level.
 rldregora.effect.defiledlands.grounded.name=§rStatus Effect§c Grounded
@@ -351,7 +325,7 @@ rldregora.effect.defiledlands.grounded.lore=§f ☕§b Applies constant downward
 rldregora.effect.defiledlands.vulnerability.name=§rStatus Effect§c Vulnerability
 rldregora.effect.defiledlands.vulnerability.lore=§f ☕§b Increases all damage taken by 20%% per level.
 
-# Xat Trinkets and Baubles Effects
+# Xat Trinkets and Baubles Effects ==============================================
 rldregora.effect.xat.goblin.name=§rStatus Effect§a Goblin
 rldregora.effect.xat.goblin.lore.0=§f ☕§b Transforms you into the Goblin race with the following stats:
 rldregora.effect.xat.goblin.lore.1=§f ☕§b 50%% of original size.
@@ -501,20 +475,20 @@ rldregora.effect.bountifulbaubles.sinful.lore=§f ☕§b Gives an armor and dama
 rldregora.variedcommodities:mana.tooltip=§6A valuable resource used as ancient power source for magic wands.
 item.satchel.name=Coin Purse
 rldregora.variedcommodities:satchel.tooltip=§6A purse filled with ancient coins!
-## ContentTweaker
+## ContentTweaker ========================================================
 rldregora.reinforced_blocks.tooltip=§eCorruption Resistant
-## Quark
+## Quark =================================================================
 rldregora.quark:witch_hat.tooltip=§8Makes witches friendly and negates charm spectre curses
 rldregora.quark:pirate_hat.tooltip=§8Grants permanent looting I
 rldregora.quark:archaeologist_hat.tooltip=§8Grants 25%% additional chance to drop ores.
-# Fish Undead
+# Fish Undead ============================================================
 item.mod_lavacow.skeletonking_mace.name=Ban Hammer
 item.mod_lavacow.holy_grenade.name=Inferior Holy Grenade
 item.mod_lavacow.bonestew.name=Dragon Bone Stew
 item.mod_lavacow.dreamcatcher.name=Cursed Dream Catcher
 rldregora.mod_lavacow:fissionpotion.tooltip=§cSplits some tamable animals into two individual baby ones.
-rldregora.mod_lavacow:hatred_shard.tooltip=§9Fragment of reminiscence, carried by the skeleton king's underlings.
-rldregora.mod_lavacow:kings_crown.tooltip=§9Legend says the soul needs it's crown to be in the true desert for the body to rise once again.
+rldregora.mod_lavacow:hatred_shard.tooltip.0=§9Fragment of reminiscence, carried by the skeleton king's underlings.
+rldregora.mod_lavacow:kings_crown.tooltip.0=§9Legend says the soul needs it's crown to be in the true desert for the body to rise once again.
 rldregora.mod_lavacow:skeletonking_mace.tooltip=§9Effects not applied on bosses.
 rldregora.famine_armors.tooltip=§9Lost to the Cities and Chasms Deep
 item.mod_lavacow.acidicheart.name=Acidic Osvermis/Mummy Heart
@@ -522,8 +496,8 @@ item.mod_lavacow.feather_black.name=Black Raven/Penghoul Feathers
 item.mod_lavacow.burntovipositor.name=Burnt Salamander Ovipositor
 item.mod_lavacow.foul_bristle.name=Foul Foglet/Ithaqua Bristles
 item.mod_lavacow.hyphae.name=Mycosis Hyphae
-rldregora.mod_lavacow:kings_crown.tooltip=The True Desert's Treasure
-rldregora.mod_lavacow:hatred_shard.tooltip=The memory of a King and all those who were slain in his name.
+rldregora.mod_lavacow:kings_crown.tooltip.1=The True Desert's Treasure
+rldregora.mod_lavacow:hatred_shard.tooltip.1=The memory of a King and all those who were slain in his name.
 item.mod_lavacow.moltenbeef.name=Molten Salamander Meat
 item.mod_lavacow.mossy_stick.name=Sludge Stick
 item.mod_lavacow.pigboarhide.name=Undead Swine Hide
@@ -545,7 +519,7 @@ rldregora.mod_lavacow:dreamcatcher.tooltip.2=§8Pinghoul, Undertaker, Banshee, A
 rldregora.mod_lavacow:skeletonking_mace.tooltip.0=§eInstantly kills if the victim falls under 25%% health for 10 seconds after each hit.
 rldregora.mod_lavacow:skeletonking_mace.tooltip.1=§4This item is banned for obvious reasons.
 rldregora.mod_lavacow:mootenheart.tooltip=§eFire Damage Reduction: 25%%
-# VariedCommodities
+# VariedCommodities =================================================================
 rldregora.variedcommodities:tuxedo_chest.tooltip=Fancy Chestpiece, extremely old yet in near pristine state.
 rldregora.variedcommodities:tuxedo_pants.tooltip=Fancy Pants, extremely old yet in near pristine state.
 rldregora.variedcommodities:tuxedo_bottom.tooltip=Aged yet Fancy Trenchcoat, extremely old yet in near pristine state.
@@ -579,7 +553,7 @@ rldregora.variedcommodities:nanorum_head.tooltip=Aged Helmet, made of advanced a
 rldregora.variedcommodities:nanorum_chest.tooltip=Aged Chestplate, made of advanced alloys. Provides excellent protection.
 rldregora.variedcommodities:nanorum_legs.tooltip=Aged Legs, made of advanced alloys. Provides excellent protection.
 rldregora.variedcommodities:nanorum_boots.tooltip=Aged Boots, made of advanced alloys. Provides excellent protection.
-# Herbalist and Brutal Tower Traders/Info
+# Herbalist and Brutal Tower Traders/Info ================================================
 rldregora.srparasites:biomepurifier.tooltip=§6Obtainable at most Herbalists, rarely found at their overgrown cabin in plains and flower fields.
 rldregora.contenttweaker:blood_tear.tooltip=§eRemnants of Dreadnauts and Overlords
 item.coin_stone.name=Brutal Fragment
@@ -633,7 +607,6 @@ rldregora.biomesoplenty:mushroom:3.tooltip=Gleamshroom
 rldregora.biomesoplenty:terrarium:8.tooltip=Gleamshroom Terrarium
 rldregora.biomesoplenty:seaweed.name=Dried Seaweed
 tile.seaweed.kelp.name=Dried Seaweed
-
 
 ##################################################################
 # localization.zs

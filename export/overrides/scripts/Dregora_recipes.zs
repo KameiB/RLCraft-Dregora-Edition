@@ -277,10 +277,10 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 <mod_lavacow:fissionpotion>.addTooltip(game.localize("rldregora.mod_lavacow:fissionpotion.tooltip", "en_us"));
 
 // Reminisence tooltip
-<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip", "en_us"));
+<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip.0", "en_us"));
 
 // King's crown Tooltip
-<mod_lavacow:kings_crown:1>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip", "en_us"));
+<mod_lavacow:kings_crown:1>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.0", "en_us"));
 
 // Ban Hammer Tooltip
 <mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip", "en_us"));
@@ -302,8 +302,8 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 //<mod_lavacow:burntovipositor>.displayName = "Burnt Salamander Ovipositor";
 //<mod_lavacow:foul_bristle>.displayName = "Foul Foglet/Ithaqua Bristles";
 //<mod_lavacow:hyphae>.displayName = "Mycosis Hyphae";
-<mod_lavacow:kings_crown>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip", "en_us"));
-<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip", "en_us"));
+<mod_lavacow:kings_crown>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.1", "en_us"));
+<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip.1", "en_us"));
 //<mod_lavacow:moltenbeef>.displayName = "Molten Salamander Meat";
 //<mod_lavacow:mossy_stick>.displayName = "Sludge Stick";
 //<mod_lavacow:pigboarhide>.displayName = "Undead Swine Hide";
