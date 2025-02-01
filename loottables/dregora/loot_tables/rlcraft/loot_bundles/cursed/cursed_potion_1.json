@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:teleport_surface\",
-                display:{Name:\"Potion of Cloud Mining\",Lore:[\"§9Cloud Mining (1:00)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +500%\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Cloud Mining\",Lore:[\"§9Cloud Mining (1:00)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +500%\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_1.cloud_mining.name\",LocLore:[\"rldregora.cursed_potion_1.cloud_mining.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_1.cloud_mining.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:25,Duration:1200,Amplifier:5}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:teleport_surface\",
-                display:{Name:\"Potion of Cloud Mining\",Lore:[\"§9Cloud Mining (1:00)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +500%\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Cloud Mining\",Lore:[\"§9Cloud Mining (1:00)\",\"\",\"§5When Applied:\",\"§9Dig Speed: +500%\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_1.cloud_mining.name\",LocLore:[\"rldregora.cursed_potion_1.cloud_mining.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_1.cloud_mining.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:25,Duration:1200,Amplifier:5}],
                 HideFlags:32
               }"

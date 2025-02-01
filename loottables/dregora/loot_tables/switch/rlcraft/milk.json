@@ -25,7 +25,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Infested Milk\",Lore:[\"There are bugs crawling in the milk!!!\"]},
+                display:{Name:\"Infested Milk\",Lore:[\"There are bugs crawling in the milk!!!\"],LocName:\"rldregora.milk.infested_milk.name\",LocLore:[\"rldregora.milk.infested_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:10856609
@@ -36,7 +36,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Spoiled Milk\",Lore:[\"The milk looks spoiled... Yugh.\"]},
+                display:{Name:\"Spoiled Milk\",Lore:[\"The milk looks spoiled... Yugh.\"],LocName:\"rldregora.milk.spoiled_milk.name\",LocLore:[\"rldregora.milk.spoiled_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:13689782
@@ -48,7 +48,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Eyeball Milk\",Lore:[\"There are Eyes in the milk!!!?\"]},
+                display:{Name:\"Eyeball Milk\",Lore:[\"There are Eyes in the milk!!!?\"],LocName:\"rldregora.milk.eyeball_milk.name\",LocLore:[\"rldregora.milk.eyeball_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:16777215
@@ -60,7 +60,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Syrup Milk\",Lore:[\"Brrr Uhhll That is Disgusting!!!\"]},
+                display:{Name:\"Syrup Milk\",Lore:[\"Brrr Uhhll That is Disgusting!!!\"],LocName:\"rldregora.milk.syrup_milk.name\",LocLore:[\"rldregora.milk.syrup_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:12501694
@@ -72,7 +72,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Poisoned Milk\",Lore:[\"This milk seems poisoned!!\"]},
+                display:{Name:\"Poisoned Milk\",Lore:[\"This milk seems poisoned!!\"],LocName:\"rldregora.milk.poisoned_milk.name\",LocLore:[\"rldregora.milk.poisoned_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:6856299
@@ -84,7 +84,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Moldy Milk\",Lore:[\"A green layer covers the milk.... Yeah... NOPE!\"]},
+                display:{Name:\"Moldy Milk\",Lore:[\"A green layer covers the milk.... Yeah... NOPE!\"],LocName:\"rldregora.milk.moldy_milk.name\",LocLore:[\"rldregora.milk.moldy_milk.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:9424786
@@ -96,7 +96,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Spotted Milk\",Lore:[\"Black.. Brown and Green spots in the milk?\",\"Not Drinking That!\"]},
+                display:{Name:\"Spotted Milk\",Lore:[\"Black.. Brown and Green spots in the milk?\",\"Not Drinking That!\"],LocName:\"rldregora.milk.spotted_milk.name\",LocLore:[\"rldregora.milk.spotted_milk.lore.0\",\"rldregora.milk.spotted_milk.lore.1\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:11776947
@@ -108,7 +108,7 @@
               "tag": "
               {
                 Potion:\"mujmajnkraftsbettersurvival:milk\",
-                display:{Name:\"Bucket of White stuff\",Lore:[\"This can\u0027t be milk.. Can it?\"]},
+                display:{Name:\"Bucket of White stuff\",Lore:[\"This can\u0027t be milk.. Can it?\"],LocName:\"rldregora.milk.white_stuff.name\",LocLore:[\"rldregora.milk.white_stuff.lore\"]},
                 CustomPotionEffects:[{Id:17,Duration:1800,Amplifier:9},{Id:9,Duration:1800},{Id:2,Duration:1800},{Id:18,Duration:1800}],
                 Hideflags:35,
                 CustomPotionColor:16777215

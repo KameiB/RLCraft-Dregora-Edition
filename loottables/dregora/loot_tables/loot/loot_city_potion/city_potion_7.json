@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Ice Tea\",Lore:[\" "]},
+                display:{Name:\"Bottled Ice Tea\",Lore:[\" \"],LocName:\"rldregora.city_potion_7.ice_tea.name\"},
                 Potion:\"minecraft:water\"
               }"
             },
@@ -24,7 +24,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.7}],
               "tag": "
               {
-                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_7.ice_tea.name\"},
                 CustomPotionEffects:[{Id:20,Duration:300,Amplifier:0},{Id:17,Duration:300,Amplifier:0},{Id:15,Duration:300,Amplifier:1},{Id:10,Duration:400,Amplifier:0},{Id:9,Duration:600,Amplifier:0},{Id:4,Duration:300,Amplifier:0},{Id:2,Duration:200,Amplifier:0}],
                 CustomPotionColor:2053119,
                 HideFlags:32
@@ -34,7 +34,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_7.ice_tea.name\"},
                 Potion:\"minecraft:mundane\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]
@@ -43,7 +43,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Ice Tea\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_7.ice_tea.name\"},
                 Potion:\"minecraft:thick\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]

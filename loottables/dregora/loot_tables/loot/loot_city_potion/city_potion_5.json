@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\" "]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\" \"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 Potion:\"minecraft:water\"
               }"
             },
@@ -24,7 +24,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.7}],
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 CustomPotionEffects:[{Id:10,Duration:900}]
               }"
             },
@@ -33,7 +33,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.2}],
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 CustomPotionEffects:[{Id:15,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:4,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:19,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:600,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:600,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:2053119,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 Potion:\"minecraft:mundane\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]
@@ -52,7 +52,7 @@
               "function": "set_nbt",
               "tag": "
               {
-                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"]},
+                display:{Name:\"Bottled Shivvy\",Lore:[\"\u00A70\u2620\"],LocName:\"rldregora.city_potion_5.shivvy.name\"},
                 Potion:\"minecraft:thick\"
               }",
               "conditions": [{"condition": "random_chance","chance": 0.2}]

@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Quarry\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-16254 z:-4887\"]}}"
+              "tag": "{display:{Name:\"Quarry\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-16254 z:-4887\"],LocName:\"rldregora.oceans_quarry.filled_map.name\",LocLore:[\"rldregora.oceans_quarry.filled_map.lore.0\",\"rldregora.oceans_quarry.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:-16254 z:-4887\",Lore:[\"Once a brimming area full of wealth now overtaken by something else...\"]}}"
+              "tag": "{display:{Name:\"x:-16254 z:-4887\",Lore:[\"Once a brimming area full of wealth now overtaken by something else...\"],LocName:\"rldregora.oceans_quarry.book.name\",LocLore:[\"rldregora.oceans_quarry.book.lore\"]}}"
             }
           ],
           "weight": 1
@@ -55,7 +55,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Ancient Pickaxe\",Lore:[\"Inscribed in the handle it says \u0027Merlin\u0027s touch\u0027\"]}}"
+              "tag": "{display:{Name:\"Ancient Pickaxe\",Lore:[\"Inscribed in the handle it says \u0027Merlin\u0027s touch\u0027\"],LocName:\"rldregora.oceans_quarry.iron_pickaxe.name\",LocLore:[\"rldregora.oceans_quarry.iron_pickaxe.lore\"]}}"
             },
             {
               "function": "set_nbt",

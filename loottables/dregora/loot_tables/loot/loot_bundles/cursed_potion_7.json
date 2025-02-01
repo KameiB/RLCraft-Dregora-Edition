@@ -15,7 +15,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Lingering Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage_ling.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_1\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32
@@ -26,7 +26,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Lingering Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Lingering Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage_ling.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32
@@ -43,7 +43,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Splash Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Splash Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage_splash.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_1\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32
@@ -54,7 +54,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Splash Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Splash Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage_splash.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32
@@ -71,7 +71,7 @@
               "function": "minecraft:set_nbt",
               "tag": "
               {
-                display:{Name:\"Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2620\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_1\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32
@@ -82,7 +82,7 @@
               "conditions": [{"condition": "random_chance","chance": 0.4}],
               "tag": "
               {
-                display:{Name:\"Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"]},
+                display:{Name:\"Potion of Blind Rage\",Lore:[\"\u00A7r\u00A79Strength V (0:30)\",\"\u00A70\u2639\",\"\u00A75When Applied:\",\"\u00A79+15 Attack Damage\"],LocName:\"rldregora.cursed_potion_7.potion_blindrage.name\",LocLore:[\"rldregora.cursed_potion_7.potion_blindrage.lore.0\",\"rldregora.cursed_potion_7.potion_blindrage.lore.1_2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.2\",\"rldregora.cursed_potion_7.potion_blindrage.lore.3\"]},
                 CustomPotionEffects:[{Id:15,Duration:600,Amplifier:4,ShowParticles:0b,ShowIcon:0b},{Id:5,Duration:600,Amplifier:4},{Id:18,Duration:600,Amplifier:3,ShowParticles:0b,ShowIcon:0b}],
                 CustomPotionColor:9839908,
                 HideFlags:32

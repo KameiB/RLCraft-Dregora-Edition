@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"rlmixins:curse_break\",
-                display:{Name:\"Potion of Curse Break\",Lore:[\"§9Curse Break\",\"§5When Applied:\",\"§9Sardonic +1\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Curse Break\",Lore:[\"§9Curse Break\",\"§5When Applied:\",\"§9Sardonic +1\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_15.curse_break.name\",LocLore:[\"rldregora.cursed_potion_15.curse_break.lore.0\",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_15.curse_break.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:27,Duration:600,Amplifier:9},{Id:15,Duration:600,Amplifier:9},{Id:24,Duration:600,Amplifier:9},{Id:17,Duration:600,Amplifier:9},{Id:7,Duration:600},{Id:14,Duration:600},{Id:4,Duration:600,Amplifier:9},{Id:9,Duration:600,Amplifier:9},{Id:19,Duration:600,Amplifier:9},{Id:11,Duration:0},{Id:2,Duration:600,Amplifier:4},{Id:18,Duration:1200,Amplifier:9}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"rlmixins:curse_break\",
-                display:{Name:\"Potion of Curse Break\",Lore:[\"§9Curse Break\",\"§5When Applied:\",\"§9Sardonic +1\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Curse Break\",Lore:[\"§9Curse Break\",\"§5When Applied:\",\"§9Sardonic +1\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_15.curse_break.name\",LocLore:[\"rldregora.cursed_potion_15.curse_break.lore.0\",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_15.curse_break.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:27,Duration:600,Amplifier:9},{Id:15,Duration:600,Amplifier:9},{Id:24,Duration:600,Amplifier:9},{Id:17,Duration:600,Amplifier:9},{Id:7,Duration:600},{Id:14,Duration:600},{Id:4,Duration:600,Amplifier:9},{Id:9,Duration:600,Amplifier:9},{Id:19,Duration:600,Amplifier:9},{Id:11,Duration:0},{Id:2,Duration:600,Amplifier:4},{Id:18,Duration:1200,Amplifier:9}],
                 HideFlags:32
               }"

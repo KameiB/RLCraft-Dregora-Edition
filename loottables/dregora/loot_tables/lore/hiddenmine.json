@@ -29,13 +29,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"My friend once told me of tall mountains with on top abandoned mineshafts leading to riches deep below where he found diamonds, emerald and precious metals per bulk all ready to be digged up. He dreamt of going back there some day as he grew older and stronger.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Capable of extracting the ores... Just a dream had many told him as those who walked away from the convines of the villages and mining outposts were rarely seen again... As did he himself as he went to look for these treasures. I still hope to see his face once\\\"}]\",
-                  \"[{\\\"text\\\":\\\"again but it has been years already... Years after he went and chased dreams.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.3\\\"}]\"
                 ],
                 title:\"Mountains of wealth\",
+                locTitle:\"rldregora.hiddenmine.mountains_wealth.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A dusty old book containing drawnings, maps and a few words at the end...\"]}
+                locAuthor:\"rldregora.hiddenmine.mountains_wealth.author\",
+                display:{Lore:[\"A dusty old book containing drawnings, maps and a few words at the end...\"],LocLore:[\"rldregora.hiddenmine.mountains_wealth.lore\"]}
               }"
             },
             {
@@ -44,12 +46,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Beyond the convines of our settlement there are tunnels, endless tunnels leading in all directions, sometimes breaking open in huge chasms or fiery pits with rivers of lava but even bigger then that had to be the mysterious construction of rock and metal leading\\\"}]\",
-                  \"[{\\\"text\\\":\\\"down to the abyss. I once followed the countless steps and was met by a strong draft that pulled me towards this huge tunnel going on for miles and miles... A mysterious place indeed\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_tunnels.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_tunnels.page.2\\\"}]\"
                 ],
                 title:\"Hidden Tunnels\",
+                locTitle:\"rldregora.hiddenmine.hidden_tunnels.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Notes on findings within the community, it contains a interesting entry.\"]}
+                locAuthor:\"rldregora.hiddenmine.hidden_tunnels.author\",
+                display:{Lore:[\"Notes on findings within the community, it contains a interesting entry.\"],LocLore:[\"rldregora.hiddenmine.hidden_tunnels.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -59,11 +63,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"This book pays tribute to those who ventured too deep and were swallowed by beings that lurk, mechanisms which trap and pitfalls that kill.\n\nTo Jonny and Cloé, David and Gerald. To Naomi, Albert, Wilson.... and the list goes on.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.endless_book.page.1\\\"}]\"
                 ],
                 title:\"The Endless Book\",
+                locTitle:\"rldregora.hiddenmine.endless_book.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A book of names on those who got lost in the darkness.\"]}
+                locAuthor:\"rldregora.hiddenmine.endless_book.author\",
+                display:{Lore:[\"A book of names on those who got lost in the darkness.\"],LocLore:[\"rldregora.hiddenmine.endless_book.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -73,13 +79,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Beasts dislodged rocks in the caverns behind us blocking our way back. We managed to escape by running forward catching a glimpse of more beasts lurking in a branching tunnel. Moments later rocks fell down behind us, had we been seconds slower we\\\"}]\",
-                  \"[{\\\"text\\\":\\\"would have been trapped. These beasts are getting more and more aggressive as the weeks pass. It started with sabotaging our equipment left behind in the tunnels, then appearances. People started missing and now this.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"These beings... I wonder where they came from and I have my suspicions... One of them looked like one of the missing persons but deformed.. A lot.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.3\\\"}]\"
                 ],
                 title:\"Book of Calamities\",
+                locTitle:\"rldregora.hiddenmine.book_calamities.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This old book contains a collection of disasters that befell this community, one of them goes as following;\"]}
+                locAuthor:\"rldregora.hiddenmine.book_calamities.author\",
+                display:{Lore:[\"This old book contains a collection of disasters that befell this community, one of them goes as following;\"],LocLore:[\"rldregora.hiddenmine.book_calamities.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -89,13 +97,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"For these lands lie in the abyss of maps unfound and unexplored by many and hidden for even the keenest of eyes beyond this book no traces remain and all attempts finding these lands end in vain for there shall only be a few who will venture beyond the real.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Thou shall find the books; \u00A7l\u00A74Valhalla \u00A7rin viking realm and The \u00A7l\u00A74Pirate\u0027s Treasure\u00A7r in ships or tropical harbors afloat.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"For these treasures you would need to look in the unexplored lands for viking tales and the seas in southern ends where the pirates hide and jungle thrives.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.3\\\"}]\"
                 ],
                 title:\"The Hidden Map\",
+                locTitle:\"rldregora.hiddenmine.hidden_map.title\",
                 author:\"Librarian\",
-                display:{Lore:[\"One of the three books needed to find the Hidden Library\nWhere the coordinate of Z is negative X is positive.\"]}
+                locAuthor:\"entity.Villager.librarian\",
+                display:{Lore:[\"One of the three books needed to find the Hidden Library\nWhere the coordinate of Z is negative X is positive.\"],LocLore:[\"rldregora.hiddenmine.hidden_map.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -114,7 +124,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

@@ -29,11 +29,13 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"It\u0027s pilot day, testing whether this location has either a bad or good deposit. The surface composition and the way the trees grow differently at this particular area is odd to say the least. With some luck it's a sign of riches deep below, such as coal which is exactly what we\u0027re looking for.\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.prospector.page.1\\\"}]\"
                 ],
                 title:\"The Prospector\",
+                locTitle:\"rldregora.quarry.prospector.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"Black Trees is where the Black Gold awaits.\"]}
+                locAuthor:\"rldregora.quarry.prospector.author\",
+                display:{Lore:[\"Black Trees is where the Black Gold awaits.\"],LocLore:[\"rldregora.quarry.prospector.lore\"]}
               }"
             },
             {
@@ -42,16 +44,18 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"Standing at the edge I feel lucky, lucky not to be swallowed by this hole that doesn\u0027t seem to have a bottom. That is, until I realize the corrupted come from below the ground. On the other hand there may be a large deposit of valuables, and that\\\"}]\",
-                  \"[{\\\"text\\\":\\\"would save us months of digging. On top of that, no matter how slim the chance is there may still be someone to have survived the fall. I quickly scramble everyone and tell them to grab their climbing gear. Half an hour passed as we started\\\"}]\",
-                  \"[{\\\"text\\\":\\\"going down and down. First meters, then hundred of meters until my workers started complaining just as we neared a clearing. What is this? Our curiosity overtook as we descended further. A gigantic chasm, an underground world, what is this place?\\\"}]\",
-                  \"[{\\\"text\\\":\\\"However, our admiration lasted mere moments as we became aware of the bottom. The first thought that went through my head was a magma or lava river but I couldn\u0027t feel the heat. Upon closer inspection I saw monsters, countless of\\\"}]\",
-                  \"[{\\\"text\\\":\\\"them, and I wasn\u0027t the only one. I could see it in the way my team members behaved so I calmly said, Don\u0027t make a sound and lets get the hell out of here. As we ascended we could hear noises from below, screaming from the corrupted?\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Or maybe from the ones that fell and somehow survived. Once back at the surface we started sealing up the hole, first beams then plates and eventually dirt and stone so that nobody would ever come here and dig it up again.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.sinkhole.page.6\\\"}]\"
                 ],
                 title:\"Sinkhole\",
+                locTitle:\"rldregora.quarry.sinkhole.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A world beneath?\"]}
+                locAuthor:\"rldregora.quarry.sinkhole.author\",
+                display:{Lore:[\"A world beneath?\"],LocLore:[\"rldregora.quarry.sinkhole.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -61,16 +65,18 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"As we dug for days on end, each one of us with our own motives like family or wealth, we find ancient treasures. The finder receives 10% of the wealth it contains. Imagine finding an ancient magical sword or a book\\\"}]\",
-                  \"[{\\\"text\\\":\\\"full of secrets. Yet none of that matters to me. With the amount I\u0027ve gathered I could go some place and spend my old days without a worry ever again. If it hadn\u0027t been for that traveler I probably would be sitting in my mighty chair\\\"}]\",
-                  \"[{\\\"text\\\":\\\"enjoying some good whiskey right now. It started at the Grimstone Quarry where a traveler met me just after I found a book with strange markings. He told me to bury it somewhere and never look back or face the Redcloaks. First I thought\\\"}]\",
-                  \"[{\\\"text\\\":\\\"he was mad but soon after these so called Redcloaks started appearing from thin air in search of a book. So I made up my mind and buried the book. Moments later I was approached by the traveler once again. We talked for hours about the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"origin, what happened in the far past and most importantly what is to come.\n\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"Part of this involves a skeleton key I must find, somewhere beyond the wastelands. That was the moment I started my quest in search of this key that may mean our salvation or our demise.\n\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.pandoras_key.page.6\\\"}]\"
                 ],
                 title:\"Pandora\u0027s Key\",
+                locTitle:\"rldregora.quarry.pandoras_key.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The second Traveler.\"]}
+                locAuthor:\"rldregora.quarry.pandoras_key.author\",
+                display:{Lore:[\"The second Traveler.\"],LocLore:[\"rldregora.quarry.pandoras_key.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -80,14 +86,16 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"The ground started shaking as we quickly ran to safety in fear of the falling rocks. It was the seventh time this had happened within the month, yet we still worked every day. In fact within 5 minutes we started digging again.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Every day more and more workers left the quarry. Something I couldn\u0027t do just yet. This was my last chance to pay my debts, taking a run wasn\u0027t among the possibilities, or so I thought. Since here I stand, with my family, after escaping the\\\"}]\",
-                  \"[{\\\"text\\\":\\\"massacre in the village. A horde accompanied by what we thought to be an earthquake. Something we disturbed as we dug deeper and deeper until we opened an ancient chasm from which it flew: a dragon! I leave this letter here for others to find.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"If you feel the ground moving do not hesitate and run for your lives as this earthquake is not just like any other, it\u0027s alive.\n\n \\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.beware_earthquakes.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.beware_earthquakes.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.beware_earthquakes.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.beware_earthquakes.page.4\\\"}]\"
                 ],
                 title:\"Beware of Earthquakes\",
+                locTitle:\"rldregora.quarry.beware_earthquakes.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"From above...\"]}
+                locAuthor:\"rldregora.quarry.beware_earthquakes.author\",
+                display:{Lore:[\"From above...\"],LocLore:[\"rldregora.quarry.beware_earthquakes.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -97,22 +105,24 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"This report has been written up by the headmaster of the Kazungi Quarry and contains the following: Productivity chart, Reasoning, Current holdings. The charts have been updated each moon.\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lProductivity Chart: Moon 1\u00A7r\n\nTotal Extracted: 6019 LBS Raw Ore\n\nExtract - 890 LBS Pure Coal\n\nExtract - 70 LBS Pure Gold\n \\\"}]\",
-                  \"[{\\\"text\\\":\\\"\nExtract - 0.2 LBS Diamond\n\nExtract - 170 LBS RStone\n\nExtract - 0.1 LBS Emerald\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lProductivity Chart: Moon 2\u00A7r\n\nTotal Extracted: 8190 LBS Raw Ore\n\nExtract - 989 LBS Pure Coal\n\nExtract - 128 LBS Pure Gold\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\nExtract - 0.1 LBS Diamond\n\nExtract - 320 LBS RStone\n\nExtract - 0.09 LBS Emerald\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lProductivity Chart: Moon 3\u00A7r\n\nTotal Extracted: 10290 LBS Raw Ore\n\nExtract - 1829 LBS Pure Coal\n\nExtract - 144 LBS Pure Gold\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\nExtract - 0.5 LBS Diamond\n\nExtract - 158 LBS RStone\n\nExtract - 0.2 LBS Emerald\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lProductivity Chart: Moon 5\u00A7r\n\nTotal Extracted: 7881 LBS Raw Ore\n\nExtract - 1789 LBS Pure Coal\n\nExtract - 189 LBS Pure Gold\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\nExtract - 0.3 LBS Diamond\n\nExtract - 111 LBS RStone\n\nExtract - 0.4 LBS Emerald\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lReasoning Moon 1: \u00A7r\nSetting up Equipment, digging initial quarries, removing top layer caused a lower than normal extraction.\n\n\u00A7lReasoning Moon 2:\u00A7r\nRain caused the pit to fill delaying the mining operation for 2 days.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"\u00A7lReasoning Moon 3:\u00A7r\nNo problems to report, crew was especially motivated as things were going fine now.\n\n\u00A7lReasoning Moon 4: \u00A7rLarge concentration of corrupted were passing by, enforcing safety protocol.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Current Holdings:\n32380 LBS Raw Ore Extracted *\n5497 LBS Pure Coal Extracted - SOLD 80%\n531 LBS Pure Gold Extracted - SOLD 30%\n1.1 LBS Diamonds Extracted - SOLD 60%\n759 LBS RStone Extracted - SOLD 10%\n1.6 LBS Emerald Extracted - SOLD 5%\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.11\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.quarry.productivity_report.page.12\\\"}]\"
                 ],
                 title:\"Productivity Report\",
+                locTitle:\"rldregora.quarry.productivity_report.title\",
                 author:\"Quarry Headmaster\",
-                display:{Lore:[\"A productivity report written by a quarry headmaster.\"]}
+                locAuthor:\"rldregora.quarry.productivity_report.author\",
+                display:{Lore:[\"A productivity report written by a quarry headmaster.\"],LocLore:[\"rldregora.quarry.productivity_report.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -131,7 +141,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",

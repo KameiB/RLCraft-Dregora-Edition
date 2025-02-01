@@ -16,7 +16,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Sword\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Sword\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_sword.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -75,7 +75,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Shovel\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Shovel\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_shovel.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -134,7 +134,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Pickaxe\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Pickaxe\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_pickaxe.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -205,7 +205,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Axe\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Axe\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_axe.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -276,7 +276,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Helmet\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Helmet\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_helmet.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -340,7 +340,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Chestplate\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Chestplate\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_chestplate.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -404,7 +404,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Leggings\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Leggings\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_leggings.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -468,7 +468,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Damascus Gold Boots\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"]}}"
+              "tag": "{display:{Name:\"Damascus Gold Boots\",Lore:[\"Made of reinforced gold, a technique lost to ancient times.\"],LocName:\"rldregora.epic_tools.golden_boots.name\",LocLore:[\"rldregora.epic_tools.reinforced_gold.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",

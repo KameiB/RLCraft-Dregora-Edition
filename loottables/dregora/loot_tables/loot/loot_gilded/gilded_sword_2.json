@@ -12,7 +12,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Granite Sword\",Lore:[\"Holding this sword you feel heavy and slow but strong as well.\"]}}"
+              "tag": "{display:{Name:\"Granite Sword\",Lore:[\"Holding this sword you feel heavy and slow but strong as well.\"],LocName:\"rldregora.gilded_sword2.granite_sword.name\",LocLore:[\"rldregora.gilded_sword2.granite_sword.lore\"]}}"
             },
             {
               "function": "set_nbt",
@@ -93,7 +93,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Raiku\u0027s Grave\"}}"
+              "tag": "{display:{Name:\"Raiku\u0027s Grave\",LocName:\"rldregora.gilded_sword2.raikus_grave.name\"}}"
             },
             {
               "function": "minecraft:set_attributes",

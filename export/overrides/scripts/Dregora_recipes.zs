@@ -37,10 +37,11 @@ recipes.addShaped("dregora53",<biomesoplenty:gem_block:1>,
 recipes.addShaped("saw_bookshelf",<minecraft:book>*3,
 [[<ore:toolSaw>,<ore:bookshelf>]]);
 
-<variedcommodities:mana>.addTooltip("§6A valuable resource used as ancient power source for magic wands.");
 
-<variedcommodities:satchel>.displayName = "Coin Purse";
-<variedcommodities:satchel>.addTooltip("§6A purse filled with ancient coins!");
+<variedcommodities:mana>.addTooltip(game.localize("rldregora.variedcommodities:mana.tooltip", "en_us"));
+
+//<variedcommodities:satchel>.displayName = "Coin Purse";  //in zzscripts folder's lang file
+<variedcommodities:satchel>.addTooltip(game.localize("rldregora.variedcommodities:satchel.tooltip", "en_us"));
 
 recipes.addShaped("dregora54",<variedcommodities:satchel>,
  [[<minecraft:leather>,<contenttweaker:coin_pile>,<minecraft:leather>],
@@ -90,11 +91,11 @@ recipes.addShaped("dregora24",<minecraft:enchanting_table>,
   [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
 
 // add reinforced block item tooltip
-<contenttweaker:iron_plate_reinforced>.addTooltip("§eCorruption Resistant");
-<contenttweaker:iron_plate_slab_reinforced>.addTooltip("§eCorruption Resistant");
-<contentcreator:iron_plate_slab_reinforced>.addTooltip("§eCorruption Resistant");
-<contentcreator:iron_plate_stairs_reinforced>.addTooltip("§eCorruption Resistant");
-<contenttweaker:iron_plate_rust_reinforced>.addTooltip("§eCorruption Resistant");
+<contenttweaker:iron_plate_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
+<contenttweaker:iron_plate_slab_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
+<contentcreator:iron_plate_slab_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
+<contentcreator:iron_plate_stairs_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
+<contenttweaker:iron_plate_rust_reinforced>.addTooltip(game.localize("rldregora.reinforced_blocks.tooltip", "en_us"));
 
 //=================================
 //BLOCK HARDNESS ADJUSTERS
@@ -166,9 +167,9 @@ recipes.addShaped("dregora50",<contentcreator:iron_plate_stairs_reinforced> * 8,
 //QUARK HAT ADD TOOLTIPS
 //=================================
 
-<quark:witch_hat>.addTooltip("§8Makes witches friendly and negates charm spectre curses");
-//<quark:pirate_hat>.addTooltip("§8Grants permanent looting I");
-<quark:archaeologist_hat>.addTooltip("§8Grants 25% additional chance to drop ores.");
+<quark:witch_hat>.addTooltip(game.localize("rldregora.quark:witch_hat.tooltip", "en_us"));
+//<quark:pirate_hat>.addTooltip(game.localize("rldregora.quark:pirate_hat.tooltip", "en_us"));
+<quark:archaeologist_hat>.addTooltip(game.localize("rldregora.quark:archaeologist_hat.tooltip", "en_us"));
 
 //=================================
 //FISH UNDEAD RECIPES & NAME CHANGES
@@ -266,74 +267,74 @@ recipes.remove(<mod_lavacow:weta_hoe>);
 //recipes.remove(<mod_lavacow:emblem_of_king>); - Does not have a recipe blacklisted through JEI
 
 // Name Changes
-<mod_lavacow:skeletonking_mace>.displayName = "Ban Hammer";
-<mod_lavacow:holy_grenade>.displayName = "Inferior Holy Grenade";
-<mod_lavacow:bonestew>.displayName = "Dragon Bone Stew";
-<mod_lavacow:dreamcatcher>.displayName = "Cursed Dream Catcher";
+//<mod_lavacow:skeletonking_mace>.displayName = "Ban Hammer";
+//<mod_lavacow:holy_grenade>.displayName = "Inferior Holy Grenade";
+//<mod_lavacow:bonestew>.displayName = "Dragon Bone Stew";
+//<mod_lavacow:dreamcatcher>.displayName = "Cursed Dream Catcher";
 
 // Potion of fission tooltip
 <mod_lavacow:fissionpotion>.clearTooltip(true);
-<mod_lavacow:fissionpotion>.addTooltip("§cSplits some tamable animals into two individual baby ones.");
+<mod_lavacow:fissionpotion>.addTooltip(game.localize("rldregora.mod_lavacow:fissionpotion.tooltip", "en_us"));
 
 // Reminisence tooltip
-<mod_lavacow:hatred_shard>.addTooltip("§9Fragment of reminiscence, carried by the skeleton king's underlings.");
+<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip.0", "en_us"));
 
 // King's crown Tooltip
-<mod_lavacow:kings_crown:1>.addTooltip("§9Legend says the soul needs it's crown to be in the true desert for the body to rise once again.");
+<mod_lavacow:kings_crown:1>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.0", "en_us"));
 
 // Ban Hammer Tooltip
-<mod_lavacow:skeletonking_mace>.addTooltip("§9Effects not applied on bosses.");
+<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip", "en_us"));
 
 //Famine Armor Tooltip
-<mod_lavacow:faminearmor_helmet>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:faminearmor_chestplate>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:faminearmor_leggings>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:faminearmor_boots>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:famine>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:war>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:dreamcatcher>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:halo_necklace>.addTooltip("§9Lost to the Cities and Chasms Deep");
-<mod_lavacow:raven_whistle>.addTooltip("§9Lost to the Cities and Chasms Deep");
+<mod_lavacow:faminearmor_helmet>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_chestplate>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_leggings>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:faminearmor_boots>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:famine>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:war>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:halo_necklace>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
+<mod_lavacow:raven_whistle>.addTooltip(game.localize("rldregora.famine_armors.tooltip", "en_us"));
 
 // Obtained from tooltips & names
-<mod_lavacow:acidicheart>.displayName = "Acidic Osvermis/Mummy Heart";
-<mod_lavacow:feather_black>.displayName = "Black Raven/Penghoul Feathers";
-<mod_lavacow:burntovipositor>.displayName = "Burnt Salamander Ovipositor";
-<mod_lavacow:foul_bristle>.displayName = "Foul Foglet/Ithaqua Bristles";
-<mod_lavacow:hyphae>.displayName = "Mycosis Hyphae";
-<mod_lavacow:kings_crown>.addTooltip("The True Desert's Treasure");
-<mod_lavacow:hatred_shard>.addTooltip("The memory of a King and all those who were slain in his name.");
-<mod_lavacow:moltenbeef>.displayName = "Molten Salamander Meat";
-<mod_lavacow:mossy_stick>.displayName = "Sludge Stick";
-<mod_lavacow:pigboarhide>.displayName = "Undead Swine Hide";
-<mod_lavacow:plagued_porkchop>.displayName = "Undead Swine Meat";
-<mod_lavacow:poisonspore>.displayName = "Poisonous Mycosis Spores";
-<mod_lavacow:scythe_claw>.displayName = "Ithaqua Claw";
-<mod_lavacow:banshee_vocal_cord>.displayName = "Banshee Shriek Cord";
-<mod_lavacow:cactus_fruit>.displayName = "Cactyrant/Cactoid Fruit";
-<mod_lavacow:sharptooth>.addTooltip("Obtained from Foglet, Swarmer, Undead Swine, Wolf and Polar bears");
-<mod_lavacow:chitin>.displayName = "Weta Chitin";
-<mod_lavacow:frozenthigh>.displayName = "Frigid Thigh";
-<mod_lavacow:poisonstinger>.displayName = "Poisonous Vespa Stinger";
+//<mod_lavacow:acidicheart>.displayName = "Acidic Osvermis/Mummy Heart";
+//<mod_lavacow:feather_black>.displayName = "Black Raven/Penghoul Feathers";
+//<mod_lavacow:burntovipositor>.displayName = "Burnt Salamander Ovipositor";
+//<mod_lavacow:foul_bristle>.displayName = "Foul Foglet/Ithaqua Bristles";
+//<mod_lavacow:hyphae>.displayName = "Mycosis Hyphae";
+<mod_lavacow:kings_crown>.addTooltip(game.localize("rldregora.mod_lavacow:kings_crown.tooltip.1", "en_us"));
+<mod_lavacow:hatred_shard>.addTooltip(game.localize("rldregora.mod_lavacow:hatred_shard.tooltip.1", "en_us"));
+//<mod_lavacow:moltenbeef>.displayName = "Molten Salamander Meat";
+//<mod_lavacow:mossy_stick>.displayName = "Sludge Stick";
+//<mod_lavacow:pigboarhide>.displayName = "Undead Swine Hide";
+//<mod_lavacow:plagued_porkchop>.displayName = "Undead Swine Meat";
+//<mod_lavacow:poisonspore>.displayName = "Poisonous Mycosis Spores";
+//<mod_lavacow:scythe_claw>.displayName = "Ithaqua Claw";
+//<mod_lavacow:banshee_vocal_cord>.displayName = "Banshee Shriek Cord";
+//<mod_lavacow:cactus_fruit>.displayName = "Cactyrant/Cactoid Fruit";
+<mod_lavacow:sharptooth>.addTooltip(game.localize("rldregora.mod_lavacow:sharptooth.tooltip", "en_us"));
+//<mod_lavacow:chitin>.displayName = "Weta Chitin";
+//<mod_lavacow:frozenthigh>.displayName = "Frigid Thigh";
+//<mod_lavacow:poisonstinger>.displayName = "Poisonous Vespa Stinger";
 
 // Description Changes
-<mod_lavacow:raven_whistle>.addTooltip("§eRavens can be tamed using fermented spider eye or parasites.");
-<mod_lavacow:ghostjelly>.addTooltip("§eGives 6 seconds Resistance IV & 3 seconds Levitation III");
-<mod_lavacow:vespa_dagger>.addTooltip("§eInflicts Poison II");
+<mod_lavacow:raven_whistle>.addTooltip(game.localize("rldregora.mod_lavacow:raven_whistle.tooltip", "en_us"));
+<mod_lavacow:ghostjelly>.addTooltip(game.localize("rldregora.mod_lavacow:ghostjelly.tooltip", "en_us"));
+<mod_lavacow:vespa_dagger>.addTooltip(game.localize("rldregora.mod_lavacow:vespa_dagger.tooltip", "en_us"));
 <mod_lavacow:dreamcatcher>.clearTooltip(true);
-<mod_lavacow:dreamcatcher>.addTooltip("§eThe Dead roam nearby as you wake from your deep slumber...");
+<mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.mod_lavacow:dreamcatcher.tooltip.0", "en_us"));
 <mod_lavacow:dreamcatcher>.addTooltip(" ");
-<mod_lavacow:dreamcatcher>.addTooltip("§8Foglet, Undead Swine, Ithaqua, Sludge lord, Vespa, Scarecrow, Osvermis");
-<mod_lavacow:dreamcatcher>.addTooltip("§8Pinghoul, Undertaker, Banshee, Avaton, Vindicator, Ghost or a Chest!?");
+<mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.mod_lavacow:dreamcatcher.tooltip.1", "en_us"));
+<mod_lavacow:dreamcatcher>.addTooltip(game.localize("rldregora.mod_lavacow:dreamcatcher.tooltip.2", "en_us"));
 
 // Completely rename "Death" hammer
 <mod_lavacow:skeletonking_mace>.clearTooltip(true);
-<mod_lavacow:skeletonking_mace>.addTooltip("§eInstantly kills if the victim falls under 25% health for 10 seconds after each hit.");
-<mod_lavacow:skeletonking_mace>.addTooltip("§4This item is banned for obvious reasons.");
+<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.0", "en_us"));
+<mod_lavacow:skeletonking_mace>.addTooltip(game.localize("rldregora.mod_lavacow:skeletonking_mace.tooltip.1", "en_us"));
 
 // Completely rename Molten Heart Description
 <mod_lavacow:mootenheart>.clearTooltip(true);
-<mod_lavacow:mootenheart>.addTooltip("§eFire Damage Reduction: 25%");
+<mod_lavacow:mootenheart>.addTooltip(game.localize("rldregora.mod_lavacow:mootenheart.tooltip", "en_us"));
 
 // Remove fish undead recipes
 recipes.remove(<mod_lavacow:bonesword>);
@@ -418,131 +419,131 @@ recipes.addShaped("dregora46",<mod_lavacow:ghostjelly>,
 //DREGORARL NEW ITEM SETS FROM VARIEDCOMMODITIES
 //=================================
 
-<variedcommodities:tuxedo_chest>.addTooltip("Fancy Chestpiece, extremely old yet in near pristine state.");
-<variedcommodities:tuxedo_pants>.addTooltip("Fancy Pants, extremely old yet in near pristine state.");
-<variedcommodities:tuxedo_bottom>.addTooltip("Aged yet Fancy Trenchcoat, extremely old yet in near pristine state.");
+<variedcommodities:tuxedo_chest>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_chest.tooltip", "en_us"));
+<variedcommodities:tuxedo_pants>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_pants.tooltip", "en_us"));
+<variedcommodities:tuxedo_bottom>.addTooltip(game.localize("rldregora.variedcommodities:tuxedo_bottom.tooltip", "en_us"));
 
-<variedcommodities:soldier_head>.displayName = "§6☢ §8§lProtective Helmet";
-<variedcommodities:soldier_chest>.displayName = "§6☢ §8§lProtective ChestPlate";
-<variedcommodities:soldier_legs>.displayName = "§6☢ §8§lProtective Leggings";
-<variedcommodities:soldier_bottom>.displayName = "§6☢ §8§lProtective Bottoms";
+//<variedcommodities:soldier_head>.displayName = "§6☢ §8§lProtective Helmet";
+//<variedcommodities:soldier_chest>.displayName = "§6☢ §8§lProtective ChestPlate";
+//<variedcommodities:soldier_legs>.displayName = "§6☢ §8§lProtective Leggings";
+//<variedcommodities:soldier_bottom>.displayName = "§6☢ §8§lProtective Bottoms";
 
-<variedcommodities:soldier_head>.addTooltip("Woven from a unknown ancient material, There's more to this armor then the eye meets.");
-<variedcommodities:soldier_chest>.addTooltip("Woven from a unknown ancient material, There's more to this armor then the eye meets.");
-<variedcommodities:soldier_legs>.addTooltip("Woven from a unknown ancient material, There's more to this armor then the eye meets.");
-<variedcommodities:soldier_bottom>.addTooltip("Woven from a unknown ancient material, There's more to this armor then the eye meets.");
+<variedcommodities:soldier_head>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_chest>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_legs>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
+<variedcommodities:soldier_bottom>.addTooltip(game.localize("rldregora.soldier_armor.tooltip", "en_us"));
 
-<variedcommodities:x407_head>.displayName = "§8§lX407 Prototype Helmet";
-<variedcommodities:x407_chest>.displayName = "§8§lX407 Prototype ChestPlate";
-<variedcommodities:x407_legs>.displayName = "§8§lX407 Prototype Leggings";
-<variedcommodities:x407_boots>.displayName = "§8§lX407 Prototype Boots";
+//<variedcommodities:x407_head>.displayName = "§8§lX407 Prototype Helmet";
+//<variedcommodities:x407_chest>.displayName = "§8§lX407 Prototype ChestPlate";
+//<variedcommodities:x407_legs>.displayName = "§8§lX407 Prototype Leggings";
+//<variedcommodities:x407_boots>.displayName = "§8§lX407 Prototype Boots";
 
-<variedcommodities:x407_head>.addTooltip("The Pinnacle of engineering from a time before the Blight.");
-<variedcommodities:x407_chest>.addTooltip("The Pinnacle of engineering from a time before the Blight.");
-<variedcommodities:x407_legs>.addTooltip("The Pinnacle of engineering from a time before the Blight.");
-<variedcommodities:x407_boots>.addTooltip("The Pinnacle of engineering from a time before the Blight.");
+<variedcommodities:x407_head>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_chest>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_legs>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
+<variedcommodities:x407_boots>.addTooltip(game.localize("rldregora.x407_armor.tooltip", "en_us"));
 
-<variedcommodities:commissar_head>.displayName = "§8§lCommissar's Cap";
-<variedcommodities:commissar_chest>.displayName = "§8§lCommissar's Torso";
-<variedcommodities:commissar_legs>.displayName = "§8§lCommissar's Leggings";
-<variedcommodities:commissar_bottom>.displayName = "§8§lCommissar's Bottoms";
+//<variedcommodities:commissar_head>.displayName = "§8§lCommissar's Cap";
+//<variedcommodities:commissar_chest>.displayName = "§8§lCommissar's Torso";
+//<variedcommodities:commissar_legs>.displayName = "§8§lCommissar's Leggings";
+//<variedcommodities:commissar_bottom>.displayName = "§8§lCommissar's Bottoms";
 
-<variedcommodities:commissar_head>.addTooltip("Aged decorative Cap, a leather cap lined with fine cloth.");
-<variedcommodities:commissar_chest>.addTooltip("Aged decorative Chestpiece, a leather jack, lined with fine cloth complete with decorative elements.");
-<variedcommodities:commissar_legs>.addTooltip("Aged decorative Pants, sturdy pants lined with fine cloth.");
-<variedcommodities:commissar_bottom>.addTooltip("Aged decorative Trenchcoat, made to last.");
+<variedcommodities:commissar_head>.addTooltip(game.localize("rldregora.variedcommodities:commissar_head.tooltip", "en_us"));
+<variedcommodities:commissar_chest>.addTooltip(game.localize("rldregora.variedcommodities:commissar_chest.tooltip", "en_us"));
+<variedcommodities:commissar_legs>.addTooltip(game.localize("rldregora.variedcommodities:commissar_legs.tooltip", "en_us"));
+<variedcommodities:commissar_bottom>.addTooltip(game.localize("rldregora.variedcommodities:commissar_bottom.tooltip", "en_us"));
 
-<variedcommodities:infantry_helmet>.addTooltip("Aged Equipment, still provides decent protection.");
-<variedcommodities:officer_chest>.addTooltip("Old yet sturdy Chestplate, decorated with various emblems and signs.");
-<variedcommodities:tactical_chest>.addTooltip("Aged Equipment, still provides decent protection.");
-<variedcommodities:tactical_head>.addTooltip("Aged Equipment, still provides decent protection.");
+<variedcommodities:infantry_helmet>.addTooltip(game.localize("rldregora.variedcommodities:infantry_helmet.tooltip", "en_us"));
+<variedcommodities:officer_chest>.addTooltip(game.localize("rldregora.variedcommodities:officer_chest.tooltip", "en_us"));
+<variedcommodities:tactical_chest>.addTooltip(game.localize("rldregora.variedcommodities:tactical_chest.tooltip", "en_us"));
+<variedcommodities:tactical_head>.addTooltip(game.localize("rldregora.variedcommodities:tactical_head.tooltip", "en_us"));
 
-<variedcommodities:nanorum_head>.displayName = "§8§lHeavy Industries Helmet";
-<variedcommodities:nanorum_chest>.displayName = "§8§lHeavy Industries Torso";
-<variedcommodities:nanorum_legs>.displayName = "§8§lHeavy Industries Leggings";
-<variedcommodities:nanorum_boots>.displayName = "§8§lHeavy Industries Boots";
+//<variedcommodities:nanorum_head>.displayName = "§8§lHeavy Industries Helmet";
+//<variedcommodities:nanorum_chest>.displayName = "§8§lHeavy Industries Torso";
+//<variedcommodities:nanorum_legs>.displayName = "§8§lHeavy Industries Leggings";
+//<variedcommodities:nanorum_boots>.displayName = "§8§lHeavy Industries Boots";
 
-<variedcommodities:nanorum_head>.addTooltip("Aged Helmet, made of advanced alloys. Provides excellent protection.");
-<variedcommodities:nanorum_chest>.addTooltip("Aged Chestplate, made of advanced alloys. Provides excellent protection.");
-<variedcommodities:nanorum_legs>.addTooltip("Aged Legs, made of advanced alloys. Provides excellent protection.");
-<variedcommodities:nanorum_boots>.addTooltip("Aged Boots, made of advanced alloys. Provides excellent protection.");
+<variedcommodities:nanorum_head>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_head.tooltip", "en_us"));
+<variedcommodities:nanorum_chest>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_chest.tooltip", "en_us"));
+<variedcommodities:nanorum_legs>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_legs.tooltip", "en_us"));
+<variedcommodities:nanorum_boots>.addTooltip(game.localize("rldregora.variedcommodities:nanorum_boots.tooltip", "en_us"));
 
 //=================================
 //HERBALIST, AND BRUTAL TOWER TRADERS/INFO
 //=================================
 
 // Tell people where to get a biome purifier.
-<srparasites:biomepurifier>.addTooltip(format.gold("Obtainable at most Herbalists, rarely found at their overgrown cabin in plains and flower fields."));
+<srparasites:biomepurifier>.addTooltip(game.localize("rldregora.srparasites:biomepurifier.tooltip", "en_us"));
 
 //Added easy to understand description to blood tears (so people know where to find them)
-<contenttweaker:blood_tear>.addTooltip(format.yellow("Remnants of Dreadnauts and Overlords"));
+<contenttweaker:blood_tear>.addTooltip(game.localize("rldregora.contenttweaker:blood_tear.tooltip", "en_us"));
 
 //Add New trading system items description & lore
-<variedcommodities:coin_stone>.displayName = "Brutal Fragment";
-<variedcommodities:coin_stone>.addTooltip(format.gold("Fragments of a brutal coins found in brutal towers, can be repaired "));
+//<variedcommodities:coin_stone>.displayName = "Brutal Fragment";
+<variedcommodities:coin_stone>.addTooltip(game.localize("rldregora.variedcommodities:coin_stone.tooltip", "en_us"));
 
-<biomesoplenty:terrestrial_artifact>.addTooltip(format.gold("Brimming with the essence of life & purity, can be traded with most Herbalist to craft biome purifiers."));
+<biomesoplenty:terrestrial_artifact>.addTooltip(game.localize("rldregora.biomesoplenty:terrestrial_artifact.tooltip", "en_us"));
 
-<variedcommodities:coin_gold>.displayName = "Ancient Coins";
-<variedcommodities:coin_gold>.addTooltip(format.gold("Treasure among Topographers in Outposts & the odd villager, usually found in ancient structures such as maintenance shafts and cities."));
+//<variedcommodities:coin_gold>.displayName = "Ancient Coins";
+<variedcommodities:coin_gold>.addTooltip(game.localize("rldregora.variedcommodities:coin_gold.tooltip", "en_us"));
 
-<variedcommodities:ancient_coin>.displayName = "Brutal Coins";
-<variedcommodities:ancient_coin>.addTooltip(format.gold("The rarest of treasures, found in brutal towers surrounded by gray fog and traded for exceptional items with Topographers in outposts & most Herbalist rarely found in cabins situated in plains and flower fields."));
+//<variedcommodities:ancient_coin>.displayName = "Brutal Coins";
+<variedcommodities:ancient_coin>.addTooltip(game.localize("rldregora.variedcommodities:ancient_coin.tooltip", "en_us"));
 
-<variedcommodities:lead_pipe>.displayName = "Ancient Artifact";
-<variedcommodities:lead_pipe>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
-<variedcommodities:lead_pipe>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+//<variedcommodities:lead_pipe>.displayName = "Ancient Artifact";
+<variedcommodities:lead_pipe>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.0", "en_us"));
+<variedcommodities:lead_pipe>.addTooltip(game.localize("rldregora.variedcommodities:lead_pipe.tooltip.1", "en_us"));
 
-<variedcommodities:crowbar>.displayName = "Ancient Artifact";
-<variedcommodities:crowbar>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
-<variedcommodities:crowbar>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+//<variedcommodities:crowbar>.displayName = "Ancient Artifact";
+<variedcommodities:crowbar>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.0", "en_us"));
+<variedcommodities:crowbar>.addTooltip(game.localize("rldregora.variedcommodities:crowbar.tooltip.1", "en_us"));
 
-<variedcommodities:hammer>.displayName = "Ancient Artifact";
-<variedcommodities:hammer>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
-<variedcommodities:hammer>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+//<variedcommodities:hammer>.displayName = "Ancient Artifact";
+<variedcommodities:hammer>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.0", "en_us"));
+<variedcommodities:hammer>.addTooltip(game.localize("rldregora.variedcommodities:hammer.tooltip.1", "en_us"));
 
-<variedcommodities:wrench>.displayName = "Ancient Artifact";
-<variedcommodities:wrench>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
-<variedcommodities:wrench>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
+//<variedcommodities:wrench>.displayName = "Ancient Artifact";
+<variedcommodities:wrench>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.0", "en_us"));
+<variedcommodities:wrench>.addTooltip(game.localize("rldregora.variedcommodities:wrench.tooltip.1", "en_us"));
 
-<variedcommodities:pipe_wrench>.displayName = "Ancient Artifact";
-<variedcommodities:pipe_wrench>.addTooltip(format.gold("Treasure among Topographers in Outposts, usually found in ancient structures such as maintenance shafts and cities."));
-<variedcommodities:pipe_wrench>.addTooltip(format.gold("Only sold when in pristine condition, use every day iron ingots to repair."));
-
-//Add the Tool Used Description for Barrier Blocks:
-<dimstack:bedrock:7>.addTooltip(format.gold("Can be destroyed with an §4‡ §6§lBrutal Artifact - Theta§r §4‡§r equipped in offhand."));
+//<variedcommodities:pipe_wrench>.displayName = "Ancient Artifact";
+<variedcommodities:pipe_wrench>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.0", "en_us"));
+<variedcommodities:pipe_wrench>.addTooltip(game.localize("rldregora.variedcommodities:pipe_wrench.tooltip.1", "en_us"));
 
 //Add the Tool Used Description for Barrier Blocks:
-<dimstack:bedrock:6>.addTooltip(format.gold("Can be destroyed with an §4‡ §6§lBrutal Pendant - Eta§r §4‡§r equipped in offhand."));
+<dimstack:bedrock:7>.addTooltip(game.localize("rldregora.dimstack:bedrock:7.tooltip", "en_us"));
+
+//Add the Tool Used Description for Barrier Blocks:
+<dimstack:bedrock:6>.addTooltip(game.localize("rldregora.dimstack:bedrock:6.tooltip", "en_us"));
 
 //Give Theta Brutal Key it's name:
-<variedcommodities:artifact>.displayName = "§4‡ §6§lBrutal Artifact - Theta§r §4‡";
-<variedcommodities:artifact>.addTooltip(format.gold("Gain the ability to destroy Theta barrier blocks when equipped in off-hand."));
+//<variedcommodities:artifact>.displayName = "§4‡ §6§lBrutal Artifact - Theta§r §4‡";
+<variedcommodities:artifact>.addTooltip(game.localize("rldregora.variedcommodities:artifact.tooltip", "en_us"));
 
 //Give Eta Brutal Key it's name:
-<variedcommodities:pendant>.displayName = "§4‡ §6§lBrutal Pendant - Eta§r §4‡";
-<variedcommodities:pendant>.addTooltip(format.gold("Gain the ability to destroy Eta barrier blocks when equipped in off-hand."));
+//<variedcommodities:pendant>.displayName = "§4‡ §6§lBrutal Pendant - Eta§r §4‡";
+<variedcommodities:pendant>.addTooltip(game.localize("rldregora.variedcommodities:pendant.tooltip", "en_us"));
 
 // Give Fire Element a better name
 <variedcommodities:element_fire>.clearTooltip(true);
-<variedcommodities:element_fire>.displayName = "Auric Essence";
+//<variedcommodities:element_fire>.displayName = "Auric Essence";
 <variedcommodities:element_fire>.addTooltip(format.darkGray("variedcommodities:element_fire"));
-<variedcommodities:element_fire>.addTooltip(format.green("Essence abstracted from the purest of gold."));
-<variedcommodities:element_fire>.addTooltip(format.gold("Can be obtained through Brutal Merchants in Outposts."));
+<variedcommodities:element_fire>.addTooltip(game.localize("rldregora.variedcommodities:element_fire.tooltip.0", "en_us"));
+<variedcommodities:element_fire>.addTooltip(game.localize("rldregora.variedcommodities:element_fire.tooltip.1", "en_us"));
 
 // Give The Ruby Gem a better name
 <variedcommodities:gem_ruby>.clearTooltip(true);
-<variedcommodities:gem_ruby>.displayName = "Blood Gem";
+//<variedcommodities:gem_ruby>.displayName = "Blood Gem";
 <variedcommodities:gem_ruby>.addTooltip(format.darkGray("variedcommodities:gem_ruby"));
-<variedcommodities:gem_ruby>.addTooltip(format.green("This gem, magical to those who not know it's secrets feels heavy and somehow alive..."));
-<variedcommodities:gem_ruby>.addTooltip(format.gold("Extracted from Amalgalich remains."));
+<variedcommodities:gem_ruby>.addTooltip(game.localize("rldregora.variedcommodities:gem_ruby.tooltip.0", "en_us"));
+<variedcommodities:gem_ruby>.addTooltip(game.localize("rldregora.variedcommodities:gem_ruby.tooltip.1", "en_us"));
 
 // Give the Orb for Eta barrier a better name.
 <variedcommodities:orb:0>.clearTooltip(true);
-<variedcommodities:orb:0>.displayName = "Brutal Orb";
+<variedcommodities:orb:0>.displayName = game.localize("rldregora.variedcommodities:orb:0.name", "en_us");
 <variedcommodities:orb:0>.addTooltip(format.darkGray("variedcommodities:orb"));
-<variedcommodities:orb:0>.addTooltip(format.green("Within this orb resides a mighty power akin to lightning."));
-<variedcommodities:orb:0>.addTooltip(format.gold("Only to be obtained from the deepest chambers of Brutal Towers."));
+<variedcommodities:orb:0>.addTooltip(game.localize("rldregora.variedcommodities:orb:0.tooltip.0", "en_us"));
+<variedcommodities:orb:0>.addTooltip(game.localize("rldregora.variedcommodities:orb:0.tooltip.1", "en_us"));
 
 // Crafting recipe Pendant
 recipes.addShaped("dregora20",<variedcommodities:pendant>,
@@ -569,20 +570,20 @@ recipes.addShaped("dregora32",<variedcommodities:ancient_coin>,
 <variedcommodities:orb:5>.clearTooltip(true);
 <variedcommodities:orb:6>.clearTooltip(true);
 
-<variedcommodities:orb:1>.displayName = "Summon Orb";
+<variedcommodities:orb:1>.displayName = game.localize("rldregora.variedcommodities:orb:1.name", "en_us");
 <variedcommodities:orb:1>.addTooltip(format.darkGray("variedcommodities:orb"));
-<variedcommodities:orb:1>.addTooltip(format.green("Through the Orb you can see suffering and fire."));
-<variedcommodities:orb:1>.addTooltip(format.gold("Can be obtained through Brutal Merchants in Outposts."));
+<variedcommodities:orb:1>.addTooltip(game.localize("rldregora.variedcommodities:orb:1.tooltip.0", "en_us"));
+<variedcommodities:orb:1>.addTooltip(game.localize("rldregora.variedcommodities:orb:1.tooltip.1", "en_us"));
 
-<variedcommodities:orb:5>.displayName = "Summon Orb";
+<variedcommodities:orb:5>.displayName = game.localize("rldregora.variedcommodities:orb:5.name", "en_us");
 <variedcommodities:orb:5>.addTooltip(format.darkGray("variedcommodities:orb"));
-<variedcommodities:orb:5>.addTooltip(format.green("Orbs of unknown, perhaps alien origin."));
-<variedcommodities:orb:5>.addTooltip(format.gold("Can be obtained through Brutal Merchants in Outposts."));
+<variedcommodities:orb:5>.addTooltip(game.localize("rldregora.variedcommodities:orb:5.tooltip.0", "en_us"));
+<variedcommodities:orb:5>.addTooltip(game.localize("rldregora.variedcommodities:orb:5.tooltip.1", "en_us"));
 
-<variedcommodities:orb:6>.displayName = "Summon Orb";
+<variedcommodities:orb:6>.displayName = game.localize("rldregora.variedcommodities:orb:6.name", "en_us");
 <variedcommodities:orb:6>.addTooltip(format.darkGray("variedcommodities:orb"));
-<variedcommodities:orb:6>.addTooltip(format.green("A Dark fog resides within the orb."));
-<variedcommodities:orb:6>.addTooltip(format.gold("Can be obtained through Brutal Merchants in Outposts."));
+<variedcommodities:orb:6>.addTooltip(game.localize("rldregora.variedcommodities:orb:6.tooltip.0", "en_us"));
+<variedcommodities:orb:6>.addTooltip(game.localize("rldregora.variedcommodities:orb:6.tooltip.1", "en_us"));
 
 // Remove Lycanite Summoners:
 recipes.remove(<lycanitesmobs:soulcubeaberrant>);
@@ -660,9 +661,9 @@ recipes.addShapeless("dregora28",<minecraft:wheat>,[<ore:toolKnife>.transformDam
 //  [<biomesoplenty:plant_1:11>,<biomesoplenty:plant_1:11>,<biomesoplenty:plant_1:11>]]);
 
 //Harvesting Tooltips:
-<biomesoplenty:plant_1:11>.addTooltip("Harvest with shears.");
-<biomesoplenty:double_plant:0>.addTooltip("Harvest with shears.");
-<biomesoplenty:plant_1:3>.addTooltip("Harvest with shears.");
+<biomesoplenty:plant_1:11>.addTooltip(game.localize("rldregora.plant_harvest_shears.tooltip", "en_us"));
+<biomesoplenty:double_plant:0>.addTooltip(game.localize("rldregora.plant_harvest_shears.tooltip", "en_us"));
+<biomesoplenty:plant_1:3>.addTooltip(game.localize("rldregora.plant_harvest_shears.tooltip", "en_us"));
 
 //Lower Bamboo Fuel time & add dried leaves as fuel.
 furnace.setFuel(<biomesoplenty:bamboo>, 100);
@@ -689,8 +690,8 @@ recipes.addShaped("dregora56",<biomesoplenty:terrestrial_artifact>,
   [<biomesoplenty:gem:2>,<biomesoplenty:gem:5>,<iceandfire:sapphire_gem>],
   [<biomesoplenty:gem:4>,<minecraft:emerald>,null]]);
 
-<biomesoplenty:mushroom:3>.displayName = "Gleamshroom";
-<biomesoplenty:terrarium:8>.displayName = "Gleamshroom Terrarium";
+<biomesoplenty:mushroom:3>.displayName = game.localize("rldregora.biomesoplenty:mushroom:3.tooltip", "en_us");
+<biomesoplenty:terrarium:8>.displayName = game.localize("rldregora.biomesoplenty:terrarium:8.tooltip", "en_us");
 
 //make bop reed have a use, turn it into plant fibers:
 recipes.addShapeless("dregora25",<notreepunching:grass_fiber>*3,[<biomesoplenty:plant_1:8>]);
@@ -804,5 +805,5 @@ recipes.addShaped("dregora16",<biomesoplenty:eucalyptus_door>*2,
 
 // Drop Shattered Ice from ice blocks
 furnace.setFuel(<biomesoplenty:seaweed>, 400);
-<biomesoplenty:seaweed>.displayName = "Dried Seaweed";
+<biomesoplenty:seaweed>.displayName = game.localize("rldregora.biomesoplenty:seaweed.name", "en_us");
 furnace.addRecipe(<biomesoplenty:seaweed>, <aquaculture:food:0>, 99999);

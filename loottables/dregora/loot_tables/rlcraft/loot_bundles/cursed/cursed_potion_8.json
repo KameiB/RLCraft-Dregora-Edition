@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_teleport\",
-                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your spawn point.\",\"§0\u2620\"]},
+                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your spawn point.\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_8.recall_potion.name\",LocLore:[\"rldregora.cursed_potion_8.recall_potion.lore.0\",\"rldregora.cursed_potion_8.recall_potion.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:15,Duration:600}],
                 CustomPotionColor:16777215,
                 HideFlags:32
@@ -28,7 +28,7 @@
               "tag": "
               {
                 Potion:\"potioncore:strong_teleport\",
-                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your spawn point.\",\"§0\u2639\"]},
+                display:{Name:\"Recall Potion\",Lore:[\"§9Bountiful Baubles\",\"§9Teleports you to your spawn point.\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_8.recall_potion.name\",LocLore:[\"rldregora.cursed_potion_8.recall_potion.lore.0\",\"rldregora.cursed_potion_8.recall_potion.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:15,Duration:600}],
                 CustomPotionColor:16777215,
                 HideFlags:32

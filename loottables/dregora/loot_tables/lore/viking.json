@@ -29,13 +29,15 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"For these lands lie in the abyss of maps unfound and unexplored by many and hidden for even the keenest of eyes beyond this book no traces remain and all attempts finding these lands end in vain for there shall only be a few who will venture beyond the real.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Thou shall find the books; \u00A7l\u00A74The Hidden Map \u00A7rin north-western lands and The \u00A7l\u00A74Pirate\u0027s Treasure\u00A7r in ships afloat.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"For these treasures you would need to look underneath the tallest mountains of north-western highlands in the hidden village mines and for seas in southern ends where the pirates hide and jungle thrives.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.3\\\"}]\"
                 ],
                 title:\"Valhalla\",
+                locTitle:\"rldregora.viking.valhalla.title\",
                 author:\"Librarian\",
-                display:{Lore:[\"One of the three books needed to find the Hidden Library\nZ is 17.000, higher then the highest mountains.\"]}
+                locAuthor:\"rldregora.viking.valhalla.author\",
+                display:{Lore:[\"One of the three books needed to find the Hidden Library\",\"Z is 17.000, higher then the highest mountains.\"],LocLore:[\"rldregora.viking.valhalla.lore.0\",\"rldregora.viking.valhalla.lore.1\"]}
               }"
             },
             {
@@ -44,12 +46,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"From the prologue you make out a tale of succession where once, a very long time ago beings arrived from the sky in their mighty ships carrying aboard books of gods which then were passed down among the beings.. The successors of those who came before.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"The book contains a lot of illustrations about humans with axes, feasts and battles against an entity they named the Corruption as a singular being.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.ancient.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.ancient.page.2\\\"}]\"
                 ],
                 title:\"Book of the Ancient\",
+                locTitle:\"rldregora.viking.ancient.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"A old book written in a language that is famillair but much older...\"]}
+                locAuthor:\"rldregora.viking.ancient.author\",
+                display:{Lore:[\"A old book written in a language that is famillair but much older...\"],LocLore:[\"rldregora.viking.ancient.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -59,12 +63,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"In general the book reads about how humans must have lived a long, long time ago with their ships and houses, with their laws and how to treat one another...\\\"}]\",
-                  \"[{\\\"text\\\":\\\"It goes on and on with how to hunt, how to cook, live and respect not just one another but also the wildlife around them. The book also contains what looks like an approval sign consisting of 8 cubes making up a flag of red and black.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.lawbook_viking.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.lawbook_viking.page.2\\\"}]\"
                 ],
                 title:\"Lawbook of Viking\",
+                locTitle:\"rldregora.viking.lawbook_viking.title\",
                 author:\"Lawmaker\",
-                display:{Lore:[\"This book seems to be a copy of a copy of a copy and\ncontains a lot of words you can't make much sense off.\"]},
+                locAuthor:\"rldregora.viking.lawbook_viking.author\",
+                display:{Lore:[\"This book seems to be a copy of a copy of a copy and\",\"contains a lot of words you can't make much sense off.\"],LocLore:[\"rldregora.viking.lawbook_viking.lore.0\",\"rldregora.viking.lawbook_viking.lore.1\"]},
                 generation: 2
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
@@ -75,12 +81,14 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"For those joining the expeditory forces of vikings there is a trial they have to undergo, this book tells about lands with huge Frozen spikes one must venture to and hunt the wild that lives there.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Dependent on with what the tested will return with they will recieve a status that can be recognized by what banner they hold in their households.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.trial_bravery.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.trial_bravery.page.2\\\"}]\"
                 ],
                 title:\"Trial of Bravery\",
+                locTitle:\"rldregora.viking.trial_bravery.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"The book records what has to be done in order to complete\nthe trial of bravery.\"]}
+                locAuthor:\"rldregora.viking.trial_bravery.author\",
+                display:{Lore:[\"The book records what has to be done in order to complete\",\"the trial of bravery.\"],LocLore:[\"rldregora.viking.trial_bravery.lore.0\",\"rldregora.viking.trial_bravery.lore.1\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
@@ -90,15 +98,17 @@
               {
                 pages:
                 [
-                  \"[{\\\"text\\\":\\\"A long, long time ago there were no monsters but humans stiving for higher glory as they attempted to obtain the power of Thor in which they foolingly thought the power to be theirs for the taking.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"And as they took the power the sky came crashing down destroying all that was tall and magnificent across the realm of humans. They had opened the gates of Ragnarok through which evil beings invaded our world slowely\\\"}]\",
-                  \"[{\\\"text\\\":\\\"killing all that moved in the most horrific ways. With all their might humanity didnt stood a chance against these foul beasts, no wall could stop them from advancing and eventually all had fallen.\\\"}]\",
-                  \"[{\\\"text\\\":\\\"Millennia had passed until things settled down and a valkery from the sky came down, not to strike nor to take but to give us yet another chance to do well and thus came our ancestors from who we had\\\"}]\",
-                  \"[{\\\"text\\\":\\\"learned a message we will keep on teaching until the end of times where we\u0027ll open ragnarok\u0027s doors once again.\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.5\\\"}]\"
                 ],
                 title:\"Day of Ragnarok\",
+                locTitle:\"rldregora.viking.day_ragnarok.title\",
                 author:\"Unknown\",
-                display:{Lore:[\"This story tells about the end and beginning.\"]}
+                locAuthor:\"rldregora.viking.day_ragnarok.author\",
+                display:{Lore:[\"This story tells about the end and beginning.\"],LocLore:[\"rldregora.viking.day_ragnarok.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
@@ -117,7 +127,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"]}}"
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -138,7 +148,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Chain Helmet\",Lore:[\"This helmet grants attack speed in trade for movement speed.\"]}}"
+              "tag": "{display:{Name:\"Viking Chain Helmet\",Lore:[\"This helmet grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_helmet.name\",LocLore:[\"rldregora.viking.chainmail_helmet.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -176,7 +186,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Chain Leggings\",Lore:[\"These leggings grants attack speed in trade for movement speed.\"]}}"
+              "tag": "{display:{Name:\"Viking Chain Leggings\",Lore:[\"These leggings grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_leggings.name\",LocLore:[\"rldregora.viking.chainmail_leggings.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -214,7 +224,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Chain Chestplate\",Lore:[\"This chestplate grants attack speed in trade for movement speed.\"]}}"
+              "tag": "{display:{Name:\"Viking Chain Chestplate\",Lore:[\"This chestplate grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_chestplate.name\",LocLore:[\"rldregora.viking.chainmail_chestplate.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -252,7 +262,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Chain Boots\",Lore:[\"These boots grants attack speed in trade for movement speed.\"]}}"
+              "tag": "{display:{Name:\"Viking Chain Boots\",Lore:[\"These boots grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_boots.name\",LocLore:[\"rldregora.viking.chainmail_boots.lore\"]}}"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -385,7 +395,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Shield\",Lore:[\"This shield increases armor toughness & knockback\nat the cost of attack and movement speed.\"]}}"
+              "tag": "{display:{Name:\"Viking Shield\",Lore:[\"This shield increases armor toughness & knockback\",\"at the cost of attack and movement speed.\"],LocName:\"rldregora.viking.shield.name\",LocLore:[\"rldregora.viking.shield.lore.0\",\"rldregora.viking.shield.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -464,7 +474,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Axe\",Lore:[\"A typical viking axe.\"]}}"
+              "tag": "{display:{Name:\"Viking Axe\",Lore:[\"A typical viking axe.\"],LocName:\"rldregora.viking.iron_axe.name\",LocLore:[\"rldregora.viking.iron_axe.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -492,7 +502,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Viking Short Sword\",Lore:[\"A typical viking sword.\"]}}"
+              "tag": "{display:{Name:\"Viking Short Sword\",Lore:[\"A typical viking sword.\"],LocName:\"rldregora.viking.iron_sword.name\",LocLore:[\"rldregora.viking.iron_sword.lore\"]}}"
             },
             {
               "function": "enchant_with_levels",
@@ -521,7 +531,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Training Sword\",Lore:[\"There is nothing special about this sword.\"]}}"
+              "tag": "{display:{Name:\"Training Sword\",Lore:[\"There is nothing special about this sword.\"],LocName:\"rldregora.viking.wooden_sword.name\",LocLore:[\"rldregora.viking.wooden_sword.lore\"]}}"
             }
           ]
         },

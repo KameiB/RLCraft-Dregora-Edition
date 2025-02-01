@@ -14,11 +14,11 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Player Feedback\",Lore:[\"Very Important, must add!\"]}}"
+              "tag": "{display:{Name:\"Player Feedback\",LocName:\"rldregora.feedback_kotlin.player.name\",Lore:[\"Very Important, must add!\"],LocLore:[\"rldregora.feedback_kotlin.player.lore\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Shiv's Feedback\",Lore:[\"BURN IT!\"]}}",
+              "tag": "{display:{Name:\"Shiv's Feedback\",LocName:\"rldregora.feedback_kotlin.shiv.name\",Lore:[\"BURN IT!\"],LocLore:[\"rldregora.feedback_kotlin.shiv.lore\"]}}",
               "conditions": [
                 {
                   "condition": "random_chance",

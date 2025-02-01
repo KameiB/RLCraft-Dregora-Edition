@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Temple of Winter\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:14273 z:7038\"]}}"
+              "tag": "{display:{Name:\"Temple of Winter\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:14273 z:7038\"],LocName:\"rldregora.travelers_icetemple.filled_map.name\",LocLore:[\"rldregora.travelers_icetemple.filled_map.lore.0\",\"rldregora.travelers_icetemple.filled_map.lore.1\"]}}"
             },
             {
               "function": "minecraft:set_nbt",
@@ -36,7 +36,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"x:14273 z:7038\",Lore:[\"Spikes crossing at four points, as deadly as the careless adventurer.\"]}}"
+              "tag": "{display:{Name:\"x:14273 z:7038\",Lore:[\"Spikes crossing at four points, as deadly as the careless adventurer.\"],LocName:\"rldregora.travelers_icetemple.book.name\",LocLore:[\"rldregora.travelers_icetemple.book.lore\"]}}"
             }
           ],
           "weight": 1

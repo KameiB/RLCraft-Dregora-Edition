@@ -16,7 +16,7 @@
               "tag": "
               {
                 Potion:\"potioncore:lightning\",
-                display:{Name:\"Potion of Electric Shock\",Lore:[\"§9Electric Shock (0:30)\",\"\",\"§5When Applied:\",\"§9Damage: +10%\",\"§0\u2620\"]},
+                display:{Name:\"Potion of Electric Shock\",Lore:[\"§9Electric Shock (0:30)\",\"\",\"§5When Applied:\",\"§9Damage: +10%\",\"§0\u2620\"],LocName:\"rldregora.cursed_potion_2.electric_shock.name\",LocLore:[\"rldregora.cursed_potion_2.electric_shock.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_2.electric_shock.lore.1\",\"rldregora.cursed_potions.skull\"]},
                 CustomPotionEffects:[{Id:15,Duration:600},{Id:9,Duration:300}],
                 HideFlags:32
               }"
@@ -27,7 +27,7 @@
               "tag": "
               {
                 Potion:\"potioncore:lightning\",
-                display:{Name:\"Potion of Electric Shock\",Lore:[\"§9Electric Shock (0:30)\",\"\",\"§5When Applied:\",\"§9Damage: +10%\",\"§0\u2639\"]},
+                display:{Name:\"Potion of Electric Shock\",Lore:[\"§9Electric Shock (0:30)\",\"\",\"§5When Applied:\",\"§9Damage: +10%\",\"§0\u2639\"],LocName:\"rldregora.cursed_potion_2.electric_shock.name\",LocLore:[\"rldregora.cursed_potion_2.electric_shock.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.cursed_potion_2.electric_shock.lore.1\",\"rldregora.cursed_potions.sadface\"]},
                 CustomPotionEffects:[{Id:15,Duration:600},{Id:9,Duration:300}],
                 HideFlags:32
               }"
