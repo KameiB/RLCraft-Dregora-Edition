@@ -404,41 +404,41 @@
             {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Lustfull BloodAxe\",Lore:[\"It feeds on more then wood.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Anti Speed\",\"§9+10% Dig, Dig.. Take the Risk\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_tools.axe1.name\",LocLore:[\"rldregora.cursed_tools.axe1.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe1.lore.1\",\"rldregora.cursed_tools.troll_axe1.lore.2\",\"rldregora.cursed_tools.troll_axe1.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+              "tag": "{display:{Name:\"Lustfull BloodAxe\",Lore:[\"It feeds on more then wood.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Anti Speed\",\"§9+10% Dig, Dig.. Take the Risk\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_tools.axe1.name\",LocLore:[\"rldregora.cursed_tools.axe1.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Dig Speed\",\"§9+1 Half... Or Worse Health\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_tools.axe2.name\",LocLore:[\"rldregora.cursed_tools.axe2.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe2.lore.1\",\"rldregora.cursed_tools.troll_axe2.lore.2\",\"rldregora.cursed_tools.troll_axe2.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Dig Speed\",\"§9+1 Half... Or Worse Health\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_tools.axe2.name\",LocLore:[\"rldregora.cursed_tools.axe2.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Battleworn Hatchet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something Deathly...\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_tools.axe3.name\",LocLore:[\"rldregora.cursed_tools.axe3.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe3.lore.1\",\"rldregora.cursed_tools.troll_axe3.lore.2\",\"rldregora.cursed_tools.troll_axe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Battleworn Hatchet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something Deathly...\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_tools.axe3.name\",LocLore:[\"rldregora.cursed_tools.axe3.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% §0No §9Strength\",\"§9+8% Dig Speed\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_tools.axe4.name\",LocLore:[\"rldregora.cursed_tools.axe4.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe4.lore.1\",\"rldregora.cursed_tools.troll_axe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% §0No §9Strength\",\"§9+8% Dig Speed\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_tools.axe4.name\",LocLore:[\"rldregora.cursed_tools.axe4.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe4.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% §0No §9Dig Speed\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_tools.axe5.name\",LocLore:[\"rldregora.cursed_tools.axe5.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe5.lore.1\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% §0No §9Dig Speed\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_tools.axe5.name\",LocLore:[\"rldregora.cursed_tools.axe5.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe5.lore.1\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Remorseful Axe\",Lore:[\"It wont just go after wood...\",\"\",\"§4When in main hand:\",\"§9+12% Speedy §0Death!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_tools.axe6.name\",LocLore:[\"rldregora.cursed_tools.axe6.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe6.lore.1\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Remorseful Axe\",Lore:[\"It wont just go after wood...\",\"\",\"§4When in main hand:\",\"§9+12% Speedy §0Death!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_tools.axe6.name\",LocLore:[\"rldregora.cursed_tools.axe6.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe6.lore.1\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§9+10% Lies, Lot's Of Lies!\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_tools.axe7.name\",LocLore:[\"rldregora.cursed_tools.axe7.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe7.lore.1\",\"rldregora.cursed_tools.troll_axe7.lore.2\",\"rldregora.cursed_tools.troll_axe7.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§9+10% Lies, Lot's Of Lies!\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_tools.axe7.name\",LocLore:[\"rldregora.cursed_tools.axe7.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"The Eternal Chopper\",Lore:[\"With wood it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Your End\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_tools.axe8.name\",LocLore:[\"rldregora.cursed_tools.axe8.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.cursed_tools.troll_axe8.lore.1\",\"rldregora.cursed_tools.troll_axe8.lore.2\",\"rldregora.cursed_tools.troll_axe8.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "tag": "{display:{Name:\"The Eternal Chopper\",Lore:[\"With wood it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Your End\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_tools.axe8.name\",LocLore:[\"rldregora.cursed_tools.axe8.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             },
             {

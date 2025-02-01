@@ -100,17 +100,17 @@
               {
                 pages:
                 [
-                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.1\\\"}]\",
-                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.2\\\"}]\",
-                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.3\\\"}]\",
-                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.4\\\"}]\",
-                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.5\\\"}]\"
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.5\\\"}]\"
                 ],
                 title:\"Sword of the Deep\",
-                locTitle:\"rldregora.harbor.corrupted_chapter.title\",
+                locTitle:\"rldregora.harbor.sword_deep.title\",
                 author:\"Unknown\",
-                locAuthor:\"rldregora.harbor.corrupted_chapter.author\",
-                display:{Lore:[\"What lies under the waves.\"],LocLore:[\"rldregora.harbor.corrupted_chapter.lore\"]}
+                locAuthor:\"rldregora.harbor.sword_deep.author\",
+                display:{Lore:[\"What lies under the waves.\"],LocLore:[\"rldregora.harbor.sword_deep.lore\"]}
               }",
               "conditions": [{"condition": "random_chance","chance": 0.3}]
             }
